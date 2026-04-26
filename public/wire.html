@@ -1,29 +1,65 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Wire</title>
+  <title>Wire — Knowledge Hub Magazine</title>
   <style>
-    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#f7f7f5;color:#1f1f1f}
-    header{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:18px 28px;background:#fff;border-bottom:1px solid #ddd}
-    .brand{font-weight:700} nav{justify-self:end;display:flex;gap:16px} nav a{color:#222;text-decoration:none}
-    main{max-width:1040px;margin:0 auto;padding:28px}.card{background:#fff;border:1px solid #ddd;border-radius:14px;padding:18px;margin-bottom:14px}
-    .meta{color:#666;font-size:13px}.summary{line-height:1.55}.tag{display:inline-block;padding:3px 8px;border:1px solid #ddd;border-radius:999px;font-size:12px;color:#555}
+    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#f7f7f5;color:#1f1f1f} header{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:18px 28px;background:#fff;border-bottom:1px solid #ddd;position:sticky;top:0} .brand{font-weight:700;letter-spacing:-.02em} nav{justify-self:end;display:flex;gap:16px} nav a{color:#222;text-decoration:none} main{max-width:1040px;margin:0 auto;padding:44px 28px}.eyebrow{color:#666;text-transform:uppercase;letter-spacing:.08em;font-size:12px} h1{font-size:clamp(38px,6vw,76px);letter-spacing:-.06em;line-height:.95;margin:10px 0 16px}.deck{max-width:760px;color:#444;font-size:19px;line-height:1.55}.card{background:#fff;border:1px solid #ddd;border-radius:14px;padding:20px;margin-bottom:14px}.meta{color:#666;font-size:13px;display:flex;gap:12px;flex-wrap:wrap}.summary{line-height:1.55}.tag{display:inline-block;padding:3px 8px;border:1px solid #ddd;border-radius:999px;font-size:12px;color:#555;margin-right:6px} a{color:#0756a5;text-decoration:none}
   </style>
 </head>
 <body>
 <header>
-  <div class="brand">Interest Wiki</div>
+  <div class="brand">Knowledge Hub Magazine</div>
   <div></div>
-  <nav><a href="/">Home</a><a href="/wire">Wire</a><a href="/library">Library</a></nav>
+  <nav><a href="/">Home</a><a href="/wire">Wire</a><a href="/articles">Articles</a><a href="/library">Library</a></nav>
 </header>
 <main>
-  <h1>Wire</h1>
-  <section class="card">
-    <p class="summary">公開Wireは安全化中です。Xポスト本文は転載しません。</p>
-    <p class="summary">今後ここには、取得日時、投稿日時、短い独自要約、元リンク、タグのみを表示します。</p>
+  <section>
+    <div class="eyebrow">Wire</div>
+    <h1>Signals, fragments, and source notes.</h1>
+    <p class="deck">Short entries for tools, films, systems, images, and ideas before they become essays or library records.</p>
   </section>
+
+  <article class="card">
+    <div class="meta"><span>AI Tools</span><span>Local inference</span><span>Source-linked note</span></div>
+    <h2>Fast local transcription keeps moving from service to infrastructure</h2>
+    <p class="summary">The recurring signal is not simply that speech-to-text is getting faster. The more useful shift is that transcription is becoming a local utility: GPU accelerated, scriptable, and cheap enough to sit inside editing, research, and archive workflows.</p>
+    <p><a href="https://x.com/this_is_tasnim/status/2047902276560560410" target="_blank" rel="noopener noreferrer">Source</a></p>
+    <div><span class="tag">ai-tools</span><span class="tag">transcription</span><span class="tag">local-workflow</span></div>
+  </article>
+
+  <article class="card">
+    <div class="meta"><span>Graphics</span><span>Rendering</span><span>Source-linked note</span></div>
+    <h2>MaterialX, Filament, and lightweight look development</h2>
+    <p class="summary">A small technical note points toward a larger direction: lighter real-time render paths are becoming valuable not as final-render replacements, but as inspection layers for assets, materials, and pipeline debugging.</p>
+    <p><a href="https://x.com/K240/status/2047675919217865080" target="_blank" rel="noopener noreferrer">Source</a></p>
+    <div><span class="tag">materialx</span><span class="tag">filament</span><span class="tag">pipeline</span></div>
+  </article>
+
+  <article class="card">
+    <div class="meta"><span>Creative AI</span><span>Moving image</span><span>Source-linked note</span></div>
+    <h2>AI image systems are starting to speak in cinematography, not prompts</h2>
+    <p class="summary">The interesting material is less the novelty of AI generation and more the emerging visual grammar: living frames, camera behavior, texture, and rhythm. These examples are becoming references for motion design rather than isolated demos.</p>
+    <p><a href="https://x.com/_OAK200/status/2048021822382166491" target="_blank" rel="noopener noreferrer">Source</a></p>
+    <div><span class="tag">ai-video</span><span class="tag">motion-design</span><span class="tag">cinematography</span></div>
+  </article>
+
+  <article class="card">
+    <div class="meta"><span>Software knowledge</span><span>Houdini</span><span>Source-linked note</span></div>
+    <h2>Node systems need better external memory</h2>
+    <p class="summary">A Houdini-oriented Obsidian viewer suggests a broader need: complex node-based tools benefit from external knowledge maps. The boundary between documentation, graph navigation, and personal production memory is getting thinner.</p>
+    <p><a href="https://x.com/unpyside/status/2048066101062336677" target="_blank" rel="noopener noreferrer">Source</a></p>
+    <div><span class="tag">houdini</span><span class="tag">obsidian</span><span class="tag">knowledge-map</span></div>
+  </article>
+
+  <article class="card">
+    <div class="meta"><span>Film references</span><span>Archive image</span><span>Source-linked note</span></div>
+    <h2>Tarkovsky’s Polaroids remain useful as a visual research object</h2>
+    <p class="summary">The point of revisiting archival images is not nostalgia. It is a way to study unresolved image density: light, time, weather, texture, and the emotional charge of ordinary spaces before they become scenes.</p>
+    <p><a href="https://x.com/AndresRublev/status/2047947302254346282" target="_blank" rel="noopener noreferrer">Source</a></p>
+    <div><span class="tag">film</span><span class="tag">tarkovsky</span><span class="tag">visual-reference</span></div>
+  </article>
 </main>
 </body>
 </html>
