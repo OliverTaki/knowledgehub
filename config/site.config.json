@@ -9,6 +9,15 @@
     "rankingHandling": "Add or update library items mentioned in rankings. Record ranking source and position as metadata, not copied ranking content.",
     "editingPolicy": "Prefer append-only updates. Do not rewrite or delete unless content is unsafe, illegal, duplicative, or technically broken."
   },
+  "publicWire": {
+    "copyFullPostText": false,
+    "showCollectedAt": true,
+    "showPostedAt": true,
+    "showOriginalLink": true,
+    "showSummaryOnly": true,
+    "embedXPosts": false,
+    "summaryFallback": "要約未作成。元ポストのリンクを参照。"
+  },
   "taxonomy": {
     "postKinds": [
       "casual_observation",
