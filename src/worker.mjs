@@ -10,6 +10,10 @@ export default {
       return env.ASSETS.fetch(new Request(new URL("/wire.html", url), request));
     }
 
+    if (url.pathname === "/articles") {
+      return env.ASSETS.fetch(new Request(new URL("/articles.html", url), request));
+    }
+
     if (url.pathname === "/library") {
       return env.ASSETS.fetch(new Request(new URL("/library.html", url), request));
     }
