@@ -18,3 +18,10 @@ content/library/
 # Public JSON may expose liked-post metadata; keep it out until explicitly reviewed.
 public/wire.json
 public/library.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

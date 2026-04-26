@@ -1,10 +1,14 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "knowledgehub",
-  "main": "src/worker.mjs",
   "compatibility_date": "2026-04-26",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
-    "directory": "./public",
-    "binding": "ASSETS"
-  }
+    "directory": "public"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
