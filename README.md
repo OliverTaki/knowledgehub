@@ -11,6 +11,23 @@ XでLikeしたポストを起点に、Wire / Article / Library型の個人関心
 - 不適切・違法・危険な内容を除き、削除や都合のよい書き換えではなく、追記で扱います。
 - ランキングは丸写ししません。ランキングに登場した対象をLibraryに追加し、「どのランキングで何位だったか」をメタデータとして記録します。
 
+## Wire公開ポリシー
+
+公開Wireでは、Xポスト本文をそのまま転載しません。
+
+公開ページに出す情報は原則として以下だけです。
+
+- collected_at: 取得日時
+- posted_at: X上の投稿日時
+- author_handle: 投稿者ハンドル
+- summary: 独自要約または「要約未作成」
+- original link: 元ポストへのリンク
+- tags / domains / content kinds
+
+raw/processedには後で文脈化するための本文を保持できますが、GitHub public repoや公開HTMLには載せません。
+
+X埋め込みを使う場合は `config/site.config.json` の `publicWire.embedXPosts` を `true` にします。標準では `false` です。
+
 ## 初回セットアップ
 
 Node.jsを入れた状態で、このフォルダで実行します。
@@ -93,4 +110,5 @@ public/library.html
 Wire、Article、Libraryの追記候補を出してください。
 削除・置換ではなく追記ベースでお願いします。
 元リンクは必ず残してください。
+公開Wireではポスト本文を転載しないでください。
 ```
