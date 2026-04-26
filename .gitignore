@@ -8,14 +8,13 @@ debug/
 data/raw/*.jsonl
 data/raw/seen_x_status_ids.json
 
-# Generated outputs — rebuilt locally by npm run build:wire / build:site
+# Private generated outputs — rebuilt locally by npm run build:wire / build:site
 data/processed/wire.json
 data/processed/library_seed.json
 
 content/wire/index.json
 content/library/
 
-# All generated public output — HTML contains embedded X Like content
+# Public JSON may expose liked-post metadata; keep it out until explicitly reviewed.
 public/wire.json
 public/library.json
-public/*.html
