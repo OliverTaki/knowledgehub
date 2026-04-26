@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Interest Wiki</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background: #f7f7f5; color: #1f1f1f; }
+    header { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 18px 28px; background: #fff; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 5; }
+    .brand { font-weight: 700; }
+    nav { justify-self: end; display: flex; gap: 16px; }
+    nav a { color: #222; text-decoration: none; }
+    main { max-width: 1040px; margin: 0 auto; padding: 28px; }
+    .card { background: #fff; border: 1px solid #ddd; border-radius: 14px; padding: 18px; margin-bottom: 14px; }
+    .meta { color: #666; font-size: 13px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .text { white-space: pre-wrap; line-height: 1.55; }
+    .search { width: min(420px, 40vw); padding: 10px 12px; border: 1px solid #ccc; border-radius: 999px; }
+    .tag { display: inline-block; padding: 3px 8px; border: 1px solid #ddd; border-radius: 999px; font-size: 12px; margin-right: 6px; color: #555; }
+    a { color: #0756a5; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+    .stat { font-size: 32px; font-weight: 700; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand">Interest Wiki</div>
+  <input id="siteSearch" class="search" placeholder="Search this page">
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./wire.html">Wire</a>
+    <a href="./library.html">Library</a>
+  </nav>
+</header>
+<main>
+  <h1>Interest Wiki</h1>
+  <p>X Likeを起点にしたWire / Article / Library型の個人関心Wikiです。</p>
+  <section class="grid">
+    <div class="card"><div class="stat">300</div><div>Wire entries</div></div>
+    <div class="card"><div class="stat">0</div><div>Library items</div></div>
+  </section>
+  <section class="card">
+    <h2>Policy</h2>
+    <p>Wireは一次資料として保持し、ArticleとLibraryは追記ベースで育てます。ランキングは丸写しせず、対象物と順位メタデータだけを記録します。</p>
+  </section>
+</main>
+<script>
+const input = document.getElementById("siteSearch");
+if (input) {
+  input.addEventListener("input", () => {
+    const q = input.value.toLowerCase();
+    document.querySelectorAll("[data-search]").forEach((el) => {
+      el.style.display = el.dataset.search.toLowerCase().includes(q) ? "" : "none";
+    });
+  });
+}
+</script>
+</body>
+</html>
