@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "knowledgehub",
   "main": "src/worker.mjs",
-  "compatibility_date": "2026-04-26",
+  "compatibility_date": "2025-04-01",
   "assets": {
     "directory": "./public",
     "binding": "ASSETS"
