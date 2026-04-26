@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { readJson, writeJson } from "./lib/jsonl.mjs";
 
-const config = readJson("config/site.config.json", { siteName: "Interest Wiki" });
+const config = readJson("config/site.config.json", { siteName: "Knowledge Hub Magazine" });
 const wire = readJson("data/processed/wire.json", { entries: [] });
 const library = readJson("data/processed/library_seed.json", { items: [] });
 const publicWirePolicy = config.publicWire || {};
@@ -28,7 +28,7 @@ function publicSummary(item) {
     item.summary,
     item.context_summary,
     item.context?.summary
-  ) || "要約未作成。元ポストのリンクを参照。";
+  ) || publicWirePolicy.summaryFallback || "Editorial note pending. Follow the source link for the original post.";
 }
 
 function publicWireEntry(item) {
@@ -58,8 +58,9 @@ function publicWireEntry(item) {
 const publicWireEntries = (wire.entries || []).map(publicWireEntry);
 
 function layout(title, body, extraScripts = "") {
+  const siteName = config.siteName || "Knowledge Hub Magazine";
   return `<!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -67,10 +68,14 @@ function layout(title, body, extraScripts = "") {
   <style>
     body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; background: #f7f7f5; color: #1f1f1f; }
     header { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 18px 28px; background: #fff; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 5; }
-    .brand { font-weight: 700; }
+    .brand { font-weight: 700; letter-spacing: -0.02em; }
     nav { justify-self: end; display: flex; gap: 16px; }
     nav a { color: #222; text-decoration: none; }
-    main { max-width: 1040px; margin: 0 auto; padding: 28px; }
+    main { max-width: 1040px; margin: 0 auto; padding: 40px 28px; }
+    .hero { margin-bottom: 28px; }
+    .eyebrow { color: #666; text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+    h1 { font-size: clamp(36px, 6vw, 72px); letter-spacing: -0.06em; line-height: 0.95; margin: 10px 0 16px; }
+    .deck { max-width: 760px; color: #444; font-size: 19px; line-height: 1.55; }
     .card { background: #fff; border: 1px solid #ddd; border-radius: 14px; padding: 18px; margin-bottom: 14px; }
     .meta { color: #666; font-size: 13px; display: flex; gap: 12px; flex-wrap: wrap; }
     .summary { white-space: pre-wrap; line-height: 1.55; }
@@ -79,17 +84,16 @@ function layout(title, body, extraScripts = "") {
     a { color: #0756a5; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
     .stat { font-size: 32px; font-weight: 700; }
-    .notice { color: #666; font-size: 13px; }
   </style>
 </head>
 <body>
 <header>
-  <div class="brand">${esc(config.siteName || "Interest Wiki")}</div>
+  <div class="brand">${esc(siteName)}</div>
   <input id="siteSearch" class="search" placeholder="Search this page">
   <nav>
-    <a href="./index.html">Home</a>
-    <a href="./wire.html">Wire</a>
-    <a href="./library.html">Library</a>
+    <a href="/">Home</a>
+    <a href="/wire">Wire</a>
+    <a href="/library">Library</a>
   </nav>
 </header>
 <main>${body}</main>
@@ -109,16 +113,18 @@ ${extraScripts}
 </html>`;
 }
 
-const indexHtml = layout(config.siteName || "Interest Wiki", `
-  <h1>${esc(config.siteName || "Interest Wiki")}</h1>
-  <p>X Likeを起点にしたWire / Article / Library型の個人関心Wikiです。</p>
+const siteName = config.siteName || "Knowledge Hub Magazine";
+const siteDeck = config.siteDeck || "A living editorial index of tools, images, systems, books, films, and ideas worth returning to.";
+
+const indexHtml = layout(siteName, `
+  <section class="hero">
+    <div class="eyebrow">Editor's Desk</div>
+    <h1>${esc(siteName)}</h1>
+    <p class="deck">${esc(siteDeck)}</p>
+  </section>
   <section class="grid">
     <div class="card"><div class="stat">${publicWireEntries.length}</div><div>Wire entries</div></div>
     <div class="card"><div class="stat">${library.items.length}</div><div>Library items</div></div>
-  </section>
-  <section class="card">
-    <h2>Policy</h2>
-    <p>公開Wireはポスト本文を転載せず、取得日時、要約、元リンク、必要に応じたX埋め込みだけを表示します。ランキングは丸写しせず、対象物と順位メタデータだけを記録します。</p>
   </section>
 `);
 
@@ -133,13 +139,13 @@ const wireCards = publicWireEntries.map((item) => {
 
   return `<article class="card" data-search="${esc(search)}">
     <div class="meta">
-      <span>collected: ${esc(item.collected_at || "unknown")}</span>
-      <span>posted: ${esc(item.posted_at || "unknown")}</span>
-      <span>${esc(item.author_handle || "handle unknown")}</span>
+      <span>Collected ${esc(item.collected_at || "unknown")}</span>
+      <span>Published ${esc(item.posted_at || "unknown")}</span>
+      <span>${esc(item.author_handle || "Unknown source")}</span>
       <span>${esc(item.post_kind || "unknown")}</span>
     </div>
     <p class="summary">${esc(item.summary)}</p>
-    <p><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">Original X post</a></p>
+    <p><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">Source</a></p>
     ${embed}
     <div>${tags}</div>
   </article>`;
@@ -149,10 +155,12 @@ const embedScript = shouldEmbedXPosts
   ? '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
   : "";
 
-const wireHtml = layout("Wire", `
-  <h1>Wire</h1>
-  <p>LikeしたXポストの公開用リストです。ポスト本文は転載せず、要約と元リンクを保持します。</p>
-  <p class="notice">全文・画像URL・収集時の生データはローカルのraw/processedにだけ保持します。</p>
+const wireHtml = layout("Wire — Knowledge Hub Magazine", `
+  <section class="hero">
+    <div class="eyebrow">Wire</div>
+    <h1>Signals, fragments, and source notes.</h1>
+    <p class="deck">A running editorial desk of references before they become essays, library entries, or longer arguments.</p>
+  </section>
   ${wireCards || '<div class="card">No wire entries yet.</div>'}
 `, embedScript);
 
@@ -165,9 +173,12 @@ const libraryCards = library.items.map((item) => {
   </article>`;
 }).join("\n");
 
-const libraryHtml = layout("Library", `
-  <h1>Library</h1>
-  <p>本、映画、ソフトウェア、プラグイン、ワークフローなどをフラットに管理します。</p>
+const libraryHtml = layout("Library — Knowledge Hub Magazine", `
+  <section class="hero">
+    <div class="eyebrow">Library</div>
+    <h1>An index of reusable knowledge.</h1>
+    <p class="deck">Books, films, software, workflows, plugins, essays, and references organized as material for future thinking.</p>
+  </section>
   ${libraryCards || '<div class="card">No library items yet.</div>'}
 `);
 
