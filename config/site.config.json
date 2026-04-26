@@ -1,5 +1,6 @@
 {
-  "siteName": "Interest Wiki",
+  "siteName": "Knowledge Hub Magazine",
+  "siteDeck": "A living editorial index of tools, images, systems, books, films, and ideas worth returning to.",
   "timezone": "Asia/Tokyo",
   "sourcePolicy": {
     "primaryWireSource": "x_likes",
@@ -16,7 +17,7 @@
     "showOriginalLink": true,
     "showSummaryOnly": true,
     "embedXPosts": false,
-    "summaryFallback": "要約未作成。元ポストのリンクを参照。"
+    "summaryFallback": "Editorial note pending. Follow the source link for the original post."
   },
   "taxonomy": {
     "postKinds": [
