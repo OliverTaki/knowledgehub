@@ -7,7 +7,7 @@ export default {
     }
 
     if (url.pathname === "/wire") {
-      return env.ASSETS.fetch(new Request(new URL("/wire.html", url), request));
+      return env.ASSETS.fetch(new Request(new URL("/wire-v2.html", url), request));
     }
 
     if (url.pathname === "/articles") {
