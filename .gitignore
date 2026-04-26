@@ -1,0 +1,21 @@
+node_modules/
+playwright-profile/
+debug/
+.DS_Store
+*.log
+
+# Raw X Like data — never publish to public repo
+data/raw/*.jsonl
+data/raw/seen_x_status_ids.json
+
+# Generated outputs — rebuilt locally by npm run build:wire / build:site
+data/processed/wire.json
+data/processed/library_seed.json
+
+content/wire/index.json
+content/library/
+
+# All generated public output — HTML contains embedded X Like content
+public/wire.json
+public/library.json
+public/*.html

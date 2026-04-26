@@ -1,0 +1,55 @@
+{
+  "siteName": "Interest Wiki",
+  "timezone": "Asia/Tokyo",
+  "sourcePolicy": {
+    "primaryWireSource": "x_likes",
+    "rawIsAppendOnly": true,
+    "keepOriginalLinks": true,
+    "doNotCopyRankingsVerbatim": true,
+    "rankingHandling": "Add or update library items mentioned in rankings. Record ranking source and position as metadata, not copied ranking content.",
+    "editingPolicy": "Prefer append-only updates. Do not rewrite or delete unless content is unsafe, illegal, duplicative, or technically broken."
+  },
+  "taxonomy": {
+    "postKinds": [
+      "casual_observation",
+      "introduction",
+      "article_like_post",
+      "ranking_reference",
+      "reply_context",
+      "quote_commentary",
+      "release_note",
+      "unknown"
+    ],
+    "contentKinds": [
+      "book",
+      "film",
+      "software",
+      "plugin",
+      "workflow",
+      "tutorial",
+      "article_thread",
+      "research_note",
+      "tool_release",
+      "market_commentary",
+      "creative_reference",
+      "unknown"
+    ],
+    "interestDomains": [
+      "motion_design",
+      "vfx",
+      "stop_motion",
+      "filmmaking",
+      "ai_tools",
+      "local_llm",
+      "creative_coding",
+      "software_pipeline",
+      "books",
+      "films",
+      "markets",
+      "philosophy",
+      "education_wiki",
+      "home_automation",
+      "unknown"
+    ]
+  }
+}
