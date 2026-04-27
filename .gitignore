@@ -15,6 +15,5 @@ data/processed/library_seed.json
 content/wire/index.json
 content/library/
 
-# Public JSON may expose liked-post metadata; keep it out until explicitly reviewed.
-public/wire.json
+# Public reviewed Wire JSON is deployable; raw/private source data remains ignored above.
 public/library.json
