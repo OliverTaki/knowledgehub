@@ -74,10 +74,24 @@ function publicWirePayload(entries, source) {
   };
 }
 
+function isInvalidJsonStringCharacter(raw, index) {
+  const code = raw.charCodeAt(index);
+  return code < 32 || code === 8232 || code === 8233;
+}
+
+function hasInvalidJsonStringCharacters(raw) {
+  for (let index = 0; index < raw.length; index += 1) {
+    if (isInvalidJsonStringCharacter(raw, index)) return true;
+  }
+  return false;
+}
+
 function sanitizeLegacyJson(raw) {
-  return raw
-    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, " ")
-    .replace(/[\u2028\u2029]/g, " ");
+  let cleaned = "";
+  for (let index = 0; index < raw.length; index += 1) {
+    cleaned += isInvalidJsonStringCharacter(raw, index) ? " " : raw[index];
+  }
+  return cleaned;
 }
 
 function parseLegacyWireJson(raw, source) {
@@ -89,7 +103,7 @@ function parseLegacyWireJson(raw, source) {
     try {
       return JSON.parse(sanitizeLegacyJson(trimmed));
     } catch (secondError) {
-      throw new Error(`${source}: JSON parse failed after sanitizing control characters: ${secondError.message}; original error: ${firstError.message}`);
+      throw new Error(`${source}: JSON parse failed after sanitizing invalid JSON string characters: ${secondError.message}; original error: ${firstError.message}`);
     }
   }
 }
@@ -160,10 +174,10 @@ async function inspectWireSource(source, request, env) {
     const match = html.match(WIRE_DATA_RE);
     let count = 0;
     let parse_error = null;
-    let has_control_chars = false;
+    let has_invalid_json_string_characters = false;
 
     if (match) {
-      has_control_chars = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u2028\u2029]/.test(match[1]);
+      has_invalid_json_string_characters = hasInvalidJsonStringCharacters(match[1]);
       try {
         const parsed = parseLegacyWireJson(match[1], source);
         count = Array.isArray(parsed) ? parsed.length : 0;
@@ -177,7 +191,7 @@ async function inspectWireSource(source, request, env) {
       ok: true,
       bytes: html.length,
       has_wire_data: Boolean(match),
-      has_control_chars,
+      has_invalid_json_string_characters,
       count,
       parse_error,
       sample: html.slice(0, 120)
