@@ -3,6 +3,8 @@ import fs from "node:fs";
 const WIRE_DATA_RE = /<script id=["']wire-data["'] type=["']application\/json["']>([\s\S]*?)<\/script>/;
 const CACHE_DIR = ".cache";
 const CACHE_PATH = `${CACHE_DIR}/static-wire-source.json`;
+const TAXONOMY_PATH = "data/tag-taxonomy.json";
+const BLOCKED_DISPLAY_TAGS = new Set(["", "unknown", "undefined", "null"]);
 
 function bad(raw, i) {
   const code = raw.charCodeAt(i);
@@ -40,16 +42,86 @@ function list(value, fallback = []) {
   return Array.isArray(value) ? value.filter(Boolean).map(String) : fallback;
 }
 
+function slug(value) {
+  return String(value ?? "")
+    .trim()
+    .replace(/([a-z0-9])([A-Z])/g, "$1-$2")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
+}
+
+function loadTaxonomy() {
+  const taxonomy = readJson(TAXONOMY_PATH, { tags: [] });
+  const definitions = new Map();
+  const aliases = new Map();
+
+  for (const item of list(taxonomy.tags)) {
+    const canonical = slug(item.tag);
+    if (!canonical || BLOCKED_DISPLAY_TAGS.has(canonical)) continue;
+    definitions.set(canonical, text(item.definition, "Definition pending."));
+    aliases.set(canonical, canonical);
+    for (const alias of list(item.aliases)) aliases.set(slug(alias), canonical);
+  }
+
+  return { definitions, aliases };
+}
+
+const TAXONOMY = loadTaxonomy();
+
+function canonicalTag(raw) {
+  const base = slug(raw);
+  if (!base || BLOCKED_DISPLAY_TAGS.has(base)) return "";
+  if (TAXONOMY.aliases.has(base)) return TAXONOMY.aliases.get(base);
+  return base;
+}
+
+function tagDefinition(tag) {
+  return TAXONOMY.definitions.get(tag) || "Definition pending; this tag was preserved as a distinct non-duplicate topic for later refinement.";
+}
+
+function stableTags(...groups) {
+  const out = [];
+  const seen = new Set();
+  for (const group of groups) {
+    for (const raw of list(group)) {
+      const tag = canonicalTag(raw);
+      if (!tag || seen.has(tag)) continue;
+      seen.add(tag);
+      out.push(tag);
+    }
+  }
+  return out;
+}
+
+function needsReview(entry, labels, tags, summary, title) {
+  const haystack = [title, summary, ...labels, ...tags].join(" ").toLowerCase();
+  return haystack.includes("needs review")
+    || haystack.includes("later classification")
+    || haystack.includes("saved source that still needs")
+    || haystack.includes("source note for later classification")
+    || labels.some((label) => slug(label) === "miscellaneous")
+    || tags.some((tag) => ["misc", "miscellaneous", "unclassified"].includes(slug(tag)));
+}
+
 function normalize(entry, index) {
   const labels = list(entry.labels);
-  const tags = list(entry.tags);
-  const contentKinds = list(entry.content_kinds, labels.length ? labels : [entry.post_kind || "unknown"]);
-  const domains = list(entry.domains);
+  const rawTags = list(entry.tags);
+  const rawContentKinds = list(entry.content_kinds, []);
+  const rawDomains = list(entry.domains, []);
   const summary = text(entry.public_summary, entry.summary_ja, entry.summary, entry.context_summary, entry.context?.summary, entry.text, "Source note.");
+  const title = text(entry.title, summary, "Source note");
   const url = text(entry.url, entry.original_url);
+  const displayTags = stableTags(rawTags, rawContentKinds, rawDomains, labels);
+  if (needsReview(entry, labels, rawTags, summary, title) && !displayTags.includes("needs-review")) {
+    displayTags.unshift("needs-review");
+  }
+
   return {
     id: text(entry.id, entry.status_id ? `x_${entry.status_id}` : `wire_${index + 1}`),
-    title: text(entry.title, summary, "Source note"),
+    title,
     summary,
     url,
     original_url: text(entry.original_url, url),
@@ -58,9 +130,11 @@ function normalize(entry, index) {
     collected_at: text(entry.collected_at, entry.collected),
     source: entry.source || "x_like",
     labels,
-    tags,
-    content_kinds: contentKinds.length ? contentKinds : ["unknown"],
-    domains: domains.length ? domains : ["unknown"]
+    tags: displayTags,
+    tag_definitions: Object.fromEntries(displayTags.map((tag) => [tag, tagDefinition(tag)])),
+    raw_tags: rawTags,
+    raw_content_kinds: rawContentKinds,
+    raw_domains: rawDomains
   };
 }
 
@@ -101,20 +175,29 @@ function esc(value) {
 }
 
 function tags(entry) {
-  return [...new Set([...list(entry.tags), ...list(entry.content_kinds), ...list(entry.domains), ...list(entry.labels)])];
+  return list(entry.tags).filter((tag) => !BLOCKED_DISPLAY_TAGS.has(slug(tag)));
 }
 
 function html(entries, source) {
-  const cards = entries.map((entry) => `<article class="card" data-search="${esc([entry.title, entry.summary, entry.author_handle, entry.posted_at, entry.url, ...tags(entry)].join(" "))}" data-tags="${esc(tags(entry).join("|"))}"><div class="meta">${esc(entry.posted_at || "unknown")} · ${esc(entry.author_handle || "Unknown source")}</div><h2>${esc(entry.title)}</h2><p>${esc(entry.summary)}</p><p><a href="${esc(entry.url)}">Source</a></p><p>${tags(entry).map((tag) => `<button class="tag" data-tag="${esc(tag)}">${esc(tag)}</button>`).join(" ")}</p></article>`).join("\n");
+  const cards = entries.map((entry) => `<article class="card" data-search="${esc([entry.title, entry.summary, entry.author_handle, entry.posted_at, entry.url, ...tags(entry)].join(" "))}" data-tags="${esc(tags(entry).join("|"))}"><div class="meta">${esc(entry.posted_at || "unknown")}${entry.author_handle ? ` · ${esc(entry.author_handle)}` : ""}</div><h2>${esc(entry.title)}</h2><p>${esc(entry.summary)}</p><p><a href="${esc(entry.url)}">Source</a></p><p>${tags(entry).map((tag) => `<button class="tag" title="${esc(tagDefinition(tag))}" data-tag="${esc(tag)}">${esc(tag)}</button>`).join(" ")}</p></article>`).join("\n");
   const counts = new Map();
   for (const entry of entries) for (const tag of tags(entry)) counts.set(tag, (counts.get(tag) || 0) + 1);
-  const filters = Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 80).map(([tag, count]) => `<button class="filter" data-tag="${esc(tag)}">${esc(tag)} ${count}</button>`).join(" ");
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wire — Knowledge Hub Magazine</title><style>body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#f7f7f5;color:#1f1f1f}header{display:flex;justify-content:space-between;gap:20px;padding:18px 28px;background:white;border-bottom:1px solid #ddd;position:sticky;top:0}.brand{font-weight:700}nav{display:flex;gap:16px}main{max-width:1120px;margin:0 auto;padding:44px 28px}h1{font-size:clamp(38px,6vw,76px);letter-spacing:-.06em;line-height:.95}.deck{max-width:780px;color:#444;font-size:19px;line-height:1.55}.toolbar,.card,.empty{background:white;border:1px solid #ddd;border-radius:14px;padding:18px;margin:14px 0}.meta,.small{color:#666;font-size:13px}.filter,.tag{border:1px solid #ddd;border-radius:999px;background:white;padding:4px 9px;margin:3px;cursor:pointer}.active{border-color:#111}.search{padding:10px 12px;border:1px solid #ccc;border-radius:999px;width:min(420px,70vw)}a{color:#0756a5;text-decoration:none}</style></head><body><header><div class="brand">Knowledge Hub Magazine</div><nav><a href="/">Home</a><a href="/wire">Wire</a><a href="/articles">Articles</a><a href="/library">Library</a></nav></header><main><section><div class="small">Wire</div><h1>Signals, fragments, and source notes.</h1><p class="deck">Short entries for tools, films, systems, images, and ideas before they become essays or library records.</p></section><section class="toolbar"><div><button class="filter active" data-tag="all">All</button>${filters}</div><p><input id="search" class="search" placeholder="Search Wire"></p><p><span id="visibleCount">${entries.length}</span> / <span id="totalCount">${entries.length}</span> entries shown</p><p class="small">Static source: ${esc(source)} · <a href="/wire.json">JSON</a> · <a href="/wire.md">Markdown</a> · <a href="/wire.ndjson">NDJSON</a> · <a href="/llms.txt">llms.txt</a></p></section><section id="feed">${cards}</section><section id="empty" class="empty" style="display:none">No entries match this filter.</section></main><script>const search=document.getElementById('search'),visible=document.getElementById('visibleCount'),empty=document.getElementById('empty'),cards=Array.from(document.querySelectorAll('.card'));let activeTag='all';function apply(){const q=search.value.trim().toLowerCase();let n=0;for(const card of cards){const tagOk=activeTag==='all'||card.dataset.tags.split('|').includes(activeTag);const searchOk=!q||card.dataset.search.toLowerCase().includes(q);const show=tagOk&&searchOk;card.style.display=show?'':'none';if(show)n++;}visible.textContent=String(n);empty.style.display=n?'none':'block';}document.querySelectorAll('.filter,.tag').forEach(btn=>btn.addEventListener('click',()=>{activeTag=btn.dataset.tag;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.tag===activeTag));apply();}));search.addEventListener('input',apply);</script></body></html>`;
+  const filters = Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 80).map(([tag, count]) => `<button class="filter" title="${esc(tagDefinition(tag))}" data-tag="${esc(tag)}">${esc(tag)} ${count}</button>`).join(" ");
+  const taxonomyLink = fs.existsSync("public/tag-taxonomy.json") ? " · <a href=\"/tag-taxonomy.json\">Tag taxonomy</a>" : "";
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wire — Knowledge Hub Magazine</title><style>body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#f7f7f5;color:#1f1f1f}header{display:flex;justify-content:space-between;gap:20px;padding:18px 28px;background:white;border-bottom:1px solid #ddd;position:sticky;top:0}.brand{font-weight:700}nav{display:flex;gap:16px}main{max-width:1120px;margin:0 auto;padding:44px 28px}h1{font-size:clamp(38px,6vw,76px);letter-spacing:-.06em;line-height:.95}.deck{max-width:780px;color:#444;font-size:19px;line-height:1.55}.toolbar,.card,.empty{background:white;border:1px solid #ddd;border-radius:14px;padding:18px;margin:14px 0}.meta,.small{color:#666;font-size:13px}.filter,.tag{border:1px solid #ddd;border-radius:999px;background:white;padding:4px 9px;margin:3px;cursor:pointer}.active{border-color:#111}.search{padding:10px 12px;border:1px solid #ccc;border-radius:999px;width:min(420px,70vw)}a{color:#0756a5;text-decoration:none}</style></head><body><header><div class="brand">Knowledge Hub Magazine</div><nav><a href="/">Home</a><a href="/wire">Wire</a><a href="/articles">Articles</a><a href="/library">Library</a></nav></header><main><section><div class="small">Wire</div><h1>Signals, fragments, and source notes.</h1><p class="deck">Short entries for tools, films, systems, images, and ideas before they become essays or library records.</p></section><section class="toolbar"><div><button class="filter active" data-tag="all">All</button>${filters}</div><p><input id="search" class="search" placeholder="Search Wire"></p><p><span id="visibleCount">${entries.length}</span> / <span id="totalCount">${entries.length}</span> entries shown</p><p class="small">Static source: ${esc(source)} · <a href="/wire.json">JSON</a> · <a href="/wire.md">Markdown</a> · <a href="/wire.ndjson">NDJSON</a> · <a href="/llms.txt">llms.txt</a>${taxonomyLink}</p></section><section id="feed">${cards}</section><section id="empty" class="empty" style="display:none">No entries match this filter.</section></main><script>const search=document.getElementById('search'),visible=document.getElementById('visibleCount'),empty=document.getElementById('empty'),cards=Array.from(document.querySelectorAll('.card'));let activeTag='all';function apply(){const q=search.value.trim().toLowerCase();let n=0;for(const card of cards){const tagOk=activeTag==='all'||card.dataset.tags.split('|').includes(activeTag);const searchOk=!q||card.dataset.search.toLowerCase().includes(q);const show=tagOk&&searchOk;card.style.display=show?'':'none';if(show)n++;}visible.textContent=String(n);empty.style.display=n?'none':'block';}document.querySelectorAll('.filter,.tag').forEach(btn=>btn.addEventListener('click',()=>{activeTag=btn.dataset.tag;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b.dataset.tag===activeTag));apply();}));search.addEventListener('input',apply);</script></body></html>`;
 }
 
 function markdown(entries, source) {
   const lines = ["# Knowledge Hub Wire", "", `Generated: ${new Date().toISOString()}`, `Source: ${source}`, `Count: ${entries.length}`, "", "Machine-readable archive for AI agents and search indexing.", ""];
   for (const entry of entries) lines.push(`## ${entry.title}`, "", `- URL: ${entry.url}`, `- Author: ${entry.author_handle || "Unknown"}`, `- Posted: ${entry.posted_at || "unknown"}`, `- Collected: ${entry.collected_at || "unknown"}`, `- Tags: ${tags(entry).join(", ")}`, "", entry.summary, "");
+  return lines.join("\n");
+}
+
+function taxonomyMarkdown() {
+  const lines = ["# Tag Taxonomy", "", "Canonical Wire tags. Each tag has a one-sentence definition; aliases are normalized during build.", ""];
+  for (const [tag, definition] of Array.from(TAXONOMY.definitions.entries()).sort()) {
+    lines.push(`## ${tag}`, "", definition, "");
+  }
   return lines.join("\n");
 }
 
@@ -127,5 +210,7 @@ fs.writeFileSync("public/wire.json", JSON.stringify(payload, null, 2), "utf8");
 fs.writeFileSync("public/wire.html", html(entries, source), "utf8");
 fs.writeFileSync("public/wire.md", markdown(entries, source), "utf8");
 fs.writeFileSync("public/wire.ndjson", entries.map((entry) => JSON.stringify(entry)).join("\n") + "\n", "utf8");
-fs.writeFileSync("public/llms.txt", "# Knowledge Hub Magazine\n\nMachine-readable resources:\n- /wire.md\n- /wire.json\n- /wire.ndjson\n- /articles\n- /library\n", "utf8");
+fs.writeFileSync("public/tag-taxonomy.json", JSON.stringify({ tags: Array.from(TAXONOMY.definitions.entries()).sort().map(([tag, definition]) => ({ tag, definition })) }, null, 2), "utf8");
+fs.writeFileSync("public/tag-taxonomy.md", taxonomyMarkdown(), "utf8");
+fs.writeFileSync("public/llms.txt", "# Knowledge Hub Magazine\n\nMachine-readable resources:\n- /wire.md\n- /wire.json\n- /wire.ndjson\n- /tag-taxonomy.md\n- /tag-taxonomy.json\n- /articles\n- /library\n", "utf8");
 console.log(`Built static Wire with ${entries.length} entries from ${source}.`);
