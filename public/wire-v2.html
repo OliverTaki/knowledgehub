@@ -54,20 +54,41 @@ function esc(value) {
 }
 function normalizeUrl(value) { return String(value || '').replace(/\s+/g, ''); }
 
-async function loadEntries() {
-  const response = await fetch('/wire.html?source=legacy-data&t=' + Date.now(), { cache: 'no-store' });
-  const html = await response.text();
+function extractEntriesFromHtml(html) {
   const match = html.match(/<script id="wire-data" type="application\/json">([\s\S]*?)<\/script>/);
   if (!match) throw new Error('wire-data block not found');
   const raw = match[1].trim().replace(/[\r\n\t]+/g, '');
-  const parsed = JSON.parse(raw);
-  entries = parsed.map(entry => ({
-    ...entry,
-    url: normalizeUrl(entry.url),
-    author: String(entry.author || '').replace(/\s+/g, ''),
-    labels: Array.isArray(entry.labels) ? entry.labels : [],
-    tags: Array.isArray(entry.tags) ? entry.tags : []
-  }));
+  return JSON.parse(raw);
+}
+async function fetchText(url) {
+  const response = await fetch(url, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  return await response.text();
+}
+async function loadEntries() {
+  const sources = [
+    'https://raw.githubusercontent.com/OliverTaki/knowledgehub/main/public/wire.html?ts=' + Date.now(),
+    '/wire.html?source=legacy-data&t=' + Date.now()
+  ];
+  const errors = [];
+  for (const source of sources) {
+    try {
+      const html = await fetchText(source);
+      const parsed = extractEntriesFromHtml(html);
+      entries = parsed.map(entry => ({
+        ...entry,
+        url: normalizeUrl(entry.url),
+        author: String(entry.author || '').replace(/\s+/g, ''),
+        labels: Array.isArray(entry.labels) ? entry.labels : [],
+        tags: Array.isArray(entry.tags) ? entry.tags : []
+      }));
+      if (entries.length > 0) return;
+      errors.push(`${source}: parsed 0 entries`);
+    } catch (error) {
+      errors.push(`${source}: ${error.message}`);
+    }
+  }
+  throw new Error(errors.join(' / '));
 }
 function tagCounts() {
   const counts = new Map();
