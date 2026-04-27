@@ -1,6 +1,6 @@
 const WIRE_DATA_RE = /<script id=["']wire-data["'] type=["']application\/json["']>([\s\S]*?)<\/script>/;
 const LEGACY_WIRE_SOURCES = [
-  "/wire.html?legacy_data=1",
+  "/wire.html",
   "https://raw.githubusercontent.com/OliverTaki/knowledgehub/main/public/wire.html"
 ];
 
@@ -87,22 +87,36 @@ async function responseJson(response) {
 
 async function loadWireJsonAsset(request, env) {
   const assetUrl = new URL("/wire.json", request.url);
-  const response = await env.ASSETS.fetch(new Request(assetUrl, request));
+  const response = await env.ASSETS.fetch(new Request(assetUrl.toString(), { method: "GET" }));
   const data = await responseJson(response);
   return hasEntries(data) ? data : null;
 }
 
 async function fetchText(source, request, env) {
   const url = new URL(source, request.url);
-  const targetRequest = new Request(url, request);
-  const response = url.origin === new URL(request.url).origin
-    ? await env.ASSETS.fetch(targetRequest)
-    : await fetch(targetRequest);
+  const sameOrigin = url.origin === new URL(request.url).origin;
+  const response = sameOrigin
+    ? await env.ASSETS.fetch(new Request(url.toString(), { method: "GET" }))
+    : await fetch(url.toString(), {
+        method: "GET",
+        headers: {
+          "accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+          "user-agent": "knowledgehub-wire-loader"
+        }
+      });
 
   if (!response.ok) {
     throw new Error(`${url.href}: ${response.status}`);
   }
   return await response.text();
+}
+
+function extractWireData(html, source) {
+  const match = html.match(WIRE_DATA_RE);
+  if (!match) throw new Error(`${source}: wire-data block not found`);
+  const parsed = JSON.parse(match[1].trim());
+  if (!Array.isArray(parsed) || parsed.length === 0) throw new Error(`${source}: parsed 0 entries`);
+  return parsed;
 }
 
 async function loadWireFromLegacyHtml(request, env) {
@@ -111,17 +125,35 @@ async function loadWireFromLegacyHtml(request, env) {
   for (const source of LEGACY_WIRE_SOURCES) {
     try {
       const html = await fetchText(source, request, env);
-      const match = html.match(WIRE_DATA_RE);
-      if (!match) throw new Error(`${source}: wire-data block not found`);
-      const parsed = JSON.parse(match[1].trim());
-      if (!Array.isArray(parsed) || parsed.length === 0) throw new Error(`${source}: parsed 0 entries`);
-      return publicWirePayload(parsed, source);
+      return publicWirePayload(extractWireData(html, source), source);
     } catch (error) {
       errors.push(error.message);
     }
   }
 
   throw new Error(errors.join(" / "));
+}
+
+async function inspectWireSource(source, request, env) {
+  try {
+    const html = await fetchText(source, request, env);
+    const match = html.match(WIRE_DATA_RE);
+    let count = 0;
+    if (match) {
+      const parsed = JSON.parse(match[1].trim());
+      count = Array.isArray(parsed) ? parsed.length : 0;
+    }
+    return {
+      source,
+      ok: true,
+      bytes: html.length,
+      has_wire_data: Boolean(match),
+      count,
+      sample: html.slice(0, 120)
+    };
+  } catch (error) {
+    return { source, ok: false, error: error.message };
+  }
 }
 
 function jsonResponse(data, init = {}) {
@@ -152,28 +184,50 @@ async function handleWireJson(request, env) {
   }
 }
 
+async function handleWireDebug(request, env) {
+  const assetData = await loadWireJsonAsset(request, env);
+  const sources = [];
+  for (const source of LEGACY_WIRE_SOURCES) {
+    sources.push(await inspectWireSource(source, request, env));
+  }
+  return jsonResponse({
+    generated_at: new Date().toISOString(),
+    wire_json_asset_has_entries: hasEntries(assetData),
+    sources
+  });
+}
+
+function assetResponse(pathname, request) {
+  const url = new URL(request.url);
+  return new Request(new URL(pathname, url).toString(), { method: "GET" });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
     if (url.pathname === "/") {
-      return env.ASSETS.fetch(new Request(new URL("/index.html", url), request));
+      return env.ASSETS.fetch(assetResponse("/index.html", request));
     }
 
     if (url.pathname === "/wire") {
-      return env.ASSETS.fetch(new Request(new URL("/wire-app.html", url), request));
+      return env.ASSETS.fetch(assetResponse("/wire-app.html", request));
     }
 
     if (url.pathname === "/wire.json") {
       return handleWireJson(request, env);
     }
 
+    if (url.pathname === "/wire-debug") {
+      return handleWireDebug(request, env);
+    }
+
     if (url.pathname === "/articles") {
-      return env.ASSETS.fetch(new Request(new URL("/articles.html", url), request));
+      return env.ASSETS.fetch(assetResponse("/articles.html", request));
     }
 
     if (url.pathname === "/library") {
-      return env.ASSETS.fetch(new Request(new URL("/library.html", url), request));
+      return env.ASSETS.fetch(assetResponse("/library.html", request));
     }
 
     return env.ASSETS.fetch(request);
