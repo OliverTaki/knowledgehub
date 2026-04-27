@@ -74,6 +74,26 @@ function publicWirePayload(entries, source) {
   };
 }
 
+function sanitizeLegacyJson(raw) {
+  return raw
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, " ")
+    .replace(/[\u2028\u2029]/g, " ");
+}
+
+function parseLegacyWireJson(raw, source) {
+  const trimmed = raw.trim();
+
+  try {
+    return JSON.parse(trimmed);
+  } catch (firstError) {
+    try {
+      return JSON.parse(sanitizeLegacyJson(trimmed));
+    } catch (secondError) {
+      throw new Error(`${source}: JSON parse failed after sanitizing control characters: ${secondError.message}; original error: ${firstError.message}`);
+    }
+  }
+}
+
 async function responseJson(response) {
   if (!response.ok) return null;
   const contentType = response.headers.get("content-type") || "";
@@ -114,7 +134,7 @@ async function fetchText(source, request, env) {
 function extractWireData(html, source) {
   const match = html.match(WIRE_DATA_RE);
   if (!match) throw new Error(`${source}: wire-data block not found`);
-  const parsed = JSON.parse(match[1].trim());
+  const parsed = parseLegacyWireJson(match[1], source);
   if (!Array.isArray(parsed) || parsed.length === 0) throw new Error(`${source}: parsed 0 entries`);
   return parsed;
 }
@@ -139,16 +159,27 @@ async function inspectWireSource(source, request, env) {
     const html = await fetchText(source, request, env);
     const match = html.match(WIRE_DATA_RE);
     let count = 0;
+    let parse_error = null;
+    let has_control_chars = false;
+
     if (match) {
-      const parsed = JSON.parse(match[1].trim());
-      count = Array.isArray(parsed) ? parsed.length : 0;
+      has_control_chars = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u2028\u2029]/.test(match[1]);
+      try {
+        const parsed = parseLegacyWireJson(match[1], source);
+        count = Array.isArray(parsed) ? parsed.length : 0;
+      } catch (error) {
+        parse_error = error.message;
+      }
     }
+
     return {
       source,
       ok: true,
       bytes: html.length,
       has_wire_data: Boolean(match),
+      has_control_chars,
       count,
+      parse_error,
       sample: html.slice(0, 120)
     };
   } catch (error) {
