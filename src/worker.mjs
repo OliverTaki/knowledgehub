@@ -7,7 +7,11 @@ export default {
     }
 
     if (url.pathname === "/wire") {
-      return env.ASSETS.fetch(new Request(new URL("/wire.html", url), request));
+      return env.ASSETS.fetch(new Request(new URL("/wire-app.html", url), request));
+    }
+
+    if (url.pathname === "/wire.json") {
+      return env.ASSETS.fetch(new Request(new URL("/wire.json", url), request));
     }
 
     if (url.pathname === "/articles") {
