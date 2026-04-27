@@ -4,8 +4,73 @@ import { readJson, writeJson } from "./lib/jsonl.mjs";
 
 const config = readJson("config/site.config.json", { siteName: "Knowledge Hub Magazine" });
 const wire = readJson("data/processed/wire.json", { entries: [] });
-const library = readJson("data/processed/library_seed.json", { items: [] });
+const librarySource = readJson("data/processed/library_seed.json", { items: [] });
 const publicWirePolicy = config.publicWire || {};
+
+const DEFAULT_LIBRARY_ITEMS = [
+  {
+    title: "MaterialX",
+    kind: "Library / Rendering",
+    description: "A reusable reference on material interchange, look development, and renderer-independent material description.",
+    tags: ["rendering", "materialx", "pipeline"]
+  },
+  {
+    title: "Filament",
+    kind: "Library / Rendering",
+    description: "A real-time rendering reference useful for asset inspection, material preview, lightweight look development, and production-adjacent visualization.",
+    tags: ["rendering", "lookdev", "software"]
+  },
+  {
+    title: "Node graph memory",
+    kind: "Library / Workflow",
+    description: "A wiki-style concept for linking node-based work to external notes, reusable explanations, and production memory so procedural systems remain understandable.",
+    tags: ["pipeline", "procedural", "documentation"]
+  },
+  {
+    title: "Tarkovsky Polaroids",
+    kind: "Library / Film reference",
+    description: "A visual-reference entry for studying atmosphere, time, texture, framing, and the unresolved density of ordinary spaces.",
+    tags: ["film", "visual-reference", "archive"]
+  }
+];
+
+const library = {
+  ...librarySource,
+  items: Array.isArray(librarySource.items) && librarySource.items.length > 0 ? librarySource.items : DEFAULT_LIBRARY_ITEMS
+};
+
+const ARTICLES = [
+  {
+    published_at: "2026-04-27",
+    updated_at: "2026-04-27",
+    title: "The useful AI tool is the one that disappears into the workflow",
+    tags: ["local-ai", "workflow", "production"],
+    paragraphs: [
+      "The most interesting AI posts are no longer the ones that announce a spectacular model. They are the ones that make a step in the production chain cheaper, faster, or more local.",
+      "For a creative worker, this changes the evaluation criteria. The question is not only whether a model is impressive. The question is whether it can be placed inside an existing loop: ingest, search, annotate, edit, archive, compare, and publish."
+    ]
+  },
+  {
+    published_at: "2026-04-27",
+    updated_at: "2026-04-27",
+    title: "AI video is becoming a reference library before it becomes a cinema",
+    tags: ["ai-video", "visual-reference", "lookdev"],
+    paragraphs: [
+      "The more immediate use of AI video is not finished film. It is reference: motion mood, impossible camera language, texture tests, lighting proposals, transitions, and image behaviors that can be studied and translated into other tools.",
+      "A short AI clip can be weak as a complete work but strong as a visual note. It can reveal a style of movement, a treatment of surface, or a rhythm that becomes useful elsewhere."
+    ]
+  },
+  {
+    published_at: "2026-04-27",
+    updated_at: "2026-04-27",
+    title: "Node-based work needs a memory layer outside the node graph",
+    tags: ["houdini", "knowledge-map", "pipeline"],
+    paragraphs: [
+      "Node graphs are powerful because they expose structure. They are also fragile because structure without memory becomes archaeology.",
+      "A serious creative pipeline needs the graph, the note, the source, and the reusable library entry. Without them, the same discoveries are repeatedly made and lost."
+    ]
+  }
+];
 
 fs.mkdirSync("public", { recursive: true });
 
@@ -14,7 +79,8 @@ function esc(value) {
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
 function firstNonEmpty(...values) {
@@ -56,6 +122,10 @@ function publicWireEntry(item) {
 }
 
 const publicWireEntries = (wire.entries || []).map(publicWireEntry);
+
+function tagList(tags = []) {
+  return tags.map((tag) => `<span class="tag">${esc(tag)}</span>`).join("");
+}
 
 function layout(title, body, extraScripts = "") {
   const siteName = config.siteName || "Knowledge Hub Magazine";
@@ -107,9 +177,9 @@ const indexHtml = layout(siteName, `
     <p class="deck">${esc(siteDeck)}</p>
   </section>
   <section class="grid">
-    <article class="card"><div class="meta">Wire</div><h2>Signals and source notes</h2><p>Short entries that catch tools, references, workflows, and arguments before they are developed into longer pieces.</p><p><a href="/wire">Read Wire</a></p></article>
-    <article class="card"><div class="meta">Articles</div><h2>Developed observations</h2><p>Essays that connect repeated signals into practical theses about creative work, software, and media culture.</p><p><a href="/articles">Read Articles</a></p></article>
-    <article class="card"><div class="meta">Library</div><h2>Reusable references</h2><p>A flat index of books, films, software, plugins, workflows, papers, and examples to revisit.</p><p><a href="/library">Browse Library</a></p></article>
+    <article class="card"><div class="meta">Wire</div><h2>All liked signals</h2><p>Wire is the raw export layer: all saved Like-derived signals, references, and fragments are preserved before interpretation.</p><p><a href="/wire">Read Wire</a></p></article>
+    <article class="card"><div class="meta">Articles</div><h2>Organized interpretation</h2><p>Articles consolidate, compare, and develop the patterns that emerge from Wire.</p><p><a href="/articles">Read Articles</a></p></article>
+    <article class="card"><div class="meta">Library</div><h2>Wiki-like reference layer</h2><p>Library turns recurring article-level ideas into reusable summaries, concepts, tools, and reference entries.</p><p><a href="/library">Browse Library</a></p></article>
   </section>
 `);
 
@@ -125,24 +195,26 @@ const wireHtml = layout("Wire — Knowledge Hub Magazine", `
   <section>
     <div class="eyebrow">Wire</div>
     <h1>Signals, fragments, and source notes.</h1>
-    <p class="deck">Short entries for tools, films, systems, images, and ideas before they become essays or library records.</p>
+    <p class="deck">Wire is the all-Like export layer. It keeps the raw signal pool intact before Articles organize it and Library turns stable patterns into wiki-like entries.</p>
   </section>
   ${wireCards || '<div class="card">No wire entries yet.</div>'}
 `, embedScript);
 
 const articlesHtml = layout("Articles — Knowledge Hub Magazine", `
-  <section><div class="eyebrow">Articles</div><h1>Patterns, not clippings.</h1><p class="deck">Longer notes drawn from repeated signals: tools, references, workflows, and cultural fragments that begin to form a usable map.</p></section>
-  <article class="article"><div class="meta"><span>Creative systems</span><span>AI tools</span><span>Production workflow</span></div><h2>The useful AI tool is the one that disappears into the workflow</h2><p>The most interesting AI posts are no longer the ones that announce a spectacular model. They are the ones that make a step in the production chain cheaper, faster, or more local.</p><p>For a creative worker, this changes the evaluation criteria. The question is not only whether a model is impressive. The question is whether it can be placed inside an existing loop: ingest, search, annotate, edit, archive, compare, and publish.</p><div><span class="tag">local-ai</span><span class="tag">workflow</span><span class="tag">production</span></div></article>
-  <article class="article"><div class="meta"><span>Moving image</span><span>AI video</span><span>Visual culture</span></div><h2>AI video is becoming a reference library before it becomes a cinema</h2><p>The more immediate use of AI video is not finished film. It is reference: motion mood, impossible camera language, texture tests, lighting proposals, transitions, and image behaviors that can be studied and translated into other tools.</p><p>A short AI clip can be weak as a complete work but strong as a visual note. It can reveal a style of movement, a treatment of surface, or a rhythm that becomes useful elsewhere.</p><div><span class="tag">ai-video</span><span class="tag">lookdev</span><span class="tag">reference</span></div></article>
-  <article class="article"><div class="meta"><span>Knowledge systems</span><span>Node tools</span><span>Memory</span></div><h2>Node-based work needs a memory layer outside the node graph</h2><p>Node graphs are powerful because they expose structure. They are also fragile because structure without memory becomes archaeology.</p><p>A serious creative pipeline needs the graph, the note, the source, and the reusable library entry. Without them, the same discoveries are repeatedly made and lost.</p><div><span class="tag">houdini</span><span class="tag">knowledge-map</span><span class="tag">pipeline</span></div></article>
+  <section><div class="eyebrow">Articles</div><h1>Patterns, not clippings.</h1><p class="deck">Articles organize, integrate, and develop the information emerging from Wire.</p></section>
+  ${ARTICLES.map((article) => {
+    const search = [article.title, article.published_at, article.updated_at, ...article.tags, ...article.paragraphs].join(" ");
+    return `<article class="article" data-search="${esc(search)}"><div class="meta"><span>Published ${esc(article.published_at)}</span><span>Updated ${esc(article.updated_at)}</span></div><h2>${esc(article.title)}</h2>${article.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}<div>${tagList(article.tags)}</div></article>`;
+  }).join("\n")}
 `);
 
 const libraryCards = library.items.map((item) => {
-  const search = [item.title, item.kind, ...(item.tags || []), ...(item.aliases || [])].join(" ");
-  return `<article class="card" data-search="${esc(search)}"><h2>${esc(item.title)}</h2><div class="meta"><span>${esc(item.kind)}</span></div><p>${esc(item.description || "")}</p></article>`;
+  const tags = item.tags || [];
+  const search = [item.title, item.kind, item.description, ...tags, ...(item.aliases || [])].join(" ");
+  return `<article class="card" data-search="${esc(search)}"><h2>${esc(item.title)}</h2><div class="meta"><span>${esc(item.kind)}</span></div><p>${esc(item.description || "")}</p><div>${tagList(tags)}</div></article>`;
 }).join("\n");
 const libraryHtml = layout("Library — Knowledge Hub Magazine", `
-  <section><div class="eyebrow">Library</div><h1>An index of reusable knowledge.</h1><p class="deck">Books, films, software, workflows, plugins, essays, and references organized as material for future thinking.</p></section>
+  <section><div class="eyebrow">Library</div><h1>Wiki-like entries from developed ideas.</h1><p class="deck">Library is the reusable summary layer: concepts, tools, workflows, and references distilled from Articles and repeated Wire patterns.</p></section>
   ${libraryCards || '<div class="card">No library items yet.</div>'}
 `);
 
@@ -154,4 +226,5 @@ writeJson("public/wire.json", { generated_at: new Date().toISOString(), policy: 
 writeJson("public/library.json", library);
 console.log("Built static site into public/.");
 console.log(`Public Wire entries: ${publicWireEntries.length}`);
+console.log(`Library entries: ${library.items.length}`);
 console.log(`X embed enabled: ${shouldEmbedXPosts}`);
