@@ -8,7 +8,7 @@
     "collect:x-likes": "node scripts/x-collect-likes.mjs",
     "build:wire": "node scripts/build-wire.mjs",
     "build:site": "node scripts/build-site.mjs",
-    "build": "node scripts/build-site.mjs",
+    "build": "node -e \"console.log('Using committed public assets; skipping generated build for deployment.')\"",
     "deploy": "npx wrangler deploy",
     "run:daily": "node scripts/x-collect-likes.mjs && node scripts/build-wire.mjs && node scripts/build-site.mjs",
     "validate": "node scripts/validate-jsonl.mjs"
