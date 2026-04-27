@@ -1,6 +1,8 @@
 import fs from "node:fs";
 
 const WIRE_DATA_RE = /<script id=["']wire-data["'] type=["']application\/json["']>([\s\S]*?)<\/script>/;
+const CACHE_DIR = ".cache";
+const CACHE_PATH = `${CACHE_DIR}/static-wire-source.json`;
 
 function bad(raw, i) {
   const code = raw.charCodeAt(i);
@@ -62,9 +64,17 @@ function normalize(entry, index) {
   };
 }
 
+function cacheEntries(source, entries) {
+  fs.mkdirSync(CACHE_DIR, { recursive: true });
+  fs.writeFileSync(CACHE_PATH, JSON.stringify({ source, entries }, null, 2), "utf8");
+}
+
 function loadEntries() {
   const processed = readJson("data/processed/wire.json", { entries: [] });
   if (Array.isArray(processed.entries) && processed.entries.length) return ["data/processed/wire.json", processed.entries];
+
+  const cached = readJson(CACHE_PATH, { source: "", entries: [] });
+  if (Array.isArray(cached.entries) && cached.entries.length) return [cached.source || CACHE_PATH, cached.entries];
 
   const publicJson = readJson("public/wire.json", { entries: [] });
   if (Array.isArray(publicJson.entries) && publicJson.entries.length) return ["public/wire.json", publicJson.entries];
@@ -111,6 +121,7 @@ function markdown(entries, source) {
 const [source, rawEntries] = loadEntries();
 const entries = rawEntries.map(normalize);
 if (!entries.length) throw new Error("Refusing to build Wire with 0 entries.");
+cacheEntries(source, rawEntries);
 const payload = { generated_at: new Date().toISOString(), source, count: entries.length, entries };
 fs.writeFileSync("public/wire.json", JSON.stringify(payload, null, 2), "utf8");
 fs.writeFileSync("public/wire.html", html(entries, source), "utf8");
