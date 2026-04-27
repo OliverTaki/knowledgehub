@@ -52,17 +52,14 @@ const empty = document.getElementById('empty');
 function esc(value) {
   return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 }
-
-function normalizeUrl(value) {
-  return String(value || '').replace(/\s+/g, '');
-}
+function normalizeUrl(value) { return String(value || '').replace(/\s+/g, ''); }
 
 async function loadEntries() {
-  const response = await fetch('/wire.html?source=legacy-data', { cache: 'no-store' });
+  const response = await fetch('/wire.html?source=legacy-data&t=' + Date.now(), { cache: 'no-store' });
   const html = await response.text();
   const match = html.match(/<script id="wire-data" type="application\/json">([\s\S]*?)<\/script>/);
   if (!match) throw new Error('wire-data block not found');
-  const raw = match[1].trim().replace(/[\r\n\t]+/g, '\\n');
+  const raw = match[1].trim().replace(/[\r\n\t]+/g, '');
   const parsed = JSON.parse(raw);
   entries = parsed.map(entry => ({
     ...entry,
@@ -72,13 +69,11 @@ async function loadEntries() {
     tags: Array.isArray(entry.tags) ? entry.tags : []
   }));
 }
-
 function tagCounts() {
   const counts = new Map();
   entries.forEach(entry => (entry.tags || []).forEach(tag => counts.set(tag, (counts.get(tag) || 0) + 1)));
   return Array.from(counts.entries()).sort((a,b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
-
 function renderFilters() {
   const topTags = tagCounts().slice(0, 48);
   filters.innerHTML = `<button class="filter active" data-tag="all">All</button>` + topTags.map(([tag,count]) => `<button class="filter" data-tag="${esc(tag)}">${esc(tag)} <span class="small">${count}</span></button>`).join('');
@@ -90,7 +85,6 @@ function renderFilters() {
     });
   });
 }
-
 function matches(entry) {
   const q = search.value.trim().toLowerCase();
   const tagOk = activeTag === 'all' || (entry.tags || []).includes(activeTag);
@@ -99,19 +93,11 @@ function matches(entry) {
   const haystack = [entry.title, entry.summary, entry.author, entry.posted, ...(entry.labels || []), ...(entry.tags || [])].join(' ').toLowerCase();
   return haystack.includes(q);
 }
-
 function renderCard(entry) {
   const labels = (entry.labels || []).map(label => `<span class="label">${esc(label)}</span>`).join('');
   const tags = (entry.tags || []).map(tag => `<button class="tag" data-tag="${esc(tag)}">${esc(tag)}</button>`).join('');
-  return `<article class="card">
-    <div class="meta">${labels}<span>Posted ${esc(entry.posted || 'unknown')}</span><span>${esc(entry.author || 'Unknown source')}</span></div>
-    <h2>${esc(entry.title || 'Source note')}</h2>
-    <p class="summary">${esc(entry.summary || 'Source note for later classification.')}</p>
-    <p><a href="${esc(entry.url)}" target="_blank" rel="noopener noreferrer">Source</a></p>
-    <div class="tag-row">${tags}</div>
-  </article>`;
+  return `<article class="card"><div class="meta">${labels}<span>Posted ${esc(entry.posted || 'unknown')}</span><span>${esc(entry.author || 'Unknown source')}</span></div><h2>${esc(entry.title || 'Source note')}</h2><p class="summary">${esc(entry.summary || 'Source note for later classification.')}</p><p><a href="${esc(entry.url)}" target="_blank" rel="noopener noreferrer">Source</a></p><div class="tag-row">${tags}</div></article>`;
 }
-
 function renderFeed() {
   const shown = entries.filter(matches);
   feed.innerHTML = shown.map(renderCard).join('');
@@ -127,13 +113,12 @@ function renderFeed() {
     });
   });
 }
-
 search.addEventListener('input', renderFeed);
-loadEntries()
-  .then(() => { renderFilters(); renderFeed(); })
-  .catch(error => {
-    feed.innerHTML = `<div class="error">Wire data failed to load: ${esc(error.message)}</div>`;
-  });
+loadEntries().then(() => { renderFilters(); renderFeed(); }).catch(error => {
+  visibleCount.textContent = '0';
+  totalCount.textContent = '0';
+  feed.innerHTML = `<div class="error">Wire data failed to load: ${esc(error.message)}</div>`;
+});
 </script>
 </body>
 </html>
