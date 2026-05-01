@@ -74,6 +74,7 @@ const library = {
   ...librarySource,
   items: Array.isArray(librarySource.items) && librarySource.items.length > 0 ? librarySource.items : DEFAULT_LIBRARY_ITEMS
 };
+const tagTaxonomy = readJson("data/tag-taxonomy.json", { tags: [] });
 
 fs.mkdirSync("public", { recursive: true });
 
@@ -480,6 +481,61 @@ writeJson("public/wire.json", {
   entries: publicWireEntries
 });
 writeJson("public/library.json", library);
+writeJson("public/tag-taxonomy.json", tagTaxonomy);
+
+const safeWireMarkdown = [
+  "# Knowledge Hub Wire",
+  "",
+  `Generated: ${new Date().toISOString()}`,
+  "Source: public summary layer",
+  `Count: ${publicWireEntries.length}`,
+  "",
+  "Public summary archive. Full post text is not copied into this file.",
+  "",
+  ...publicWireEntries.map((item) => [
+    `## ${item.author_handle || "Unknown source"} - ${item.id || "untitled"}`,
+    "",
+    `- URL: ${item.url || ""}`,
+    `- Posted: ${item.posted_at || "unknown"}`,
+    `- Collected: ${item.collected_at || "unknown"}`,
+    `- Tags: ${[...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])].filter((tag) => tag && tag !== "unknown").join(", ") || "none"}`,
+    "",
+    item.summary || "Editorial note pending.",
+    ""
+  ].join("\n"))
+].join("\n");
+
+const safeWireNdjson = publicWireEntries
+  .map((item) => JSON.stringify(item))
+  .join("\n");
+
+const tagTaxonomyMarkdown = [
+  "# Knowledge Hub Tag Taxonomy",
+  "",
+  ...(tagTaxonomy.tags || []).map((item) => [
+    `## ${item.tag}`,
+    "",
+    item.definition || "Definition pending.",
+    ""
+  ].join("\n"))
+].join("\n") || "# Knowledge Hub Tag Taxonomy\n\nNo tags defined yet.\n";
+
+fs.writeFileSync(path.join("public", "wire.md"), safeWireMarkdown, "utf8");
+fs.writeFileSync(path.join("public", "wire.ndjson"), safeWireNdjson, "utf8");
+fs.writeFileSync(path.join("public", "tag-taxonomy.md"), tagTaxonomyMarkdown, "utf8");
+fs.writeFileSync(path.join("public", "llms.txt"), [
+  "# Knowledge Hub",
+  "",
+  "Machine-readable resources:",
+  "- /wire.md",
+  "- /wire.json",
+  "- /wire.ndjson",
+  "- /tag-taxonomy.md",
+  "- /tag-taxonomy.json",
+  "- /articles",
+  "- /library",
+  ""
+].join("\n"), "utf8");
 
 console.log(`Built ${siteName} static site into public/.`);
 console.log(`Public Wire entries: ${publicWireEntries.length}`);
