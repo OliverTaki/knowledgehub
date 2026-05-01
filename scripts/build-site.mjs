@@ -152,11 +152,11 @@ function tagList(tags = []) {
 
 function nav(active) {
   const links = [
-    ["/", "Home"],
-    ["/wire", "Wire"],
-    ["/articles", "Articles"],
-    ["/library", "Library"],
-    ["/about.html", "About"]
+    ["index.html", "Home"],
+    ["news.html", "Wire"],
+    ["articles.html", "Articles"],
+    ["offers.html", "Library"],
+    ["about.html", "About"]
   ];
   return links
     .map(([href, label]) => `<a${active === label ? ' class="active"' : ""} href="${href}">${label}</a>`)
@@ -177,13 +177,13 @@ function layout({ title, active, searchId = "", searchPlaceholder = "", body, sc
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/desk.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="desk.css">
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="/"><span class="brand-mark"></span> ${esc(siteName)}</a>
+      <a class="brand" href="index.html"><span class="brand-mark"></span> ${esc(siteName)}</a>
       ${search}
       <div class="topbar-actions">
         <nav class="topnav">
@@ -321,7 +321,7 @@ ${latestLibrary}
       </ul>
     </section>
 
-    <footer class="footer"><p><a href="/wire">Wire</a> is the raw lane. <a href="/articles">Articles</a> is the judged lane. <a href="/library">Library</a> is the reference lane.</p></footer>`
+    <footer class="footer"><p><a href="news.html">Wire</a> is the raw lane. <a href="articles.html">Articles</a> is the judged lane. <a href="offers.html">Library</a> is the reference lane.</p></footer>`
 });
 
 const wireHtml = layout({
@@ -355,7 +355,7 @@ ${publicWireEntries.map(wireItem).join("\n") || "        <li><p>No wire entries 
       </ul>
     </section>
 
-    <footer class="footer"><p><a href="/articles">Articles</a> is where selected wire entries become judged notes. <a href="/library">Library</a> is the durable reference shelf.</p></footer>`,
+    <footer class="footer"><p><a href="articles.html">Articles</a> is where selected wire entries become judged notes. <a href="offers.html">Library</a> is the durable reference shelf.</p></footer>`,
   script: filterScript("wire")
 });
 
@@ -389,7 +389,7 @@ ${ARTICLES.map(articleItem).join("\n")}
       </ul>
     </section>
 
-    <footer class="footer"><p><a href="/wire">Wire</a> keeps the source pool available while this lane develops.</p></footer>`,
+    <footer class="footer"><p><a href="news.html">Wire</a> keeps the source pool available while this lane develops.</p></footer>`,
   script: filterScript("articles")
 });
 
@@ -424,7 +424,7 @@ ${library.items.map(libraryItem).join("\n") || "        <li><p>No library entrie
       </ul>
     </section>
 
-    <footer class="footer"><p><a href="/wire">Wire</a> is the source lane. <a href="/articles">Articles</a> is the judged lane.</p></footer>`,
+    <footer class="footer"><p><a href="news.html">Wire</a> is the source lane. <a href="articles.html">Articles</a> is the judged lane.</p></footer>`,
   script: filterScript("library")
 });
 
@@ -452,9 +452,9 @@ ${statusCards([
     <section class="section">
       <div class="section-head"><h2>Operating model</h2><p>Wire is a first-pass capture lane. Articles and Library are built through follow-up review.</p></div>
       <ul class="compact-list">
-        <li><a href="/wire">Wire</a><p>Original links and public summaries remain visible for later judgement.</p></li>
-        <li><a href="/articles">Articles</a><p>Synthesis notes and judged writing are separated from raw capture.</p></li>
-        <li><a href="/library">Library</a><p>Durable books, films, tools, workflows, tutorials, and references are kept in a flat shelf.</p></li>
+        <li><a href="news.html">Wire</a><p>Original links and public summaries remain visible for later judgement.</p></li>
+        <li><a href="articles.html">Articles</a><p>Synthesis notes and judged writing are separated from raw capture.</p></li>
+        <li><a href="offers.html">Library</a><p>Durable books, films, tools, workflows, tutorials, and references are kept in a flat shelf.</p></li>
       </ul>
     </section>
 
@@ -527,13 +527,13 @@ fs.writeFileSync(path.join("public", "llms.txt"), [
   "# Knowledge Hub",
   "",
   "Machine-readable resources:",
-  "- /wire.md",
-  "- /wire.json",
-  "- /wire.ndjson",
-  "- /tag-taxonomy.md",
-  "- /tag-taxonomy.json",
-  "- /articles",
-  "- /library",
+  "- wire.md",
+  "- wire.json",
+  "- wire.ndjson",
+  "- tag-taxonomy.md",
+  "- tag-taxonomy.json",
+  "- articles.html",
+  "- offers.html",
   ""
 ].join("\n"), "utf8");
 
