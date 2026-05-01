@@ -3,7 +3,7 @@ import path from "node:path";
 import { readJson, writeJson } from "./lib/jsonl.mjs";
 
 const config = readJson("config/site.config.json", { siteName: "Knowledge Hub" });
-const wire = readJson("data/processed/wire.json", { entries: [] });
+const wire = readJson("data/processed/wire.json", readJson("public/wire.json", { entries: [] }));
 const librarySource = readJson("data/processed/library_seed.json", { items: [] });
 const publicWirePolicy = config.publicWire || {};
 const siteName = config.siteName || "Knowledge Hub";
