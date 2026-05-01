@@ -1,6 +1,7 @@
 node_modules/
 playwright-profile/
 debug/
+.cache/
 .DS_Store
 *.log
 
