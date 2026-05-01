@@ -67,6 +67,96 @@ const ARTICLES = [
       "Node graphs are powerful because they expose structure. They are also fragile because structure without memory becomes archaeology.",
       "A serious creative pipeline needs the graph, the note, the source, and the reusable library entry. Without them, the same discoveries are repeatedly made and lost."
     ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "A useful wire is not a feed, it is a staging area",
+    tags: ["wire", "editorial-system", "knowledge-map"],
+    paragraphs: [
+      "A feed is optimized for arrival. A wire is optimized for later judgment. That difference matters because the first pass should not pretend to know what will become useful.",
+      "The job of the wire lane is to preserve a source, attach the minimum useful metadata, and keep enough context for a future article or library entry. It should be fast, flat, and recoverable."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "Rendering notes become valuable when they connect tools to decisions",
+    tags: ["rendering", "materialx", "filament"],
+    paragraphs: [
+      "Material systems, viewport renderers, and look-development tools are often collected as isolated technical bookmarks. They become more useful when they are connected to decisions: what can be previewed, exchanged, trusted, or automated.",
+      "A Knowledge Hub entry should therefore describe not only what a tool is, but where it sits in the chain between asset, material, renderer, review, and final output."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "The library layer should compress repeated curiosity into reusable entries",
+    tags: ["library", "research", "taxonomy"],
+    paragraphs: [
+      "If the same topic appears in wire captures several times, it should stop being rediscovered as a new object each time. That is the signal that a library entry is needed.",
+      "The library layer is not a dumping ground. It is a compression layer: names, aliases, categories, short descriptions, and links that make future writing faster."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "Visual reference is a production asset, not decoration",
+    tags: ["visual-reference", "film", "lookdev"],
+    paragraphs: [
+      "A still, a clip, or a film note is useful when it names a visual behavior: density, texture, distance, contrast, rhythm, surface, framing, or time.",
+      "That makes visual reference part of production memory. It can guide a shader test, a motion study, an edit decision, a lighting pass, or the mood of an interface."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "Local AI belongs in the boring parts of the loop first",
+    tags: ["local-ai", "workflow", "automation"],
+    paragraphs: [
+      "The easiest mistake is to judge local AI only by whether it can produce a complete finished artifact. The more durable use is often smaller: clean, classify, summarize, compare, rename, extract, and route.",
+      "Those tasks are boring in the right way. When they become local and repeatable, the whole knowledge system gets cheaper to maintain."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "A tag is useful only when it changes retrieval",
+    tags: ["taxonomy", "search", "metadata"],
+    paragraphs: [
+      "Tags should not be decorative labels. A tag earns its place when it helps retrieve a set of entries that would otherwise be hard to find.",
+      "That means the taxonomy should stay small at first. The right categories are the ones that create useful work surfaces: tools, workflows, references, visual systems, books, films, and production questions."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "Books and films need the same treatment as tools",
+    tags: ["books", "films", "library"],
+    paragraphs: [
+      "A tool can be evaluated by where it fits in a workflow. A book or film can be evaluated the same way: what habit, concept, image, rhythm, or decision does it make available?",
+      "Putting books, films, tools, and workflow notes in the same hub is not a category mistake. It reflects how creative work actually borrows from everything at once."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "The archive should stay readable before it becomes large",
+    tags: ["archive", "maintenance", "publishing"],
+    paragraphs: [
+      "A knowledge site can grow quickly, but size is not the achievement. The achievement is that a future reader can still scan it, search it, and understand why an entry exists.",
+      "That requires short summaries, stable lanes, conservative navigation, and periodic promotion from wire to article to library."
+    ]
+  },
+  {
+    published_at: "2026-05-02",
+    updated_at: "2026-05-02",
+    title: "A personal magazine can be built from operational notes",
+    tags: ["publishing", "magazine", "knowledge-map"],
+    paragraphs: [
+      "The line between a private research notebook and a public magazine is thinner than it looks. The difference is not the source material. It is the editorial pass.",
+      "When notes are grouped, titled, summarized, and connected to durable references, operational memory becomes readable as a magazine without losing its practical origin."
+    ]
   }
 ];
 
