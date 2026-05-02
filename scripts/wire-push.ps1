@@ -88,6 +88,62 @@ Run-Step "Deploy GitHub Pages branch" {
       Copy-Item -LiteralPath $_.FullName -Destination $deployRoot -Recurse -Force
     }
     New-Item -ItemType File -Path (Join-Path $deployRoot ".nojekyll") -Force | Out-Null
+
+    @'
+{
+  "name": "knowledgehub-static-pages",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build-static-copy.cjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.87.0"
+  }
+}
+'@ | Set-Content -LiteralPath (Join-Path $deployRoot "package.json") -Encoding UTF8
+
+    @'
+const fs = require("node:fs");
+const path = require("node:path");
+
+const root = process.cwd();
+const out = path.join(root, "public");
+const exclude = new Set([
+  ".git",
+  ".cache",
+  "public",
+  "node_modules",
+  "package.json",
+  "package-lock.json",
+  "wrangler.jsonc",
+  "build-static-copy.cjs"
+]);
+
+fs.rmSync(out, { recursive: true, force: true });
+fs.mkdirSync(out, { recursive: true });
+
+for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
+  if (exclude.has(entry.name)) continue;
+  const src = path.join(root, entry.name);
+  const dest = path.join(out, entry.name);
+  fs.cpSync(src, dest, { recursive: true });
+}
+
+console.log("Prepared static GitHub Pages output in public/.");
+'@ | Set-Content -LiteralPath (Join-Path $deployRoot "build-static-copy.cjs") -Encoding UTF8
+
+    @'
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "knowledgehub",
+  "compatibility_date": "2026-05-02",
+  "assets": {
+    "directory": "./public"
+  }
+}
+'@ | Set-Content -LiteralPath (Join-Path $deployRoot "wrangler.jsonc") -Encoding UTF8
+
     git add -A
     if (git diff --cached --quiet) {
       Write-Host "No GitHub Pages changes."
