@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T15:56:54.896Z",
+  "generated_at": "2026-05-02T00:02:27.429Z",
   "policy": {
     "full_text_copied": false,
     "original_link_required": true,
@@ -22,7 +22,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source Whisper transcription workflow",
+      "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -47,7 +48,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "MaterialX and Filament rendering compatibility note",
+      "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -72,7 +74,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -97,7 +100,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Literary reference note on Dazai and Gomi",
+      "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -122,7 +126,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Literary reference note on Dazai and Gomi",
+      "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -147,7 +152,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Mathematics visual reference: tesseract projection",
+      "summary": "A geometric visual-reference item around higher-dimensional projection, useful for motion studies and abstract visual systems.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -172,7 +178,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "OCR model benchmark and layout extraction note",
+      "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -197,7 +204,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -222,7 +230,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Tarkovsky Polaroid visual reference",
+      "summary": "A film and image-reference entry for studying atmosphere, texture, framing, and unresolved visual density.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -247,7 +256,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Animation and music reference: Night on Bald Mountain",
+      "summary": "A visual and music reference for studying ominous staging, character animation, and dense atmospheric detail.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -272,7 +282,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -297,7 +308,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film reference note on Possession",
+      "summary": "A film-reference item about why some works resist remake logic because their form is tied to lived trauma and performance intensity.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -322,7 +334,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -347,7 +360,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -372,7 +386,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -397,7 +412,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -422,7 +438,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -447,7 +464,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @TheCinesthetic: cinesthetic. 1937年の『死の街（デッド・エンド）』の驚くべきオープニング・ショットは、ミニチュア効果、フォースド・パースペクティ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -472,7 +490,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -497,7 +516,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @CompAcademyVFX: (Alex) Compositing Academy Nuke向けにDaVinci Resolveにインスパイアされたカラー・クオリファイアを作...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -522,7 +542,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -547,7 +568,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -572,7 +594,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @habibkun9: habib kun リトル・ニモのパイロット版からの衝撃的なシーン",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -597,7 +620,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -622,7 +646,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -647,7 +672,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @mochisw: もっつぃ insta360の公式から3DGSが紹介された フォロワー8万人のうちどれだけの人に響くのかが気になる 引用 Insta360 時間を...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -672,7 +698,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -697,7 +724,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @eternalfamilytv: Eternal Family 赤ずきん (1962, 1時間10分) 北米のファミリーメンバー向けに http:// Eternal.tv",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -722,7 +750,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @tranmautritam: Tran Mau Tri Tam ✪ URLを貼り付けろ。デザインを手に入れろ。md Hyperbrowser",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -747,7 +776,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -772,7 +802,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @bilawalsidhu: Bilawal Sidhu わかった、360度ドローンを買うよ - これらのものは、完璧な3Dガウススプラットを作るための驚くべきセンサー収集装...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -797,7 +828,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @vashikoo: Vashi Nedomansky, ACE ブライアン・デ・パルマは、他の誰とも違う方法でカメラを動かします",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -822,7 +854,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @hectorvelazhv: Héctor Velázquez このアプリ、めっちゃすごいよ：自分の街の通りを印刷して、信じられないデザインができるんだ。みんなにおすすめ：...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -847,7 +880,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ihtesham2005: Ihtesham Ali AdobeはIllustratorを年間250ドルで提供しています。 誰かが同じものを無料で作りました。ブラウザ上で動...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -872,7 +906,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -897,7 +932,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -922,7 +958,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @KIRI_Engine_App: KIRI Engine - 3D Scanner App NetflixのEyeline LabsがCVPR 2026でVista4Dを発表しま...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -947,7 +984,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @imPatrickT: patrick. 2025年9月20日 私はデヴィッド・フィンチャーのすべての偽物のレンズフレアを編集してまとめました",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -972,7 +1010,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ronniedelcarmen: Ronnie del Carmen プロダクションデザイナーのディーン・タヴラリス93歳が亡くなりました。フランシス・フォード・コッポラとの長年...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -997,7 +1036,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @isaaccorley_: Isaac Corley 歴史上初めて、農業分野の境界がグローバル規模で地図化されました。 Taylor Geospatialを通じて、Fiel...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1022,7 +1062,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1047,7 +1088,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1072,7 +1114,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @theCGchannel: CG Channel #OctaneRender 2026.3 がリリースされました GPU レンダラーへの最新アップデートをチェックしてくださ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1097,7 +1140,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1122,7 +1166,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1147,7 +1192,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "OCR model benchmark and layout extraction note",
+      "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1172,7 +1218,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1197,7 +1244,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @nomad_suzuki: 鈴木直樹/LED TOKYO代表 自分の影が出現し、物語に参加する Linus ✦ Ekenstam",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1222,7 +1270,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ntv_rd: 日テレR&Dラボ ウネウネと有機的に動く金属の新素材FLUX METALを用いたやばいテーブル「FLUX TABLE」。ミラノデザインウィーク初...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1247,7 +1296,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1272,7 +1322,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1297,7 +1348,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1322,7 +1374,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @rigsters: Rigsters ガウススプラッティングは、着実にeコマースに浸透しつつあります。 トリッキーな商品のキャプチャに最適な代替手段で、多くのユース...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1347,7 +1400,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1372,7 +1426,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1397,7 +1452,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1422,7 +1478,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1447,7 +1504,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1472,7 +1530,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Mathematics visual reference: tesseract projection",
+      "summary": "A geometric visual-reference item around higher-dimensional projection, useful for motion studies and abstract visual systems.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1497,7 +1556,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ClaudeDevs: ClaudeDevs Claude Codeの新機能：/ultrareview（研究プレビュー）がクラウド上でバグ探しのエージェント群を実行しま...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1522,7 +1582,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1547,7 +1608,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @MattNiessner: Matthias Niessner Face Anything: 任意の画像シーケンスからの4D顔再構築 4D顔再構築と高密度トラッキングのため...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1572,7 +1634,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1597,7 +1660,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1622,7 +1686,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1647,7 +1712,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1672,7 +1738,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1697,7 +1764,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1722,7 +1790,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "OCR model benchmark and layout extraction note",
+      "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1747,7 +1816,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1772,7 +1842,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1797,7 +1868,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1822,7 +1894,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1847,7 +1920,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1872,7 +1946,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @jeomjeom236763: 무적의 디자이너 폐급취준생 45カ国以上のデザイナーたちが作った約12,000個のタイポポスターを集めて見ることができるサイトを見つけました！...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1897,7 +1972,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1922,7 +1998,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @gaborpribek: Gábor Pribék Depth Anything V2 はリアルタイム3Dの完全な怪物だ。 シングルカメラフィードから30fps以上の深度...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1947,7 +2024,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1972,7 +2050,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @odysseyml: Odyssey 言語モデルを超える時が来ました。 Odyssey-2 Max をご紹介します。私たちがこれまでに開発した最も強力な世界モデルです...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -1997,7 +2076,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2022,7 +2102,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @andybroncek: Andy Broncek Three.jsのすべての宝石が完全なウェブサイトであるわけではありません。 http:// mesh3d.galle...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2047,7 +2128,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @maxima_hikky: Susuki Karma Renderの学習にとてもよい講座 hipファイルがあるから直ぐ試せる https:// sidefx.com/tut...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2072,7 +2154,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @yasinaktimur: Rich kids of claude 速報：あるユーザーがGPT 5.5を使ってBlenderをトレーニング上で動作するように完全に書き直しま...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2097,7 +2180,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2122,7 +2206,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @wolfstudioart: Wolf 毎週リリースしている無料の #blender チュートリアルシリーズを楽しんでいますか？",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2147,7 +2232,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @outsource_: Eric Building... GEMMA 4 E4B が完全に破壊された が gemma-4-E4B-it-OBLITERATED を公開...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2172,7 +2258,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2197,7 +2284,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2222,7 +2310,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @NyogSothep0: N'yog Sothep There.js におけるリアルタイム スモーク ソルバー v2.0、GTX 1050 Ti で 60FPS #thr...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2247,7 +2336,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @CharlesMullins2: TheNewPhysics 速報：科学者たちがプラスチックに分光器のように光を分解する方法を教えた。 もう一度読んでみて。 研究者たちは、熱可塑...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2272,7 +2362,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2297,7 +2388,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2322,7 +2414,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2347,7 +2440,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2372,7 +2466,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source Whisper transcription workflow",
+      "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2397,7 +2492,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2422,7 +2518,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @nibsakat: 丹生坂つかさ 自作化粧箱を量産するとき、折り目をいちいちエンボッサーでなぞっていたのだけどとても効率が悪いうえに指が痛かったので紙用ベンダーを試...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2447,7 +2544,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @H_Y_per: 堀江優太",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2472,7 +2570,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2497,7 +2596,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2522,7 +2622,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2547,7 +2648,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @CloA_Planetaria: CloA キー2つだけでテキストモーションが出来るシステムを作って使ってます GlyphGlideのBlender版的なので、大量のテキストも軽...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2572,7 +2674,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2597,7 +2700,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ErickSky: Erick Olvídate de arquitectos, licencias y meses de espera. Esta IA te h...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2622,7 +2726,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2647,7 +2752,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source Whisper transcription workflow",
+      "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2672,7 +2778,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2697,7 +2804,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @CyberPunkCortes: Hernan Cortes ハンガリーの傑作、「Heroic Times」。各フレームがガラスに油彩で描かれました",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2722,7 +2830,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2747,7 +2856,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @FaruqTawsif: Omar Faruq Tawsif The tutorial used a very simplistic art style. But you...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2772,7 +2882,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2797,7 +2908,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2822,7 +2934,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2847,7 +2960,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2872,7 +2986,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ani_obsessive: Animation Obsessive Visual development art by Tadahiro Uesugi for Carole...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2897,7 +3012,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2922,7 +3038,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2947,7 +3064,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Criterion: Criterion Collection 今晩の鑑賞におすすめは？5月までに@CriterionChnlから去る前に、絶対に見逃せないのは『アギ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2972,7 +3090,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -2997,7 +3116,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3022,7 +3142,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @phoshiaki: ドラヨス@ワンソクTube クルマ買う系YouTuber 去年高知県行った時に行っておけば良かった…。 引用 ワンダーJAPON編集部公式 しつ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3047,7 +3168,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Mathematics visual reference: tesseract projection",
+      "summary": "A geometric visual-reference item around higher-dimensional projection, useful for motion studies and abstract visual systems.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3072,7 +3194,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3097,7 +3220,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Literary reference note on Dazai and Gomi",
+      "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3122,7 +3246,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @gleb_alexandrov: Gleb Alexandrov もしCrimson Desertのあの3Dデプスのトリックについてもっと知りたいなら、ここに記事があります。 引...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3147,7 +3272,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @elder_plinius: Pliny the Liberator 󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭 なんてこった…誰かが完全に解放されたGemma 4 E...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3172,7 +3298,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3197,7 +3324,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3222,7 +3350,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3247,7 +3376,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3272,7 +3402,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @CDReferences: Character Design References ネオ東京 (1987) #animationclips #sakuga #animati...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3297,7 +3428,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3322,7 +3454,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3347,7 +3480,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @colditioner: ✧˖ もしウォン・カーウァイがロマンチックな切なさの巨匠なら、侯孝賢は実存的な溜息の巨匠である。80年代の最も貴重な隠れた宝石の一つ",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3372,7 +3506,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3397,7 +3532,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3422,7 +3558,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3447,7 +3584,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3472,7 +3610,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3497,7 +3636,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @syuheiinoue: Syuheiinoue ハッセルデジで撮影したRAWのトーンカーブを反転させて擬似的なネガを作り、Negative Lab Proで再反転させて...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3522,7 +3662,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3547,7 +3688,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @itsukiari: Ari 試してみたらトンデモ良すぎてひっくり返りました。 Syuさん何を食べたらこんなこと思い付くんですか... 引用 Syuheiinoue...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3572,7 +3714,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3597,7 +3740,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @RadianceFields: Radiance Fields NVIDIAは、World LabsがSpark 2.0をリリースしたわずか1日後に、コード付きでLyra 2...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3622,7 +3766,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3647,7 +3792,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3672,7 +3818,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3697,7 +3844,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @franch_laura: laura franch 今日、独自の視点を持つフランス人画家、セドリック・トゥーヴネルを発見しました。 彼の作品では、足のしっかりとした構え...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3722,7 +3870,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3747,7 +3896,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3772,7 +3922,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3797,7 +3948,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3822,7 +3974,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3847,7 +4000,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3872,7 +4026,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3897,7 +4052,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3922,7 +4078,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3947,7 +4104,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3972,7 +4130,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @elonmusk: Elon Musk 真の通貨とは、揺るぎない友情である",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -3997,7 +4156,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4022,7 +4182,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4047,7 +4208,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4072,7 +4234,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4097,7 +4260,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4122,7 +4286,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4147,7 +4312,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4172,7 +4338,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4197,7 +4364,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4222,7 +4390,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4247,7 +4416,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @franch_laura: laura franch 今日、アリカンテ出身のアーティスト、グイジェルモ・アリアスの輝く地中海的な視線を発見しました。気に入りました！ 興味が...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4272,7 +4442,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4297,7 +4468,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4322,7 +4494,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4347,7 +4520,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4372,7 +4546,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @FedeItaliano76: Federico Italiano さん 『サマリスの城壁』（1984年）のサマリスの街はパネルでできており、したがって、二次元の空間を3次元空...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4397,7 +4572,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4422,7 +4598,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @kuxshl: kushal しばらくこんな洗練された作品を見ていなかった。芸術だ。 Ruben Hume",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4447,7 +4624,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4472,7 +4650,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4497,7 +4676,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4522,7 +4702,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Teknium: Teknium 素晴らしい記事！ 引用 blocmates. 記事 What Hermes Agent Can Do for You (And...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4547,7 +4728,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4572,7 +4754,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4597,7 +4780,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4622,7 +4806,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4647,7 +4832,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4672,7 +4858,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4697,7 +4884,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4722,7 +4910,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @JesseMiettinen: Miettinen Jesse - Blenderesse ワイヤーが衝突判定の愛を受けている。猫線（catenary）の前にレイキャスティング...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4747,7 +4936,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ATRightMovies: All The Right Movies The COEN BROTHERS talk about the importance of stor...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4772,7 +4962,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "MaterialX and Filament rendering compatibility note",
+      "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4797,7 +4988,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4822,7 +5014,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4847,7 +5040,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4872,7 +5066,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4897,7 +5092,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4922,7 +5118,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4947,7 +5144,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4972,7 +5170,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @sutoroveli_news: NEW【テクノロジーニュース】 【速報】プロペラではなく回転するシリンダーで飛ぶ全く新しい仕組みの航空機が世界で初めて飛んだ。CycloTech...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -4997,7 +5196,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5022,7 +5222,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @heygurisingh: Guri Singh なんてこった… Addy Osmani が今、Vibe Coders が頭がおかしくなるようなものをドロップした。 それが...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5047,7 +5248,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5072,7 +5274,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5097,7 +5300,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5122,7 +5326,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Trinumedia: Trinumedia Blender 5のデモからRaycastのラインを抜き出してみましたが、言わずにはいられません… これ、めっちゃ役に立ち...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5147,7 +5352,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5172,7 +5378,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5197,7 +5404,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @neomechanica: NEOMECHANICA",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5222,7 +5430,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5247,7 +5456,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @eternalfamilytv: Eternal Family 洪水 (1986, 10分) 北米のファミリーメンバー向けに http:// Eternal.tv およびアプリで...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5272,7 +5482,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @JesseMiettinen: Miettinen Jesse - Blenderesse Inspired by assets for Road to Vostok, tes...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5297,7 +5508,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "OCR model benchmark and layout extraction note",
+      "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5322,7 +5534,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @antoniolupetti: Antonio Lupetti これは Algebrica です。私が 2.5 年かけて構築してきた数学の知識ベースです。 215 以上のエント...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5347,7 +5560,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @TheCinesthetic: cinesthetic. Timothée Chalamet: Do you find with actors sometimes that y...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5372,7 +5586,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5397,7 +5612,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @mdancho84: Matt Dancho (Business Science) BREAKING: IBM launches a free Python libr...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5422,7 +5638,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5447,7 +5664,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @tsuchinao83: 土屋尚史 / Goodpatch これは近年の中では最高のCMだな。 心を揺さぶられた マクドナルド",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5472,7 +5690,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5497,7 +5716,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @willeastcott: Will Eastcott “Gaussian splats fall apart when you zoom in.” Meanwhile...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5522,7 +5742,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5547,7 +5768,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5572,7 +5794,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5597,7 +5820,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5622,7 +5846,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5647,7 +5872,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5672,7 +5898,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5697,7 +5924,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5722,7 +5950,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5747,7 +5976,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @milbon_: みるぼん@スモビジ Claude CodeでX運用が劇的に変わる！X公式MCP「xmcp」が登場 ・X公式がMCPサーバー「xmcp」をGitH...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5772,7 +6002,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @jonoringer: Jon Oringer これはすごい： が今日、MCP サーバーをリリースしました。。 に X を接続する方法： **ステップ 1: XMCP...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5797,7 +6028,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5822,7 +6054,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5847,7 +6080,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @eternalfamilytv: Eternal Family レイオフのクラブ (1989, 24分) http:// Eternal.tv およびアプリでファミリーメンバー向...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5872,7 +6106,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5897,7 +6132,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @toonup2: uptoon(정보계정) ㅤ 角度別に人の・動物の顔を素早く参考にするのに便利なサイトです。 欲しい顔の画像を素早く見つけられます。 リンクはリ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5922,7 +6158,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5947,7 +6184,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5972,7 +6210,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -5997,7 +6236,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6022,7 +6262,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @HebertySales: HebertySales このブラシたち、めっちゃヤバい！！",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6047,7 +6288,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6072,7 +6314,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @attentionmech: attentionmech ヒルベルトとエピサイクル",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6097,7 +6340,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6122,7 +6366,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6147,7 +6392,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @hyoroWien: Hyoro＠ウィーン クリムトが毎年夏を過ごしたアッター湖の近くの湿地帯にハイキングに行ったら、クリムトハイキングコースの案内板があって、この何...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6172,7 +6418,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6197,7 +6444,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6222,7 +6470,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6247,7 +6496,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6272,7 +6522,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @3DxDEV7: 3DxDEV Blender用の無料クラウドシェーダー がクラウドシェーダーを無料でリリースしました。 今もGumroadで入手可能 — 愛を込...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6297,7 +6548,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6322,7 +6574,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @wow_tokyo: WOW inc. 国土交通省が推進する「PLATEAU」を活用した映像制作の技術チュートリアル第3弾として、WOWは広島市の3D都市モデルを用い...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6347,7 +6600,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6372,7 +6626,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6397,7 +6652,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6422,7 +6678,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @catsuka: Catsuka Someone rang the doorbell Animation by Julia Mucuta ( https:// i...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6447,7 +6704,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @nam_mac: nam mac SLUMLORDZ !! ☻☻☻ たぶん来週のいつか、最初のEPをYouTubeにアップすると思うよ >;3",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6472,7 +6730,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6497,7 +6756,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Botan_cr: Crunio",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6522,7 +6782,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6547,7 +6808,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6572,7 +6834,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @brivael: Brivael Xがイーロン・マスクによって構築されているものを、私たちは十分に測れていないと思う。 歴史上のすべてのメディアは、文化と言語、地...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6597,7 +6860,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @jtydhr88: jtydhr88 ブラウザ内で動作するBlender。 次に、それをComfyUIに移動する",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6622,7 +6886,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6647,7 +6912,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Fansdepantallas: Fansdepantallas さん ブラックバード (Apple TV+) 囚人が、連続殺人犯と友達になり、その男から遺体の場所を聞き出そうと...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6672,7 +6938,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6697,7 +6964,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @outsource_: Eric Building... みんなが待ち望んでいたGEMMA 4のジェイルブレイクがまさに今公開された Gemma-4-31Bは今や完全に...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6722,7 +6990,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6747,7 +7016,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @M80L92: معلومة",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6772,7 +7042,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6797,7 +7068,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6822,7 +7094,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6847,7 +7120,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6872,7 +7146,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6897,7 +7172,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6922,7 +7198,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @MattWallace888: Matt Wallace 彼女の彼女のお尻を定期的に叩くと、お互いの寿命を最大10年延ばすことができる",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6947,7 +7224,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source Whisper transcription workflow",
+      "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6972,7 +7250,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @yuriwidow: marie 私が好きな漫画、みんなに読んでほしいと思うもの",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -6997,7 +7276,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @RadianceFields: Radiance Fields World Labs が、Marble の最新モデル、Marble 1.1 をちょうどリリースしました",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7022,7 +7302,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7047,7 +7328,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7072,7 +7354,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @papierlilies: Cristian The danger and anxiety of youth contrast with the calm contempl...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7097,7 +7380,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7122,7 +7406,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7147,7 +7432,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @historydefined: History Defined エイリアン (1979) - 珍しい舞台裏映像",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7172,7 +7458,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7197,7 +7484,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7222,7 +7510,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7247,7 +7536,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @TheCinesthetic: cinesthetic. ユートピア（イギリス、2013–2014）は、人口抑制の陰謀に関連したコミック原稿から始まり、そのために人々が狩られる...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7272,7 +7562,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @kambyyy: Kamby ただ信じられないほど素晴らしい。絶対に見る価値あり。 引用 SciFiFantasyHorror トム・ヒックスによるこれらの輝かし...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7297,7 +7588,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "MaterialX and Filament rendering compatibility note",
+      "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7322,7 +7614,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7347,7 +7640,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @masayasan201911: ูุุุุุุุุุุุุุุุุุุ𐬯𐬀𐬠𐬀𐬔𐬎𐬠𐬛 𐬰𐬀𐬥𐬌𐬐𐬀 二週間ほど前にマリのベルベル系遊牧民族トゥアレ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7372,7 +7666,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7397,7 +7692,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7422,7 +7718,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Jman19931: JM93 I forgot how good Krull is. I also didn't know it was from the same...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7447,7 +7744,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7472,7 +7770,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7497,7 +7796,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @The_Sycomore: Sycomore 決して廃船には入るな Sycomore",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7522,7 +7822,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7547,7 +7848,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @kijyoumusic: おとですく(OTODESK)@ableton やっぱりabletonだよね ついに完成！！ リリースしました。 あんまり宣伝するつもりはありませ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7572,7 +7874,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7597,7 +7900,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @baptistevercier: Baptiste ✦ 向けの最新プロジェクトの内訳はこちらです #b3d で制作しました",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7622,7 +7926,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7647,7 +7952,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @AhmedShahnab: SHAHNAB AHMED もし実際の街路を使ってどんな画像でも描けたらどうでしょう？ 最新の実験：どんな写真でもアップロード → アプリがその...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7672,7 +7978,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Sajeel_Purewal: Sajeel Purewal Amazonは1億台以上のKindleを販売していますが、ほとんどの人がそれらがどれほど簡単に作れるか気づいていな...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7697,7 +8004,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7722,7 +8030,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7747,7 +8056,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7772,7 +8082,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7797,7 +8108,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7822,7 +8134,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source Whisper transcription workflow",
+      "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7847,7 +8160,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @tourmalinism: トルマリン / Tourmaline CavalryのMagic Easingをまとめてみました。 #cavalryapp",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7872,7 +8186,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "MaterialX and Filament rendering compatibility note",
+      "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7897,7 +8212,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7922,7 +8238,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7947,7 +8264,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @vashikoo: Vashi Nedomansky, ACE インディ・ジョーンズ／レイダース 失われたアーク《聖櫃》 スピルバーグの5つの最も長いショット： •...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7972,7 +8290,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -7997,7 +8316,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @picapixels: 㠶足タケヒコ なんか天才さを感じる。 のInstagram投稿をチェック https:// instagram.com/reel/DXuSuTp...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8022,7 +8342,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8047,7 +8368,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Open-source AI voice tool note",
+      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8072,7 +8394,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8097,7 +8420,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8122,7 +8446,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @zeke: Zeke Sikelianos エージェントスキルとして、スイス・インターナショナル・スタイルのデザインシステムを作成しました。 npx ski...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8147,7 +8472,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @TencentHunyuan: Tencent Hy GIF",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8172,7 +8498,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8197,7 +8524,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @GithubProjects: GitHub Projects Community グリーンスクリーンキーイング、ピクセルレベルで解決。 Corridorのニューラルキーアーは...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8222,7 +8550,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8247,7 +8576,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @kajikent: 梶谷健人 ダンス周りはあまり詳しくなく、これが Damien Jalet という伝説的な振付家によるものだということを後から知った。 去年末にや...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8272,7 +8602,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8297,7 +8628,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8322,7 +8654,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8347,7 +8680,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8372,7 +8706,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8397,7 +8732,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @3DxDEV7: 3DxDEV このアニメスタイルのBlenderエフェクトは、めちゃくちゃインスピレーションを与えてくれます。 金沢 浩（Hiroshi Kan...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8422,7 +8758,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8447,7 +8784,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @franch_laura: laura franch トレイシー・ポーター（シカゴ、1961）の作品に宿る色彩と喜びの爆発が大好きです！ 皆さんに、彼女のボヘミアンで光に満...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8472,7 +8810,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI video reference: Midjourney and Seedance experiment",
+      "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8497,7 +8836,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8522,7 +8862,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8547,7 +8888,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @JulianGoldieSEO: Julian Goldie SEO NEW Hermes デスクトップアプリがヤバすぎる（無料）！",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8572,7 +8914,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8597,7 +8940,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8622,7 +8966,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8647,7 +8992,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8672,7 +9018,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @parazar: Joseph Azar の好きなところは、反復作業がたった一つのプロンプトで済むこと。コード不要。セットアップ不要。欲しいものを説明するだけで...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8697,7 +9044,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ani_obsessive: Animation Obsessive From: Franz Kafka's A Country Doctor (2007), dir. Ko...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8722,7 +9070,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8747,7 +9096,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8772,7 +9122,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8797,7 +9148,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8822,7 +9174,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @moonlightsmedia: Moonlight’s Media Bad (1987)",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8847,7 +9200,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8872,7 +9226,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8897,7 +9252,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @LadyCitizen69: Jun Fukunaga fka LC Lady GagaとDoechiiのプラダを着た悪魔2からの新曲Runway、めちゃハウシーで俺好み o",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8922,7 +9278,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8947,7 +9304,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @LadyCitizen69: Jun Fukunaga fka LC balmingtiger新曲「집으로 (Home)」、鬼ディスコダブ通過ガレージロックでドチャクソシビレ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8972,7 +9330,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @LadyCitizen69: Jun Fukunaga fka LC Yung LeanとGENER8ION（Surkin）のSTORMのMV、話題になってるけど良いですね...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -8997,7 +9356,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @cg_geeks: CG GEEKS@CGニュースサイト ワンクリックで街を無人に！！車や人を自動で消し去ってくれるAEプラグイン「Superpose」が凄く凄い！...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9022,7 +9382,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @retroscifiart: SciFi Art 『エイリアン』（1979年）の見事な雰囲気を醸し出すオープニング・シーケンス",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9047,7 +9408,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9072,7 +9434,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9097,7 +9460,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @ukyo_vfx: うきょう研究所 VFXボールを自作しました 材料は全てAmazonで購入できます。 カラーキャリブレーションで、ほぼ正確な18%グレーになってい...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9122,7 +9486,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9147,7 +9512,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @m_xrstudio: M-XR Image-To-Material (I2M) のご紹介 M-XR の基盤となる PBR モデルで、あらゆる 3D アセットに PBR...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9172,7 +9538,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9197,7 +9564,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @vashikoo: Vashi Nedomansky, ACE インサイド・マン (2006) DP マシュー・リバティークは、35mm コダック エクタクローム...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9222,7 +9590,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9247,7 +9616,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @sbr_m: 松倉 早星＠領域横断型プランナー ワンショットでこんな見入るのすごいな 梶谷健人",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9272,7 +9642,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @vashikoo: Vashi Nedomansky, ACE イタリアン・ジョブ (1969) インディ・ジョーンズ三部作の撮影に取りかかる前に、撮影監督ダグラス...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9297,7 +9668,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9322,7 +9694,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9347,7 +9720,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9372,7 +9746,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9397,7 +9772,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @DannyDrinksWine: DepressedBergman フェデリコ・フェリーニがジュゼッペ・トルナトーレの『ニュー・シネマ・パラダイス』（1988年）について：",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9422,7 +9798,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9447,7 +9824,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9472,7 +9850,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9497,7 +9876,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9522,7 +9902,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @supezen: ZEN みなさん、こんにちは！どんなソーシャルメディアや検索エンジンでも検索できる WebSearch スキルが登場しました！ - ローカルで動...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9547,7 +9928,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @sobsin: 祖父江 慎（そぶえ しん） 2011年12月11日 【ヤングデザイナーさんへ】ビジュアルに意味を持たせる必要なんてないのじゃ〜。形が立ちあがる喜...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9572,7 +9954,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9597,7 +9980,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @___walkalone: 𝗂𝗍𝗈𝗁 jsで3D的な座標を配置してるわけではなくCSSの三角関数で配置してるので、値の更新はあくまで大きな箱の要素だけ、かつGSAP...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9622,7 +10006,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9647,7 +10032,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @dangreenheck: Dan Greenheck 十数回の試行錯誤の末、ついに波の頂の適切な見た目の泡／渦を出す方法が分かったと思います！",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9672,7 +10058,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @DanyBittel: Dany Bittel 私の最新のガウススプラット、オーキッドの花（サイズ約45mm）。#3dgs",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9697,7 +10084,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9722,7 +10110,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "MaterialX and Filament rendering compatibility note",
+      "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9747,7 +10136,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9772,7 +10162,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Book and essay reference for later review",
+      "summary": "A reading-list Wire item that may become a library entry after source checking and short annotation.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9797,7 +10188,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @vfxhoshi: Mihiro Hoshi Wip #3dsmax #vray #forestpack #nuke",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
@@ -9822,7 +10214,8 @@
         "unknown"
       ],
       "tags": [],
-      "summary": "Editorial note pending. Follow the source link for the original post.",
+      "title": "Source note from @Okinfografia: Carolina Jiménez G. 視覚効果における「plate」とは何か、ってことですか？それを視覚的に説明するために、この短いビデオを作...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
       "library_refs": [],
       "article_refs": [],
       "display": {
