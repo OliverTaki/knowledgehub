@@ -505,13 +505,14 @@ function libraryItem(item) {
 }
 
 function articleItem(article) {
+  const summary = article.paragraphs.find((paragraph) => paragraph && paragraph.trim()) || "Article note pending.";
   const search = searchText([article.title, article.published_at, article.updated_at, article.source_file, article.source_url, ...article.tags, ...article.paragraphs]);
   const href = article.detail_url || article.source_url || "#";
   return `        <li data-search="${search}">
           <a href="${esc(href)}">${esc(article.title)}</a>
           <p class="entry-meta">Published ${esc(article.published_at)} - Updated ${esc(article.updated_at)}</p>
-          ${article.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n          ")}
-          <div class="tag-row">${tagList(article.tags)}</div>
+          <p>${esc(summary.length > 280 ? `${summary.slice(0, 277)}...` : summary)}</p>
+          ${article.tags?.length ? `<div class="tag-row">${tagList(article.tags)}</div>` : ""}
         </li>`;
 }
 

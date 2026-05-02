@@ -122,6 +122,9 @@ if (!fs.existsSync(bloggerDir)) {
 const files = fs.readdirSync(bloggerDir)
   .filter((file) => file.endsWith(".html"))
   .sort((a, b) => a.localeCompare(b));
+const jsonFiles = fs.readdirSync(bloggerDir)
+  .filter((file) => file.endsWith(".json"))
+  .sort((a, b) => a.localeCompare(b));
 
 const notes = files.map((file) => {
   const fullPath = path.join(bloggerDir, file);
@@ -148,6 +151,75 @@ const notes = files.map((file) => {
   };
 });
 
+const notesBySourceFile = new Map(notes.map((note) => [note.source_file.replaceAll("/", "\\"), note]));
+const wireMap = new Map();
+
+function normalizeSourceFile(value = "") {
+  return String(value).replaceAll("/", "\\").replace(/^.*?05_drafts\\blogger\\/i, "AI_Blog_Editorial_Shared\\05_drafts\\blogger\\");
+}
+
+function collectManifestRows(value) {
+  if (Array.isArray(value)) return value;
+  if (!value || typeof value !== "object") return [];
+  return Object.values(value).flatMap((item) => Array.isArray(item) ? item : []);
+}
+
+function statusIdFromUrl(url = "") {
+  return String(url).match(/status\/(\d+)/)?.[1] || "";
+}
+
+for (const jsonFile of jsonFiles) {
+  const fullPath = path.join(bloggerDir, jsonFile);
+  let rows = [];
+  try {
+    rows = collectManifestRows(JSON.parse(fs.readFileSync(fullPath, "utf8")));
+  } catch {
+    continue;
+  }
+
+  for (const row of rows) {
+    if (!row || typeof row !== "object") continue;
+    const rawSourceFile = row.source_file || row.file || "";
+    const sourceFile = rawSourceFile ? normalizeSourceFile(rawSourceFile) : "";
+    const note = sourceFile ? notesBySourceFile.get(sourceFile) : null;
+    const sourceUrl = normalizeSourceUrl(row.source_url || row.url || note?.source_url || "");
+    if (!sourceUrl || !/x\.com\/|twitter\.com\//.test(sourceUrl)) continue;
+
+    const key = statusIdFromUrl(sourceUrl) || sourceUrl;
+    const title = row.title || note?.title || key;
+    const labels = Array.isArray(row.labels) ? row.labels : [];
+    const points = note?.post_points || [];
+    const summary = points[0] || `Legacy Blogger manifest entry imported from ${jsonFile}.`;
+
+    wireMap.set(key, {
+      id: `legacy_blogger_${key.replace(/[^a-zA-Z0-9]+/g, "_")}`,
+      source: "legacy_blogger_manifest",
+      manifest_file: `AI_Blog_Editorial_Shared/05_drafts/blogger/${jsonFile}`,
+      source_file: sourceFile || note?.source_file || "",
+      url: sourceUrl,
+      original_url: sourceUrl,
+      title,
+      summary,
+      public_summary: summary,
+      author_handle: "",
+      posted_at: "",
+      collected_at: new Date().toISOString(),
+      post_kind: "legacy_blogger",
+      content_kinds: ["reference"],
+      domains: ["legacy-blogger"],
+      tags: [...new Set(["wire", "legacy-blogger", "source-note", ...(note?.tags || []), ...labels])],
+      labels,
+      article_refs: note ? [`articles/${note.slug}.html`] : [],
+      library_refs: [],
+      display: {
+        original_link_required: true,
+        full_text_copied: false,
+        embed_allowed: false
+      }
+    });
+  }
+}
+
 writeJson("data/legacy-blogger-source-notes.json", {
   generated_at: new Date().toISOString(),
   source_root: legacyRoot,
@@ -159,4 +231,17 @@ writeJson("data/legacy-blogger-source-notes.json", {
   notes
 });
 
+writeJson("data/legacy-blogger-wire.json", {
+  generated_at: new Date().toISOString(),
+  source_root: legacyRoot,
+  count: wireMap.size,
+  policy: {
+    full_text_copied: false,
+    original_link_required: true,
+    note: "Wire entries generated from legacy Blogger JSON manifests and enriched with extracted source-note points."
+  },
+  entries: [...wireMap.values()]
+});
+
 console.log(`Imported ${notes.length} legacy Blogger source notes.`);
+console.log(`Imported ${wireMap.size} legacy Blogger wire entries.`);

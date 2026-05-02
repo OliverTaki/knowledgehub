@@ -1,6 +1,7 @@
-import { readJsonl, writeJson } from "./lib/jsonl.mjs";
+import { readJson, readJsonl, writeJson } from "./lib/jsonl.mjs";
 
 const raw = readJsonl("data/raw/x_likes.jsonl");
+const legacyBloggerWire = readJson("data/legacy-blogger-wire.json", { entries: [] });
 
 function cleanWireText(item) {
   const handle = item.author_handle || "";
@@ -192,7 +193,7 @@ function classifyWireEntry(item, inferred) {
   };
 }
 
-const entries = raw.map((item) => {
+const xEntries = raw.map((item) => {
   const inferred = inferWireTopic(item);
   const classification = classifyWireEntry(item, inferred);
   return {
@@ -226,6 +227,30 @@ const entries = raw.map((item) => {
     }
   };
 });
+
+const seenUrls = new Set(xEntries.map((entry) => entry.url).filter(Boolean));
+const legacyEntries = (legacyBloggerWire.entries || [])
+  .filter((entry) => entry?.url && !seenUrls.has(entry.url))
+  .map((entry) => ({
+    ...entry,
+    content_kinds: Array.isArray(entry.content_kinds) ? entry.content_kinds : ["reference"],
+    domains: Array.isArray(entry.domains) ? entry.domains : ["legacy-blogger"],
+    tags: Array.isArray(entry.tags) ? entry.tags : ["wire", "legacy-blogger", "source-note"],
+    context: {
+      needs_context_review: false,
+      needs_reply_parent_review: false,
+      needs_followup_research: true,
+      notes: ["generated_from_legacy_blogger_json_manifest"]
+    },
+    policy: {
+      keep_original_link: true,
+      append_only: true,
+      full_text_copied: false,
+      public_safe: true
+    }
+  }));
+
+const entries = [...xEntries, ...legacyEntries];
 
 writeJson("data/processed/wire.json", {
   generated_at: new Date().toISOString(),
