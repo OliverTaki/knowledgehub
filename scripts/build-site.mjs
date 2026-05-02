@@ -445,23 +445,62 @@ function tagList(tags = [], { target = "" } = {}) {
   }).join("");
 }
 
-function quickFilterButtons({ items, target, getTags }) {
+function tagTimestamp(value) {
+  const date = value ? new Date(value) : null;
+  return date && !Number.isNaN(date.getTime()) ? date.getTime() : 0;
+}
+
+function tagStats({ items, getTags, getDate = () => "" }) {
   const counts = new Map();
+  const latest = new Map();
   for (const item of items) {
     for (const tag of displayTags(getTags(item))) {
       counts.set(tag, (counts.get(tag) || 0) + 1);
+      latest.set(tag, Math.max(latest.get(tag) || 0, tagTimestamp(getDate(item))));
     }
   }
 
-  const tags = [...counts.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .map(([tag]) => tag);
+  return [...counts.entries()].map(([tag, count]) => ({
+    tag,
+    count,
+    latest: latest.get(tag) || 0
+  }));
+}
 
-  if (!tags.length) return '<p class="entry-meta">No filters yet.</p>';
+function tagButton(tag, target, className = "tag-button", count = 0) {
+  const label = count ? `${tag} ${count}` : tag;
+  return `<button class="${esc(className)}" type="button" data-filter-target="${esc(target)}" data-filter-value="${esc(tag)}">${esc(label)}</button>`;
+}
 
-  return `<div class="tag-row">
-${tags.map((tag) => `            <button class="tag-button" type="button" data-filter-target="${esc(target)}" data-filter-value="${esc(tag)}">${esc(tag)}</button>`).join("\n")}
-          </div>`;
+function tagFilterPanel({ items, target, getTags, getDate, quickLimit = 14, modalId }) {
+  const stats = tagStats({ items, getTags, getDate });
+  const quickTags = [...stats]
+    .sort((a, b) => (b.count * 10000000000000 + b.latest) - (a.count * 10000000000000 + a.latest) || a.tag.localeCompare(b.tag))
+    .slice(0, quickLimit);
+  const allTags = [...stats].sort((a, b) => a.tag.localeCompare(b.tag));
+
+  if (!allTags.length) return '<p class="entry-meta">No filters yet.</p>';
+
+  return `<div class="quick-filter-panel">
+            <div class="tag-row">
+${quickTags.map(({ tag }) => `              ${tagButton(tag, target)}`).join("\n")}
+            </div>
+            <button class="all-tags-button" type="button" data-tag-modal-open="${esc(modalId)}">All tags</button>
+          </div>
+          <dialog class="tag-modal" id="${esc(modalId)}">
+            <div class="tag-modal-inner">
+              <div class="tag-modal-header">
+                <div>
+                  <p class="eyebrow">All tags</p>
+                  <p class="entry-meta">${esc(allTags.length)} tags available.</p>
+                </div>
+                <button class="modal-close" type="button" data-tag-modal-close="${esc(modalId)}">Close</button>
+              </div>
+              <div class="tag-modal-list">
+${allTags.map(({ tag, count }) => `                ${tagButton(tag, target, "tag-button tag-modal-tag", count)}`).join("\n")}
+              </div>
+            </div>
+          </dialog>`;
 }
 
 function nav(active, basePath = "") {
@@ -590,6 +629,23 @@ function filterScript(kind) {
         target.value = button.dataset.filterValue || '';
         target.dispatchEvent(new Event('input'));
         target.focus();
+        button.closest('dialog')?.close();
+      });
+    });
+    document.querySelectorAll('[data-tag-modal-open]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const modal = document.getElementById(button.dataset.tagModalOpen);
+        if (modal?.showModal) modal.showModal();
+      });
+    });
+    document.querySelectorAll('[data-tag-modal-close]').forEach((button) => {
+      button.addEventListener('click', () => {
+        document.getElementById(button.dataset.tagModalClose)?.close();
+      });
+    });
+    document.querySelectorAll('dialog.tag-modal').forEach((modal) => {
+      modal.addEventListener('click', (event) => {
+        if (event.target === modal) modal.close();
       });
     });
   </script>
@@ -719,10 +775,13 @@ const wireHtml = layout({
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-${quickFilterButtons({
+${tagFilterPanel({
   items: publicWireEntries,
   target: "wire-filter",
-  getTags: (item) => [...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])]
+  modalId: "wire-tag-modal",
+  quickLimit: 14,
+  getTags: (item) => [...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])],
+  getDate: (item) => item.posted_at || item.collected_at
 })}
         </aside>
       </div>
@@ -752,10 +811,13 @@ const articlesHtml = layout({
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-${quickFilterButtons({
+${tagFilterPanel({
   items: ARTICLES,
   target: "articles-filter",
-  getTags: (item) => item.tags || []
+  modalId: "articles-tag-modal",
+  quickLimit: 12,
+  getTags: (item) => item.tags || [],
+  getDate: (item) => item.updated_at || item.published_at
 })}
         </aside>
       </div>
@@ -785,9 +847,11 @@ const libraryHtml = layout({
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-${quickFilterButtons({
+${tagFilterPanel({
   items: library.items,
   target: "library-filter",
+  modalId: "library-tag-modal",
+  quickLimit: 10,
   getTags: (item) => item.tags || []
 })}
         </aside>
