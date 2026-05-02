@@ -67,6 +67,11 @@
   cursor: pointer;
 }
 
+.tag-filter-button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
 .tag-row {
   margin-top: 8px;
 }
