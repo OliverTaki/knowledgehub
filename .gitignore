@@ -11,7 +11,6 @@ data/raw/seen_x_status_ids.json
 
 # Private generated outputs — rebuilt locally by npm run build:wire / build:site
 data/processed/wire.json
-data/processed/library_seed.json
 
 content/wire/index.json
 content/library/

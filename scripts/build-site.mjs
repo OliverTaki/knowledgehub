@@ -224,6 +224,15 @@ const library = {
   items: Array.isArray(librarySource.items) && librarySource.items.length > 0 ? librarySource.items : DEFAULT_LIBRARY_ITEMS
 };
 const tagTaxonomy = readJson("data/tag-taxonomy.json", { tags: [] });
+const tagAliasToCanonical = new Map();
+for (const entry of Array.isArray(tagTaxonomy.tags) ? tagTaxonomy.tags : []) {
+  const canonical = String(entry.tag || "").trim();
+  if (!canonical) continue;
+  tagAliasToCanonical.set(canonical.toLowerCase(), canonical);
+  for (const alias of entry.aliases || []) {
+    tagAliasToCanonical.set(String(alias || "").trim().toLowerCase(), canonical);
+  }
+}
 
 fs.mkdirSync("public", { recursive: true });
 
@@ -432,14 +441,21 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))];
 }
 
+function normalizeTag(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw) return "";
+  return tagAliasToCanonical.get(raw.toLowerCase()) || raw;
+}
+
 function displayTags(tags = []) {
-  return unique(tags.map((value) => String(value ?? "").trim()).filter(Boolean))
+  return unique(tags.map(normalizeTag).filter(Boolean))
     .filter((tag) => !QUICK_FILTER_EXCLUDE.has(tag.toLowerCase()));
 }
 
-function tagList(tags = [], { target = "" } = {}) {
+function tagList(tags = [], { target = "", hrefBase = "" } = {}) {
   const visibleTags = displayTags(tags);
   return visibleTags.map((tag) => {
+    if (hrefBase) return `<a class="tag tag-link" href="${esc(hrefBase)}?q=${encodeURIComponent(tag)}">${esc(tag)}</a>`;
     if (!target) return `<span class="tag">${esc(tag)}</span>`;
     return `<button class="tag tag-filter-button" type="button" data-filter-target="${esc(target)}" data-filter-value="${esc(tag)}">${esc(tag)}</button>`;
   }).join("");
@@ -508,7 +524,7 @@ function nav(active, basePath = "") {
     ["index.html", "Home"],
     ["news.html", "Wire"],
     ["articles.html", "Articles"],
-    ["offers.html", "Library"],
+    ["library.html", "Library"],
     ["about.html", "About"]
   ];
   return links
@@ -560,7 +576,7 @@ ${cards.map(([label, value]) => `            <div class="status-card"><span clas
           </div>`;
 }
 
-function wireItem(item) {
+function wireItem(item, options = {}) {
   const tags = displayTags([...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])]);
   const title = firstNonEmpty(item.title, item.summary, item.author_handle, item.url, "Untitled wire entry");
   const shortTitle = title.length > 112 ? `${title.slice(0, 109)}...` : title;
@@ -570,11 +586,11 @@ function wireItem(item) {
           <a href="${esc(item.url || "#")}" target="_blank" rel="noopener noreferrer">${esc(shortTitle)}</a>
           <p class="entry-meta">${esc(meta || "Metadata pending")}</p>
           <p>${esc(item.summary || "Editorial note pending.")}</p>
-          ${tags.length ? `<div class="tag-row">${tagList(tags, { target: "wire-filter" })}</div>` : ""}
+          ${tags.length ? `<div class="tag-row">${tagList(tags, options.home ? { hrefBase: "news.html" } : { target: "wire-filter" })}</div>` : ""}
         </li>`;
 }
 
-function libraryItem(item) {
+function libraryItem(item, options = {}) {
   const tags = displayTags(item.tags || []);
   const searchTags = displayTags([...(item.tags || []), ...(item.aliases || []), item.kind]);
   const title = item.title || "Untitled library item";
@@ -583,7 +599,7 @@ function libraryItem(item) {
           <a href="${esc(item.url || "#")}">${esc(title)}</a>
           <p class="entry-meta">${esc(item.kind || "Reference")}</p>
           <p>${esc(item.description || "Description pending.")}</p>
-          ${tags.length ? `<div class="tag-row">${tagList(tags, { target: "library-filter" })}</div>` : ""}
+          ${tags.length ? `<div class="tag-row">${tagList(tags, options.home ? { hrefBase: "library.html" } : { target: "library-filter" })}</div>` : ""}
         </li>`;
 }
 
@@ -621,6 +637,8 @@ function filterScript(kind) {
       summary.textContent = q ? \`Showing \${visible} matching entr\${visible === 1 ? 'y' : 'ies'}.\` : 'Showing all ${kind} entries.';
     }
 
+    const initialQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialQuery) input.value = initialQuery;
     input.addEventListener('input', filterList);
     document.querySelectorAll('[data-filter-target]').forEach((button) => {
       button.addEventListener('click', () => {
@@ -648,6 +666,7 @@ function filterScript(kind) {
         if (event.target === modal) modal.close();
       });
     });
+    filterList();
   </script>
 `;
 }
@@ -720,8 +739,8 @@ ${body}
     </article>`;
 }
 
-const latestWire = publicWireEntries.slice(0, 4).map(wireItem).join("\n") || "        <li><p>No wire entries yet.</p></li>";
-const latestLibrary = library.items.slice(0, 4).map(libraryItem).join("\n") || "        <li><p>No library entries yet.</p></li>";
+const latestWire = publicWireEntries.slice(0, 4).map((item) => wireItem(item, { home: true })).join("\n") || "        <li><p>No wire entries yet.</p></li>";
+const latestLibrary = library.items.slice(0, 4).map((item) => libraryItem(item, { home: true })).join("\n") || "        <li><p>No library entries yet.</p></li>";
 
 const indexHtml = layout({
   title: siteName,
@@ -759,7 +778,7 @@ ${latestLibrary}
       </ul>
     </section>
 
-    <footer class="footer"><p><a href="news.html">Wire</a> is the raw lane. <a href="articles.html">Articles</a> is the judged lane. <a href="offers.html">Library</a> is the reference lane.</p></footer>`
+    <footer class="footer"><p><a href="news.html">Wire</a> is the raw lane. <a href="articles.html">Articles</a> is the judged lane. <a href="library.html">Library</a> is the reference lane.</p></footer>`
 });
 
 const wireHtml = layout({
@@ -794,7 +813,7 @@ ${publicWireEntries.map(wireItem).join("\n") || "        <li><p>No wire entries 
       </ul>
     </section>
 
-    <footer class="footer"><p><a href="articles.html">Articles</a> is where selected wire entries become judged notes. <a href="offers.html">Library</a> is the durable reference shelf.</p></footer>`,
+    <footer class="footer"><p><a href="articles.html">Articles</a> is where selected wire entries become judged notes. <a href="library.html">Library</a> is the durable reference shelf.</p></footer>`,
   script: filterScript("wire")
 });
 
@@ -895,7 +914,7 @@ ${statusCards([
       <ul class="compact-list">
         <li><a href="news.html">Wire</a><p>Original links and public summaries remain visible for later judgement.</p></li>
         <li><a href="articles.html">Articles</a><p>Synthesis notes and judged writing are separated from raw capture.</p></li>
-        <li><a href="offers.html">Library</a><p>Durable books, films, tools, workflows, tutorials, and references are kept in a flat shelf.</p></li>
+        <li><a href="library.html">Library</a><p>Durable books, films, tools, workflows, tutorials, and references are kept in a flat shelf.</p></li>
       </ul>
     </section>
 
@@ -925,7 +944,19 @@ fs.writeFileSync(path.join("public", "wire-v2.html"), wireHtml, "utf8");
 fs.writeFileSync(path.join("public", "wire-app.html"), wireHtml, "utf8");
 fs.writeFileSync(path.join("public", "articles.html"), articlesHtml, "utf8");
 fs.writeFileSync(path.join("public", "library.html"), libraryHtml, "utf8");
-fs.writeFileSync(path.join("public", "offers.html"), libraryHtml, "utf8");
+fs.writeFileSync(path.join("public", "offers.html"), `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=library.html">
+  <link rel="canonical" href="library.html">
+  <title>Library moved</title>
+</head>
+<body>
+  <p>Library moved to <a href="library.html">library.html</a>.</p>
+</body>
+</html>`, "utf8");
 fs.writeFileSync(path.join("public", "about.html"), aboutHtml, "utf8");
 
 writeJson("public/wire.json", {
@@ -991,7 +1022,7 @@ fs.writeFileSync(path.join("public", "llms.txt"), [
   "- tag-taxonomy.md",
   "- tag-taxonomy.json",
   "- articles.html",
-  "- offers.html",
+  "- library.html",
   ""
 ].join("\n"), "utf8");
 
