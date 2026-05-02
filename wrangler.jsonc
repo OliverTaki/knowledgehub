@@ -1,8 +1,0 @@
-{
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "knowledgehub",
-  "compatibility_date": "2026-05-02",
-  "assets": {
-    "directory": "./public"
-  }
-}
