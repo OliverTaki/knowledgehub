@@ -18,33 +18,47 @@ function Run-Step {
   & $Block
 }
 
+function Invoke-Native {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$FilePath,
+    [Parameter(ValueFromRemainingArguments = $true)]
+    [string[]]$Arguments
+  )
+
+  & $FilePath @Arguments
+  if ($LASTEXITCODE -ne 0) {
+    throw "Command failed with exit code ${LASTEXITCODE}: $FilePath $($Arguments -join ' ')"
+  }
+}
+
 $repo = Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")
 Set-Location $repo
 
 Run-Step "Sync main" {
-  git fetch origin
-  git pull --ff-only origin main
+  Invoke-Native git fetch origin
+  Invoke-Native git pull --ff-only origin main
 }
 
 if (-not $SkipX) {
   Run-Step "Collect X likes" {
     $env:MAX_NEW = [string]$MaxNew
-    npm run collect:x-likes
+    Invoke-Native npm run collect:x-likes
   }
 } else {
   Write-Host "==> Skipping X collection"
 }
 
 Run-Step "Build Wire" {
-  npm run build:wire
+  Invoke-Native npm run build:wire
 }
 
 Run-Step "Build public site" {
-  npm run build
+  Invoke-Native npm run build
 }
 
 Run-Step "Validate" {
-  npm run validate
+  Invoke-Native npm run validate
 }
 
 $status = git status --short
@@ -54,14 +68,14 @@ if (-not $status) {
 }
 
 Run-Step "Commit public Wire changes" {
-  git add scripts/build-wire.mjs scripts/build-site.mjs scripts/wire-push.ps1 public package.json package-lock.json .github/workflows/deploy.yml wrangler.jsonc
+  Invoke-Native git add scripts/build-wire.mjs scripts/build-site.mjs scripts/wire-push.ps1 public package.json package-lock.json .github/workflows/deploy.yml wrangler.jsonc
   $staged = git diff --cached --name-only
   if (-not $staged) {
     Write-Host "No tracked public changes staged."
   } else {
     $commitMessage = if ($Message) { $Message } else { "Update Knowledge Hub Wire" }
-    git commit -m $commitMessage
-    git push origin main
+    Invoke-Native git commit -m $commitMessage
+    Invoke-Native git push origin main
   }
 }
 
@@ -78,7 +92,7 @@ Run-Step "Deploy GitHub Pages branch" {
     }
   }
 
-  git worktree add $deployRoot gh-pages
+  Invoke-Native git worktree add $deployRoot gh-pages
   try {
     Push-Location $deployRoot
     Get-ChildItem -Force | Where-Object { $_.Name -ne ".git" } | ForEach-Object {
@@ -144,17 +158,19 @@ console.log("Prepared static GitHub Pages output in public/.");
 }
 '@ | Set-Content -LiteralPath (Join-Path $deployRoot "wrangler.jsonc") -Encoding UTF8
 
-    git add -A
-    if (git diff --cached --quiet) {
+    Invoke-Native git add -A
+    git diff --cached --quiet
+    $hasNoPagesChanges = $LASTEXITCODE -eq 0
+    if ($hasNoPagesChanges) {
       Write-Host "No GitHub Pages changes."
     } else {
       $deployMessage = if ($Message) { "Deploy: $Message" } else { "Deploy Knowledge Hub Wire" }
-      git commit -m $deployMessage
-      git push origin gh-pages
+      Invoke-Native git commit -m $deployMessage
+      Invoke-Native git push origin gh-pages
     }
   } finally {
     Pop-Location
-    git worktree remove $deployRoot --force
+    Invoke-Native git worktree remove $deployRoot --force
   }
 }
 
