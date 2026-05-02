@@ -19,12 +19,12 @@ function Run-Step {
 }
 
 function Invoke-Native {
-  param(
-    [Parameter(Mandatory = $true)]
-    [string]$FilePath,
-    [Parameter(ValueFromRemainingArguments = $true)]
-    [string[]]$Arguments
-  )
+  $FilePath = $args[0]
+  $Arguments = @($args | Select-Object -Skip 1)
+
+  if (-not $FilePath) {
+    throw "Invoke-Native requires a command."
+  }
 
   & $FilePath @Arguments
   if ($LASTEXITCODE -ne 0) {
