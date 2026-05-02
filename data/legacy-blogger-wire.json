@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T05:53:40.647Z",
+  "generated_at": "2026-05-02T05:58:45.716Z",
   "source_root": "C:/Users/punch/Desktop/AI_Blog_Editorial_Shared",
   "count": 63,
   "policy": {
@@ -20,7 +20,7 @@
       "public_summary": "この投稿は、民間療法の有効性に疑問を持つ人向けに、厚生労働省のeJIMサイトを推奨しており、エビデンスに基づく統合医療情報を網羅的に提供する点を強調。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -65,7 +65,7 @@
       "public_summary": "この投稿は、2025年カンヌ映画祭審査員賞受賞作『シラート』の日本公開（6月5日）を特報として発表し、ギレルモ・デル・トロや小島秀夫らの絶賛とアカデミー賞2部門ノミネートを強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -110,7 +110,7 @@
       "public_summary": "この投稿は、開発者向けの無料公開APIリスト（GitHubリポジトリ：public-apis/public-apis）を紹介しており、天気、金融、AI、ニュースなど多様なカテゴリで32万以上のAPIを分類・検証済みで提供。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -155,7 +155,7 @@
       "public_summary": "この投稿は、OpenClaw StudioというオープンソースのAIエージェント管理ダッシュボードを紹介しており、ユーザーのハードウェア上でリアルタイム監視、チャット、承認ゲート、ジョブスケジューリングを実現する。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -200,7 +200,7 @@
       "public_summary": "この投稿は、AIツール「Pencil」を用いたUIデザインとコーディングの効率的なワークフローを絶賛しており、Claudeでプロンプトを作成しPencilで画面生成、直接編集後Cursorでコード化する流れが、従来のイライラを解消すると述べている。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -250,7 +250,7 @@
       "public_summary": "YOLO26はUltralyticsの新モデルで、NMS不要のエンドツーエンド設計により、従来YOLOの重複ボックス除去処理をスキップし、CPU上で最大43%高速化を実現。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -295,7 +295,7 @@
       "public_summary": "AppleのXcode 26.3がAnthropicのClaude AgentとOpenAIのCodexをネイティブ統合し、エージェントベースのコーディングを導入したことを、投稿者がiOS向けサードパーティ開発ツールの終焉を予感させる形で共有。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -343,7 +343,7 @@
       "public_summary": "この投稿は、引用元の記事で紹介された低コストの開発ツール群をすべてブックマークするよう強く推奨しており、スタートアップの参入障壁が月3000円程度に低下した点を強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -391,7 +391,7 @@
       "public_summary": "この投稿は、阪本順治監督の2000年ヤクザ映画『新・仁義なき戦い』のオープニングシーンを動画で共有し、布袋寅泰のギターリフ「Battle Without Honor or Humanity」がquentin Tarantinoの『キル・ビル』で採用された経緯を紹介している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -436,7 +436,7 @@
       "public_summary": "この投稿は、ダニエル・デイ＝ルイスの映画『リンカーン』出演断りの手紙を引用し、英語が「思ったことをそのまま話す」直接的な言語だという誤解を正す内容で、英語の繊細さを日本語並みに強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -484,7 +484,7 @@
       "public_summary": "このX投稿は、Googleストリートビューのリンクを貼るだけで3Dガウススプラットシーンを生成するツール「Mint.gg」を紹介し、完全に無料と主張しているが、動画デモで没入型3D体験を示す。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -532,7 +532,7 @@
       "public_summary": "このポストは、科学誌Natureの記事を引用し、ポケモン30周年を祝いつつ、ポケモンが進化論・生物多様性・教育分野に与えた影響を日本語で紹介しており、ポケモン由来の学名（例: Pterodactylus aerodactylus）や子供の野生動物知識不足の調査（Balmford et al., Science 2002）を挙げて科学的な貢献を強調。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -577,7 +577,7 @@
       "public_summary": "文部科学省の「一家に1枚」シリーズは2005年から続く科学技術ポスターで、2024年に20周年を迎え、元素周期表などの美しいイラストが家族の学習を促進し人気を博している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -625,7 +625,7 @@
       "public_summary": "この投稿は、ByteDanceのAI動画生成ツール「Seedance 2.0」で制作された短編作品『穹顶』を引用し、インディーCGアーティストの@hajimeCGがその独特な質感に驚嘆と悔しさを込めて反応している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.644Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -673,7 +673,7 @@
       "public_summary": "この投稿は、微小重力下での水滴衝突シミュレーションの続きで、表面張力を低減すると水の形状が崩れやすく広がる様子を示す動画を共有。地球の常識が通用しない宇宙物理の面白さを強調。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.642Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -718,7 +718,7 @@
       "public_summary": "@marklit82の投稿は、スタンフォード大学のオンライン展示「Cartographic Symbologies」を紹介し、歴史的な地図に描かれた芸術的シンボル（例: コンパスローズやカルトゥーシュ）のデータベースを共有。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.642Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -763,7 +763,7 @@
       "public_summary": "この投稿は、北宋時代の名画「清明上河図」をAIでアニメーション化した動画を紹介し、千年前の開封の賑わいを圧倒的な没入感で再現した点に感動を述べつつ、AI特有の滑らかな質感への違和感も指摘している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -808,7 +808,7 @@
       "public_summary": "この投稿は、QuiverAIが公開したSVG生成AIモデル「Arrow 1.0」のパブリックベータ版を高く評価し、テキストや画像から高品質なベクターグラフィックスをワンショットで生成できる点を強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -856,7 +856,7 @@
       "public_summary": "Perplexityの「Computer」は、19のAIモデルを並列で活用する自律型プロジェクト管理システムで、リサーチからデプロイまでを自動化し、数時間から数ヶ月の長期タスクに対応。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -907,7 +907,7 @@
       "public_summary": "@zombietechoはゾンビ・ホラー映画の専門家で、ユマ・サーマン主演のアクション・ホラー『Pretty Lethal』の予告編を紹介し、バレリーナたちがダンススキルを武器に山奥の宿で死闘を繰り広げる内容を強調。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -955,7 +955,7 @@
       "public_summary": "このX投稿は、放射場レンダリングの新手法「Universal Beta Splatting」を紹介するもので、3DガウススプラッティングをN次元Betaカーネルに拡張し、空間・角度・時間的な効果を統一的に扱う論文を共有している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1003,7 +1003,7 @@
       "public_summary": "この投稿は、ジェームズ・キャメロンのデビュー作短編映画「Xenogenesis」（1978年）を紹介しており、23歳の彼が監督・模型・特殊効果を一人で手がけたSFロボットディストピア作品である。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1051,7 +1051,7 @@
       "public_summary": "この投稿は、Stable DiffusionのオープンソースWebUI（AUTOMATIC1111版）を無料の無制限AI画像生成ツールとして紹介し、テキスト-to-イメージやモデル切り替えなどの機能を強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1102,7 +1102,7 @@
       "public_summary": "Legacy Blogger manifest entry imported from _batch_20260307_part3_manifest.json.",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1136,7 +1136,7 @@
       "public_summary": "Legacy Blogger manifest entry imported from _batch_20260307_part3_manifest.json.",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1170,7 +1170,7 @@
       "public_summary": "Legacy Blogger manifest entry imported from _batch_20260307_part3_manifest.json.",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1204,7 +1204,7 @@
       "public_summary": "落合陽一氏の投稿は、自ら開発したオープンソースツール「vibe-local」の体験記事を共有し、オフライン環境でのAIコーディングを強調。Ollamaを基盤にネットワーク不要で動作し、教育やリサーチ用途を想定した設計が特徴。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1252,7 +1252,7 @@
       "public_summary": "このポストは、『サピエンス全史』の「虚構による協力」論を支持しつつ、『万物の黎明』で人類の社会選択の自由度と歴史の非線形性を指摘し、人事制度の限界を現場視点で振り返る内容。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1300,7 +1300,7 @@
       "public_summary": "この投稿は、VFXアーティストの三宅智之氏が過去に趣味でBlenderで作成した雲のアニメーションビデオを共有し、2021年の自作チュートリアル（雲作成レシピ）を引用したスレッド。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1351,7 +1351,7 @@
       "public_summary": "ドイツの鉱山技師ブルーノ・シュレーダー氏の自宅は、7万冊の書籍で埋め尽くされたカスタム棚の迷宮で、2022年に88歳で亡くなるまでデジタル目録作成に没頭していた。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1399,7 +1399,7 @@
       "public_summary": "この投稿は、眠そうに目を閉じる人形の運転手が操るビンテージカーのストップモーションアニメ動画を共有しており、アナログな職人技の魅力が際立つ。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1447,7 +1447,7 @@
       "public_summary": "この投稿は、HBOドラマ「Silicon Valley」のオープニングアニメを2020〜2026年のテックイベントで再現した動画を共有し、日本語訳で紹介。Twitterの変遷、暗号通貨ブームの崩壊（FTX炎上）、レイオフ波、AI革命（ChatGPT、NVIDIA急騰）などを風刺的に描く。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1495,7 +1495,7 @@
       "public_summary": "この投稿は、NotebookLM、Gemini、Obsidianを組み合わせた学習手法を紹介し、重複情報をAIで除去することで、20本のYouTube動画から1か月かかる学習を15分に短縮可能と主張。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1546,7 +1546,7 @@
       "public_summary": "この投稿は、GitHubリポジトリをブラウザ上でインタラクティブな知識グラフに変換するオープンソースツール「GitNexus」を紹介しており、コードの関数・クラス・呼び出し関係を視覚化し、自然言語でクエリ可能なAIエージェントを搭載している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1594,7 +1594,7 @@
       "public_summary": "このX投稿は、ブラウザベースの無料ツール「Pikimov 5」を紹介し、After EffectsやCapCutの代替としてモーショングラフィックスとビデオ編集が可能だと宣伝している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1645,7 +1645,7 @@
       "public_summary": "1991年の週刊少年ジャンプTVCMで、鳥山明によるキャラクター設計と泉谷しげるの出演が特徴のシュールなパペットアニメーションで、緑背景のサイケデリックな世界観が当時の日本広告の創造性を象徴している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1693,7 +1693,7 @@
       "public_summary": "@zombietechoはゾンビ映画専門家として知られ、サイコセクシャルSFホラーコメディ『Touch Me』の予告編を共有。共依存の親友がナルシストなエイリアンの触れ合いに溺れる物語で、アディソン・ハイマン（実際はHeimann）監督作、2026年3月27日米限定公開予定。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1741,7 +1741,7 @@
       "public_summary": "この投稿は、匿名アーティストSlap CompによるCGIホログラフィックインスタレーションを紹介しており、レストランのキッチン内で雲から雪が降る幻想的な光景を投影している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1786,7 +1786,7 @@
       "public_summary": "この投稿は、2人目の子育てあるある（母子手帳の白紙化や「ま、いっか」精神）をユーモアたっぷりにまとめ、1人目より適当な育て方が2人目を「いろんな意味で強い」存在にすると結論づけ、多くの共感を呼んでいる。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1831,7 +1831,7 @@
       "public_summary": "この投稿は、ClaudeCodeのOSSスキル「shinkoku」を紹介し、書類OCR読み取りからe-Tax提出までの確定申告自動化を絶賛している。著者は投資家として複雑な所得処理に便利だと評価。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1882,7 +1882,7 @@
       "public_summary": "この投稿は、Wikipediaのハチのページにインタラクティブな3Dガウススプラットモデルを埋め込んだデモ動画で、ブラウザ上でリアルタイム回転・拡大が可能。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1933,7 +1933,7 @@
       "public_summary": "サム・アルトマンの発言を基に、AI生成画像の完璧さが無限供給されることで、その技術的価値はゼロに近づき、アートの本質が人間の意図や文脈に移行すると分析。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -1978,7 +1978,7 @@
       "public_summary": "この投稿は、フォントのアウトラインに骨格情報を埋め込み、針金入りの粘土のように直感的に変形させる技術のプロトタイプを公開したもので、ビデオデモでは文字の骨格をドラッグしてリアルタイムで形状を調整する様子が示されている。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2023,7 +2023,7 @@
       "public_summary": "このスレッドは、Google StitchというAIデザインツールを紹介するもので、テキスト入力だけでアプリのUIを90秒で生成し、Figma連携やHTML/CSS出力が可能と説明。無料でデザインスキル不要な点を強調。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2074,7 +2074,7 @@
       "public_summary": "この投稿は、AIが美しいものを生み出せないという主張に反論する形で、印象派風のアニメーション動画を共有しており、ルノワールの絵画スタイルを模倣した流れるような市場シーンが特徴。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2122,7 +2122,7 @@
       "public_summary": "この投稿は、AnthropicのClaude Code作成者であるBoris Cherny氏の共有した内部ベストプラクティスをまとめたCLAUDE.mdファイルを紹介しており、AIを活用したコーディング効率を10倍向上させるためのワークフローガイドとして注目を集めている。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2170,7 +2170,7 @@
       "public_summary": "NVIDIAのDreamDojoは、44,000時間規模のエゴセントリック人間動画で訓練されたオープンソース世界モデルで、ロボットの行動から未来のピクセルを生成し、脳内シミュレーションに似た予測を実現。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2218,7 +2218,7 @@
       "public_summary": "この投稿は、中国の無人配送車が2025年中頃までに6000台以上展開され、総走行距離1億km超を達成した速報を伝えており、新華社などの報道で事実が確認される。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2263,7 +2263,7 @@
       "public_summary": "この投稿は『ダイ・ハード3』のミッドポイントシーンを挙げ、主人公ジョン・マクレーンが敵の目的に気づく瞬間の演技と映像演出を絶賛し、物語の反転を自然に表現した点を強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2311,7 +2311,7 @@
       "public_summary": "この投稿は、菱田春草の《林和靖》（1902年作）を初めて見た美術愛好家@sarumalの興奮を綴ったもので、霧に包まれた舟上の詩人像と広がる水辺の風景が「突き抜ける高さと広がり」を生むと絶賛。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2356,7 +2356,7 @@
       "public_summary": "この投稿は、ナチズム史研究者の田野大輔氏が、YouTubeの英語字幕付き犯罪ドキュメンタリー『What Happened to the Perfect Child?』（48 Hours制作）を強く推薦する内容で、アメリカ人夫婦がロシアの少女を養子に迎えたが問題行動で返還した20年後の感動的な再会を描く。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2404,7 +2404,7 @@
       "public_summary": "この投稿は、OpenClawというAIエージェントにNextJSとConvexを使った「ミッションコントロール」管理画面を構築する方法を詳細に解説しており、AIの自律動作を可視化・強化する6つのツール（タスクボード、コンテンツパイプライン、カレンダーなど）の実装プロンプトと手順を提供している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2452,7 +2452,7 @@
       "public_summary": "この投稿は、三重県伊勢市のテーマパーク「ともいきの国伊勢忍者キングダム」の場所を明かし、平日午前の訪問時、客が投稿者2人しかいなかった末期的な閑古鳥の様子を共有している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2497,7 +2497,7 @@
       "public_summary": "@takejuneの投稿は、AnthropicのClaude Codeツールを使ってAIでHTMLプロトタイプを大量生成する方法を共有しており、デザインシステムと事業戦略のコンテキストを事前投入することで出力品質を向上させる実践的なTipsを詳述。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2545,7 +2545,7 @@
       "public_summary": "この投稿は、AIツール「Rork Max」の登場を速報として紹介し、コーディング不要でAppleデバイス向けアプリを一括作成・公開できる点を強調している。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2593,7 +2593,7 @@
       "public_summary": "StableGenは、Blender内でComfyUIを活用したオープンソースのAIプラグインで、プロンプトや画像から3Dモデルの生成とPBRテクスチャ貼りを自動化し、FLUX.1などのモデルに対応。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2644,7 +2644,7 @@
       "public_summary": "夢グループの石田社長が主演するバイオハザード最新作「レクイエム」のプロモーション動画は、インフォマーシャル風のユーモラスな内容で、ゲームのホラー要素を健康器具と組み合わせた「恐怖の悪夢セット」を宣伝。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2692,7 +2692,7 @@
       "public_summary": "動画生成AIの空間的一貫性問題（例: 廊下の伸長や窓の消失）を、Freepik Spacesの平面図参照・ノード分割生成で解決する手法を紹介。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.712Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2740,7 +2740,7 @@
       "public_summary": "この投稿は、NVIDIAのSONICモデルをUnitree G1ヒューマノイドロボットにデプロイした結果を共有しており、ゼロショットでカスタム動作を実現し、追加学習不要の単一ポリシーで多様なモーションを制御可能であることを示す。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2785,7 +2785,7 @@
       "public_summary": "このX投稿は、英国のイラストレーター兼アマチュア自然学者ジョー・ブラウンが、デボン地方の森で観察したきのこを詳細に描いたノートブックをめくる動画を共有しており、彼女の水彩画と観察メモが美しく融合した内容だ。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2830,7 +2830,7 @@
       "public_summary": "講談社のブランドフィルム「Light Hole」は、ペーパークラフトによるストップモーションアニメで、Akiraの赤いバイク、進撃の巨人の巨人体、攻殻機動隊のタチコマなど人気マンガの象徴シーンを紙媒体から3Dで蘇らせるプロモーション作品。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2875,7 +2875,7 @@
       "public_summary": "この投稿は、起業家・佐藤航陽氏の複雑な社会価値論を、一般向けに簡略化したもので、自己増殖するループ構造（例: SNSのネットワーク効果）が価値を生む点を強調。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"
@@ -2920,7 +2920,7 @@
       "public_summary": "この投稿は、スタンフォード大学の研究「HumanLM」をメモとして共有したもので、LLMがユーザーの心理状態（信念・目標・感情・価値観・立場・コミュニケーション様式の6軸）を推論し、強化学習で応答を生成する手法を紹介。",
       "author_handle": "",
       "posted_at": "",
-      "collected_at": "2026-05-02T05:53:40.643Z",
+      "collected_at": "2026-05-02T05:58:45.713Z",
       "post_kind": "legacy_blogger",
       "content_kinds": [
         "reference"

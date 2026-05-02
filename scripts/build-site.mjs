@@ -417,10 +417,6 @@ function searchText(parts) {
   return esc(parts.filter(Boolean).join(" ").toLowerCase());
 }
 
-function tagList(tags = []) {
-  return tags.filter(Boolean).map((tag) => `<span class="tag">${esc(tag)}</span>`).join("");
-}
-
 const QUICK_FILTER_EXCLUDE = new Set([
   "wire",
   "reference",
@@ -436,19 +432,29 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))];
 }
 
-function quickFilterButtons({ items, target, getTags, limit = 8 }) {
+function displayTags(tags = []) {
+  return unique(tags.map((value) => String(value ?? "").trim()).filter(Boolean))
+    .filter((tag) => !QUICK_FILTER_EXCLUDE.has(tag.toLowerCase()));
+}
+
+function tagList(tags = [], { target = "" } = {}) {
+  const visibleTags = displayTags(tags);
+  return visibleTags.map((tag) => {
+    if (!target) return `<span class="tag">${esc(tag)}</span>`;
+    return `<button class="tag tag-filter-button" type="button" data-filter-target="${esc(target)}" data-filter-value="${esc(tag)}">${esc(tag)}</button>`;
+  }).join("");
+}
+
+function quickFilterButtons({ items, target, getTags }) {
   const counts = new Map();
   for (const item of items) {
-    for (const tag of unique(getTags(item).map((value) => String(value).trim()).filter(Boolean))) {
-      const key = tag.toLowerCase();
-      if (QUICK_FILTER_EXCLUDE.has(key)) continue;
+    for (const tag of displayTags(getTags(item))) {
       counts.set(tag, (counts.get(tag) || 0) + 1);
     }
   }
 
   const tags = [...counts.entries()]
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, limit)
     .map(([tag]) => tag);
 
   if (!tags.length) return '<p class="entry-meta">No filters yet.</p>';
@@ -516,7 +522,7 @@ ${cards.map(([label, value]) => `            <div class="status-card"><span clas
 }
 
 function wireItem(item) {
-  const tags = [...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])].filter((tag) => tag && tag !== "unknown");
+  const tags = displayTags([...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])]);
   const title = firstNonEmpty(item.title, item.summary, item.author_handle, item.url, "Untitled wire entry");
   const shortTitle = title.length > 112 ? `${title.slice(0, 109)}...` : title;
   const meta = [entryDate(item), item.author_handle, item.post_kind].filter(Boolean).join(" - ");
@@ -525,31 +531,33 @@ function wireItem(item) {
           <a href="${esc(item.url || "#")}" target="_blank" rel="noopener noreferrer">${esc(shortTitle)}</a>
           <p class="entry-meta">${esc(meta || "Metadata pending")}</p>
           <p>${esc(item.summary || "Editorial note pending.")}</p>
-          ${tags.length ? `<div class="tag-row">${tagList(tags)}</div>` : ""}
+          ${tags.length ? `<div class="tag-row">${tagList(tags, { target: "wire-filter" })}</div>` : ""}
         </li>`;
 }
 
 function libraryItem(item) {
-  const tags = [...(item.tags || []), ...(item.aliases || []), item.kind].filter(Boolean);
+  const tags = displayTags(item.tags || []);
+  const searchTags = displayTags([...(item.tags || []), ...(item.aliases || []), item.kind]);
   const title = item.title || "Untitled library item";
-  const haystack = searchText([title, item.kind, item.description, ...tags]);
+  const haystack = searchText([title, item.kind, item.description, ...searchTags]);
   return `        <li data-search="${haystack}">
           <a href="${esc(item.url || "#")}">${esc(title)}</a>
           <p class="entry-meta">${esc(item.kind || "Reference")}</p>
           <p>${esc(item.description || "Description pending.")}</p>
-          ${item.tags?.length ? `<div class="tag-row">${tagList(item.tags)}</div>` : ""}
+          ${tags.length ? `<div class="tag-row">${tagList(tags, { target: "library-filter" })}</div>` : ""}
         </li>`;
 }
 
 function articleItem(article) {
   const summary = article.paragraphs.find((paragraph) => paragraph && paragraph.trim()) || "Article note pending.";
-  const search = searchText([article.title, article.published_at, article.updated_at, article.source_file, article.source_url, ...article.tags, ...article.paragraphs]);
+  const tags = displayTags(article.tags || []);
+  const search = searchText([article.title, article.published_at, article.updated_at, article.source_file, article.source_url, ...tags, ...article.paragraphs]);
   const href = article.detail_url || article.source_url || "#";
   return `        <li data-search="${search}">
           <a href="${esc(href)}">${esc(article.title)}</a>
           <p class="entry-meta">Published ${esc(article.published_at)} - Updated ${esc(article.updated_at)}</p>
           <p>${esc(summary.length > 280 ? `${summary.slice(0, 277)}...` : summary)}</p>
-          ${article.tags?.length ? `<div class="tag-row">${tagList(article.tags)}</div>` : ""}
+          ${tags.length ? `<div class="tag-row">${tagList(tags, { target: "articles-filter" })}</div>` : ""}
         </li>`;
 }
 
@@ -780,7 +788,7 @@ const libraryHtml = layout({
 ${quickFilterButtons({
   items: library.items,
   target: "library-filter",
-  getTags: (item) => [...(item.tags || []), ...(item.aliases || [])]
+  getTags: (item) => item.tags || []
 })}
         </aside>
       </div>
