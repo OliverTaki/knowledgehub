@@ -1,0 +1,33 @@
+{
+  "source": "AI_Blog_Editorial_Shared/00_docs/LABEL_RULES.md",
+  "note": "Adapted from the old Blogger label rules. Blogger HTML and article structure are intentionally not reused.",
+  "rules": [
+    "Use a stable broad shelf first: medium, domain, product family, or workflow area.",
+    "Add one concrete subject or technique tag.",
+    "Add one intent tag when it improves retrieval: tutorial, reference, review, research, implementation, recommendation.",
+    "Avoid one-off proper-noun tags unless the product, work, or person is likely to recur.",
+    "Keep tags useful for future roundup pages and search, not just descriptive decoration."
+  ],
+  "shelves": [
+    {
+      "name": "Creative tools",
+      "tags": ["blender", "houdini", "maya", "design-tools", "development-tools", "ai-coding", "agents"]
+    },
+    {
+      "name": "Visual systems",
+      "tags": ["vfx", "rendering", "compositing", "motion-design", "animation", "spatial-capture", "3dgs", "nerf"]
+    },
+    {
+      "name": "Knowledge workflows",
+      "tags": ["learning", "knowledge-map", "notebooklm", "obsidian", "document-ai", "ocr", "archive"]
+    },
+    {
+      "name": "Culture references",
+      "tags": ["film", "books", "literature", "visual-reference", "criticism"]
+    },
+    {
+      "name": "Intent",
+      "tags": ["tutorial", "research", "reference", "implementation", "review", "recommendation", "workflow"]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Universal Beta Splatting extends 3DGS from reconstruction into motion",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/universal-beta-splatting.html",
+    "source_url": "https://x.com/Almorgand/status/2026329946688200780",
+    "tags": ["spatial-capture", "3dgs", "rendering", "research"],
+    "paragraphs": [
+      "The older Blogger note on Universal Beta Splatting is useful here as a research shelf item rather than as a finished article template. Its value is the question it preserves: when Gaussian splatting starts handling time and viewpoint changes together, it becomes less like a capture trick and more like a compact scene representation.",
+      "For Knowledge Hub, this belongs near 3D capture, rendering, and reconstruction. The practical follow-up is to compare whether the method helps production review, camera exploration, or web delivery before treating it as a general 3D pipeline tool."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "VGG-T and the pressure to make multi-view reconstruction usable",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/vgg-t3-3d-reconstruction.html",
+    "source_url": "https://x.com/Almorgand/status/2029251916815835213",
+    "tags": ["spatial-capture", "computer-vision", "nvidia", "research"],
+    "paragraphs": [
+      "The VGG-T draft points to a recurring Knowledge Hub theme: reconstruction systems are moving from impressive demos toward practical, repeated capture workflows. The important question is not only fidelity, but how many views, constraints, and cleanup steps are required before the output can be trusted.",
+      "This topic should stay grouped with spatial capture and computer vision so future notes on 3DGS, NeRF-like methods, and reconstruction models can be compared as one production problem."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "NotebookLM, Gemini, and Obsidian as a split learning workflow",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/notebooklm-gemini-obsidian.html",
+    "source_url": "https://x.com/phosphenq/status/2026383675735048248",
+    "tags": ["learning", "knowledge-map", "notebooklm", "obsidian"],
+    "paragraphs": [
+      "The Blogger note is strongest as an operating pattern: do not ask one tool to become the whole learning system. NotebookLM can hold and query source material, Gemini can help compare or compress, and Obsidian can become the durable personal knowledge layer.",
+      "The reusable point is the division of labor. Knowledge Hub should track tool chains where each tool has a clear job: collect, compare, summarize, rewrite, connect, or retrieve."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Claude Code project structure is an editorial memory problem too",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/claude-code-project-structure.html",
+    "source_url": "https://x.com/DipanshuKu55175/status/2028328998120697868",
+    "tags": ["claude-code", "agents", "workflow", "software-architecture"],
+    "paragraphs": [
+      "The Claude Code structure note is not just about folders. It is about making repeated software work predictable enough that an agent can reuse project memory, skills, hooks, and source boundaries without re-learning the same context every run.",
+      "That makes it relevant to Knowledge Hub's own publishing workflow. A good article system and a good code agent setup both depend on stable conventions that reduce repeated explanation."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Local offline coding tools are infrastructure, not a novelty category",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/vibe-local-offline-coding.html",
+    "source_url": "https://x.com/ochyai/status/2029736294365212768",
+    "tags": ["local-ai", "ai-coding", "open-source", "workflow"],
+    "paragraphs": [
+      "The vibe-local draft fits the same shelf as local inference, private automation, and offline development loops. Its importance is less about one tool name and more about the direction of travel: useful AI work will often need to run close to the files, repos, and constraints that define the job.",
+      "For Knowledge Hub, local AI should be treated as an infrastructure tag. It affects cost, privacy, latency, and whether the tool can become a boring part of daily work."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "GitNexus suggests a useful shape for repository reading",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/gitnexus-knowledge-graph.html",
+    "source_url": "https://x.com/ihtesham2005/status/2026264341419528643",
+    "tags": ["github", "knowledge-graph", "agents", "code-reading"],
+    "paragraphs": [
+      "The GitNexus draft is a good example of why code repositories need more than file search. A repository becomes easier to reason about when dependencies, ownership, entry points, and repeated concepts can be represented as a graph.",
+      "This should be grouped with agent workflow and knowledge-map material, because the same representation helps both human onboarding and tool-using AI systems."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Pikimov belongs on the lightweight motion-design shelf",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/pikimov-5.html",
+    "source_url": "https://x.com/theCGchannel/status/2026231925803786528",
+    "tags": ["motion-design", "design-tools", "browser-tools", "animation"],
+    "paragraphs": [
+      "The older Pikimov note is useful as a browser-tool entry. It points to a recurring category: tools that are not full production suites but are fast enough for sketches, tests, motion studies, and editorial visuals.",
+      "Knowledge Hub should keep these tools discoverable without letting each product name become its own top-level archive. The stable shelf is motion design and browser-based production."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "AIVideo Agent is part of the automation layer around moving images",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/aivideo-agent.html",
+    "source_url": "https://x.com/AiAircle34052/status/2029431044781555797",
+    "tags": ["ai-video", "agents", "automation", "production"],
+    "paragraphs": [
+      "The AIVideo Agent draft should be read as a workflow signal: video generation is becoming surrounded by planning, research, editing, routing, and review automation. The agent layer may matter as much as the image model itself.",
+      "This belongs in the AI video and agents shelves, especially for future comparisons between one-shot generation tools and systems that manage a longer production loop."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Automatic1111 remains a useful reference for open image-generation workflows",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/automatic1111-webui.html",
+    "source_url": "https://x.com/Whizz_ai/status/2026225006167122336",
+    "tags": ["stable-diffusion", "open-source", "image-generation", "workflow"],
+    "paragraphs": [
+      "The Automatic1111 draft is a reminder that interface layers can define how a model becomes usable. WebUI ecosystems turn model capability into repeatable prompts, extensions, presets, and local experiments.",
+      "Knowledge Hub should keep these entries grouped as open image-generation workflows rather than treating every interface as a disconnected bookmark."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Blender cloud animation notes belong with production memory",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/blender-cloud-animation.html",
+    "source_url": "https://x.com/38912_DIGITAL/status/2029893782666440885",
+    "tags": ["blender", "vfx", "animation", "tutorial"],
+    "paragraphs": [
+      "The Blender cloud animation draft is a practical production note. It should sit near tutorials, visual effects, and reusable scene-building methods rather than becoming a one-off inspiration post.",
+      "The value of this kind of note is that it can later become a small library entry: what the technique is, what it teaches, and where it fits inside a broader animation or VFX workflow."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Sverchok and procedural Blender notes should stay grouped",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/erindale-sverchok-oceanografic.html",
+    "source_url": "https://x.com/erindale_xyz/status/2031078985038684441",
+    "tags": ["blender", "procedural", "nodes", "tutorial"],
+    "paragraphs": [
+      "The Sverchok-related draft points to a useful archive pattern: node-based Blender notes should be retrievable as a family. The individual example matters, but the larger value is a shelf of procedural techniques that can be recombined.",
+      "This is exactly where the Blogger label rules help Knowledge Hub: broad domain first, concrete technique second, learning intent third."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "NDL OCR Lite fits the document-AI and archive workflow shelf",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/ndl-ocr-lite-mobile.html",
+    "source_url": "",
+    "tags": ["document-ai", "ocr", "archive", "mobile"],
+    "paragraphs": [
+      "The NDL OCR Lite draft is useful because it connects OCR to real archive work. Document AI is not only a model benchmark topic; it is a workflow issue around capture, layout, cleanup, search, and reuse.",
+      "Knowledge Hub should keep OCR items together with document understanding and public-archive tools so future notes can compare practical reliability rather than just model names."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Public API lists are raw material for automation ideas",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/public-apis-list.html",
+    "source_url": "",
+    "tags": ["public-apis", "automation", "development-tools", "reference"],
+    "paragraphs": [
+      "The public APIs draft should live as reference material, not as a standalone news item. API lists become useful when they are attached to concrete automation ideas, prototype prompts, and small tools worth building.",
+      "This belongs with development tools and automation because the retrieval value is future use: which APIs can unlock a script, dashboard, bot, or editorial workflow."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Touch Me is a film-reference note about tone and form",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/touch-me-trailer.html",
+    "source_url": "https://x.com/zombietecho/status/2026101017163788529",
+    "tags": ["film", "horror", "science-fiction", "visual-reference"],
+    "paragraphs": [
+      "The Touch Me draft should not import the Blogger presentation, but the underlying film-reference value is useful. It preserves a trailer as a study object for tone, body horror, framing, and genre positioning.",
+      "Film entries in Knowledge Hub should answer what the reference gives back to creative work: a mood, a composition problem, an editing rhythm, or a way to think about image behavior."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Xenogenesis is a compact film-school source",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/xenogenesis-james-cameron.html",
+    "source_url": "https://x.com/KubrickBlogjp/status/2026076476878242053",
+    "tags": ["film", "science-fiction", "short-film", "visual-reference"],
+    "paragraphs": [
+      "The Xenogenesis draft is useful as a film-history and craft reference. Early short films can show an artist's preoccupations before they become expensive industrial images.",
+      "For Knowledge Hub, the entry belongs with film reference rather than celebrity trivia. The durable question is what visual choices, constraints, and production habits are already visible in the work."
+    ]
+  },
+  {
+    "published_at": "2026-05-02",
+    "updated_at": "2026-05-02",
+    "title": "Bruno Schroeder's library note belongs with archive imagination",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/bruno-schroeder-library.html",
+    "source_url": "https://x.com/Prof_Kalkyl/status/2029654002493804824",
+    "tags": ["books", "library", "archive", "visual-reference"],
+    "paragraphs": [
+      "The Bruno Schroeder draft is useful because it treats a library as more than storage. It is a visual and intellectual environment, a reference for how archives can feel intentional rather than merely accumulated.",
+      "This should connect books, library design, and archive thinking so it can later support posts about personal knowledge systems and physical reference spaces."
+    ]
+  }
+]

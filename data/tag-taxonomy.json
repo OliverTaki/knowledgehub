@@ -30,6 +30,16 @@
     { "tag": "production", "definition": "Practical production use, professional workflow implications, prototyping, staffing, or creative operations.", "aliases": ["production-use", "production utility", "production-utility"] },
     { "tag": "materialx", "definition": "MaterialX or related open material-description workflows for rendering and look development.", "aliases": ["MaterialX"] },
     { "tag": "comfyui", "definition": "ComfyUI workflows, nodes, graphs, or AI-image/video generation pipelines based around ComfyUI.", "aliases": ["ComfyUI", "comfy"] },
-    { "tag": "obsidian", "definition": "Obsidian, markdown knowledge bases, personal knowledge management, or external memory workflows.", "aliases": ["Obsidian", "pkm", "personal-knowledge-management"] }
+    { "tag": "obsidian", "definition": "Obsidian, markdown knowledge bases, personal knowledge management, or external memory workflows.", "aliases": ["Obsidian", "pkm", "personal-knowledge-management"] },
+    { "tag": "3dgs", "definition": "3D Gaussian Splatting and adjacent point-based or radiance-field reconstruction workflows.", "aliases": ["3DGS", "gaussian-splatting", "gaussian splatting"] },
+    { "tag": "nerf", "definition": "NeRF and adjacent neural radiance field methods for view synthesis, reconstruction, and spatial capture.", "aliases": ["NeRF", "neural-radiance-fields"] },
+    { "tag": "knowledge-map", "definition": "External memory, graph-like organization, source mapping, and structured knowledge systems.", "aliases": ["knowledge map", "knowledge graph", "pkm"] },
+    { "tag": "ai-coding", "definition": "AI-assisted coding, coding agents, repository automation, project memory, and development workflows.", "aliases": ["AI coding", "coding-agents", "agentic coding"] },
+    { "tag": "tutorial", "definition": "Learning material, walkthroughs, or practical demonstrations that can teach a repeatable method.", "aliases": ["how-to", "guide", "learning-resource"] },
+    { "tag": "archive", "definition": "Source preservation, library organization, public-domain material, and reusable reference collections.", "aliases": ["archives", "library", "source-archive"] },
+    { "tag": "implementation", "definition": "Practical build notes, system design details, or production-facing implementation references.", "aliases": ["build-note", "implementation-note", "production-note"] },
+    { "tag": "recommendation", "definition": "Curated picks, watch/read/use suggestions, or editorial selection notes.", "aliases": ["recommend", "recommended", "curation"] },
+    { "tag": "browser-tools", "definition": "Browser-based tools for design, motion, editing, prototyping, or lightweight production work.", "aliases": ["web-tools", "browser tool", "web app"] },
+    { "tag": "computer-vision", "definition": "Vision models, reconstruction, detection, tracking, and image understanding research or tooling.", "aliases": ["cv", "vision", "vision-models"] }
   ]
 }

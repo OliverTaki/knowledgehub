@@ -68,7 +68,7 @@ if (-not $status) {
 }
 
 Run-Step "Commit public Wire changes" {
-  Invoke-Native git add scripts/build-wire.mjs scripts/build-site.mjs scripts/wire-push.ps1 public package.json package-lock.json .github/workflows/deploy.yml wrangler.jsonc
+    Invoke-Native git add scripts/build-wire.mjs scripts/build-site.mjs scripts/wire-push.ps1 data/tag-taxonomy.json data/editorial-label-model.json data/legacy-blogger-articles.json public package.json package-lock.json .github/workflows/deploy.yml wrangler.jsonc
   $staged = git diff --cached --name-only
   if (-not $staged) {
     Write-Host "No tracked public changes staged."
