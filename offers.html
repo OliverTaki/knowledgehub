@@ -36,18 +36,44 @@
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-<div class="tag-row">
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="pipeline">pipeline</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="rendering">rendering</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="archive">archive</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="documentation">documentation</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="film">film</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="lookdev">lookdev</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="materialx">materialx</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="procedural">procedural</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="software">software</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="visual-reference">visual-reference</button>
+<div class="quick-filter-panel">
+            <div class="tag-row">
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="pipeline">pipeline</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="rendering">rendering</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="archive">archive</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="documentation">documentation</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="film">film</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="lookdev">lookdev</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="materialx">materialx</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="procedural">procedural</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="software">software</button>
+              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="visual-reference">visual-reference</button>
+            </div>
+            <button class="all-tags-button" type="button" data-tag-modal-open="library-tag-modal">All tags</button>
           </div>
+          <dialog class="tag-modal" id="library-tag-modal">
+            <div class="tag-modal-inner">
+              <div class="tag-modal-header">
+                <div>
+                  <p class="eyebrow">All tags</p>
+                  <p class="entry-meta">10 tags available.</p>
+                </div>
+                <button class="modal-close" type="button" data-tag-modal-close="library-tag-modal">Close</button>
+              </div>
+              <div class="tag-modal-list">
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="archive">archive 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="documentation">documentation 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="film">film 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="lookdev">lookdev 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="materialx">materialx 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="pipeline">pipeline 2</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="procedural">procedural 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="rendering">rendering 2</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="software">software 1</button>
+                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="visual-reference">visual-reference 1</button>
+              </div>
+            </div>
+          </dialog>
         </aside>
       </div>
     </section>
@@ -109,6 +135,23 @@
         target.value = button.dataset.filterValue || '';
         target.dispatchEvent(new Event('input'));
         target.focus();
+        button.closest('dialog')?.close();
+      });
+    });
+    document.querySelectorAll('[data-tag-modal-open]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const modal = document.getElementById(button.dataset.tagModalOpen);
+        if (modal?.showModal) modal.showModal();
+      });
+    });
+    document.querySelectorAll('[data-tag-modal-close]').forEach((button) => {
+      button.addEventListener('click', () => {
+        document.getElementById(button.dataset.tagModalClose)?.close();
+      });
+    });
+    document.querySelectorAll('dialog.tag-modal').forEach((modal) => {
+      modal.addEventListener('click', (event) => {
+        if (event.target === modal) modal.close();
       });
     });
   </script>
