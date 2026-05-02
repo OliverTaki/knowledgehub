@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automatic1111 remains a useful reference for open image-generation workflows - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Automatic1111 remains a useful reference for open image-generation workflows</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">stable-diffusion</span><span class="tag">open-source</span><span class="tag">image-generation</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/Whizz_ai/status/2026225006167122336" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/Whizz_ai/status/2026225006167122336">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/Whizz_ai/status/2026225006167122336" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、Stable DiffusionのオープンソースWebUI（AUTOMATIC1111版）を無料の無制限AI画像生成ツールとして紹介し、テキスト-to-イメージやモデル切り替えなどの機能を強調している。</li>
+  <li>「BREAKING」と銘打たれているが、2022年頃にリリースされた同ツールはGitHubで16万以上のスターを獲得しており、AIコミュニティの定番として4年以上前から存在する。</li>
+  <li>返信ではその古さを指摘する声が多く、ComfyUIなどの代替ツールを推奨する意見が見られ、新規ユーザー向けの再紹介の意図がうかがえる。</li>
+</ul>
+
+<hr>
+
+<h2>定番ツールが再び伸びる理由</h2>
+<p>AUTOMATIC1111は新製品ではないが、画像生成にこれから入る人にとっては依然として分かりやすい入口だ。WebUIで主要機能をまとめて触れられるため、定番であること自体が再紹介の価値になる。</p>
+
+<h2>BREAKING表現への違和感</h2>
+<p>古参ユーザーが反応したのは、内容よりも見出しの付け方だろう。すでに広く使われている道具を新発見のように見せると反発も招くが、逆に言えばそれだけ長寿の標準ツールとして浸透しているとも言える。</p>
+
+<h2>新規ユーザーは比較前提で見るべき</h2>
+<p>WebUIとしての使いやすさは魅力だが、今はComfyUIのような別路線も強い。どれを選ぶかは、ノードベースで組みたいのか、まず一枚を素早く出したいのかという使い方次第になる。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/Whizz_ai/status/2026225006167122336?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" target="_blank">AUTOMATIC1111/stable-diffusion-webui | GitHub</a></li>
+  <li><a href="https://stability.ai/stable-image" target="_blank">Stable Diffusion / Stable Image | Stability AI</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

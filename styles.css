@@ -636,6 +636,67 @@ li {
   font-size: 0.88rem;
 }
 
+.article-detail {
+  max-width: var(--reading);
+  margin: 0 auto;
+}
+
+.article-detail .hero-heading {
+  border-radius: var(--radius-md);
+}
+
+.article-detail h1 {
+  max-width: none;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1.05;
+}
+
+.legacy-article-body {
+  margin-top: 24px;
+  padding: clamp(22px, 4vw, 42px);
+  border-radius: var(--radius-md);
+  line-height: 1.86;
+}
+
+.legacy-article-body h2 {
+  margin-top: 34px;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+}
+
+.legacy-article-body h2:first-child,
+.legacy-article-body hr + h2 {
+  margin-top: 18px;
+}
+
+.legacy-article-body p,
+.legacy-article-body li {
+  font-size: 1.02rem;
+}
+
+.legacy-article-body ul {
+  padding-left: 1.35rem;
+}
+
+.legacy-article-body hr {
+  height: 1px;
+  margin: 28px 0;
+  border: 0;
+  background: rgba(167, 185, 214, 0.34);
+}
+
+.source-embed {
+  min-height: 190px;
+  margin: 0 0 28px;
+  padding: 18px;
+  border: 1px solid rgba(167, 185, 214, 0.34);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.twitter-tweet {
+  margin: 0 auto !important;
+}
+
 .source-list li {
   margin-top: 10px;
   color: var(--muted);

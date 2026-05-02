@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claude Code project structure is an editorial memory problem too - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Claude Code project structure is an editorial memory problem too</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">claude-code</span><span class="tag">agents</span><span class="tag">workflow</span><span class="tag">software-architecture</span></div>
+          <p class="entry-meta"><a href="https://x.com/DipanshuKu55175/status/2028328998120697868" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/DipanshuKu55175/status/2028328998120697868">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/DipanshuKu55175/status/2028328998120697868" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、Claude Codeプロジェクトの構造化を提案し、単なるチャットツールではなくソフトウェア工学の原則を適用したモジュール設計を強調している。</li>
+  <li>画像の図表では、CLAUDE.mdによるプロジェクトメモリ、skills/フォルダの再利用可能ワークフロー、hooks/による自動化チェック、src/のコアモジュールが示され、トークン廃棄を減らし出力の予測性を高める。</li>
+  <li>このアプローチにより、繰り返し指示の削減とコラボレーションの容易化が実現し、投稿者はフルコースを宣伝して実践的な学習を促している。</li>
+</ul>
+
+<hr>
+
+<h2>チャット運用から設計運用への転換</h2>
+<p>この投稿は、Claude Codeを単なるチャットツールとして使うのではなく、ソフトウェア工学の原則に沿って構造化する考え方を提示しています。プロジェクト単位での再現性や協調作業を重視する姿勢が前面に出ています。</p>
+
+<h2>図表が示す役割分担</h2>
+<p>CLAUDE.mdをプロジェクトメモリにし、skills/を再利用ワークフロー、hooks/を自動チェック、src/をコアモジュールとして分ける構成が図で整理されています。こうした役割分担によって、無駄なトークン消費を抑えながら、出力の予測性を高める狙いが見えます。</p>
+
+<h2>実務メリットとしての反復削減</h2>
+<p>このアプローチでは、毎回同じ説明を繰り返さずに済み、チーム内でのコラボレーションもしやすくなります。投稿者がフルコースとして学習を促しているのも、単発のコツではなく、継続運用に向いた設計原則として提示しているためです。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/DipanshuKu55175/status/2028328998120697868?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

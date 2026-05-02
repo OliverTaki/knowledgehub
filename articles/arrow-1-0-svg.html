@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arrow 1.0公開反応メモ 高品質SVGをワンショット生成する専用モデル - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Arrow 1.0公開反応メモ 高品質SVGをワンショット生成する専用モデル</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">design-tools</span><span class="tag">ui</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/mei_999_/status/2026919856822694281" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/mei_999_/status/2026919856822694281">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/mei_999_/status/2026919856822694281" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、QuiverAIが公開したSVG生成AIモデル「Arrow 1.0」のパブリックベータ版を高く評価し、テキストや画像から高品質なベクターグラフィックスをワンショットで生成できる点を強調している。</li>
+  <li>Arrow 1.0はSVG Arenaで1位を獲得した初の専用モデルで、クリーンな構造化ベクター出力に特化し、解像度に依存しないスケーラビリティがデザイナー向けの強みを発揮する。</li>
+  <li>付属動画はPS5コントローラーのSVG生成プロセスを示し、プログレッシブなパス構築により、従来のAIツールでは得難い精密さと効率性を視覚的に証明している。</li>
+</ul>
+
+<hr>
+
+<h2>SVG専用モデルの価値</h2>
+<p>画像生成AIは増えているが、編集しやすいベクター出力を前提にした道具はまだ限られる。Arrow 1.0が注目されるのは、見た目だけでなく構造化されたSVGを直接扱える点が制作フローに直結するからだ。</p>
+
+<h2>ワンショット生成が変える作業</h2>
+<p>テキストや画像から初手でかなり整ったベクターを得られるなら、ラフ出しから清書までの時間配分が変わる。特にアイコン、ロゴ、UI用素材のように再編集が前提の用途では恩恵が大きい。</p>
+
+<h2>誰に刺さるか</h2>
+<p>デザイナーはもちろん、フロントエンド実装者やノーコード制作者にとってもSVGは扱いやすい。生成画像をトレースし直す手間を減らせるなら、デザインと実装の境目にいる人ほど価値を感じやすい。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/mei_999_/status/2026919856822694281?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://quiver.ai/" target="_blank">QuiverAI 公式サイト</a></li>
+  <li><a href="https://docs.quiver.ai/api-reference/create-svgs/text-to-svg" target="_blank">QuiverAI Docs: Text to SVG</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

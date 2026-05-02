@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sverchok and procedural Blender notes should stay grouped - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Sverchok and procedural Blender notes should stay grouped</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">blender</span><span class="tag">procedural</span><span class="tag">nodes</span><span class="tag">tutorial</span></div>
+          <p class="entry-meta"><a href="https://x.com/erindale_xyz/status/2031078985038684441" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/erindale_xyz/status/1316786573220995072">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/erindale_xyz/status/1316786573220995072" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、Blenderのアドオン『Sverchok』を用いた、建築家フェリックス・カンデラ設計のL&#x27;Oceanogràfic水中レストランのパラメトリック3Dモデルを披露しており、ハイパボリックパラボロイドの薄殻構造をノードベースで再現した動画が特徴。</li>
+  <li>カンデラは1950-60年代にメキシコで革新的な曲面コンクリート建築を多数手がけ、このレストラン屋根は彼の代表作の一つで、Valenciaの海洋水族館複合施設に位置し、軽量で効率的な設計が今も修復研究の対象となっている。</li>
+  <li>投稿者Erin DaleはBlenderのプロシージャルモデリング専門家で、この作品は彼女の教育コンテンツの一部であり、以降のGeometry Nodesコース開発につながり、視聴者から学習意欲を喚起する反応を引き起こした。</li>
+</ul>
+
+<hr>
+
+<h2>映像の見どころ</h2>
+<p>建築物の美しさだけでなく、ノードで形状が立ち上がっていく過程を想像させる点が面白い作品です。複雑な曲面構造をただ見せるのではなく、『なぜこういう形になるのか』を感じさせるモデリングになっています。</p>
+
+<h2>技術と制作背景</h2>
+<p>Sverchokでハイパボリックパラボロイドを扱う題材として、カンデラ建築を選んでいるのが非常に教育的です。建築史の知識とBlenderのプロシージャルモデリングを接続していて、後のGeometry Nodes文脈へ自然につながる内容になっています。</p>
+
+<h2>いま見返す価値</h2>
+<p>現在はGeometry Nodesが広く使われていますが、ノードベースの思考法そのものはこの投稿から十分に学べます。建築モチーフの選び方も含めて、学習意欲を刺激する好例です。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/erindale_xyz/status/1316786573220995072?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://x.com/erindale_xyz" target="_blank">erindale_xyz profile</a></li>
+  <li><a href="https://nortikin.github.io/sverchok/" target="_blank">Sverchok official site</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

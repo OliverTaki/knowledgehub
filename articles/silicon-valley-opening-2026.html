@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>『Silicon Valley』風刺オープニング再現メモ 2020〜2026年テック史の圧縮版 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>『Silicon Valley』風刺オープニング再現メモ 2020〜2026年テック史の圧縮版</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">film</span><span class="tag">visual-reference</span><span class="tag">criticism</span></div>
+          <p class="entry-meta"><a href="https://x.com/tmiyatake1/status/2026087175633203550" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/tmiyatake1/status/2026087175633203550">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/tmiyatake1/status/2026087175633203550" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、HBOドラマ「Silicon Valley」のオープニングアニメを2020〜2026年のテックイベントで再現した動画を共有し、日本語訳で紹介。Twitterの変遷、暗号通貨ブームの崩壊（FTX炎上）、レイオフ波、AI革命（ChatGPT、NVIDIA急騰）などを風刺的に描く。</li>
+  <li>元投稿はエンジニア@ mpradoによる英語版で、65万ビュー超の人気。引用元動画が基調で、日本語版はテック投資家@ tmiyatake1がポッドキャスト視聴者向けにローカライズし、8万ビュー獲得。</li>
+  <li>返信では、Zoom/ClubhouseからOpenAI騒動、GPU戦争までの6年間のドラマチックさを指摘。テック史のエンタメまとめとして、業界の浮き沈みを視覚的に教育的に振り返る好例。</li>
+</ul>
+
+<hr>
+
+<h2>6年分の熱狂を一気に圧縮する</h2>
+<p>この動画が強いのは、個別ニュースでは散らばっていた出来事を、同じビジュアル言語で並べ直している点だ。暗号資産、リモート会議、AIブームが一続きの流れとして見えてくる。</p>
+
+<h2>ローカライズの効用</h2>
+<p>日本語訳が付くことで、英語圏のミーム動画が投資家やスタートアップ界隈の内輪ネタで終わらず、国内の視聴者にも読み解きやすくなる。翻訳は単なる字幕ではなく、業界史の共有装置として機能している。</p>
+
+<h2>教育コンテンツとしても成立する</h2>
+<p>面白いだけでなく、何がいつ盛り上がり、何が失速したのかをざっくり追えるのが価値だ。テック業界に詳しくない人でも、ここ数年のムードの変化をつかみやすい。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/tmiyatake1/status/2026087175633203550?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://www.hbo.com/silicon-valley" target="_blank">Silicon Valley | HBO</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

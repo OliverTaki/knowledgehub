@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pencil活用投稿メモ UIデザインからCursor実装までを滑らかにつなぐ新しい流れ - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Pencil活用投稿メモ UIデザインからCursor実装までを滑らかにつなぐ新しい流れ</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span><span class="tag">design-tools</span><span class="tag">ui</span></div>
+          <p class="entry-meta"><a href="https://x.com/seltzer/status/2027684633924813162" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/seltzer/status/2027684633924813162">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/seltzer/status/2027684633924813162" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、AIツール「Pencil」を用いたUIデザインとコーディングの効率的なワークフローを絶賛しており、Claudeでプロンプトを作成しPencilで画面生成、直接編集後Cursorでコード化する流れが、従来のイライラを解消すると述べている。</li>
+  <li>Pencilは2026年に登場したAI駆動のUIデザインソフトで、IDE（Cursorなど）と統合し、プロンプトベースで視覚デザインを生成・編集可能で、Claude Codeとの連携によりデザインからコードへの移行をスムーズにするツールとして注目されている。</li>
+  <li>返信ではFigmaからの移行の容易さやCursor拡張機能の利便性が話題となり、トークン節約のためのツール使い分けが、開発者の生産性向上に寄与する実践例を示唆している。</li>
+</ul>
+
+<hr>
+
+<h2>デザインから実装までの分断を詰める</h2>
+<p>UI制作では、発想、画面化、微調整、コード化が別々の道具に散りやすい。投稿で語られている流れは、その境目をできるだけ小さくし、考えた内容をそのまま実装に渡す感覚を強めている。</p>
+
+<h2>Pencilの役割は生成より中継にある</h2>
+<p>Pencilが注目されるのは、単に画面案を出せるからではなく、直接編集とIDE連携で中継点になれるからだ。Claudeで言語化した意図をPencilで視覚化し、そのままCursorへ渡せると、UIの翻訳コストが下がる。</p>
+
+<h2>ツールを分業させる考え方</h2>
+<p>返信で話題になっているトークン節約や拡張機能の使い分けは、ひとつのAIに全部を任せない実務感覚に近い。用途ごとに最適な道具を選ぶ前提で見ると、このワークフローはかなり再現しやすい。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/seltzer/status/2027684633924813162?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://pencil.dev/" target="_blank">Pencil 公式サイト</a></li>
+  <li><a href="https://cursor.com/" target="_blank">Cursor 公式サイト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

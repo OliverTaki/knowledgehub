@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>異種AI多数決の医療診断論文メモ ベンダー混合が信頼性を押し上げる理由 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>異種AI多数決の医療診断論文メモ ベンダー混合が信頼性を押し上げる理由</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span><span class="tag">learning</span><span class="tag">knowledge-map</span><span class="tag">reference</span></div>
+          <p class="entry-meta"><a href="https://x.com/ai_database/status/2029769032174543340" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/ai_database/status/2029769032174543340">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/ai_database/status/2029769032174543340" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、ハーバード大学とMITの研究論文を基に、異なるベンダーのAIモデルを多数決で組み合わせる方法が医療診断の信頼性を高めることを紹介しており、希少疾患498例と複雑症例165例で検証された。</li>
+  <li>異種モデル（OpenAIのo4-mini、GoogleのGemini-2.5-Pro、AnthropicのClaude-4.5-Sonnet）のチームは、単一モデルや同ベンダー組より優位で、個別の見逃しを補完し、特に難易度の高いケースで効果が大きい。</li>
+  <li>同ベンダー間は思考バイアスが似通うためエラーを増幅する一方、異種混合は多様な誘導バイアスを活かし信頼性を向上させるが、正しい少数意見の保護が今後の課題として挙げられている。</li>
+</ul>
+
+<hr>
+
+<h2>多数決より多様性が効いている</h2>
+<p>この投稿のポイントは、単に複数モデルを足せばよいという話ではなく、ベンダーが違うこと自体に意味がある点だ。学習方針や推論傾向の違いが、診断時の見逃しや偏りを相互補完する方向に働いている。</p>
+
+<h2>難症例ほど差が出る理由</h2>
+<p>簡単なケースでは単一モデルでも一定の答えに収束しやすいが、希少疾患や複雑症例では初手の発想の幅が重要になる。だからこそ、異種混合チームが難しいケースで強いという結果は直感にも合っている。</p>
+
+<h2>今後の課題は少数正解の扱い</h2>
+<p>多数決は扱いやすい一方で、正しいが少数派の意見を埋もれさせる危険がある。医療用途では特にこの点が重要で、最終的には単純な票数ではなく、意見の質や確信度も扱う設計が必要になりそうだ。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/ai_database/status/2029769032174543340?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://arxiv.org/search/?query=Second+Opinion+Matters&amp;searchtype=all&amp;source=header" target="_blank">arXiv検索: Second Opinion Matters</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blender学習メモ: チュートリアルで前進したポイントを工程化する - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Blender学習メモ: チュートリアルで前進したポイントを工程化する</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">blender</span><span class="tag">3d</span><span class="tag">tutorial</span></div>
+          <p class="entry-meta"><a href="https://x.com/i/web/status/1111454365028511745" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/i/web/status/1111454365028511745">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/i/web/status/1111454365028511745" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+﻿<article>
+  <p>短い感想ポストでも、学習プロセスを分解すると再利用できる知見になります。ここでは「チュートリアルの方が強かった」という実感を、次回にも使える確認手順として整理します。</p>
+
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/sXg0IRKhEho"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+
+  <h2>学習初期で止まりやすい点</h2>
+  <ul>
+    <li>設定を飛ばして先に進む: 後半で軸や階層の不整合が表面化しやすい。</li>
+    <li>検証手順を持たない: 単発ポーズでは通っても、連続動作で破綻する。</li>
+    <li>目的より機能を追う: 何を再現したいかが曖昧だと、作業が分岐し続ける。</li>
+  </ul>
+
+  <h2>進行を安定させる最小手順</h2>
+  <p>「配置 → 整合 → 最小制御 → 連続テスト」の4段階に固定すると、問題の切り分けがしやすくなります。機能追加は、各段階でチェックを通してから行うのが安全です。</p>
+
+  <h2>教材を見るときの判断基準</h2>
+  <ul>
+    <li>操作だけでなく、なぜその順番で進めるかを説明しているか。</li>
+    <li>成功例だけでなく、失敗時の戻し方が示されているか。</li>
+    <li>途中確認の基準が具体的か（何を見てOKとするか）。</li>
+  </ul>
+
+  <h2>参考資料</h2>
+  <ul>
+    <li><a href="https://twitter.com/i/web/status/1111454365028511745">元ポスト</a></li>
+    <li><a href="https://www.youtube.com/watch?v=sXg0IRKhEho&amp;feature=youtu.be">参照動画</a></li>
+  </ul>
+</article>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

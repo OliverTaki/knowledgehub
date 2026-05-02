@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mint.gg紹介投稿メモ Street Viewから3Dシーンを起こす体験の可能性 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Mint.gg紹介投稿メモ Street Viewから3Dシーンを起こす体験の可能性</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">spatial-capture</span><span class="tag">3dgs</span><span class="tag">research</span></div>
+          <p class="entry-meta"><a href="https://x.com/oliviscusAI/status/2027440667144949940" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/oliviscusAI/status/2027440667144949940">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/oliviscusAI/status/2027440667144949940" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>このX投稿は、Googleストリートビューのリンクを貼るだけで3Dガウススプラットシーンを生成するツール「Mint.gg」を紹介し、完全に無料と主張しているが、動画デモで没入型3D体験を示す。</li>
+  <li>ガウススプラットは2023年の論文で提案されたリアルタイムレンダリング技術で、Googleのストリートビュー画像から高品質な3D再構築を可能にし、AR/VRやデジタルツインに応用される。</li>
+  <li>返信では無料でないとの指摘が多く、クレジット課金や地域制限を挙げ、投稿の主張に疑問符がつく一方、技術の革新性に興奮する声もある。</li>
+</ul>
+
+<hr>
+
+<h2>Street Viewから3Dへ飛ぶ訴求力</h2>
+<p>既存の地理画像リンクを、そのまま歩けるような3D体験に変えるという発想は非常に伝わりやすい。Gaussian Splattingの技術的な説明が分からなくても、入力がURL一本というだけで多くの人に用途が想像される。</p>
+
+<h2>無料主張には留保が必要</h2>
+<p>投稿が伸びる一方で、返信で料金や地域制限が指摘されている点は見逃せない。新しい3Dサービスは体験デモが魅力的でも、実際の利用条件を確認してから評価する姿勢が重要になる。</p>
+
+<h2>どの用途で刺さるか</h2>
+<p>この種の技術は、AR/VR体験、デジタルツイン、リモート下見のような用途と相性がよい。生成品質だけでなく、どれだけ少ない手順で3D空間へ持ち込めるかが、今後の競争軸になりそうだ。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/oliviscusAI/status/2027440667144949940?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://f.inc/portfolio/mint/" target="_blank">mint.gg | Founders, Inc.</a></li>
+  <li><a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/" target="_blank">3D Gaussian Splatting 論文ページ</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

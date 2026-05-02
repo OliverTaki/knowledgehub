@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>detail.dev推奨投稿メモ Claude CodeやCodexが見逃した脆弱性検出事例 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>detail.dev推奨投稿メモ Claude CodeやCodexが見逃した脆弱性検出事例</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/nztm_tw/status/2029120916505149882" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/nztm_tw/status/2029120916505149882">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/nztm_tw/status/2029120916505149882" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、コード脆弱性検出サービス「detail.dev」を推奨しており、Claude CodeやCodexが見逃した約20件のバグ（XSS脆弱性含む）を検知し、リリース前のリスクを防いだと実体験を共有。</li>
+  <li>detail.devはセキュアサンドボックスでリポジトリをスキャンし、高精度レポートをLinearやGitHub Issuesに統合、SOC 2 Type II認定でデータ非保持を保証、初回無料でオープンソース事例でも複数バグ修正実績あり。</li>
+  <li>作者の野崎智弘氏はプロダクトデザイナーで、自身のツール開発者として活用、サービス開発者のDan Robinson氏から感謝の返信があり、コミュニティでの信頼性を示唆。</li>
+</ul>
+
+<hr>
+
+<h2>体験談として強い投稿</h2>
+<p>この投稿の核は、Claude CodeやCodexが見逃した約20件のバグをdetail.devが検出したという具体的な体験談にあります。抽象的な宣伝ではなく、リリース前の実害回避として語られているため、開発者にとって説得力のある文脈になっています。</p>
+
+<h2>導入しやすさと運用接続</h2>
+<p>セキュアサンドボックスでのスキャン、高精度レポート、LinearやGitHub Issuesとの統合、SOC 2 Type II認定、データ非保持保証など、運用導線が整っている点が整理されています。初回無料やオープンソースでの実績にも触れられており、試しやすさを押し出した投稿です。</p>
+
+<h2>コミュニティ内の信頼形成</h2>
+<p>投稿者が自身の開発現場で使っていることに加え、サービス開発者のDan Robinson氏から反応が返っている点も、信頼性の材料として機能しています。ツールの性能だけでなく、実際の利用者コミュニティで評価が積み上がっていることが示唆されています。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/nztm_tw/status/2029120916505149882?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>フォント骨格編集プロトタイプメモ アウトラインをもっと直感的に曲げる試み - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>フォント骨格編集プロトタイプメモ アウトラインをもっと直感的に曲げる試み</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span></div>
+          <p class="entry-meta"><a href="https://x.com/yamatoiizuka/status/2025594465873011124" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/yamatoiizuka/status/2025594465873011124">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/yamatoiizuka/status/2025594465873011124" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、フォントのアウトラインに骨格情報を埋め込み、針金入りの粘土のように直感的に変形させる技術のプロトタイプを公開したもので、ビデオデモでは文字の骨格をドラッグしてリアルタイムで形状を調整する様子が示されている。</li>
+  <li>著者の過去投稿から、2025年頃に骨格と太さのベジェ曲線を分離するアイデアを構想しており、本技術はその実現形で、従来のベジェ曲線編集を超えたフォントデザインの革新性を狙っている。</li>
+  <li>反応は好評で、Glyphsプラグイン化の提案や過去の類似ツール（例: Spine機能）の言及があり、デザイナーコミュニティで変形編集の利便性を高めるツールとして注目を集めている。</li>
+</ul>
+
+<hr>
+
+<h2>アウトライン編集の痛点に触れている</h2>
+<p>フォント制作では、ベジェ点を直接触る作業が細かく複雑になりやすい。骨格を先に動かして全体の形を崩さず変形できるなら、試行錯誤の速度はかなり変わる。</p>
+
+<h2>骨格と太さの分離が効く理由</h2>
+<p>文字の中心線と肉付けを分けて考えることで、字形の性格を保ったまま編集しやすくなる。投稿の価値は、理論的な発想をそのまま触れるインターフェースに落とし込んでいる点にある。</p>
+
+<h2>デザインツールとしての将来性</h2>
+<p>コミュニティでGlyphsプラグイン化の話が出るのは、実験的デモで終わらせたくない需要があるからだろう。直感的な変形編集は、書体設計だけでなくロゴやレタリングにも広がる余地がある。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/yamatoiizuka/status/2025594465873011124?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trolliの不気味なプロモ動画が示したシュール広告アニメの強さ - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Trolliの不気味なプロモ動画が示したシュール広告アニメの強さ</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">animation</span><span class="tag">motion-design</span><span class="tag">visual-reference</span></div>
+          <p class="entry-meta"><a href="https://x.com/Trolli_USA/status/1115343004196397059" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/Trolli_USA/status/1115343004196397059">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/Trolli_USA/status/1115343004196397059" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>このX投稿は、2019年に公開されたTrolliキャンディのプロモーション動画で、『Don&#x27;t Hug Me I&#x27;m Scared』制作者のBecky &amp; Joeによるシュールで不気味なアニメーションが特徴。</li>
+  <li>動画では、暗くネオン輝く世界でトロル風のキャラが歌い、悲しみを追い払う内容だが、多くの視聴者がそのグロテスクなビジュアルを『creepy』と評し、議論を呼んだ。</li>
+  <li>キャンペーンは不気味さゆえにバズり、Trolliのeコマース売上を190%向上させる成功を収めた。</li>
+</ul>
+
+<hr>
+
+<h2>映像の見どころ</h2>
+<p>広告なのに一目で『普通ではない』と分かるビジュアルを押し切っている点が最大の見どころです。かわいさではなく違和感をフックにしていて、視聴後にブランド名が強く残るタイプの映像になっています。</p>
+
+<h2>技術と制作背景</h2>
+<p>Becky &amp; Joeの作風を知っている人ほど、食品ブランド案件にこのトーンを持ち込んだ大胆さが際立ちます。グロテスクさを含む表現を、歌やネオン演出でポップ広告へ着地させたバランス感覚も巧みです。</p>
+
+<h2>いま見返す価値</h2>
+<p>話題化そのものが販促効果へ直結した事例として、現在も十分に示唆があります。好悪が分かれる表現でも、ブランド設計がはまれば強い記憶を残せることを示したキャンペーンです。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/Trolli_USA/status/1115343004196397059?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://x.com/Trolli_USA" target="_blank">Trolli_USA profile</a></li>
+  <li><a href="https://www.trolli.com/" target="_blank">Trolli official site</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

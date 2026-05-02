@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eris CaracolがEeveeに移植した揺れる草シェーダーの表現力 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Eris CaracolがEeveeに移植した揺れる草シェーダーの表現力</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">blender</span><span class="tag">3d</span><span class="tag">tutorial</span><span class="tag">rendering</span><span class="tag">vfx</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/eriscaracol/status/1317485821721759744" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/eriscaracol/status/1317485821721759744">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/eriscaracol/status/1317485821721759744" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、Unreal Engine版の自作グラスシェーダーをBlenderのEeveeレンダラーに移植したデモ動画で、風に揺れるリアルな草の表現を示している。</li>
+  <li>作者@eriscaracolは3Dアーティストで、2020年8月のUnreal版更新（Ghost of Tsushima風）が基盤となり、Blender版はシンプルなオブジェクト周囲の草の自然な変形を強調。</li>
+  <li>投稿は5,900以上のいいねを獲得し、コミュニティからチュートリアル要望が相次ぎ、Blenderのシェーダー作成における人気事例となった。</li>
+</ul>
+
+<hr>
+
+<h2>映像の見どころ</h2>
+<p>草そのものの質感よりも、接近したオブジェクトの周囲で自然にたわむ反応が魅力です。Eeveeの軽快さを活かしながら、空気感まで感じさせるスタイライズされた草表現になっています。</p>
+
+<h2>技術と制作背景</h2>
+<p>Unreal Engineで育てたアイデアをBlenderへ持ち込む流れは、リアルタイム表現の知見がDCC側へ戻ってくる好例です。単なる移植ではなく、Eeveeでどう見せるかを再設計しているからこそ多くの反応を集めたのだと思います。</p>
+
+<h2>いま見返す価値</h2>
+<p>現在も草や植生の表現は学習需要が高く、短いデモでも着眼点の良さが分かる投稿です。チュートリアル要望が集中したこと自体が、Blenderコミュニティで何が求められていたかを示しています。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/eriscaracol/status/1317485821721759744?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://x.com/eriscaracol" target="_blank">eriscaracol profile</a></li>
+  <li><a href="https://www.blender.org/" target="_blank">Blender official site</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

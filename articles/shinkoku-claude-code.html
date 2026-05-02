@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>shinkoku紹介メモ Claude Codeで確定申告を自動化するOSSスキル - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>shinkoku紹介メモ Claude Codeで確定申告を自動化するOSSスキル</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span><span class="tag">document-ai</span><span class="tag">ocr</span><span class="tag">archive</span></div>
+          <p class="entry-meta"><a href="https://x.com/kuzyofire/status/2025914497979093288" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/kuzyofire/status/2025914497979093288">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/kuzyofire/status/2025914497979093288" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、ClaudeCodeのOSSスキル「shinkoku」を紹介し、書類OCR読み取りからe-Tax提出までの確定申告自動化を絶賛している。著者は投資家として複雑な所得処理に便利だと評価。</li>
+  <li>スキルはレシート登録、仕訳入力、税額計算をコマンドで実行可能で、238件の税法テスト済みだが、OCR誤認識や分離課税非対応のため最終確認必須。</li>
+  <li>反応ではAIの進化を喜ぶ声が多い一方、法的責任や政府ツールの改善を求める意見もあり、行政タスク自動化の未来を示唆。</li>
+</ul>
+
+<hr>
+
+<h2>行政タスク自動化の象徴</h2>
+<p>確定申告のような面倒で定型的な作業は、AI自動化の効果が最も体感しやすい領域のひとつだ。書類読取りから提出準備までを一気通貫で支援する構想は、それだけで強い訴求力がある。</p>
+
+<h2>便利でも最後は人が見るべき理由</h2>
+<p>税務処理は誤差や例外がそのままリスクになるため、OCRや分類が自動でも最終確認は外せない。投稿が高く評価される一方で慎重論も出るのは、この領域が便利さと責任を同時に抱えているからだ。</p>
+
+<h2>OSSとしての価値</h2>
+<p>政府側ツールの改善待ちではなく、現場の不便を先に埋めるオープンソースが出てくること自体に意味がある。AIが個人事業や投資家の事務負担をどこまで削れるかを示す具体例として読める。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/kuzyofire/status/2025914497979093288?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
