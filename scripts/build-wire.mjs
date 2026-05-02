@@ -265,6 +265,7 @@ writeJson("data/processed/wire.json", {
 
 writeJson("content/wire/index.json", entries);
 
+const existingLibrarySeed = readJson("data/processed/library_seed.json", { items: [] });
 const librarySeed = {
   generated_at: new Date().toISOString(),
   policy: {
@@ -272,7 +273,7 @@ const librarySeed = {
     multi_tag_filtering: true,
     ranking_copy_policy: "Do not copy ranking text. Store ranking source and position as metadata."
   },
-  items: []
+  items: Array.isArray(existingLibrarySeed.items) ? existingLibrarySeed.items : []
 };
 
 writeJson("data/processed/library_seed.json", librarySeed);

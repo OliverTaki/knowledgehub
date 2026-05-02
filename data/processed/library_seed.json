@@ -1,9 +1,291 @@
 {
-  "generated_at": "2026-05-02T07:21:30.796Z",
+  "generated_at": "2026-05-02T07:23:07.251Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
     "ranking_copy_policy": "Do not copy ranking text. Store ranking source and position as metadata."
   },
-  "items": []
+  "items": [
+    {
+      "title": "MaterialX",
+      "kind": "Library / Rendering",
+      "url": "https://materialx.org/",
+      "description": "Open material-description reference for look development, renderer interchange, and pipeline notes.",
+      "tags": [
+        "materialx",
+        "rendering",
+        "pipeline"
+      ]
+    },
+    {
+      "title": "Filament",
+      "kind": "Library / Rendering",
+      "url": "https://google.github.io/filament/",
+      "description": "Real-time physically based rendering engine useful for material preview, lightweight inspection, and renderer comparison.",
+      "tags": [
+        "rendering",
+        "lookdev",
+        "software"
+      ]
+    },
+    {
+      "title": "Blender",
+      "kind": "Library / 3D",
+      "url": "https://www.blender.org/",
+      "description": "Core open 3D application for modeling, animation, rendering, geometry nodes, and production experiments.",
+      "tags": [
+        "blender",
+        "3d",
+        "animation",
+        "rendering"
+      ]
+    },
+    {
+      "title": "Blender Manual",
+      "kind": "Library / Documentation",
+      "url": "https://docs.blender.org/manual/en/latest/",
+      "description": "Canonical Blender documentation for checking tool behavior before turning Wire notes into practical Articles.",
+      "tags": [
+        "blender",
+        "documentation",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Houdini",
+      "kind": "Library / Procedural",
+      "url": "https://www.sidefx.com/products/houdini/",
+      "description": "Procedural 3D and VFX system used as a reference point for nodes, simulation, and production workflows.",
+      "tags": [
+        "houdini",
+        "procedural",
+        "vfx"
+      ]
+    },
+    {
+      "title": "SideFX Labs",
+      "kind": "Library / Procedural",
+      "url": "https://www.sidefx.com/products/sidefx-labs/",
+      "description": "SideFX's toolset for practical Houdini workflows, useful for procedural production references.",
+      "tags": [
+        "houdini",
+        "procedural",
+        "pipeline"
+      ]
+    },
+    {
+      "title": "Autodesk Maya",
+      "kind": "Library / 3D",
+      "url": "https://www.autodesk.com/products/maya/overview",
+      "description": "Character, rigging, animation, and 3D production reference for Maya-related Wire and Article notes.",
+      "tags": [
+        "maya",
+        "rigging",
+        "3d",
+        "animation"
+      ]
+    },
+    {
+      "title": "Automatic1111 Stable Diffusion WebUI",
+      "kind": "Library / AI Image",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Durable open-source reference for classic Stable Diffusion WebUI workflows and extension-based image generation.",
+      "tags": [
+        "stable-diffusion",
+        "open-source",
+        "image-generation",
+        "workflow"
+      ]
+    },
+    {
+      "title": "ComfyUI",
+      "kind": "Library / AI Workflow",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-based AI generation interface that serves as a recurring reference for graph workflows and reusable pipelines.",
+      "tags": [
+        "comfyui",
+        "workflow",
+        "nodes",
+        "ai"
+      ]
+    },
+    {
+      "title": "NotebookLM",
+      "kind": "Library / Knowledge System",
+      "url": "https://notebooklm.google.com/",
+      "description": "Source-grounded notebook tool used as a reference for learning, synthesis, and external memory workflows.",
+      "tags": [
+        "notebooklm",
+        "knowledge-map",
+        "learning",
+        "workflow"
+      ]
+    },
+    {
+      "title": "Obsidian",
+      "kind": "Library / Knowledge System",
+      "url": "https://obsidian.md/",
+      "description": "Markdown knowledge-base application for local notes, source maps, and long-running editorial memory.",
+      "tags": [
+        "obsidian",
+        "knowledge-map",
+        "local-ai",
+        "workflow"
+      ]
+    },
+    {
+      "title": "GitHub Public APIs List",
+      "kind": "Library / Development",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "Large public API index useful as raw material for automation ideas and prototype data sources.",
+      "tags": [
+        "public-apis",
+        "automation",
+        "development-tools",
+        "reference"
+      ]
+    },
+    {
+      "title": "Tesseract OCR",
+      "kind": "Library / Document AI",
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "description": "Open OCR engine reference for document capture, archive workflows, and OCR-related Articles.",
+      "tags": [
+        "document-ai",
+        "ocr",
+        "archive",
+        "open-source"
+      ]
+    },
+    {
+      "title": "OpenCV",
+      "kind": "Library / Computer Vision",
+      "url": "https://opencv.org/",
+      "description": "Computer vision library reference for image processing, tracking, detection, and reconstruction notes.",
+      "tags": [
+        "computer-vision",
+        "open-source",
+        "development-tools"
+      ]
+    },
+    {
+      "title": "NVIDIA Omniverse",
+      "kind": "Library / 3D Pipeline",
+      "url": "https://www.nvidia.com/en-us/omniverse/",
+      "description": "3D collaboration and simulation platform relevant to USD, rendering, and spatial workflow references.",
+      "tags": [
+        "nvidia",
+        "3d",
+        "pipeline",
+        "rendering"
+      ]
+    },
+    {
+      "title": "3D Gaussian Splatting Research",
+      "kind": "Library / Spatial Capture",
+      "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+      "description": "Primary 3D Gaussian Splatting project page for reconstruction, view synthesis, and spatial capture notes.",
+      "tags": [
+        "3dgs",
+        "spatial-capture",
+        "research",
+        "rendering"
+      ]
+    },
+    {
+      "title": "NeRF Project",
+      "kind": "Library / Spatial Capture",
+      "url": "https://www.matthewtancik.com/nerf",
+      "description": "Canonical Neural Radiance Fields reference for spatial capture and view-synthesis context.",
+      "tags": [
+        "nerf",
+        "spatial-capture",
+        "research",
+        "computer-vision"
+      ]
+    },
+    {
+      "title": "Cavalry",
+      "kind": "Library / Motion Design",
+      "url": "https://cavalry.scenegroup.co/",
+      "description": "Procedural motion-design application useful as a comparison point for animation and graphic systems.",
+      "tags": [
+        "cavalry",
+        "motion-design",
+        "animation",
+        "procedural"
+      ]
+    },
+    {
+      "title": "Pikimov",
+      "kind": "Library / Motion Design",
+      "url": "https://pikimov.com/",
+      "description": "Browser-based motion graphics tool referenced by Wire items about lightweight animation production.",
+      "tags": [
+        "motion-design",
+        "browser-tools",
+        "animation",
+        "design-tools"
+      ]
+    },
+    {
+      "title": "Internet Archive",
+      "kind": "Library / Archive",
+      "url": "https://archive.org/",
+      "description": "Durable public archive for books, films, web snapshots, and historical reference material.",
+      "tags": [
+        "archive",
+        "books",
+        "film",
+        "research"
+      ]
+    },
+    {
+      "title": "Project Gutenberg",
+      "kind": "Library / Books",
+      "url": "https://www.gutenberg.org/",
+      "description": "Public-domain book archive useful for literature, source trails, and reusable reference entries.",
+      "tags": [
+        "books",
+        "archive",
+        "literature",
+        "research"
+      ]
+    },
+    {
+      "title": "Wikimedia Commons",
+      "kind": "Library / Visual Reference",
+      "url": "https://commons.wikimedia.org/",
+      "description": "Open media repository useful for visual reference, public-domain images, and source checks.",
+      "tags": [
+        "visual-reference",
+        "archive",
+        "research"
+      ]
+    },
+    {
+      "title": "Stanford Libraries Exhibits",
+      "kind": "Library / Archive",
+      "url": "https://exhibits.stanford.edu/",
+      "description": "Digital exhibit shelf for maps, visual culture, historical material, and durable research references.",
+      "tags": [
+        "archive",
+        "visual-reference",
+        "research",
+        "books"
+      ]
+    },
+    {
+      "title": "Claude Code Documentation",
+      "kind": "Library / AI Coding",
+      "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "description": "Official Claude Code reference for AI coding workflows, project memory, and agentic development notes.",
+      "tags": [
+        "ai-coding",
+        "agents",
+        "workflow",
+        "documentation"
+      ]
+    }
+  ]
 }
