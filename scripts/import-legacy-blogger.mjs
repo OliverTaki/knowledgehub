@@ -29,10 +29,14 @@ function extractTitle(html, fallback) {
   return decodeHtml(match?.[1] || fallback.replace(/[-_]+/g, " "));
 }
 
+function normalizeSourceUrl(url = "") {
+  return String(url).replace("https://twitter.com/", "https://x.com/");
+}
+
 function extractLinks(html) {
   return matchAll(/<a\s+[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi, html)
     .map((match) => ({
-      url: match[1].replace("https://twitter.com/", "https://x.com/"),
+      url: normalizeSourceUrl(match[1]),
       label: decodeHtml(match[2])
     }))
     .filter((link) => link.url);
@@ -61,6 +65,29 @@ function extractSections(html) {
     if (paragraphs.length) sections.push({ heading, paragraphs });
   }
   return sections;
+}
+
+function extractBodyHtml(html) {
+  const bodyMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+  return bodyMatch?.[1] || html;
+}
+
+function legacyContentHtml(html, sourceUrl) {
+  let content = extractBodyHtml(html)
+    .replace(/<script[\s\S]*?platform\.twitter\.com\/widgets\.js[\s\S]*?<\/script>/gi, "")
+    .replace(/<\/?(?:!doctype|html|head|body|meta)[^>]*>/gi, "")
+    .replace(/<h1[^>]*>[\s\S]*?<\/h1>/gi, "")
+    .replace(/<blockquote\s+class=["']twitter-tweet["'][\s\S]*?<\/blockquote>/gi, "");
+
+  if (sourceUrl) {
+    const normalizedUrl = normalizeSourceUrl(sourceUrl);
+    content = `<div class="source-embed lazy-x-embed" data-x-url="${normalizedUrl}">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="${normalizedUrl}" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>\n${content}`;
+  }
+
+  return content.trim();
 }
 
 function addIf(tags, condition, values) {
@@ -116,6 +143,7 @@ const notes = files.map((file) => {
     tags: inferTags(slug, title, postPoints),
     post_points: postPoints,
     sections,
+    legacy_html: legacyContentHtml(html, sourceUrl),
     links
   };
 });

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Universal Beta Splatting extends 3DGS from reconstruction into motion - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Universal Beta Splatting extends 3DGS from reconstruction into motion</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">spatial-capture</span><span class="tag">3dgs</span><span class="tag">rendering</span><span class="tag">research</span></div>
+          <p class="entry-meta"><a href="https://x.com/Almorgand/status/2026329946688200780" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/Almorgand/status/2026329946688200780">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/Almorgand/status/2026329946688200780" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>このX投稿は、放射場レンダリングの新手法「Universal Beta Splatting」を紹介するもので、3DガウススプラッティングをN次元Betaカーネルに拡張し、空間・角度・時間的な効果を統一的に扱う論文を共有している。</li>
+  <li>動画はキッチンでの動的シーン（例: 料理中の人物と犬）や静的再構築（自転車、キッチンなど）のデモを示し、入力ビューから高品質なリアルタイムレンダリングを実現する様子を視覚的に説明している。</li>
+  <li>同手法はガウススプラッティングを特殊ケースとして後方互換性を保ち、補助ネットワーク不要で複雑な光輸送や動的シーンを解釈可能にし、ベンチマークで既存手法を上回る性能を発揮する点が画期的。</li>
+</ul>
+
+<hr>
+
+<h2>Betaカーネル化の意味</h2>
+<p>Universal Beta Splattingの面白さは、3DGSを捨てるのではなく、その一般化として再定義している点にある。空間だけでなく角度や時間まで同じ枠組みで扱えるようにすることで、これまで別処理になりがちだった効果をひとつのモデルに寄せようとしている。</p>
+
+<h2>動画デモが示す実用性</h2>
+<p>キッチンの動的シーンや静的オブジェクトの再構築を同じ投稿で見せる構成は、この手法が研究的な美しさだけでなく、実際のレンダリング体験でも差を出せることを伝えている。リアルタイムで高品質というメッセージを、数式ではなく映像で理解させるタイプの紹介だ。</p>
+
+<h2>後方互換性が強い理由</h2>
+<p>新手法が既存の3DGSを特殊ケースとして含むなら、過去資産との接続がしやすい。補助ネットワーク不要という説明も含め、研究の新規性だけでなく、現場へ持ち込みやすい形に寄せていることが評価点になりそうだ。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/Almorgand/status/2026329946688200780?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://arxiv.org/search/?query=Universal+Beta+Splatting&amp;searchtype=all&amp;source=header" target="_blank">arXiv検索: Universal Beta Splatting</a></li>
+  <li><a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/" target="_blank">3D Gaussian Splatting 論文ページ</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

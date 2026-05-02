@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>微小重力の水滴シミュレーション投稿メモ 表面張力を下げたときの崩れ方が面白い - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>微小重力の水滴シミュレーション投稿メモ 表面張力を下げたときの崩れ方が面白い</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span></div>
+          <p class="entry-meta"><a href="https://x.com/ka2aki86/status/1877172464712667636" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/ka2aki86/status/1877172464712667636">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/ka2aki86/status/1877172464712667636" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、微小重力下での水滴衝突シミュレーションの続きで、表面張力を低減すると水の形状が崩れやすく広がる様子を示す動画を共有。地球の常識が通用しない宇宙物理の面白さを強調。</li>
+  <li>科学的に、微小重力では重力の影響がなく表面張力が主導するため、低表面張力化で水滴の凝集力が弱まり、不規則な変形が生じる。これはNASAのISS実験で確認された流体挙動と一致。</li>
+  <li>投稿者・佐藤航陽氏は宇宙ベンチャー起業家で、デジタルツールによる宇宙現象再現を推進中。この実験は人類の宇宙生活設計に寄与する一環。</li>
+</ul>
+
+<hr>
+
+<h2>微小重力では表面張力が主役になる</h2>
+<p>地上では重力の影響で見えにくい挙動も、微小重力では表面張力の性質が前面に出る。だから水滴の衝突や変形を眺めるだけでも、普段の感覚では捉えにくい物理の違いがはっきり見える。</p>
+
+<h2>表面張力を下げると何が起きるか</h2>
+<p>凝集力が弱まれば、水は丸くまとまるより広がりやすく崩れやすくなる。動画が面白いのは、教科書的な説明を読む前に、形の乱れ方としてその差を直感できるところにある。</p>
+
+<h2>宇宙生活設計との接点</h2>
+<p>こうした流体挙動の理解は、飲料、冷却、洗浄のような日常行為にもつながる。シミュレーション映像は娯楽的に見えても、長期的には宇宙環境での生活設計を考える材料として地に足がついている。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/ka2aki86/status/1877172464712667636?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://science.nasa.gov/biological-physical/research/physical-science/fluid-physics/" target="_blank">NASA Fluid Physics</a></li>
+  <li><a href="https://www.nasa.gov/mission/station/research-explorer/facilities/completed-facilities/capillary-flow-experiment-2-cfe-2/" target="_blank">NASA ISS: Capillary Flow Experiment 2</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

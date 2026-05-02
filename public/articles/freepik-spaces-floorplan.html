@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freepik Spaces活用メモ 動画生成の空間的一貫性を平面図で支える方法 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Freepik Spaces活用メモ 動画生成の空間的一貫性を平面図で支える方法</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">design-tools</span><span class="tag">ui</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/taziku_co/status/2024264782698991723" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/taziku_co/status/2024264782698991723">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/taziku_co/status/2024264782698991723" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>動画生成AIの空間的一貫性問題（例: 廊下の伸長や窓の消失）を、Freepik Spacesの平面図参照・ノード分割生成で解決する手法を紹介。</li>
+  <li>添付動画は、2Dフロアプランを基にした一貫した3D空間ツアーを示し、リビングからバルコニーまでのスムーズな遷移を実現。</li>
+  <li>Freepik Spacesは2026年初頭に登場したAIワークフローキャンバスで、フレームベース制御により動画の空間整合性を向上させるツールとして注目。</li>
+</ul>
+
+<hr>
+
+<h2>動画生成の弱点に正面から向き合う</h2>
+<p>AI動画は見た目の美しさより前に、空間が途中で破綻する問題が大きい。廊下が伸びたり窓が消えたりする違和感を、平面図という構造情報で抑える発想はかなり実用的だ。</p>
+
+<h2>平面図が制御の軸になる</h2>
+<p>2Dフロアプランを先に置くことで、移動経路や部屋の関係が固定される。動画生成を感覚的なプロンプトだけに頼らず、設計情報で支えるワークフローとして見ると価値が分かりやすい。</p>
+
+<h2>空間設計系の用途と相性がよい</h2>
+<p>内覧動画、建築プレゼン、空間ツアーのような用途では、一貫性の欠如がそのまま信頼性の低下になる。Freepik Spacesのような制御型キャンバスは、そうした実務用途で特に効きそうだ。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/taziku_co/status/2024264782698991723?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

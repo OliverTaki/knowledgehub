@@ -162,11 +162,37 @@ const BASE_ARTICLES = [
 
 const legacyBloggerArticles = readJson("data/legacy-blogger-articles.json", []);
 const legacyBloggerSourceNotes = readJson("data/legacy-blogger-source-notes.json", { notes: [] });
+const sourceNotesByFile = new Map(
+  (Array.isArray(legacyBloggerSourceNotes.notes) ? legacyBloggerSourceNotes.notes : [])
+    .map((note) => [note.source_file, note])
+);
 const curatedLegacySources = new Set(
   (Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : [])
     .map((article) => article.source_file)
     .filter(Boolean)
 );
+function slugifyArticle(value, fallback = "article") {
+  const slug = String(value || fallback)
+    .normalize("NFKD")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80);
+  return slug || fallback;
+}
+
+function decorateArticle(article, fallback) {
+  const sourceNote = article.source_file ? sourceNotesByFile.get(article.source_file) : null;
+  const slug = article.slug || sourceNote?.slug || slugifyArticle(article.title, fallback);
+  return {
+    ...article,
+    slug,
+    source_url: article.source_url || sourceNote?.source_url || "",
+    legacy_html: article.legacy_html || sourceNote?.legacy_html || "",
+    detail_url: `articles/${slug}.html`
+  };
+}
+
 const sourceNoteArticles = (Array.isArray(legacyBloggerSourceNotes.notes) ? legacyBloggerSourceNotes.notes : [])
   .filter((note) => !curatedLegacySources.has(note.source_file))
   .map((note) => {
@@ -179,16 +205,18 @@ const sourceNoteArticles = (Array.isArray(legacyBloggerSourceNotes.notes) ? lega
       published_at: "2026-05-02",
       updated_at: "2026-05-02",
       title: note.title,
+      slug: note.slug,
       source_file: note.source_file,
       source_url: note.source_url,
       tags: note.tags || ["legacy-blogger", "source-note"],
+      legacy_html: note.legacy_html,
       paragraphs: paragraphs.length ? paragraphs : ["Legacy Blogger source note imported for editorial review and future Knowledge Hub promotion."]
     };
   });
 const ARTICLES = [
-  ...BASE_ARTICLES,
-  ...(Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : []),
-  ...sourceNoteArticles
+  ...BASE_ARTICLES.map((article, index) => decorateArticle(article, `base-${index + 1}`)),
+  ...(Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : []).map((article, index) => decorateArticle(article, `legacy-curated-${index + 1}`)),
+  ...sourceNoteArticles.map((article, index) => decorateArticle(article, `legacy-source-${index + 1}`))
 ];
 
 const library = {
@@ -393,7 +421,7 @@ function tagList(tags = []) {
   return tags.filter(Boolean).map((tag) => `<span class="tag">${esc(tag)}</span>`).join("");
 }
 
-function nav(active) {
+function nav(active, basePath = "") {
   const links = [
     ["index.html", "Home"],
     ["news.html", "Wire"],
@@ -402,11 +430,11 @@ function nav(active) {
     ["about.html", "About"]
   ];
   return links
-    .map(([href, label]) => `<a${active === label ? ' class="active"' : ""} href="${href}">${label}</a>`)
+    .map(([href, label]) => `<a${active === label ? ' class="active"' : ""} href="${basePath}${href}">${label}</a>`)
     .join("\n          ");
 }
 
-function layout({ title, active, searchId = "", searchPlaceholder = "", body, script = "" }) {
+function layout({ title, active, searchId = "", searchPlaceholder = "", body, script = "", basePath = "", lang = "en" }) {
   const search = searchId
     ? `<div class="topbar-search">
         <label class="visually-hidden" for="${esc(searchId)}">${esc(searchPlaceholder)}</label>
@@ -415,27 +443,23 @@ function layout({ title, active, searchId = "", searchPlaceholder = "", body, sc
     : '<div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>';
 
   return `<!doctype html>
-<html lang="en">
+<html lang="${esc(lang)}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="desk.css">
+  <link rel="stylesheet" href="${basePath}styles.css">
+  <link rel="stylesheet" href="${basePath}desk.css">
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="index.html"><span class="brand-mark"></span> ${esc(siteName)}</a>
+      <a class="brand" href="${basePath}index.html"><span class="brand-mark"></span> ${esc(siteName)}</a>
       ${search}
       <div class="topbar-actions">
         <nav class="topnav">
-          ${nav(active)}
+          ${nav(active, basePath)}
         </nav>
-        <div class="language-toggle" role="group" aria-label="Display language">
-          <button class="language-button" type="button" aria-pressed="true">EN</button>
-          <button class="language-button" type="button" aria-pressed="false">JP</button>
-        </div>
       </div>
     </div>
   </header>
@@ -482,9 +506,9 @@ function libraryItem(item) {
 
 function articleItem(article) {
   const search = searchText([article.title, article.published_at, article.updated_at, article.source_file, article.source_url, ...article.tags, ...article.paragraphs]);
-  const href = article.source_url || "#";
+  const href = article.detail_url || article.source_url || "#";
   return `        <li data-search="${search}">
-          <a href="${esc(href)}"${article.source_url ? ' target="_blank" rel="noopener noreferrer"' : ""}>${esc(article.title)}</a>
+          <a href="${esc(href)}">${esc(article.title)}</a>
           <p class="entry-meta">Published ${esc(article.published_at)} - Updated ${esc(article.updated_at)}</p>
           ${article.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n          ")}
           <div class="tag-row">${tagList(article.tags)}</div>
@@ -524,6 +548,74 @@ function filterScript(kind) {
     });
   </script>
 `;
+}
+
+function lazyXEmbedScript() {
+  return `  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+`;
+}
+
+function articleDetailBody(article) {
+  const meta = `Published ${esc(article.published_at)} - Updated ${esc(article.updated_at)}`;
+  const sourceLink = article.source_url
+    ? `<p class="entry-meta"><a href="${esc(article.source_url)}" target="_blank" rel="noopener noreferrer">Open original source</a></p>`
+    : "";
+  const body = article.legacy_html
+    ? article.legacy_html
+    : article.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n");
+
+  return `    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>${esc(article.title)}</h1>
+          <p class="article-meta">${esc(meta)}</p>
+          <div class="tag-row">${tagList(article.tags)}</div>
+          ${sourceLink}
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+${body}
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>`;
 }
 
 const latestWire = publicWireEntries.slice(0, 4).map(wireItem).join("\n") || "        <li><p>No wire entries yet.</p></li>";
@@ -704,6 +796,22 @@ ${statusCards([
 
     <footer class="footer"><p>The site style follows Autograph Hub. The topic model remains specific to Knowledge Hub.</p></footer>`
 });
+
+const articleDir = path.join("public", "articles");
+fs.rmSync(articleDir, { recursive: true, force: true });
+fs.mkdirSync(articleDir, { recursive: true });
+
+for (const article of ARTICLES) {
+  const detailHtml = layout({
+    title: `${article.title} - ${siteName}`,
+    active: "Articles",
+    basePath: "../",
+    lang: article.legacy_html ? "ja" : "en",
+    body: articleDetailBody(article),
+    script: article.legacy_html ? lazyXEmbedScript() : ""
+  });
+  fs.writeFileSync(path.join(articleDir, `${article.slug}.html`), detailHtml, "utf8");
+}
 
 fs.writeFileSync(path.join("public", "index.html"), indexHtml, "utf8");
 fs.writeFileSync(path.join("public", "wire.html"), wireHtml, "utf8");

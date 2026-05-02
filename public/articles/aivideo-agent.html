@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIVideo Agent is part of the automation layer around moving images - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>AIVideo Agent is part of the automation layer around moving images</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">ai-video</span><span class="tag">agents</span><span class="tag">automation</span><span class="tag">production</span></div>
+          <p class="entry-meta"><a href="https://x.com/AiAircle34052/status/2029431044781555797" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/AiAircle34052/status/2029431044781555797">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/AiAircle34052/status/2029431044781555797" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、動画制作を完全自動化するAIエージェント「AIVideo Agent」を紹介し、OpenClawのような自律型AIの動画版として位置づけ、アイデア入力だけでリサーチから編集までを24時間処理可能と解説。</li>
+  <li>AIVideo Agentはaivideo.comの新ツールで、API不要・セットアップ不要の特性を持ち、OpenClaw（メール管理などの個人タスク自動化AI）と同様にクリエイティブ作業をエンドツーエンドで代行する点が革新的。</li>
+  <li>投稿の影響力は高く、10万ビュー超えでクリエイティブ業界の変革を予感させる一方、商用有料ツールのため一部で「過大評価」との反応があり、無料OSSのOpenClawとの違いが議論を呼んでいる。</li>
+</ul>
+
+<hr>
+
+<h2>動画版エージェントとしての訴求</h2>
+<p>企画、調査、素材集め、編集までをまとめて受け持つという説明は、AI動画ツール単体より一段階上の価値を示している。単機能の生成ではなく、制作フローごと自動化する話として読まれている点が大きい。</p>
+
+<h2>セットアップ不要が広げる層</h2>
+<p>API設定やローカル構築が不要なら、動画制作に詳しくても開発環境に詳しくない人まで触りやすい。有料でも伸びるのは、初期設定の負担を外して成果物へ最短距離で向かわせる設計だからだろう。</p>
+
+<h2>OpenClaw比較で見える違い</h2>
+<p>同じ自律型でも、OpenClawはローカル志向のOSS、AIVideo Agentは商用SaaS寄りという違いがある。議論が起きるのは優劣よりも、誰が何をどこまで外注したいのかという前提が大きく違うためだ。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/AiAircle34052/status/2029431044781555797?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://aivideo.com/" target="_blank">AIVideo 公式サイト</a></li>
+  <li><a href="https://openclaw.ai/" target="_blank">OpenClaw 公式サイト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

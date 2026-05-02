@@ -49,6 +49,14 @@ if (-not $SkipX) {
   Write-Host "==> Skipping X collection"
 }
 
+if (Test-Path -LiteralPath "C:\Users\punch\Desktop\AI_Blog_Editorial_Shared\05_drafts\blogger") {
+  Run-Step "Import legacy Blogger notes" {
+    Invoke-Native npm run import:legacy-blogger
+  }
+} else {
+  Write-Host "==> Skipping legacy Blogger import"
+}
+
 Run-Step "Build Wire" {
   Invoke-Native npm run build:wire
 }

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raphael Lacosteの『Different Framing』が描く未来都市と草原の対比 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Raphael Lacosteの『Different Framing』が描く未来都市と草原の対比</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span></div>
+          <p class="entry-meta"><a href="https://x.com/raphaellacoste/status/1317164885759971329" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/raphaellacoste/status/1317164885759971329">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/raphaellacoste/status/1317164885759971329" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、ラファエル・ラコステ氏のサイバーパンク風環境アート『Different Framing』を示しており、巨大な未来都市と穏やかな草原のコントラストを異なる構図で描いた作品です。</li>
+  <li>前回の投稿のバリエーションで、2021年に出版された自身の画集『Worlds: The Art of Raphael Lacoste』の表紙用イテレーションとして作成され、『アサシン クリード』などのゲームデザイン経験を反映しています。</li>
+  <li>視聴者からは構図の魅力や建築の美しさを称賛する反応が多く、作成に約1週間を要した点が明かされ、自然とディストピアの融合が教育的・視覚的に魅力的です。</li>
+</ul>
+
+<hr>
+
+<h2>映像の見どころ</h2>
+<p>巨大都市の圧と前景の静かな草原を同居させることで、スケール感と感情の距離感を同時に作っているのが見どころです。構図違いを見せる投稿だからこそ、ラコステがどこを調整しているのかも想像しやすくなっています。</p>
+
+<h2>技術と制作背景</h2>
+<p>ゲーム業界で培った都市設計やシルエット整理の感覚が、個人作品でもそのまま活きているタイプのアートです。表紙案として作られた経緯を知ると、一枚絵以上に『本の顔』として成立する強さを意識していることが見えてきます。</p>
+
+<h2>いま見返す価値</h2>
+<p>完成品だけでなくバリエーション比較まで共有しているため、環境アートの思考過程を学ぶ資料としても優秀です。自然とディストピアをどう両立させるかという課題設定も、現在のSFビジュアルでなお有効です。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/raphaellacoste/status/1317164885759971329?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://x.com/raphaellacoste" target="_blank">raphaellacoste profile</a></li>
+  <li><a href="https://raphaellacoste.bigcartel.com/" target="_blank">Raphael Lacoste official shop</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

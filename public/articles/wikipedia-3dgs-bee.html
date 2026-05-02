@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikipediaに3DGSを埋め込むデモ投稿メモ 教育記事の没入化が見えてきた - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Wikipediaに3DGSを埋め込むデモ投稿メモ 教育記事の没入化が見えてきた</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">spatial-capture</span><span class="tag">3dgs</span><span class="tag">research</span><span class="tag">ai-video</span><span class="tag">ai</span><span class="tag">production</span></div>
+          <p class="entry-meta"><a href="https://x.com/abstrakt314/status/2025961855823605825" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/abstrakt314/status/2025961855823605825">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/abstrakt314/status/2025961855823605825" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、Wikipediaのハチのページにインタラクティブな3Dガウススプラットモデルを埋め込んだデモ動画で、ブラウザ上でリアルタイム回転・拡大が可能。</li>
+  <li>ガウススプラットは2D画像から3Dシーンを生成する高速レンダリング技術で、NeRFより効率的；SuperSplatツールにより100万スプラットを16MBで表示。</li>
+  <li>投稿はWikipediaの没入型進化を提言し、Grokipediaへの統合を求める反応が多く、3Dコンテンツの教育利用を促進する可能性を示唆。</li>
+</ul>
+
+<hr>
+
+<h2>教育記事の体験が変わる可能性</h2>
+<p>百科事典の情報は文字と静止画像が中心だったが、対象物をその場で回して観察できるなら理解の入口が変わる。とくに昆虫や器具のような立体把握が重要な題材では効果が大きい。</p>
+
+<h2>3DGSが向いている理由</h2>
+<p>高速表示と軽量配信を両立できることが、ブラウザ埋め込み用途では重要になる。研究デモとして終わらず、記事内コンテンツとして現実味を持つのは、この軽さがあるからだ。</p>
+
+<h2>Wikipedia文脈で議論が起きる意味</h2>
+<p>投稿が目指しているのは単なる技術デモではなく、知識共有の形式自体を広げることだろう。教育利用が前面に出ることで、3Dコンテンツが娯楽ではなく学習インフラとして見え始めている。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/abstrakt314/status/2025961855823605825?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

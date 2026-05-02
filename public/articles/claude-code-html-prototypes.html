@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claude Codeで大量HTML試作メモ コンテキスト投入が42画面生成を支える - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Claude Codeで大量HTML試作メモ コンテキスト投入が42画面生成を支える</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/takejune/status/2024108126279274612" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/takejune/status/2024108126279274612">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/takejune/status/2024108126279274612" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>@takejuneの投稿は、AnthropicのClaude Codeツールを使ってAIでHTMLプロトタイプを大量生成する方法を共有しており、デザインシステムと事業戦略のコンテキストを事前投入することで出力品質を向上させる実践的なTipsを詳述。</li>
+  <li>Agent Teams機能の活用により一晩で42画面を生成した事例を紹介し、tmux統合やカスタムコマンドの設定手順をステップバイステップで説明、プロトタイピングの効率化を強調。</li>
+  <li>投稿末尾で自社SmartBankのプロダクトデザイナー採用をPRし、AI活用環境をアピール、業界内でAI駆動のデザイン開発のトレンドを反映した内容。</li>
+</ul>
+
+<hr>
+
+<h2>量産できる理由は事前文脈にある</h2>
+<p>42画面という数字だけ見ると派手だが、投稿の本質はその前段のコンテキスト整備にある。デザインシステムと事業戦略を先に渡すことで、単なる量産ではなく方向の揃った試作を実現している。</p>
+
+<h2>Agent Teamsと周辺環境の重要性</h2>
+<p>tmuxやカスタムコマンドのような周辺設定まで含めて共有している点が実務的だ。AIツール単体ではなく、どの環境でどう回すかまで整えることで、量産が本当に使える形になる。</p>
+
+<h2>採用PRとしても筋が通っている</h2>
+<p>AI活用の具体例を見せたうえで採用につなげる流れは自然だ。『こういう環境で働ける』というメッセージが、単なる求人文より強く伝わる。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/takejune/status/2024108126279274612?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenClaw管理画面構築メモ AIエージェントを会社のように運用する発想 - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../offers.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>OpenClaw管理画面構築メモ AIエージェントを会社のように運用する発想</h1>
+          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
+          <div class="tag-row"><span class="tag">legacy-blogger</span><span class="tag">source-note</span><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/gagarotai200/status/2024371815699943799" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<div class="source-embed lazy-x-embed" data-x-url="https://x.com/gagarotai200/status/2024371815699943799">
+  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
+  <a href="https://x.com/gagarotai200/status/2024371815699943799" target="_blank" rel="noopener noreferrer">Open original post</a>
+</div>
+
+
+
+
+
+
+
+<hr>
+
+<h2>ポストのポイント</h2>
+<ul>
+  <li>この投稿は、OpenClawというAIエージェントにNextJSとConvexを使った「ミッションコントロール」管理画面を構築する方法を詳細に解説しており、AIの自律動作を可視化・強化する6つのツール（タスクボード、コンテンツパイプライン、カレンダーなど）の実装プロンプトと手順を提供している。</li>
+  <li>著者のガガロットAIはSNS運用代行やAIスクール運営の実績を持ち、投稿を通じてAIを「会社」として扱う組織的活用を提唱し、単純作業の自動化により人間の戦略的業務に集中できる利点を強調している。</li>
+  <li>投稿後、視聴回数31万超えで好評を博し、ユーザーからは非エンジニアでも試行したいという反応が多く、Claude Codeとの比較も含めAIツールの進化を象徴する内容として注目を集めている。</li>
+</ul>
+
+<hr>
+
+<h2>エージェントを組織として見る視点</h2>
+<p>この投稿の特徴は、AIを単発ツールではなく、複数機能を持つ運用単位として扱っていることだ。タスク、カレンダー、コンテンツ管理をまとめる発想は、まさに小さな会社の管理画面に近い。</p>
+
+<h2>可視化が実用性を生む</h2>
+<p>自律動作するAIほど、何をしているかが見えないと不安が増す。ミッションコントロール的なUIは、便利さだけでなく、安心して任せるための監督装置として重要になる。</p>
+
+<h2>非エンジニアに響く理由</h2>
+<p>NextJSやConvexの話を含みつつも、投稿全体は『これを使えばAIをチーム化できる』というイメージを先に渡している。そのため、実装詳細より運用イメージに反応する層まで広く届いている。</p>
+
+<hr>
+
+<h2>参考リンク</h2>
+<ul>
+  <li><a href="https://x.com/gagarotai200/status/2024371815699943799?s=20" target="_blank">元ポスト</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
