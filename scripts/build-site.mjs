@@ -708,13 +708,14 @@ const articlesHtml = layout({
           <p class="lead">Patterns, comparisons, and production notes developed from the wire lane.</p>
         </div>
         <aside class="hero-aside status-panel">
-          <p class="eyebrow">Status</p>
-${statusCards([
-  ["Published", String(ARTICLES.length)],
-  ["Source lane", "Wire"],
-  ["Mode", "summary-first"],
-  ["Next", "promote notes"]
-])}
+          <p class="eyebrow">Quick filters</p>
+          <div class="tag-row">
+            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="ai">AI</button>
+            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="film">Films</button>
+            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="blender">Blender</button>
+            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="learning">Learning</button>
+            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="3dgs">3DGS</button>
+          </div>
         </aside>
       </div>
     </section>
