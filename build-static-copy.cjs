@@ -3,7 +3,16 @@ const path = require("node:path");
 
 const root = process.cwd();
 const out = path.join(root, "public");
-const exclude = new Set([".git", "public", "package.json", "build-static-copy.cjs"]);
+const exclude = new Set([
+  ".git",
+  ".cache",
+  "public",
+  "node_modules",
+  "package.json",
+  "package-lock.json",
+  "wrangler.jsonc",
+  "build-static-copy.cjs"
+]);
 
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });

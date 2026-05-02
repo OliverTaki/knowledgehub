@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "build": "node build-static-copy.cjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.87.0"
   }
 }
