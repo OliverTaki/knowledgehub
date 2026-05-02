@@ -33,7 +33,8 @@
         "video-ai",
         "ai-moving-image",
         "ai moving image",
-        "moving-image-ai"
+        "moving-image-ai",
+        "AI動画"
       ]
     },
     {
@@ -118,12 +119,21 @@
     },
     {
       "tag": "pipeline",
-      "definition": "Production infrastructure, workflow automation, repeatable asset flow, or studio process design.",
+      "definition": "Production infrastructure, repeatable asset flow, studio process design, or cross-tool production systems.",
       "aliases": [
-        "workflow",
+        "production-pipeline",
+        "asset-pipeline",
+        "studio-pipeline"
+      ]
+    },
+    {
+      "tag": "workflow",
+      "definition": "Repeatable working methods, tool chains, setup patterns, or practical process notes.",
+      "aliases": [
         "workflows",
         "production-workflow",
-        "research-workflow"
+        "research-workflow",
+        "ワークフロー"
       ]
     },
     {
@@ -196,7 +206,8 @@
         "local-ai",
         "offline-ai",
         "local models",
-        "local-models"
+        "local-models",
+        "ローカルAI"
       ]
     },
     {

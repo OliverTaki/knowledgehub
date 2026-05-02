@@ -20,7 +20,7 @@
           <a href="index.html">Home</a>
           <a href="news.html">Wire</a>
           <a href="articles.html">Articles</a>
-          <a class="active" href="offers.html">Library</a>
+          <a class="active" href="library.html">Library</a>
           <a href="about.html">About</a>
         </nav>
       </div>
@@ -43,7 +43,6 @@
               <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="archive">archive</button>
               <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="documentation">documentation</button>
               <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="film">film</button>
-              <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="lookdev">lookdev</button>
               <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="materialx">materialx</button>
               <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="procedural">procedural</button>
               <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="software">software</button>
@@ -56,7 +55,7 @@
               <div class="tag-modal-header">
                 <div>
                   <p class="eyebrow">All tags</p>
-                  <p class="entry-meta">10 tags available.</p>
+                  <p class="entry-meta">9 tags available.</p>
                 </div>
                 <button class="modal-close" type="button" data-tag-modal-close="library-tag-modal">Close</button>
               </div>
@@ -64,7 +63,6 @@
                 <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="archive">archive 1</button>
                 <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="documentation">documentation 1</button>
                 <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="film">film 1</button>
-                <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="lookdev">lookdev 1</button>
                 <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="materialx">materialx 1</button>
                 <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="pipeline">pipeline 2</button>
                 <button class="tag-button tag-modal-tag" type="button" data-filter-target="library-filter" data-filter-value="procedural">procedural 1</button>
@@ -87,11 +85,11 @@
           <p>A reusable reference on material interchange, look development, and renderer-independent material description.</p>
           <div class="tag-row"><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="rendering">rendering</button><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="materialx">materialx</button><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="pipeline">pipeline</button></div>
         </li>
-        <li data-search="filament library / rendering a real-time rendering reference useful for asset inspection, material preview, lightweight look development, and production-adjacent visualization. rendering lookdev software library / rendering">
+        <li data-search="filament library / rendering a real-time rendering reference useful for asset inspection, material preview, lightweight look development, and production-adjacent visualization. rendering software library / rendering">
           <a href="#">Filament</a>
           <p class="entry-meta">Library / Rendering</p>
           <p>A real-time rendering reference useful for asset inspection, material preview, lightweight look development, and production-adjacent visualization.</p>
-          <div class="tag-row"><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="rendering">rendering</button><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="lookdev">lookdev</button><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="software">software</button></div>
+          <div class="tag-row"><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="rendering">rendering</button><button class="tag tag-filter-button" type="button" data-filter-target="library-filter" data-filter-value="software">software</button></div>
         </li>
         <li data-search="node graph memory library / workflow a wiki-style concept for linking node-based work to external notes, reusable explanations, and production memory so procedural systems remain understandable. pipeline procedural documentation library / workflow">
           <a href="#">Node graph memory</a>
@@ -127,6 +125,8 @@
       summary.textContent = q ? `Showing ${visible} matching entr${visible === 1 ? 'y' : 'ies'}.` : 'Showing all library entries.';
     }
 
+    const initialQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialQuery) input.value = initialQuery;
     input.addEventListener('input', filterList);
     document.querySelectorAll('[data-filter-target]').forEach((button) => {
       button.addEventListener('click', () => {
@@ -154,6 +154,7 @@
         if (event.target === modal) modal.close();
       });
     });
+    filterList();
   </script>
 
 </body>

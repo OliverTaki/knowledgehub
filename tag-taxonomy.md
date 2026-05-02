@@ -46,7 +46,11 @@ Procedural creation systems, node-based generation, reusable technical setups, o
 
 ## pipeline
 
-Production infrastructure, workflow automation, repeatable asset flow, or studio process design.
+Production infrastructure, repeatable asset flow, studio process design, or cross-tool production systems.
+
+## workflow
+
+Repeatable working methods, tool chains, setup patterns, or practical process notes.
 
 ## rendering
 
