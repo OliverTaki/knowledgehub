@@ -421,6 +421,43 @@ function tagList(tags = []) {
   return tags.filter(Boolean).map((tag) => `<span class="tag">${esc(tag)}</span>`).join("");
 }
 
+const QUICK_FILTER_EXCLUDE = new Set([
+  "wire",
+  "reference",
+  "source-note",
+  "legacy-blogger",
+  "legacy_blogger",
+  "needs-review",
+  "unknown",
+  "staging"
+]);
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function quickFilterButtons({ items, target, getTags, limit = 8 }) {
+  const counts = new Map();
+  for (const item of items) {
+    for (const tag of unique(getTags(item).map((value) => String(value).trim()).filter(Boolean))) {
+      const key = tag.toLowerCase();
+      if (QUICK_FILTER_EXCLUDE.has(key)) continue;
+      counts.set(tag, (counts.get(tag) || 0) + 1);
+    }
+  }
+
+  const tags = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, limit)
+    .map(([tag]) => tag);
+
+  if (!tags.length) return '<p class="entry-meta">No filters yet.</p>';
+
+  return `<div class="tag-row">
+${tags.map((tag) => `            <button class="tag-button" type="button" data-filter-target="${esc(target)}" data-filter-value="${esc(tag)}">${esc(tag)}</button>`).join("\n")}
+          </div>`;
+}
+
 function nav(active, basePath = "") {
   const links = [
     ["index.html", "Home"],
@@ -674,13 +711,11 @@ const wireHtml = layout({
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-          <div class="tag-row">
-            <button class="tag-button" type="button" data-filter-target="wire-filter" data-filter-value="ai_tools">AI tools</button>
-            <button class="tag-button" type="button" data-filter-target="wire-filter" data-filter-value="software">Software</button>
-            <button class="tag-button" type="button" data-filter-target="wire-filter" data-filter-value="workflow">Workflow</button>
-            <button class="tag-button" type="button" data-filter-target="wire-filter" data-filter-value="books">Books</button>
-            <button class="tag-button" type="button" data-filter-target="wire-filter" data-filter-value="motion_design">Motion</button>
-          </div>
+${quickFilterButtons({
+  items: publicWireEntries,
+  target: "wire-filter",
+  getTags: (item) => [...(item.content_kinds || []), ...(item.domains || []), ...(item.tags || [])]
+})}
         </aside>
       </div>
     </section>
@@ -709,13 +744,11 @@ const articlesHtml = layout({
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-          <div class="tag-row">
-            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="ai">AI</button>
-            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="film">Films</button>
-            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="blender">Blender</button>
-            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="learning">Learning</button>
-            <button class="tag-button" type="button" data-filter-target="articles-filter" data-filter-value="3dgs">3DGS</button>
-          </div>
+${quickFilterButtons({
+  items: ARTICLES,
+  target: "articles-filter",
+  getTags: (item) => item.tags || []
+})}
         </aside>
       </div>
     </section>
@@ -744,13 +777,11 @@ const libraryHtml = layout({
         </div>
         <aside class="hero-aside status-panel">
           <p class="eyebrow">Quick filters</p>
-          <div class="tag-row">
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="book">Books</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="film">Films</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="software">Software</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="workflow">Workflow</button>
-            <button class="tag-button" type="button" data-filter-target="library-filter" data-filter-value="rendering">Rendering</button>
-          </div>
+${quickFilterButtons({
+  items: library.items,
+  target: "library-filter",
+  getTags: (item) => [...(item.tags || []), ...(item.aliases || [])]
+})}
         </aside>
       </div>
     </section>
