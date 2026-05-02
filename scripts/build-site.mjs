@@ -161,9 +161,34 @@ const BASE_ARTICLES = [
 ];
 
 const legacyBloggerArticles = readJson("data/legacy-blogger-articles.json", []);
+const legacyBloggerSourceNotes = readJson("data/legacy-blogger-source-notes.json", { notes: [] });
+const curatedLegacySources = new Set(
+  (Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : [])
+    .map((article) => article.source_file)
+    .filter(Boolean)
+);
+const sourceNoteArticles = (Array.isArray(legacyBloggerSourceNotes.notes) ? legacyBloggerSourceNotes.notes : [])
+  .filter((note) => !curatedLegacySources.has(note.source_file))
+  .map((note) => {
+    const points = (note.post_points || []).slice(0, 3);
+    const sectionParagraphs = (note.sections || [])
+      .flatMap((section) => (section.paragraphs || []).slice(0, 1))
+      .slice(0, Math.max(0, 3 - points.length));
+    const paragraphs = [...points, ...sectionParagraphs].filter(Boolean);
+    return {
+      published_at: "2026-05-02",
+      updated_at: "2026-05-02",
+      title: note.title,
+      source_file: note.source_file,
+      source_url: note.source_url,
+      tags: note.tags || ["legacy-blogger", "source-note"],
+      paragraphs: paragraphs.length ? paragraphs : ["Legacy Blogger source note imported for editorial review and future Knowledge Hub promotion."]
+    };
+  });
 const ARTICLES = [
   ...BASE_ARTICLES,
-  ...(Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : [])
+  ...(Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : []),
+  ...sourceNoteArticles
 ];
 
 const library = {
