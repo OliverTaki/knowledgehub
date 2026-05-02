@@ -1,8 +1,8 @@
 # Knowledge Hub Wire
 
-Generated: 2026-05-02T04:05:34.854Z
+Generated: 2026-05-02T04:09:09.140Z
 Source: public summary layer
-Count: 393
+Count: 427
 
 Public summary archive. Full post text is not copied into this file.
 
@@ -3935,3 +3935,343 @@ A saved Wire source queued for editorial review. Use the original link to decide
 - Tags: reference, uncategorized, needs-review, reference, wire
 
 A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @BrianRoemmele: Brian Roemmele 蝙蝠, 1926
+
+- Source: @BrianRoemmele
+- URL: https://x.com/BrianRoemmele/status/2050060158081155421
+- Posted: 2026-05-01T03:50:04.000Z
+- Collected: 2026-05-02T04:08:47.945Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @ilyamirox: Ilya Miro Linuxはもう完全にポルノ状態だよ
+
+- Source: @ilyamirox
+- URL: https://x.com/ilyamirox/status/2050115203795161553
+- Posted: 2026-05-01T07:28:48.000Z
+- Collected: 2026-05-02T04:08:47.945Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @shotamatsuda: Shota Matsuda 松田 聖大 超長い影の実験。富士山の影による大気散乱への影響が千葉まで伸びてるみたいな
+
+- Source: @shotamatsuda
+- URL: https://x.com/shotamatsuda/status/2050205277354651931
+- Posted: 2026-05-01T13:26:43.000Z
+- Collected: 2026-05-02T04:08:47.946Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Houdini Node Viewer workflow note
+
+- Source: @theCGchannel
+- URL: https://x.com/theCGchannel/status/2050136956411977776
+- Posted: 2026-05-01T08:55:14.000Z
+- Collected: 2026-05-02T04:08:47.946Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.
+
+## Source note from @viktoroddy: Viktor Oddy Claude Design のフッターデザインはめっちゃヤバい。 そして誰でも同じ結果を達成できる。 ここにプロンプト...
+
+- Source: @viktoroddy
+- URL: https://x.com/viktoroddy/status/2049833886851764696
+- Posted: 2026-04-30T12:50:57.000Z
+- Collected: 2026-05-02T04:08:47.946Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @oo_kk_aa: okazakitomohiro
+
+- Source: @oo_kk_aa
+- URL: https://x.com/oo_kk_aa/status/2049842790579024240
+- Posted: 2026-04-30T13:26:20.000Z
+- Collected: 2026-05-02T04:08:49.361Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @Botan_cr: Crunio
+
+- Source: @Botan_cr
+- URL: https://x.com/Botan_cr/status/2050181012773298517
+- Posted: 2026-05-01T11:50:18.000Z
+- Collected: 2026-05-02T04:08:49.361Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @PicturesFoIder: non aesthetic things ザック・クレッガーが監督を務める『バイオハザード』の最初の予告編が公開されました。 9月18日より劇場...
+
+- Source: @PicturesFoIder
+- URL: https://x.com/PicturesFoIder/status/2049861892483764298
+- Posted: 2026-04-30T14:42:14.000Z
+- Collected: 2026-05-02T04:08:49.361Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @photoshopvip: Photoshop VIP 【2026最新版】おしゃれな英語フリーフォント147選
+
+- Source: @photoshopvip
+- URL: https://x.com/photoshopvip/status/2050185453299728591
+- Posted: 2026-05-01T12:07:57.000Z
+- Collected: 2026-05-02T04:08:49.361Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Film and moving-image reference note
+
+- Source: @menonfilmpod
+- URL: https://x.com/menonfilmpod/status/2049927659174666462
+- Posted: 2026-04-30T19:03:34.000Z
+- Collected: 2026-05-02T04:08:49.361Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.
+
+## Source note from @Criterion: Criterion Collection 今晩の視聴おすすめは？ で、明日で配信終了のヴェルナー・ヘルツォーク監督の『マイ・サン、マイ・サン、ホ...
+
+- Source: @Criterion
+- URL: https://x.com/Criterion/status/2049962161867215001
+- Posted: 2026-04-30T21:20:40.000Z
+- Collected: 2026-05-02T04:08:49.361Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## MaterialX and Filament rendering compatibility note
+
+- Source: @antmatrosov
+- URL: https://x.com/antmatrosov/status/2050103761448636857
+- Posted: 2026-05-01T06:43:20.000Z
+- Collected: 2026-05-02T04:08:50.780Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.
+
+## Film and moving-image reference note
+
+- Source: @Filmbot
+- URL: https://x.com/Filmbot/status/2049905768145842319
+- Posted: 2026-04-30T17:36:35.000Z
+- Collected: 2026-05-02T04:08:50.780Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.
+
+## AI tool and model source note
+
+- Source: @scarf_sensei
+- URL: https://x.com/scarf_sensei/status/2049856836774600721
+- Posted: 2026-04-30T14:22:09.000Z
+- Collected: 2026-05-02T04:08:50.780Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.
+
+## Source note from @orderly_ef: hatino AEプラグイン「ColorfulEcho」を公開しました！ エコーの残像1つ1つに色を割り当てて、グラデーション状の表現ができるプ...
+
+- Source: @orderly_ef
+- URL: https://x.com/orderly_ef/status/2049842824066257348
+- Posted: 2026-04-30T13:26:28.000Z
+- Collected: 2026-05-02T04:08:50.780Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Creative software workflow note
+
+- Source: @Shimo_x2
+- URL: https://x.com/Shimo_x2/status/2049835702192656670
+- Posted: 2026-04-30T12:58:10.000Z
+- Collected: 2026-05-02T04:08:52.192Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.
+
+## Film and moving-image reference note
+
+- Source: @AJNavarro9
+- URL: https://x.com/AJNavarro9/status/2049792909428335037
+- Posted: 2026-04-30T10:08:07.000Z
+- Collected: 2026-05-02T04:08:52.192Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.
+
+## Houdini Node Viewer workflow note
+
+- Source: @80Level
+- URL: https://x.com/80Level/status/2049873914138931404
+- Posted: 2026-04-30T15:30:00.000Z
+- Collected: 2026-05-02T04:08:52.192Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.
+
+## AI tool and model source note
+
+- Source: @happy_modeling
+- URL: https://x.com/happy_modeling/status/2049985681951453213
+- Posted: 2026-04-30T22:54:08.000Z
+- Collected: 2026-05-02T04:08:52.192Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.
+
+## Source note from @ymt3d: 3D人-3dnchu- CG情報ブログ XYNが「空間キャプチャーソリューション」を法人向けに提供開始！専用アプリとカメラで現実空間を高品質な3...
+
+- Source: @ymt3d
+- URL: https://x.com/ymt3d/status/2046153775266816219
+- Posted: 2026-04-20T09:07:30.000Z
+- Collected: 2026-05-02T04:08:52.192Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @dangreenheck: Dan Greenheck これらの雲のせいで、数本の白髪が増えましたが、目指している品質/パフォーマンスのスイートスポットにようやく近づいてい...
+
+- Source: @dangreenheck
+- URL: https://x.com/dangreenheck/status/2049719512807653826
+- Posted: 2026-04-30T05:16:28.000Z
+- Collected: 2026-05-02T04:08:53.617Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Creative software workflow note
+
+- Source: @NousResearch
+- URL: https://x.com/NousResearch/status/2049898693902451044
+- Posted: 2026-04-30T17:08:28.000Z
+- Collected: 2026-05-02T04:08:53.617Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.
+
+## AI tool and model source note
+
+- Source: @aakashgupta
+- URL: https://x.com/aakashgupta/status/2049873419236422035
+- Posted: 2026-04-30T15:28:02.000Z
+- Collected: 2026-05-02T04:08:53.617Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.
+
+## Creative software workflow note
+
+- Source: @Alibaba_Qwen
+- URL: https://x.com/Alibaba_Qwen/status/2049861145574690992
+- Posted: 2026-04-30T14:39:16.000Z
+- Collected: 2026-05-02T04:08:53.617Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.
+
+## Houdini Node Viewer workflow note
+
+- Source: @ymt3d
+- URL: https://x.com/ymt3d/status/2049728172300882136
+- Posted: 2026-04-30T05:50:53.000Z
+- Collected: 2026-05-02T04:08:55.055Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.
+
+## Source note from @3DxDEV7: 3DxDEV おお、これはめっちゃクリーンだ。 TexturingXYZ + Blender Softwrap を使って、こんな感じのカスタムモ...
+
+- Source: @3DxDEV7
+- URL: https://x.com/3DxDEV7/status/2049949634324316186
+- Posted: 2026-04-30T20:30:53.000Z
+- Collected: 2026-05-02T04:08:55.055Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @x_pokoponmaru_x: ぽこぽん丸。( nobuo.umahara ) おおおエフェクトのリファレンス。凄い。 https:// fxtags.com
+
+- Source: @x_pokoponmaru_x
+- URL: https://x.com/x_pokoponmaru_x/status/2049865575074255119
+- Posted: 2026-04-30T14:56:52.000Z
+- Collected: 2026-05-02T04:08:55.055Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Source note from @1996ONOT: 小野峻志 庵野秀明の作品を語るとき、「実相寺アングル」とよく言われるが、実はそれは「鈴木清アングル」なんじゃないか、と 【名優・加藤剛主演ドラマ...
+
+- Source: @1996ONOT
+- URL: https://x.com/1996ONOT/status/2049553699324953078
+- Posted: 2026-04-29T18:17:35.000Z
+- Collected: 2026-05-02T04:08:55.055Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Houdini Node Viewer workflow note
+
+- Source: @Yokohara_h
+- URL: https://x.com/Yokohara_h/status/2049823207084241391
+- Posted: 2026-04-30T12:08:31.000Z
+- Collected: 2026-05-02T04:08:55.055Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.
+
+## OCR model benchmark and layout extraction note
+
+- Source: @bbssppllvv
+- URL: https://x.com/bbssppllvv/status/2049924037111841027
+- Posted: 2026-04-30T18:49:10.000Z
+- Collected: 2026-05-02T04:08:55.055Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.
+
+## Houdini Node Viewer workflow note
+
+- Source: @obsidianstudio9
+- URL: https://x.com/obsidianstudio9/status/2049632335960965378
+- Posted: 2026-04-29T23:30:03.000Z
+- Collected: 2026-05-02T04:08:56.475Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.
+
+## Source note from @inugami108: 鈴木清涜 as 犬神博士 アメリカの友人の娘さんが水木しげる先生の「墓場の鬼太郎(Kitaro of the Graveyard)」を愛するあま...
+
+- Source: @inugami108
+- URL: https://x.com/inugami108/status/2049689036160487636
+- Posted: 2026-04-30T03:15:22.000Z
+- Collected: 2026-05-02T04:08:56.475Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+
+## Creative software workflow note
+
+- Source: @yskmsd
+- URL: https://x.com/yskmsd/status/2049716626199847241
+- Posted: 2026-04-30T05:05:00.000Z
+- Collected: 2026-05-02T04:08:56.475Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.
+
+## Creative software workflow note
+
+- Source: @yskmsd
+- URL: https://x.com/yskmsd/status/2049458645331804255
+- Posted: 2026-04-29T11:59:52.000Z
+- Collected: 2026-05-02T04:08:56.475Z
+- Tags: reference, uncategorized, needs-review, reference, wire
+
+A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.
