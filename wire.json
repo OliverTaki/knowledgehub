@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T04:05:34.850Z",
+  "generated_at": "2026-05-02T04:09:09.136Z",
   "policy": {
     "full_text_copied": false,
     "original_link_required": true,
@@ -11788,6 +11788,1026 @@
       ],
       "title": "Source note from @Okinfografia: Carolina Jiménez G. 視覚効果における「plate」とは何か、ってことですか？それを視覚的に説明するために、この短いビデオを作...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050060158081155421",
+      "source": "x_like",
+      "url": "https://x.com/BrianRoemmele/status/2050060158081155421",
+      "original_url": "https://x.com/BrianRoemmele/status/2050060158081155421",
+      "collected_at": "2026-05-02T04:08:47.945Z",
+      "posted_at": "2026-05-01T03:50:04.000Z",
+      "author_handle": "@BrianRoemmele",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @BrianRoemmele: Brian Roemmele 蝙蝠, 1926",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050115203795161553",
+      "source": "x_like",
+      "url": "https://x.com/ilyamirox/status/2050115203795161553",
+      "original_url": "https://x.com/ilyamirox/status/2050115203795161553",
+      "collected_at": "2026-05-02T04:08:47.945Z",
+      "posted_at": "2026-05-01T07:28:48.000Z",
+      "author_handle": "@ilyamirox",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @ilyamirox: Ilya Miro Linuxはもう完全にポルノ状態だよ",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050205277354651931",
+      "source": "x_like",
+      "url": "https://x.com/shotamatsuda/status/2050205277354651931",
+      "original_url": "https://x.com/shotamatsuda/status/2050205277354651931",
+      "collected_at": "2026-05-02T04:08:47.946Z",
+      "posted_at": "2026-05-01T13:26:43.000Z",
+      "author_handle": "@shotamatsuda",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @shotamatsuda: Shota Matsuda 松田 聖大 超長い影の実験。富士山の影による大気散乱への影響が千葉まで伸びてるみたいな",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050136956411977776",
+      "source": "x_like",
+      "url": "https://x.com/theCGchannel/status/2050136956411977776",
+      "original_url": "https://x.com/theCGchannel/status/2050136956411977776",
+      "collected_at": "2026-05-02T04:08:47.946Z",
+      "posted_at": "2026-05-01T08:55:14.000Z",
+      "author_handle": "@theCGchannel",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049833886851764696",
+      "source": "x_like",
+      "url": "https://x.com/viktoroddy/status/2049833886851764696",
+      "original_url": "https://x.com/viktoroddy/status/2049833886851764696",
+      "collected_at": "2026-05-02T04:08:47.946Z",
+      "posted_at": "2026-04-30T12:50:57.000Z",
+      "author_handle": "@viktoroddy",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @viktoroddy: Viktor Oddy Claude Design のフッターデザインはめっちゃヤバい。 そして誰でも同じ結果を達成できる。 ここにプロンプト...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049842790579024240",
+      "source": "x_like",
+      "url": "https://x.com/oo_kk_aa/status/2049842790579024240",
+      "original_url": "https://x.com/oo_kk_aa/status/2049842790579024240",
+      "collected_at": "2026-05-02T04:08:49.361Z",
+      "posted_at": "2026-04-30T13:26:20.000Z",
+      "author_handle": "@oo_kk_aa",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @oo_kk_aa: okazakitomohiro",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050181012773298517",
+      "source": "x_like",
+      "url": "https://x.com/Botan_cr/status/2050181012773298517",
+      "original_url": "https://x.com/Botan_cr/status/2050181012773298517",
+      "collected_at": "2026-05-02T04:08:49.361Z",
+      "posted_at": "2026-05-01T11:50:18.000Z",
+      "author_handle": "@Botan_cr",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @Botan_cr: Crunio",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049861892483764298",
+      "source": "x_like",
+      "url": "https://x.com/PicturesFoIder/status/2049861892483764298",
+      "original_url": "https://x.com/PicturesFoIder/status/2049861892483764298",
+      "collected_at": "2026-05-02T04:08:49.361Z",
+      "posted_at": "2026-04-30T14:42:14.000Z",
+      "author_handle": "@PicturesFoIder",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @PicturesFoIder: non aesthetic things ザック・クレッガーが監督を務める『バイオハザード』の最初の予告編が公開されました。 9月18日より劇場...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050185453299728591",
+      "source": "x_like",
+      "url": "https://x.com/photoshopvip/status/2050185453299728591",
+      "original_url": "https://x.com/photoshopvip/status/2050185453299728591",
+      "collected_at": "2026-05-02T04:08:49.361Z",
+      "posted_at": "2026-05-01T12:07:57.000Z",
+      "author_handle": "@photoshopvip",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @photoshopvip: Photoshop VIP 【2026最新版】おしゃれな英語フリーフォント147選",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049927659174666462",
+      "source": "x_like",
+      "url": "https://x.com/menonfilmpod/status/2049927659174666462",
+      "original_url": "https://x.com/menonfilmpod/status/2049927659174666462",
+      "collected_at": "2026-05-02T04:08:49.361Z",
+      "posted_at": "2026-04-30T19:03:34.000Z",
+      "author_handle": "@menonfilmpod",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049962161867215001",
+      "source": "x_like",
+      "url": "https://x.com/Criterion/status/2049962161867215001",
+      "original_url": "https://x.com/Criterion/status/2049962161867215001",
+      "collected_at": "2026-05-02T04:08:49.361Z",
+      "posted_at": "2026-04-30T21:20:40.000Z",
+      "author_handle": "@Criterion",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @Criterion: Criterion Collection 今晩の視聴おすすめは？ で、明日で配信終了のヴェルナー・ヘルツォーク監督の『マイ・サン、マイ・サン、ホ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2050103761448636857",
+      "source": "x_like",
+      "url": "https://x.com/antmatrosov/status/2050103761448636857",
+      "original_url": "https://x.com/antmatrosov/status/2050103761448636857",
+      "collected_at": "2026-05-02T04:08:50.780Z",
+      "posted_at": "2026-05-01T06:43:20.000Z",
+      "author_handle": "@antmatrosov",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "MaterialX and Filament rendering compatibility note",
+      "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049905768145842319",
+      "source": "x_like",
+      "url": "https://x.com/Filmbot/status/2049905768145842319",
+      "original_url": "https://x.com/Filmbot/status/2049905768145842319",
+      "collected_at": "2026-05-02T04:08:50.780Z",
+      "posted_at": "2026-04-30T17:36:35.000Z",
+      "author_handle": "@Filmbot",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049856836774600721",
+      "source": "x_like",
+      "url": "https://x.com/scarf_sensei/status/2049856836774600721",
+      "original_url": "https://x.com/scarf_sensei/status/2049856836774600721",
+      "collected_at": "2026-05-02T04:08:50.780Z",
+      "posted_at": "2026-04-30T14:22:09.000Z",
+      "author_handle": "@scarf_sensei",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049842824066257348",
+      "source": "x_like",
+      "url": "https://x.com/orderly_ef/status/2049842824066257348",
+      "original_url": "https://x.com/orderly_ef/status/2049842824066257348",
+      "collected_at": "2026-05-02T04:08:50.780Z",
+      "posted_at": "2026-04-30T13:26:28.000Z",
+      "author_handle": "@orderly_ef",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @orderly_ef: hatino AEプラグイン「ColorfulEcho」を公開しました！ エコーの残像1つ1つに色を割り当てて、グラデーション状の表現ができるプ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049835702192656670",
+      "source": "x_like",
+      "url": "https://x.com/Shimo_x2/status/2049835702192656670",
+      "original_url": "https://x.com/Shimo_x2/status/2049835702192656670",
+      "collected_at": "2026-05-02T04:08:52.192Z",
+      "posted_at": "2026-04-30T12:58:10.000Z",
+      "author_handle": "@Shimo_x2",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049792909428335037",
+      "source": "x_like",
+      "url": "https://x.com/AJNavarro9/status/2049792909428335037",
+      "original_url": "https://x.com/AJNavarro9/status/2049792909428335037",
+      "collected_at": "2026-05-02T04:08:52.192Z",
+      "posted_at": "2026-04-30T10:08:07.000Z",
+      "author_handle": "@AJNavarro9",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Film and moving-image reference note",
+      "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049873914138931404",
+      "source": "x_like",
+      "url": "https://x.com/80Level/status/2049873914138931404",
+      "original_url": "https://x.com/80Level/status/2049873914138931404",
+      "collected_at": "2026-05-02T04:08:52.192Z",
+      "posted_at": "2026-04-30T15:30:00.000Z",
+      "author_handle": "@80Level",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049985681951453213",
+      "source": "x_like",
+      "url": "https://x.com/happy_modeling/status/2049985681951453213",
+      "original_url": "https://x.com/happy_modeling/status/2049985681951453213",
+      "collected_at": "2026-05-02T04:08:52.192Z",
+      "posted_at": "2026-04-30T22:54:08.000Z",
+      "author_handle": "@happy_modeling",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2046153775266816219",
+      "source": "x_like",
+      "url": "https://x.com/ymt3d/status/2046153775266816219",
+      "original_url": "https://x.com/ymt3d/status/2046153775266816219",
+      "collected_at": "2026-05-02T04:08:52.192Z",
+      "posted_at": "2026-04-20T09:07:30.000Z",
+      "author_handle": "@ymt3d",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @ymt3d: 3D人-3dnchu- CG情報ブログ XYNが「空間キャプチャーソリューション」を法人向けに提供開始！専用アプリとカメラで現実空間を高品質な3...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049719512807653826",
+      "source": "x_like",
+      "url": "https://x.com/dangreenheck/status/2049719512807653826",
+      "original_url": "https://x.com/dangreenheck/status/2049719512807653826",
+      "collected_at": "2026-05-02T04:08:53.617Z",
+      "posted_at": "2026-04-30T05:16:28.000Z",
+      "author_handle": "@dangreenheck",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @dangreenheck: Dan Greenheck これらの雲のせいで、数本の白髪が増えましたが、目指している品質/パフォーマンスのスイートスポットにようやく近づいてい...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049898693902451044",
+      "source": "x_like",
+      "url": "https://x.com/NousResearch/status/2049898693902451044",
+      "original_url": "https://x.com/NousResearch/status/2049898693902451044",
+      "collected_at": "2026-05-02T04:08:53.617Z",
+      "posted_at": "2026-04-30T17:08:28.000Z",
+      "author_handle": "@NousResearch",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049873419236422035",
+      "source": "x_like",
+      "url": "https://x.com/aakashgupta/status/2049873419236422035",
+      "original_url": "https://x.com/aakashgupta/status/2049873419236422035",
+      "collected_at": "2026-05-02T04:08:53.617Z",
+      "posted_at": "2026-04-30T15:28:02.000Z",
+      "author_handle": "@aakashgupta",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "AI tool and model source note",
+      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049861145574690992",
+      "source": "x_like",
+      "url": "https://x.com/Alibaba_Qwen/status/2049861145574690992",
+      "original_url": "https://x.com/Alibaba_Qwen/status/2049861145574690992",
+      "collected_at": "2026-05-02T04:08:53.617Z",
+      "posted_at": "2026-04-30T14:39:16.000Z",
+      "author_handle": "@Alibaba_Qwen",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049728172300882136",
+      "source": "x_like",
+      "url": "https://x.com/ymt3d/status/2049728172300882136",
+      "original_url": "https://x.com/ymt3d/status/2049728172300882136",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "posted_at": "2026-04-30T05:50:53.000Z",
+      "author_handle": "@ymt3d",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049949634324316186",
+      "source": "x_like",
+      "url": "https://x.com/3DxDEV7/status/2049949634324316186",
+      "original_url": "https://x.com/3DxDEV7/status/2049949634324316186",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "posted_at": "2026-04-30T20:30:53.000Z",
+      "author_handle": "@3DxDEV7",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @3DxDEV7: 3DxDEV おお、これはめっちゃクリーンだ。 TexturingXYZ + Blender Softwrap を使って、こんな感じのカスタムモ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049865575074255119",
+      "source": "x_like",
+      "url": "https://x.com/x_pokoponmaru_x/status/2049865575074255119",
+      "original_url": "https://x.com/x_pokoponmaru_x/status/2049865575074255119",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "posted_at": "2026-04-30T14:56:52.000Z",
+      "author_handle": "@x_pokoponmaru_x",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @x_pokoponmaru_x: ぽこぽん丸。( nobuo.umahara ) おおおエフェクトのリファレンス。凄い。 https:// fxtags.com",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049553699324953078",
+      "source": "x_like",
+      "url": "https://x.com/1996ONOT/status/2049553699324953078",
+      "original_url": "https://x.com/1996ONOT/status/2049553699324953078",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "posted_at": "2026-04-29T18:17:35.000Z",
+      "author_handle": "@1996ONOT",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @1996ONOT: 小野峻志 庵野秀明の作品を語るとき、「実相寺アングル」とよく言われるが、実はそれは「鈴木清アングル」なんじゃないか、と 【名優・加藤剛主演ドラマ...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049823207084241391",
+      "source": "x_like",
+      "url": "https://x.com/Yokohara_h/status/2049823207084241391",
+      "original_url": "https://x.com/Yokohara_h/status/2049823207084241391",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "posted_at": "2026-04-30T12:08:31.000Z",
+      "author_handle": "@Yokohara_h",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049924037111841027",
+      "source": "x_like",
+      "url": "https://x.com/bbssppllvv/status/2049924037111841027",
+      "original_url": "https://x.com/bbssppllvv/status/2049924037111841027",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "posted_at": "2026-04-30T18:49:10.000Z",
+      "author_handle": "@bbssppllvv",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "OCR model benchmark and layout extraction note",
+      "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049632335960965378",
+      "source": "x_like",
+      "url": "https://x.com/obsidianstudio9/status/2049632335960965378",
+      "original_url": "https://x.com/obsidianstudio9/status/2049632335960965378",
+      "collected_at": "2026-05-02T04:08:56.475Z",
+      "posted_at": "2026-04-29T23:30:03.000Z",
+      "author_handle": "@obsidianstudio9",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Houdini Node Viewer workflow note",
+      "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049689036160487636",
+      "source": "x_like",
+      "url": "https://x.com/inugami108/status/2049689036160487636",
+      "original_url": "https://x.com/inugami108/status/2049689036160487636",
+      "collected_at": "2026-05-02T04:08:56.475Z",
+      "posted_at": "2026-04-30T03:15:22.000Z",
+      "author_handle": "@inugami108",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Source note from @inugami108: 鈴木清涜 as 犬神博士 アメリカの友人の娘さんが水木しげる先生の「墓場の鬼太郎(Kitaro of the Graveyard)」を愛するあま...",
+      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049716626199847241",
+      "source": "x_like",
+      "url": "https://x.com/yskmsd/status/2049716626199847241",
+      "original_url": "https://x.com/yskmsd/status/2049716626199847241",
+      "collected_at": "2026-05-02T04:08:56.475Z",
+      "posted_at": "2026-04-30T05:05:00.000Z",
+      "author_handle": "@yskmsd",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
+      "library_refs": [],
+      "article_refs": [],
+      "display": {
+        "original_link_required": true,
+        "full_text_copied": false,
+        "embed_allowed": false
+      }
+    },
+    {
+      "id": "x_2049458645331804255",
+      "source": "x_like",
+      "url": "https://x.com/yskmsd/status/2049458645331804255",
+      "original_url": "https://x.com/yskmsd/status/2049458645331804255",
+      "collected_at": "2026-05-02T04:08:56.475Z",
+      "posted_at": "2026-04-29T11:59:52.000Z",
+      "author_handle": "@yskmsd",
+      "post_kind": "unknown",
+      "content_kinds": [
+        "reference"
+      ],
+      "domains": [
+        "uncategorized"
+      ],
+      "tags": [
+        "needs-review",
+        "reference",
+        "wire"
+      ],
+      "title": "Creative software workflow note",
+      "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
       "library_refs": [],
       "article_refs": [],
       "display": {
