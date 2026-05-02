@@ -37,7 +37,7 @@ const DEFAULT_LIBRARY_ITEMS = [
   }
 ];
 
-const ARTICLES = [
+const BASE_ARTICLES = [
   {
     published_at: "2026-04-27",
     updated_at: "2026-04-27",
@@ -158,6 +158,12 @@ const ARTICLES = [
       "When notes are grouped, titled, summarized, and connected to durable references, operational memory becomes readable as a magazine without losing its practical origin."
     ]
   }
+];
+
+const legacyBloggerArticles = readJson("data/legacy-blogger-articles.json", []);
+const ARTICLES = [
+  ...BASE_ARTICLES,
+  ...(Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : [])
 ];
 
 const library = {
@@ -450,9 +456,10 @@ function libraryItem(item) {
 }
 
 function articleItem(article) {
-  const search = searchText([article.title, article.published_at, article.updated_at, ...article.tags, ...article.paragraphs]);
+  const search = searchText([article.title, article.published_at, article.updated_at, article.source_file, article.source_url, ...article.tags, ...article.paragraphs]);
+  const href = article.source_url || "#";
   return `        <li data-search="${search}">
-          <a href="#">${esc(article.title)}</a>
+          <a href="${esc(href)}"${article.source_url ? ' target="_blank" rel="noopener noreferrer"' : ""}>${esc(article.title)}</a>
           <p class="entry-meta">Published ${esc(article.published_at)} - Updated ${esc(article.updated_at)}</p>
           ${article.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n          ")}
           <div class="tag-row">${tagList(article.tags)}</div>

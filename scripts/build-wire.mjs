@@ -113,8 +113,88 @@ function inferWireTopic(item) {
   };
 }
 
+function uniqueTags(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function classifyWireEntry(item, inferred) {
+  const text = cleanWireText(item);
+  const haystack = `${text} ${inferred.title || ""} ${item.url || ""}`.toLowerCase();
+  const rules = [
+    {
+      words: ["whisper", "transcription", "voice", "audio"],
+      domains: ["audio"],
+      tags: ["audio", "local-ai", "workflow"]
+    },
+    {
+      words: ["materialx", "filament", "rendering", "look-development"],
+      domains: ["visual-systems"],
+      tags: ["rendering", "materialx", "pipeline"]
+    },
+    {
+      words: ["midjourney", "seedance", "ai video", "image-to-video"],
+      domains: ["visual-systems"],
+      tags: ["ai-video", "visual-reference", "motion-design"]
+    },
+    {
+      words: ["ocr", "olmocr", "layout extraction", "document"],
+      domains: ["knowledge-workflows"],
+      tags: ["document-ai", "ocr", "archive"]
+    },
+    {
+      words: ["houdini", "node viewer", "node"],
+      domains: ["creative-tools"],
+      tags: ["houdini", "nodes", "workflow"]
+    },
+    {
+      words: ["tarkovsky", "polaroid", "possession", "mussorgsky", "film", "cinema"],
+      domains: ["culture-references"],
+      tags: ["film", "visual-reference", "criticism"]
+    },
+    {
+      words: ["3dgs", "gaussian", "nerf", "reconstruction", "splatting"],
+      domains: ["visual-systems"],
+      tags: ["spatial-capture", "3dgs", "research"]
+    },
+    {
+      words: ["blender", "maya", "houdini", "vfx", "compositing"],
+      domains: ["creative-tools"],
+      tags: ["vfx", "3d", "workflow"]
+    },
+    {
+      words: ["claude code", "codex", "github", "agent", "agents", "cli", "mcp"],
+      domains: ["creative-tools"],
+      tags: ["agents", "ai-coding", "workflow"]
+    },
+    {
+      words: ["notebooklm", "obsidian", "gemini", "knowledge", "learning"],
+      domains: ["knowledge-workflows"],
+      tags: ["learning", "knowledge-map", "reference"]
+    },
+    {
+      words: ["book", "literature", "dazai", "library"],
+      domains: ["culture-references"],
+      tags: ["books", "literature", "archive"]
+    }
+  ];
+
+  const matched = rules.find((rule) => rule.words.some((word) => haystack.includes(word)));
+  if (!matched) {
+    return {
+      domains: ["staging"],
+      tags: ["needs-review", "reference", "wire"]
+    };
+  }
+
+  return {
+    domains: matched.domains,
+    tags: uniqueTags(["reference", "wire", ...matched.tags])
+  };
+}
+
 const entries = raw.map((item) => {
   const inferred = inferWireTopic(item);
+  const classification = classifyWireEntry(item, inferred);
   return {
     id: `x_${item.status_id}`,
     source: item.source || "x_like",
@@ -128,8 +208,8 @@ const entries = raw.map((item) => {
     public_summary: inferred.summary,
     post_kind: "unknown",
     content_kinds: ["reference"],
-    domains: ["uncategorized"],
-    tags: ["needs-review", "reference", "wire"],
+    domains: classification.domains,
+    tags: classification.tags,
     library_refs: [],
     article_refs: [],
     context: {

@@ -123,3 +123,43 @@ ComfyUI workflows, nodes, graphs, or AI-image/video generation pipelines based a
 ## obsidian
 
 Obsidian, markdown knowledge bases, personal knowledge management, or external memory workflows.
+
+## 3dgs
+
+3D Gaussian Splatting and adjacent point-based or radiance-field reconstruction workflows.
+
+## nerf
+
+NeRF and adjacent neural radiance field methods for view synthesis, reconstruction, and spatial capture.
+
+## knowledge-map
+
+External memory, graph-like organization, source mapping, and structured knowledge systems.
+
+## ai-coding
+
+AI-assisted coding, coding agents, repository automation, project memory, and development workflows.
+
+## tutorial
+
+Learning material, walkthroughs, or practical demonstrations that can teach a repeatable method.
+
+## archive
+
+Source preservation, library organization, public-domain material, and reusable reference collections.
+
+## implementation
+
+Practical build notes, system design details, or production-facing implementation references.
+
+## recommendation
+
+Curated picks, watch/read/use suggestions, or editorial selection notes.
+
+## browser-tools
+
+Browser-based tools for design, motion, editing, prototyping, or lightweight production work.
+
+## computer-vision
+
+Vision models, reconstruction, detection, tracking, and image understanding research or tooling.

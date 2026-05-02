@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T04:09:09.136Z",
+  "generated_at": "2026-05-02T04:36:20.925Z",
   "policy": {
     "full_text_copied": false,
     "original_link_required": true,
@@ -19,12 +19,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source Whisper transcription workflow",
       "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
@@ -49,12 +51,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "MaterialX and Filament rendering compatibility note",
       "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
@@ -79,12 +83,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -109,12 +115,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "books",
+        "literature",
+        "archive"
       ],
       "title": "Literary reference note on Dazai and Gomi",
       "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
@@ -139,12 +147,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "books",
+        "literature",
+        "archive"
       ],
       "title": "Literary reference note on Dazai and Gomi",
       "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
@@ -169,7 +179,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -199,12 +209,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "OCR model benchmark and layout extraction note",
       "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
@@ -229,12 +241,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -259,12 +273,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Tarkovsky Polaroid visual reference",
       "summary": "A film and image-reference entry for studying atmosphere, texture, framing, and unresolved visual density.",
@@ -289,7 +305,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -319,12 +335,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -349,12 +367,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film reference note on Possession",
       "summary": "A film-reference item about why some works resist remake logic because their form is tied to lived trauma and performance intensity.",
@@ -379,12 +399,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -409,7 +431,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -439,12 +461,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -469,12 +493,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -499,12 +525,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -529,7 +557,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -559,12 +587,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -589,12 +619,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @CompAcademyVFX: (Alex) Compositing Academy Nuke向けにDaVinci Resolveにインスパイアされたカラー・クオリファイアを作...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -619,7 +651,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -649,7 +681,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -679,7 +711,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -709,12 +741,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -739,12 +773,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -769,12 +805,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "Source note from @mochisw: もっつぃ insta360の公式から3DGSが紹介された フォロワー8万人のうちどれだけの人に響くのかが気になる 引用 Insta360 時間を...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -799,7 +837,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -829,7 +867,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -859,7 +897,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -889,12 +927,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -919,7 +959,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -949,7 +989,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -979,12 +1019,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @hectorvelazhv: Héctor Velázquez このアプリ、めっちゃすごいよ：自分の街の通りを印刷して、信じられないデザインができるんだ。みんなにおすすめ：...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -1009,7 +1051,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1039,12 +1081,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -1069,12 +1113,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -1099,7 +1145,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1129,7 +1175,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1159,7 +1205,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1189,7 +1235,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1219,12 +1265,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -1249,7 +1297,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1279,12 +1327,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "Source note from @theCGchannel: CG Channel #OctaneRender 2026.3 がリリースされました GPU レンダラーへの最新アップデートをチェックしてくださ...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -1309,7 +1359,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1339,12 +1389,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -1369,12 +1421,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "OCR model benchmark and layout extraction note",
       "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
@@ -1399,12 +1453,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -1429,7 +1485,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1459,7 +1515,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1489,7 +1545,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1519,12 +1575,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -1549,12 +1607,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -1579,7 +1639,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1609,7 +1669,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1639,7 +1699,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1669,7 +1729,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1699,7 +1759,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1729,12 +1789,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -1759,7 +1821,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1789,12 +1851,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @ClaudeDevs: ClaudeDevs Claude Codeの新機能：/ultrareview（研究プレビュー）がクラウド上でバグ探しのエージェント群を実行しま...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -1819,7 +1883,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1849,7 +1913,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -1879,12 +1943,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -1909,12 +1975,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -1939,12 +2007,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -1969,12 +2039,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -1999,7 +2071,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2029,12 +2101,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -2059,12 +2133,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "OCR model benchmark and layout extraction note",
       "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
@@ -2089,12 +2165,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -2119,12 +2197,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -2149,12 +2229,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -2179,12 +2261,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -2209,12 +2293,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -2239,7 +2325,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2269,12 +2355,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -2299,7 +2387,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2329,12 +2417,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -2359,7 +2449,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2389,12 +2479,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -2419,7 +2511,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2449,7 +2541,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2479,12 +2571,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @yasinaktimur: Rich kids of claude 速報：あるユーザーがGPT 5.5を使ってBlenderをトレーニング上で動作するように完全に書き直しま...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -2509,7 +2603,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2539,12 +2633,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @wolfstudioart: Wolf 毎週リリースしている無料の #blender チュートリアルシリーズを楽しんでいますか？",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -2569,7 +2665,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2599,7 +2695,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2629,12 +2725,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -2659,7 +2757,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2689,7 +2787,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2719,7 +2817,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2749,7 +2847,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2779,7 +2877,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2809,7 +2907,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2839,12 +2937,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source Whisper transcription workflow",
       "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
@@ -2869,12 +2969,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -2899,7 +3001,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -2929,12 +3031,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Source note from @H_Y_per: 堀江優太",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -2959,12 +3063,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -2989,12 +3095,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @KIRI_Engine_App: KIRI Engine - 3D Scanner App コンポジティングの達人による、無料のMesh Wrapアドオンの素晴らしい活用法 Pr...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -3019,12 +3127,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -3049,12 +3159,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @CloA_Planetaria: CloA キー2つだけでテキストモーションが出来るシステムを作って使ってます GlyphGlideのBlender版的なので、大量のテキストも軽...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -3079,12 +3191,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -3109,7 +3223,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3139,12 +3253,13 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "learning",
+        "knowledge-map"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -3169,12 +3284,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source Whisper transcription workflow",
       "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
@@ -3199,12 +3316,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -3229,7 +3348,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3259,7 +3378,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3289,7 +3408,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3319,12 +3438,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -3349,12 +3470,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -3379,7 +3502,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3409,12 +3532,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -3439,7 +3564,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3469,12 +3594,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -3499,12 +3626,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -3529,7 +3658,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3559,12 +3688,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -3589,7 +3720,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3619,7 +3750,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3649,12 +3780,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Mathematics visual reference: tesseract projection",
       "summary": "A geometric visual-reference item around higher-dimensional projection, useful for motion studies and abstract visual systems.",
@@ -3679,12 +3812,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -3709,12 +3844,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "books",
+        "literature",
+        "archive"
       ],
       "title": "Literary reference note on Dazai and Gomi",
       "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
@@ -3739,7 +3876,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3769,7 +3906,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3799,7 +3936,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3829,7 +3966,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3859,7 +3996,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -3889,12 +4026,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -3919,12 +4058,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @CDReferences: Character Design References ネオ東京 (1987) #animationclips #sakuga #animati...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -3949,12 +4090,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -3979,12 +4122,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -4009,7 +4154,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4039,12 +4184,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -4069,12 +4216,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -4099,7 +4248,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4129,12 +4278,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4159,7 +4310,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4189,7 +4340,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4219,12 +4370,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -4249,7 +4402,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4279,12 +4432,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4309,7 +4464,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4339,12 +4494,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4369,7 +4526,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4399,7 +4556,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4429,7 +4586,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4459,12 +4616,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4489,7 +4648,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4519,12 +4678,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4549,12 +4710,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -4579,7 +4742,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4609,7 +4772,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4639,12 +4802,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -4669,7 +4834,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4699,12 +4864,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4729,7 +4896,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4759,7 +4926,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4789,12 +4956,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -4819,12 +4988,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4849,7 +5020,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4879,12 +5050,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -4909,12 +5082,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -4939,12 +5114,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -4969,7 +5146,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -4999,12 +5176,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5029,12 +5208,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5059,12 +5240,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -5089,7 +5272,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5119,7 +5302,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5149,12 +5332,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -5179,12 +5364,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -5209,12 +5396,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5239,7 +5428,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5269,7 +5458,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5299,7 +5488,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5329,12 +5518,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5359,12 +5550,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5389,7 +5582,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5419,12 +5612,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @Teknium: Teknium 素晴らしい記事！ 引用 blocmates. 記事 What Hermes Agent Can Do for You (And...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -5449,7 +5644,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5479,7 +5674,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5509,7 +5704,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5539,7 +5734,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5569,12 +5764,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -5599,7 +5796,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5629,12 +5826,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5659,12 +5858,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Source note from @JesseMiettinen: Miettinen Jesse - Blenderesse ワイヤーが衝突判定の愛を受けている。猫線（catenary）の前にレイキャスティング...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -5689,7 +5890,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5719,12 +5920,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "MaterialX and Filament rendering compatibility note",
       "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
@@ -5749,12 +5952,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -5779,12 +5984,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -5809,7 +6016,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5839,7 +6046,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5869,7 +6076,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5899,7 +6106,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5929,12 +6136,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -5959,7 +6168,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -5989,7 +6198,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6019,12 +6228,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @heygurisingh: Guri Singh なんてこった… Addy Osmani が今、Vibe Coders が頭がおかしくなるようなものをドロップした。 それが...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6049,12 +6260,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -6079,12 +6292,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
@@ -6109,12 +6324,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -6139,12 +6356,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @Trinumedia: Trinumedia Blender 5のデモからRaycastのラインを抜き出してみましたが、言わずにはいられません… これ、めっちゃ役に立ち...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6169,12 +6388,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -6199,7 +6420,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6229,7 +6450,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6259,12 +6480,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -6289,7 +6512,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6319,12 +6542,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Source note from @JesseMiettinen: Miettinen Jesse - Blenderesse Inspired by assets for Road to Vostok, tes...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6349,12 +6574,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "OCR model benchmark and layout extraction note",
       "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
@@ -6379,7 +6606,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6409,7 +6636,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6439,12 +6666,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -6469,12 +6698,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "Source note from @mdancho84: Matt Dancho (Business Science) BREAKING: IBM launches a free Python libr...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6499,7 +6730,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6529,7 +6760,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6559,7 +6790,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -6589,12 +6820,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "Source note from @willeastcott: Will Eastcott “Gaussian splats fall apart when you zoom in.” Meanwhile...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6619,12 +6852,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -6649,12 +6884,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -6679,12 +6916,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -6709,12 +6948,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -6739,12 +6980,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -6769,12 +7012,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -6799,12 +7044,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -6829,12 +7076,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -6859,12 +7108,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -6889,12 +7140,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @milbon_: みるぼん@スモビジ Claude CodeでX運用が劇的に変わる！X公式MCP「xmcp」が登場 ・X公式がMCPサーバー「xmcp」をGitH...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6919,12 +7172,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @jonoringer: Jon Oringer これはすごい： が今日、MCP サーバーをリリースしました。。 に X を接続する方法： **ステップ 1: XMCP...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -6949,12 +7204,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -6979,12 +7236,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7009,7 +7268,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7039,7 +7298,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7069,7 +7328,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7099,12 +7358,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7129,12 +7390,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7159,12 +7422,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7189,12 +7454,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7219,7 +7486,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7249,12 +7516,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -7279,7 +7548,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7309,12 +7578,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -7339,12 +7610,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7369,7 +7642,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7399,12 +7672,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -7429,7 +7704,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7459,12 +7734,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7489,12 +7766,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -7519,12 +7798,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @3DxDEV7: 3DxDEV Blender用の無料クラウドシェーダー がクラウドシェーダーを無料でリリースしました。 今もGumroadで入手可能 — 愛を込...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -7549,7 +7830,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7579,7 +7860,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7609,12 +7890,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7639,12 +7922,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -7669,12 +7954,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -7699,7 +7986,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7729,7 +8016,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7759,12 +8046,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -7789,7 +8078,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7819,12 +8108,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -7849,7 +8140,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7879,7 +8170,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7909,12 +8200,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @jtydhr88: jtydhr88 ブラウザ内で動作するBlender。 次に、それをComfyUIに移動する",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -7939,7 +8232,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7969,7 +8262,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -7999,12 +8292,13 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "learning",
+        "knowledge-map"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -8029,7 +8323,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8059,12 +8353,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -8089,7 +8385,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8119,12 +8415,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "books",
+        "literature",
+        "archive"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -8149,7 +8447,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8179,12 +8477,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -8209,7 +8509,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8239,7 +8539,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8269,12 +8569,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -8299,7 +8601,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8329,12 +8631,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source Whisper transcription workflow",
       "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
@@ -8359,7 +8663,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8389,7 +8693,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8419,7 +8723,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8449,7 +8753,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8479,7 +8783,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8509,7 +8813,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8539,12 +8843,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -8569,7 +8875,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8599,12 +8905,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -8629,12 +8937,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -8659,12 +8969,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -8689,7 +9001,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8719,7 +9031,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8749,12 +9061,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "MaterialX and Filament rendering compatibility note",
       "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
@@ -8779,12 +9093,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -8809,7 +9125,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8839,12 +9155,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -8869,12 +9187,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -8899,7 +9219,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -8929,12 +9249,13 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "learning",
+        "knowledge-map"
       ],
       "title": "Source note from @Google: Google 本日、Gemma 4 をリリースしました — これまでで最も知的なオープン モデルです。 Gemini 3 と同じ世界最高水準の研...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -8959,12 +9280,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -8989,7 +9312,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9019,7 +9342,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9049,12 +9372,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @kijyoumusic: おとですく(OTODESK)@ableton やっぱりabletonだよね ついに完成！！ リリースしました。 あんまり宣伝するつもりはありませ...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -9079,7 +9404,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9109,7 +9434,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9139,12 +9464,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -9169,7 +9496,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9199,7 +9526,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9229,12 +9556,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -9259,12 +9588,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -9289,12 +9620,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -9319,7 +9652,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9349,7 +9682,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9379,12 +9712,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source Whisper transcription workflow",
       "summary": "A saved source on fast local audio transcription and where Whisper-style tooling may fit in a production loop.",
@@ -9409,7 +9744,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9439,12 +9774,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "MaterialX and Filament rendering compatibility note",
       "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
@@ -9469,12 +9806,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -9499,12 +9838,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -9529,7 +9870,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9559,12 +9900,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -9589,7 +9932,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9619,12 +9962,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -9649,12 +9994,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "audio"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "audio",
+        "local-ai",
+        "workflow"
       ],
       "title": "Open-source AI voice tool note",
       "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
@@ -9679,12 +10026,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -9709,7 +10058,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9739,7 +10088,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9769,7 +10118,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9799,7 +10148,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9829,12 +10178,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @GithubProjects: GitHub Projects Community グリーンスクリーンキーイング、ピクセルレベルで解決。 Corridorのニューラルキーアーは...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -9859,12 +10210,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -9889,7 +10242,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -9919,12 +10272,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -9949,12 +10304,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -9979,12 +10336,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -10009,7 +10368,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10039,12 +10398,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "books",
+        "literature",
+        "archive"
       ],
       "title": "Source note from @DataChaz: Charly Wargnier なんてこったい、MacBookで35Bモデルをローカルで動かすなんて、こんなに速くなるなんて信じられない 週末を...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -10069,12 +10430,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @3DxDEV7: 3DxDEV このアニメスタイルのBlenderエフェクトは、めちゃくちゃインスピレーションを与えてくれます。 金沢 浩（Hiroshi Kan...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -10099,12 +10462,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10129,7 +10494,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10159,12 +10524,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "ai-video",
+        "visual-reference",
+        "motion-design"
       ],
       "title": "AI video reference: Midjourney and Seedance experiment",
       "summary": "A visual-reference entry for AI-generated motion, useful for studying frame behavior, image texture, and short-form motion language.",
@@ -10189,12 +10556,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -10219,12 +10588,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -10249,7 +10620,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10279,12 +10650,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10309,12 +10682,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10339,12 +10714,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10369,12 +10746,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -10399,7 +10778,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10429,7 +10808,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10459,12 +10838,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10489,12 +10870,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -10519,12 +10902,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10549,12 +10934,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -10579,7 +10966,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10609,7 +10996,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10639,7 +11026,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10669,7 +11056,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10699,12 +11086,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10729,7 +11118,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10759,7 +11148,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10789,7 +11178,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10819,7 +11208,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10849,12 +11238,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -10879,12 +11270,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -10909,12 +11302,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @ukyo_vfx: うきょう研究所 VFXボールを自作しました 材料は全てAmazonで購入できます。 カラーキャリブレーションで、ほぼ正確な18%グレーになってい...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -10939,12 +11334,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -10969,7 +11366,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -10999,12 +11396,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11029,7 +11428,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11059,12 +11458,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -11089,7 +11490,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11119,7 +11520,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11149,12 +11550,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11179,12 +11582,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @Botan_cr: Crunio",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -11209,12 +11614,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11239,7 +11646,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11269,7 +11676,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11299,12 +11706,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -11329,12 +11738,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -11359,12 +11770,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11389,12 +11802,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11419,12 +11834,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Source note from @supezen: ZEN みなさん、こんにちは！どんなソーシャルメディアや検索エンジンでも検索できる WebSearch スキルが登場しました！ - ローカルで動...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -11449,7 +11866,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11479,7 +11896,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11509,7 +11926,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11539,7 +11956,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11569,7 +11986,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11599,12 +12016,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "spatial-capture",
+        "3dgs",
+        "research"
       ],
       "title": "Source note from @DanyBittel: Dany Bittel 私の最新のガウススプラット、オーキッドの花（サイズ約45mm）。#3dgs",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -11629,12 +12048,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11659,12 +12080,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "MaterialX and Filament rendering compatibility note",
       "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
@@ -11689,12 +12112,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11719,12 +12144,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -11749,12 +12176,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @vfxhoshi: Mihiro Hoshi Wip #3dsmax #vray #forestpack #nuke",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -11779,12 +12208,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @Okinfografia: Carolina Jiménez G. 視覚効果における「plate」とは何か、ってことですか？それを視覚的に説明するために、この短いビデオを作...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -11809,7 +12240,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11839,7 +12270,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11869,7 +12300,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11899,12 +12330,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -11929,7 +12362,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11959,7 +12392,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -11989,7 +12422,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12019,7 +12452,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12049,7 +12482,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12079,12 +12512,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -12109,7 +12544,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12139,12 +12574,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "rendering",
+        "materialx",
+        "pipeline"
       ],
       "title": "MaterialX and Filament rendering compatibility note",
       "summary": "A rendering pipeline note for tracking MaterialX support, lightweight preview quality, and Filament-related look-development experiments.",
@@ -12169,12 +12606,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -12199,7 +12638,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12229,7 +12668,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12259,7 +12698,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12289,12 +12728,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "film",
+        "visual-reference",
+        "criticism"
       ],
       "title": "Film and moving-image reference note",
       "summary": "A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.",
@@ -12319,12 +12760,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -12349,12 +12792,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -12379,12 +12824,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @ymt3d: 3D人-3dnchu- CG情報ブログ XYNが「空間キャプチャーソリューション」を法人向けに提供開始！専用アプリとカメラで現実空間を高品質な3...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -12409,7 +12856,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12439,7 +12886,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12469,12 +12916,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "AI tool and model source note",
       "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
@@ -12499,7 +12948,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12529,12 +12978,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -12559,12 +13010,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "vfx",
+        "3d",
+        "workflow"
       ],
       "title": "Source note from @3DxDEV7: 3DxDEV おお、これはめっちゃクリーンだ。 TexturingXYZ + Blender Softwrap を使って、こんな感じのカスタムモ...",
       "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
@@ -12589,7 +13042,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12619,7 +13072,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12649,12 +13102,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -12679,12 +13134,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "document-ai",
+        "ocr",
+        "archive"
       ],
       "title": "OCR model benchmark and layout extraction note",
       "summary": "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows.",
@@ -12709,12 +13166,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "nodes",
+        "workflow"
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
@@ -12739,7 +13198,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12769,7 +13228,7 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "staging"
       ],
       "tags": [
         "needs-review",
@@ -12799,12 +13258,14 @@
         "reference"
       ],
       "domains": [
-        "uncategorized"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "agents",
+        "ai-coding",
+        "workflow"
       ],
       "title": "Creative software workflow note",
       "summary": "A tool or workflow source saved for later evaluation against the Knowledge Hub library and article lanes.",
