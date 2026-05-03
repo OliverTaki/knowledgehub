@@ -9,13 +9,14 @@
     "import:legacy-blogger": "node scripts/import-legacy-blogger.mjs",
     "build:wire": "node scripts/build-wire.mjs",
     "build:site": "node scripts/build-site.mjs",
+    "build:library": "node scripts/build-library-pages.mjs",
     "build:public-wire": "node scripts/build-wire-public.mjs",
     "build:static-wire": "node scripts/build-static-wire.mjs",
-    "build": "node scripts/build-site.mjs",
+    "build": "node scripts/build-site.mjs && node scripts/build-library-pages.mjs",
     "predeploy": "npm run build",
     "deploy": "npm run build && npx wrangler deploy",
     "deploy:raw": "npx wrangler deploy",
-    "run:daily": "node scripts/x-collect-likes.mjs && node scripts/build-wire.mjs && node scripts/build-site.mjs",
+    "run:daily": "node scripts/x-collect-likes.mjs && node scripts/build-wire.mjs && node scripts/build-site.mjs && node scripts/build-library-pages.mjs",
     "validate": "node scripts/validate-jsonl.mjs && node scripts/validate-public-wire.mjs"
   },
   "dependencies": {

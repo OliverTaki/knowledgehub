@@ -1,290 +1,608 @@
 {
-  "generated_at": "2026-05-02T07:23:07.251Z",
+  "generated_at": "2026-05-03T00:00:00.000Z",
   "policy": {
-    "flat_hierarchy": true,
-    "multi_tag_filtering": true,
-    "ranking_copy_policy": "Do not copy ranking text. Store ranking source and position as metadata."
+    "library_role": "Library pages are concept-level wiki entries distilled from Articles, not a raw external-link shelf.",
+    "item_pages_required": true,
+    "book_film_rollups": true,
+    "external_links": "External source links belong inside article/source references, not as the primary Library object."
   },
   "items": [
     {
-      "title": "MaterialX",
-      "kind": "Library / Rendering",
-      "url": "https://materialx.org/",
-      "description": "Open material-description reference for look development, renderer interchange, and pipeline notes.",
+      "title": "Article to Library knowledge compression",
+      "slug": "article-to-library-knowledge-compression",
+      "kind": "Library / Knowledge System",
+      "description": "A wiki entry for the editorial rule that Articles are judged notes, while Library pages compress repeated article concepts into reusable knowledge objects.",
       "tags": [
-        "materialx",
-        "rendering",
-        "pipeline"
+        "knowledge-map",
+        "library",
+        "editorial-system",
+        "taxonomy",
+        "workflow"
+      ],
+      "url": "library/article-to-library-knowledge-compression.html",
+      "sections": [
+        {
+          "heading": "What this concept means",
+          "body": "Articles can remain close to an individual source, observation, or tool. Library entries should be more durable: they name the reusable concept, collect related Articles, and explain how the concept should be used later."
+        },
+        {
+          "heading": "Use inside Knowledge Hub",
+          "body": "This page is not a public policy article. It is the working concept that keeps the site from becoming a link dump. When several Articles circle the same idea, the Library page becomes the stable home for that idea."
+        },
+        {
+          "heading": "Update rule",
+          "body": "Add or revise a Library page when an Article no longer matters only as a standalone note. The Library page should summarize the pattern, list the related Articles, and expose the next useful reading or production path."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "The library layer should compress repeated curiosity into reusable entries",
+          "href": "../articles/the-library-layer-should-compress-repeated-curiosity-into-reusable-entries.html"
+        },
+        {
+          "title": "A useful wire is not a feed, it is a staging area",
+          "href": "../articles/a-useful-wire-is-not-a-feed-it-is-a-staging-area.html"
+        },
+        {
+          "title": "A tag is useful only when it changes retrieval",
+          "href": "../articles/a-tag-is-useful-only-when-it-changes-retrieval.html"
+        }
       ]
     },
     {
-      "title": "Filament",
+      "title": "Production workflow automation",
+      "slug": "production-workflow-automation",
+      "kind": "Library / Workflow",
+      "description": "A concept page for small automation loops that clean, classify, summarize, compare, rename, extract, route, and publish creative work.",
+      "tags": [
+        "workflow",
+        "automation",
+        "production",
+        "local-ai",
+        "agents"
+      ],
+      "url": "library/production-workflow-automation.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Automation is most useful when it disappears into repeated production tasks. The durable value is not a spectacular output, but a lower-friction loop around ingestion, classification, review, and publishing."
+        },
+        {
+          "heading": "What belongs here",
+          "body": "Local scripts, AI-assisted cleanup, source routing, draft generation, metadata repair, publishing utilities, and repeated editorial operations belong on this shelf."
+        },
+        {
+          "heading": "What does not belong here",
+          "body": "One-off tool announcements should stay in Wire or Article until they reveal a repeatable production behavior."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "The useful AI tool is the one that disappears into the workflow",
+          "href": "../articles/the-useful-ai-tool-is-the-one-that-disappears-into-the-workflow.html"
+        },
+        {
+          "title": "Local AI belongs in the boring parts of the loop first",
+          "href": "../articles/local-ai-belongs-in-the-boring-parts-of-the-loop-first.html"
+        },
+        {
+          "title": "AIVideo Agent is part of the automation layer around moving images",
+          "href": "../articles/aivideo-agent.html"
+        }
+      ]
+    },
+    {
+      "title": "Local AI infrastructure",
+      "slug": "local-ai-infrastructure",
+      "kind": "Library / AI Workflow",
+      "description": "A wiki page for treating local AI as infrastructure: cost control, privacy, latency, file access, offline work, and repeatability.",
+      "tags": [
+        "local-ai",
+        "ai-coding",
+        "workflow",
+        "open-source",
+        "agents"
+      ],
+      "url": "library/local-ai-infrastructure.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Local AI should not be judged only by whether it can replace a frontier model. Its infrastructure value is that it can run near files, folders, repos, and private constraints."
+        },
+        {
+          "heading": "Operational value",
+          "body": "The most durable use cases are boring: classify notes, rewrite summaries, compare sources, rename assets, read project folders, and keep costs predictable."
+        },
+        {
+          "heading": "Comparison axis",
+          "body": "Track local AI tools by privacy, cost, latency, context limits, file access, model quality, and whether they can become a daily loop."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Local offline coding tools are infrastructure, not a novelty category",
+          "href": "../articles/vibe-local-offline-coding.html"
+        },
+        {
+          "title": "Local AI belongs in the boring parts of the loop first",
+          "href": "../articles/local-ai-belongs-in-the-boring-parts-of-the-loop-first.html"
+        },
+        {
+          "title": "Automatic1111 remains a useful reference for open image-generation workflows",
+          "href": "../articles/automatic1111-webui.html"
+        }
+      ]
+    },
+    {
+      "title": "Agentic coding and project memory",
+      "slug": "agentic-coding-and-project-memory",
+      "kind": "Library / AI Coding",
+      "description": "A concept page for AI coding systems that need stable project structure, repository reading, durable conventions, and tool-using agents.",
+      "tags": [
+        "agents",
+        "ai-coding",
+        "claude-code",
+        "github",
+        "software-architecture",
+        "knowledge-graph"
+      ],
+      "url": "library/agentic-coding-and-project-memory.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "AI coding becomes useful when the project gives the agent stable memory surfaces: file conventions, source boundaries, skills, hooks, and repeatable review paths."
+        },
+        {
+          "heading": "Repository reading",
+          "body": "Code search is not enough. Graph views, entry points, dependencies, ownership, and repeated concepts help both human and AI readers understand a repo faster."
+        },
+        {
+          "heading": "Library use",
+          "body": "Group agent notes by operational behavior: coding assistant, repository map, project memory, local execution, review loop, and deployment support."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Claude Code project structure is an editorial memory problem too",
+          "href": "../articles/claude-code-project-structure.html"
+        },
+        {
+          "title": "GitNexus suggests a useful shape for repository reading",
+          "href": "../articles/gitnexus-knowledge-graph.html"
+        }
+      ]
+    },
+    {
+      "title": "Node graph memory and procedural systems",
+      "slug": "node-graph-memory-and-procedural-systems",
+      "kind": "Library / Procedural",
+      "description": "A concept page for keeping node-based work understandable through notes, graph context, reusable explanations, and related procedural examples.",
+      "tags": [
+        "nodes",
+        "procedural",
+        "houdini",
+        "blender",
+        "documentation",
+        "pipeline"
+      ],
+      "url": "library/node-graph-memory-and-procedural-systems.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Node graphs expose structure, but without memory they become archaeology. The Library should store why a graph exists, what behavior it produces, and which examples belong together."
+        },
+        {
+          "heading": "What belongs here",
+          "body": "Houdini node inspection, Blender Geometry Nodes, Sverchok examples, reusable procedural setups, graph annotation ideas, and production memory around node systems."
+        },
+        {
+          "heading": "How to update",
+          "body": "When an Article explains a node technique, link it here under the larger procedural family instead of leaving it isolated."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Node-based work needs a memory layer outside the node graph",
+          "href": "../articles/node-based-work-needs-a-memory-layer-outside-the-node-graph.html"
+        },
+        {
+          "title": "Sverchok and procedural Blender notes should stay grouped",
+          "href": "../articles/erindale-sverchok-oceanografic.html"
+        },
+        {
+          "title": "Blender cloud animation notes belong with production memory",
+          "href": "../articles/blender-cloud-animation.html"
+        }
+      ]
+    },
+    {
+      "title": "Spatial capture and reconstruction",
+      "slug": "spatial-capture-and-reconstruction",
+      "kind": "Library / Spatial Capture",
+      "description": "A concept page for 3DGS, NeRF-like methods, multi-view reconstruction, capture constraints, review use, and production reliability.",
+      "tags": [
+        "spatial-capture",
+        "3dgs",
+        "nerf",
+        "computer-vision",
+        "rendering",
+        "research"
+      ],
+      "url": "library/spatial-capture-and-reconstruction.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Spatial capture is moving from impressive demos toward practical scene representation. The useful question is whether a method can support review, camera exploration, reconstruction, or web delivery."
+        },
+        {
+          "heading": "Comparison axis",
+          "body": "Compare techniques by required views, cleanup steps, temporal handling, editability, rendering cost, camera freedom, and whether the result can enter a production pipeline."
+        },
+        {
+          "heading": "Library grouping",
+          "body": "3DGS, NeRF, multi-view reconstruction, radiance fields, and capture apps should live together so individual Articles can be compared as one production problem."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Universal Beta Splatting extends 3DGS from reconstruction into motion",
+          "href": "../articles/universal-beta-splatting.html"
+        },
+        {
+          "title": "VGG-T and the pressure to make multi-view reconstruction usable",
+          "href": "../articles/vgg-t3-3d-reconstruction.html"
+        }
+      ]
+    },
+    {
+      "title": "Rendering and look-development decisions",
+      "slug": "rendering-and-look-development-decisions",
       "kind": "Library / Rendering",
-      "url": "https://google.github.io/filament/",
-      "description": "Real-time physically based rendering engine useful for material preview, lightweight inspection, and renderer comparison.",
+      "description": "A concept page for rendering notes that are valuable because they connect tools, materials, preview, review, and final image decisions.",
       "tags": [
         "rendering",
         "lookdev",
-        "software"
+        "materialx",
+        "filament",
+        "pipeline",
+        "visual-systems"
+      ],
+      "url": "library/rendering-and-look-development-decisions.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Rendering notes become knowledge when they explain what can be previewed, exchanged, trusted, automated, or carried into final output."
+        },
+        {
+          "heading": "What belongs here",
+          "body": "Material interchange, viewport preview, physically based rendering, lightweight inspection, shader tests, and decisions between asset, material, renderer, review, and final output."
+        },
+        {
+          "heading": "How to avoid link dumping",
+          "body": "A renderer or material tool should not be listed only by name. The Library entry should say what production decision it clarifies."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Rendering notes become valuable when they connect tools to decisions",
+          "href": "../articles/rendering-notes-become-valuable-when-they-connect-tools-to-decisions.html"
+        },
+        {
+          "title": "MaterialX and Filament rendering compatibility note",
+          "href": "../news.html?q=materialx"
+        }
       ]
     },
     {
-      "title": "Blender",
-      "kind": "Library / 3D",
-      "url": "https://www.blender.org/",
-      "description": "Core open 3D application for modeling, animation, rendering, geometry nodes, and production experiments.",
+      "title": "AI video as reference system",
+      "slug": "ai-video-as-reference-system",
+      "kind": "Library / AI Video",
+      "description": "A concept page for using AI video as reference material: motion mood, impossible cameras, texture studies, lighting proposals, and image behavior.",
       "tags": [
-        "blender",
-        "3d",
+        "ai-video",
+        "visual-reference",
+        "motion-design",
+        "lookdev",
+        "production"
+      ],
+      "url": "library/ai-video-as-reference-system.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "AI video does not need to be finished cinema to be useful. It can be a reference system for motion behavior, camera language, texture, lighting, transitions, and visual rhythm."
+        },
+        {
+          "heading": "Production use",
+          "body": "Treat short clips as visual notes: extract what they reveal, then translate that into layout, animation, lighting, edit, shader, or design work."
+        },
+        {
+          "heading": "Review rule",
+          "body": "Do not preserve AI video because it is novel. Preserve it when it names or demonstrates a reusable visual behavior."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "AI video is becoming a reference library before it becomes a cinema",
+          "href": "../articles/ai-video-is-becoming-a-reference-library-before-it-becomes-a-cinema.html"
+        },
+        {
+          "title": "AIVideo Agent is part of the automation layer around moving images",
+          "href": "../articles/aivideo-agent.html"
+        }
+      ]
+    },
+    {
+      "title": "Visual reference and film language",
+      "slug": "visual-reference-and-film-language",
+      "kind": "Library / Film Reference",
+      "description": "A concept page for film, image, trailer, animation, and visual-culture notes that teach framing, texture, rhythm, tone, staging, or image behavior.",
+      "tags": [
+        "visual-reference",
+        "film",
         "animation",
-        "rendering"
+        "vfx",
+        "lookdev",
+        "criticism"
+      ],
+      "url": "library/visual-reference-and-film-language.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Visual reference is useful when it names a behavior: density, texture, distance, contrast, rhythm, surface, framing, time, or tone."
+        },
+        {
+          "heading": "How to collect",
+          "body": "A film or image note should explain what it gives back to creative work. It should not stay at the level of admiration or trivia."
+        },
+        {
+          "heading": "Use cases",
+          "body": "Shader tests, lighting passes, camera blocking, editing rhythm, motion study, art direction, interface mood, and production reference all belong here."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Visual reference is a production asset, not decoration",
+          "href": "../articles/visual-reference-is-a-production-asset-not-decoration.html"
+        },
+        {
+          "title": "Xenogenesis is a compact film-school source",
+          "href": "../articles/xenogenesis-james-cameron.html"
+        },
+        {
+          "title": "Touch Me is a film-reference note about tone and form",
+          "href": "../articles/touch-me-trailer.html"
+        }
+      ],
+      "recommendation_groups": [
+        {
+          "title": "Short film / early work",
+          "items": [
+            "Xenogenesis — early James Cameron craft reference"
+          ]
+        },
+        {
+          "title": "Genre and tone",
+          "items": [
+            "Touch Me — body-horror / science-fiction tone reference"
+          ]
+        },
+        {
+          "title": "Archive mood",
+          "items": [
+            "Tarkovsky Polaroids — atmosphere, time, unresolved ordinary spaces"
+          ]
+        }
       ]
     },
     {
-      "title": "Blender Manual",
-      "kind": "Library / Documentation",
-      "url": "https://docs.blender.org/manual/en/latest/",
-      "description": "Canonical Blender documentation for checking tool behavior before turning Wire notes into practical Articles.",
+      "title": "Book and reading map",
+      "slug": "book-and-reading-map",
+      "kind": "Library / Books",
+      "description": "A combined book recommendation and reading-map page. Individual book mentions should accumulate here by genre, theme, and use case.",
       "tags": [
-        "blender",
-        "documentation",
-        "tutorial"
+        "books",
+        "literature",
+        "reading",
+        "archive",
+        "research",
+        "library"
+      ],
+      "url": "library/book-and-reading-map.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Book references should not remain scattered as isolated links. This page collects them into a reusable reading map: what the book is useful for, which concept it supports, and what genre or theme it belongs to."
+        },
+        {
+          "heading": "Grouping rule",
+          "body": "Group books by use: creative writing, film thinking, philosophy, history, archive design, AI/technology, and production thinking. Add individual source Articles only when they deepen one of those groups."
+        },
+        {
+          "heading": "Update rule",
+          "body": "When a Wire or Article recommends a book, add it here under an existing group first. Create a new Library page only when the book becomes a recurring concept by itself."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Books and films need the same treatment as tools",
+          "href": "../articles/books-and-films-need-the-same-treatment-as-tools.html"
+        },
+        {
+          "title": "Bruno Schroeder's library note belongs with archive imagination",
+          "href": "../articles/bruno-schroeder-library.html"
+        }
+      ],
+      "recommendation_groups": [
+        {
+          "title": "Archive / library imagination",
+          "items": [
+            "Bruno Schroeder's library — physical archive as intellectual environment"
+          ]
+        },
+        {
+          "title": "Literature / essay reference",
+          "items": [
+            "Dazai and Gomi notes — interpretation, guilt, literary reframing"
+          ]
+        },
+        {
+          "title": "Knowledge systems",
+          "items": [
+            "NotebookLM / Obsidian workflow articles — reading as source-grounded compression"
+          ]
+        }
       ]
     },
     {
-      "title": "Houdini",
-      "kind": "Library / Procedural",
-      "url": "https://www.sidefx.com/products/houdini/",
-      "description": "Procedural 3D and VFX system used as a reference point for nodes, simulation, and production workflows.",
+      "title": "Film recommendation map",
+      "slug": "film-recommendation-map",
+      "kind": "Library / Films",
+      "description": "A combined film recommendation map. Film mentions should accumulate here by genre, visual problem, tone, and production lesson.",
       "tags": [
-        "houdini",
-        "procedural",
-        "vfx"
+        "film",
+        "films",
+        "visual-reference",
+        "animation",
+        "horror",
+        "science-fiction",
+        "criticism"
+      ],
+      "url": "library/film-recommendation-map.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Film recommendations are more useful when they are grouped by what they teach: tone, staging, camera movement, texture, editing rhythm, performance intensity, or production constraint."
+        },
+        {
+          "heading": "Grouping rule",
+          "body": "Keep genre groups, but attach each title to a creative use. A horror film, short film, animation reference, or trailer note should explain why it matters to image-making."
+        },
+        {
+          "heading": "Update rule",
+          "body": "New film Articles should be added to this map before creating a standalone Library page. Create a standalone Library page only when a film becomes a recurring reference object."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Touch Me is a film-reference note about tone and form",
+          "href": "../articles/touch-me-trailer.html"
+        },
+        {
+          "title": "Xenogenesis is a compact film-school source",
+          "href": "../articles/xenogenesis-james-cameron.html"
+        },
+        {
+          "title": "Film reference note on Possession",
+          "href": "../news.html?q=possession"
+        }
+      ],
+      "recommendation_groups": [
+        {
+          "title": "Science fiction / early craft",
+          "items": [
+            "Xenogenesis — compact early-career production and visual habit source"
+          ]
+        },
+        {
+          "title": "Horror / body tone",
+          "items": [
+            "Touch Me — tone, body horror, genre framing"
+          ]
+        },
+        {
+          "title": "Performance intensity / anti-remake logic",
+          "items": [
+            "Possession — form tied to trauma, performance, and unstable tone"
+          ]
+        },
+        {
+          "title": "Animation / staging",
+          "items": [
+            "Night on Bald Mountain — ominous staging and dense atmospheric animation"
+          ]
+        }
       ]
     },
     {
-      "title": "SideFX Labs",
-      "kind": "Library / Procedural",
-      "url": "https://www.sidefx.com/products/sidefx-labs/",
-      "description": "SideFX's toolset for practical Houdini workflows, useful for procedural production references.",
+      "title": "Archive and document AI",
+      "slug": "archive-and-document-ai",
+      "kind": "Library / Archive",
+      "description": "A concept page for OCR, document understanding, public archives, source capture, layout preservation, and long-term retrieval.",
       "tags": [
-        "houdini",
-        "procedural",
-        "pipeline"
-      ]
-    },
-    {
-      "title": "Autodesk Maya",
-      "kind": "Library / 3D",
-      "url": "https://www.autodesk.com/products/maya/overview",
-      "description": "Character, rigging, animation, and 3D production reference for Maya-related Wire and Article notes.",
-      "tags": [
-        "maya",
-        "rigging",
-        "3d",
-        "animation"
-      ]
-    },
-    {
-      "title": "Automatic1111 Stable Diffusion WebUI",
-      "kind": "Library / AI Image",
-      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "description": "Durable open-source reference for classic Stable Diffusion WebUI workflows and extension-based image generation.",
-      "tags": [
-        "stable-diffusion",
-        "open-source",
-        "image-generation",
-        "workflow"
-      ]
-    },
-    {
-      "title": "ComfyUI",
-      "kind": "Library / AI Workflow",
-      "url": "https://github.com/comfyanonymous/ComfyUI",
-      "description": "Node-based AI generation interface that serves as a recurring reference for graph workflows and reusable pipelines.",
-      "tags": [
-        "comfyui",
-        "workflow",
-        "nodes",
-        "ai"
-      ]
-    },
-    {
-      "title": "NotebookLM",
-      "kind": "Library / Knowledge System",
-      "url": "https://notebooklm.google.com/",
-      "description": "Source-grounded notebook tool used as a reference for learning, synthesis, and external memory workflows.",
-      "tags": [
-        "notebooklm",
-        "knowledge-map",
-        "learning",
-        "workflow"
-      ]
-    },
-    {
-      "title": "Obsidian",
-      "kind": "Library / Knowledge System",
-      "url": "https://obsidian.md/",
-      "description": "Markdown knowledge-base application for local notes, source maps, and long-running editorial memory.",
-      "tags": [
-        "obsidian",
-        "knowledge-map",
-        "local-ai",
-        "workflow"
-      ]
-    },
-    {
-      "title": "GitHub Public APIs List",
-      "kind": "Library / Development",
-      "url": "https://github.com/public-apis/public-apis",
-      "description": "Large public API index useful as raw material for automation ideas and prototype data sources.",
-      "tags": [
-        "public-apis",
-        "automation",
-        "development-tools",
-        "reference"
-      ]
-    },
-    {
-      "title": "Tesseract OCR",
-      "kind": "Library / Document AI",
-      "url": "https://github.com/tesseract-ocr/tesseract",
-      "description": "Open OCR engine reference for document capture, archive workflows, and OCR-related Articles.",
-      "tags": [
+        "archive",
         "document-ai",
         "ocr",
-        "archive",
-        "open-source"
-      ]
-    },
-    {
-      "title": "OpenCV",
-      "kind": "Library / Computer Vision",
-      "url": "https://opencv.org/",
-      "description": "Computer vision library reference for image processing, tracking, detection, and reconstruction notes.",
-      "tags": [
-        "computer-vision",
-        "open-source",
-        "development-tools"
-      ]
-    },
-    {
-      "title": "NVIDIA Omniverse",
-      "kind": "Library / 3D Pipeline",
-      "url": "https://www.nvidia.com/en-us/omniverse/",
-      "description": "3D collaboration and simulation platform relevant to USD, rendering, and spatial workflow references.",
-      "tags": [
-        "nvidia",
-        "3d",
-        "pipeline",
-        "rendering"
-      ]
-    },
-    {
-      "title": "3D Gaussian Splatting Research",
-      "kind": "Library / Spatial Capture",
-      "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
-      "description": "Primary 3D Gaussian Splatting project page for reconstruction, view synthesis, and spatial capture notes.",
-      "tags": [
-        "3dgs",
-        "spatial-capture",
         "research",
-        "rendering"
-      ]
-    },
-    {
-      "title": "NeRF Project",
-      "kind": "Library / Spatial Capture",
-      "url": "https://www.matthewtancik.com/nerf",
-      "description": "Canonical Neural Radiance Fields reference for spatial capture and view-synthesis context.",
-      "tags": [
-        "nerf",
-        "spatial-capture",
-        "research",
-        "computer-vision"
-      ]
-    },
-    {
-      "title": "Cavalry",
-      "kind": "Library / Motion Design",
-      "url": "https://cavalry.scenegroup.co/",
-      "description": "Procedural motion-design application useful as a comparison point for animation and graphic systems.",
-      "tags": [
-        "cavalry",
-        "motion-design",
-        "animation",
-        "procedural"
-      ]
-    },
-    {
-      "title": "Pikimov",
-      "kind": "Library / Motion Design",
-      "url": "https://pikimov.com/",
-      "description": "Browser-based motion graphics tool referenced by Wire items about lightweight animation production.",
-      "tags": [
-        "motion-design",
-        "browser-tools",
-        "animation",
-        "design-tools"
-      ]
-    },
-    {
-      "title": "Internet Archive",
-      "kind": "Library / Archive",
-      "url": "https://archive.org/",
-      "description": "Durable public archive for books, films, web snapshots, and historical reference material.",
-      "tags": [
-        "archive",
-        "books",
-        "film",
-        "research"
-      ]
-    },
-    {
-      "title": "Project Gutenberg",
-      "kind": "Library / Books",
-      "url": "https://www.gutenberg.org/",
-      "description": "Public-domain book archive useful for literature, source trails, and reusable reference entries.",
-      "tags": [
-        "books",
-        "archive",
-        "literature",
-        "research"
-      ]
-    },
-    {
-      "title": "Wikimedia Commons",
-      "kind": "Library / Visual Reference",
-      "url": "https://commons.wikimedia.org/",
-      "description": "Open media repository useful for visual reference, public-domain images, and source checks.",
-      "tags": [
-        "visual-reference",
-        "archive",
-        "research"
-      ]
-    },
-    {
-      "title": "Stanford Libraries Exhibits",
-      "kind": "Library / Archive",
-      "url": "https://exhibits.stanford.edu/",
-      "description": "Digital exhibit shelf for maps, visual culture, historical material, and durable research references.",
-      "tags": [
-        "archive",
-        "visual-reference",
-        "research",
+        "metadata",
         "books"
+      ],
+      "url": "library/archive-and-document-ai.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Archive work is not just storage. It is capture, layout, OCR, cleanup, metadata, search, retrieval, and later reuse."
+        },
+        {
+          "heading": "What belongs here",
+          "body": "OCR tools, public archives, document AI benchmarks, layout extraction, library design, source maps, and durable research references."
+        },
+        {
+          "heading": "Evaluation axis",
+          "body": "Judge archive tools by reliability, layout preservation, source traceability, search quality, and whether they help future writing."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "NDL OCR Lite fits the document-AI and archive workflow shelf",
+          "href": "../articles/ndl-ocr-lite-mobile.html"
+        },
+        {
+          "title": "Bruno Schroeder's library note belongs with archive imagination",
+          "href": "../articles/bruno-schroeder-library.html"
+        },
+        {
+          "title": "The archive should stay readable before it becomes large",
+          "href": "../articles/the-archive-should-stay-readable-before-it-becomes-large.html"
+        }
       ]
     },
     {
-      "title": "Claude Code Documentation",
-      "kind": "Library / AI Coding",
-      "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
-      "description": "Official Claude Code reference for AI coding workflows, project memory, and agentic development notes.",
+      "title": "Motion design and browser production tools",
+      "slug": "motion-design-and-browser-production-tools",
+      "kind": "Library / Motion Design",
+      "description": "A concept page for lightweight animation, motion-design, browser tools, procedural graphics, and sketch-level production surfaces.",
       "tags": [
-        "ai-coding",
-        "agents",
-        "workflow",
-        "documentation"
+        "motion-design",
+        "animation",
+        "browser-tools",
+        "design-tools",
+        "procedural",
+        "workflow"
+      ],
+      "url": "library/motion-design-and-browser-production-tools.html",
+      "sections": [
+        {
+          "heading": "Core idea",
+          "body": "Not every useful tool has to be a full production suite. Lightweight browser or motion-design tools can be valuable for sketches, tests, quick editorial visuals, and motion studies."
+        },
+        {
+          "heading": "What belongs here",
+          "body": "Pikimov, Cavalry-like procedural motion, lightweight video tools, design-to-motion utilities, and practical animation tests."
+        },
+        {
+          "heading": "How to compare",
+          "body": "Compare by speed, export quality, timeline control, procedural ability, browser constraints, collaboration, and whether the result can feed a larger production workflow."
+        }
+      ],
+      "article_refs": [
+        {
+          "title": "Pikimov belongs on the lightweight motion-design shelf",
+          "href": "../articles/pikimov-5.html"
+        },
+        {
+          "title": "AI video as reference material",
+          "href": "../articles/ai-video-is-becoming-a-reference-library-before-it-becomes-a-cinema.html"
+        }
       ]
     }
   ]
