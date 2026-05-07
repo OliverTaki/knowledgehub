@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T07:23:07.251Z",
+  "generated_at": "2026-05-07T00:35:37.741Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -285,6 +285,18 @@
         "agents",
         "workflow",
         "documentation"
+      ]
+    },
+    {
+      "title": "Autodesk Flow Studio",
+      "kind": "Library / AI 3D",
+      "url": "https://www.autodesk.com/products/flow-studio/overview",
+      "description": "Autodesk's AI-assisted media and 3D production surface, useful for tracking text/image-to-3D and generated-scene review workflows.",
+      "tags": [
+        "3d",
+        "ai-video",
+        "design-tools",
+        "workflow"
       ]
     }
   ]
