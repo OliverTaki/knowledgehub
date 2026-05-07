@@ -387,15 +387,31 @@ function publicSummary(item) {
   return explicitSummary || inferWireTopic(item).summary;
 }
 
+function extractXStatusId(url) {
+  return String(url || "").match(/\/status\/(\d+)/)?.[1] || "";
+}
+
+function xStatusIdTimestamp(statusId) {
+  if (!/^\d+$/.test(statusId || "")) return "";
+  try {
+    const timestamp = (BigInt(statusId) >> 22n) + 1288834974657n;
+    const date = new Date(Number(timestamp));
+    return Number.isNaN(date.getTime()) ? "" : date.toISOString();
+  } catch {
+    return "";
+  }
+}
+
 function publicWireEntry(item) {
   const inferred = inferWireTopic(item);
+  const derivedPostedAt = xStatusIdTimestamp(item.status_id || extractXStatusId(item.url || item.original_url));
   return {
     id: item.id,
     source: item.source || "x_like",
     url: item.url,
     original_url: item.original_url || item.url,
     collected_at: item.collected_at || "",
-    posted_at: item.posted_at || "",
+    posted_at: item.posted_at || derivedPostedAt,
     author_handle: item.author_handle || "",
     post_kind: item.post_kind || "unknown",
     content_kinds: item.content_kinds || ["unknown"],
@@ -413,7 +429,16 @@ function publicWireEntry(item) {
   };
 }
 
-const publicWireEntries = (wire.entries || []).map(publicWireEntry);
+function wireDateValue(item) {
+  const value = item?.posted_at || item?.collected_at || "";
+  const time = value ? new Date(value).getTime() : 0;
+  return Number.isNaN(time) ? 0 : time;
+}
+
+const publicWireEntries = (wire.entries || [])
+  .map((item, wireOrder) => ({ ...publicWireEntry(item), wireOrder }))
+  .sort((a, b) => wireDateValue(b) - wireDateValue(a) || b.wireOrder - a.wireOrder)
+  .map(({ wireOrder, ...item }) => item);
 
 function entryDate(item) {
   const raw = item.posted_at || item.collected_at || wire.generated_at;
