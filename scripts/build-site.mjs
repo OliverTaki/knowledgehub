@@ -636,7 +636,7 @@ function libraryItem(item, options = {}) {
         </li>`;
 }
 
-function articleItem(article) {
+function articleItem(article, options = {}) {
   const summary = article.paragraphs.find((paragraph) => paragraph && paragraph.trim()) || "Article note pending.";
   const tags = displayTags(article.tags || []);
   const search = searchText([article.title, article.published_at, article.updated_at, article.source_file, article.source_url, ...tags, ...article.paragraphs]);
@@ -645,7 +645,7 @@ function articleItem(article) {
           <a href="${esc(href)}">${esc(article.title)}</a>
           <p class="entry-meta">Published ${esc(article.published_at)} - Updated ${esc(article.updated_at)}</p>
           <p>${esc(summary.length > 280 ? `${summary.slice(0, 277)}...` : summary)}</p>
-          ${tags.length ? `<div class="tag-row">${tagList(tags, { target: "articles-filter" })}</div>` : ""}
+          ${tags.length ? `<div class="tag-row">${tagList(tags, options.home ? { hrefBase: "articles.html" } : { target: "articles-filter" })}</div>` : ""}
         </li>`;
 }
 
@@ -773,6 +773,7 @@ ${body}
 }
 
 const latestWire = publicWireEntries.slice(0, 4).map((item) => wireItem(item, { home: true })).join("\n") || "        <li><p>No wire entries yet.</p></li>";
+const latestArticles = ARTICLES.slice(0, 4).map((article) => articleItem(article, { home: true })).join("\n") || "        <li><p>No articles yet.</p></li>";
 const latestLibrary = library.items.slice(0, 4).map((item) => libraryItem(item, { home: true })).join("\n") || "        <li><p>No library entries yet.</p></li>";
 
 const indexHtml = layout({
@@ -795,6 +796,13 @@ ${statusCards([
 ])}
         </aside>
       </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Latest articles</h2><p>Judged notes and source clusters promoted from the wire lane.</p></div>
+      <ul class="compact-list" id="home-article-list">
+${latestArticles}
+      </ul>
     </section>
 
     <section class="section">
