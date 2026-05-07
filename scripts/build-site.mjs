@@ -213,11 +213,19 @@ const sourceNoteArticles = (Array.isArray(legacyBloggerSourceNotes.notes) ? lega
       paragraphs: paragraphs.length ? paragraphs : ["Legacy Blogger source note imported for editorial review and future Knowledge Hub promotion."]
     };
   });
+function articleDateValue(article) {
+  const value = article?.published_at || article?.updated_at || "";
+  const time = value ? new Date(value).getTime() : 0;
+  return Number.isNaN(time) ? 0 : time;
+}
+
 const ARTICLES = [
   ...BASE_ARTICLES.map((article, index) => decorateArticle(article, `base-${index + 1}`)),
   ...(Array.isArray(legacyBloggerArticles) ? legacyBloggerArticles : []).map((article, index) => decorateArticle(article, `legacy-curated-${index + 1}`)),
   ...sourceNoteArticles.map((article, index) => decorateArticle(article, `legacy-source-${index + 1}`))
-];
+]
+  .map((article, siteOrder) => ({ ...article, siteOrder }))
+  .sort((a, b) => articleDateValue(b) - articleDateValue(a) || b.siteOrder - a.siteOrder);
 
 const library = {
   ...librarySource,

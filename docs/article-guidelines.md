@@ -44,6 +44,8 @@ Use a compact editorial structure:
 - Concrete source references or source links.
 - Tags that match the actual subject matter.
 
+Legacy Blogger notes and automatically imported source notes are not the bar for new Articles. Treat them as Wire-grade research material. A new Article should be denser than those notes: it should synthesize multiple signals where possible, make an editorial judgment, explain why the cluster matters, and add reusable production or reference value.
+
 Preferred Article types:
 
 - Pattern note
@@ -130,6 +132,11 @@ Legacy Blogger material can be used as research context.
 - Preserve the source URL when available.
 - Rewrite into Knowledge Hub style instead of copying old templates.
 - Do not keep old Blogger layout assumptions.
+- Do not promote a Blogger-era note into an Article by lightly rephrasing it. If the result is only a cleaned source card, keep it in Wire/source-note territory until there is enough synthesis for a real Article.
+
+## Display Order
+
+Article lists should be ordered by this site's publication order, newest first. Use `published_at` as the primary sort key. For items published on the same day, show later-added site entries first.
 
 ## Article Quality Checklist
 

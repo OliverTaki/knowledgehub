@@ -22,6 +22,8 @@ This repository may be edited by multiple AI agents. Follow these rules before c
 
 - Read `docs/article-guidelines.md` before writing.
 - Do not create filler Articles.
+- Treat legacy Blogger/source-note material as Wire-grade research input, not as the density target for new Articles.
+- New Articles should be denser than the old Blogger-style notes: more synthesis, clearer editorial judgment, and stronger explanation of why the source cluster matters.
 - Do not invent dates, authors, quotes, claims, source context, adoption signals, or technical behavior.
 - Use existing Wire, legacy Blogger notes, or durable external sources as evidence.
 - Preserve the original source link when a source exists.

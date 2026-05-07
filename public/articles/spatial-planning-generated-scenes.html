@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spatial planning is becoming a control surface for generated scenes - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Spatial planning is becoming a control surface for generated scenes</h1>
+          <p class="article-meta">Published 2026-05-06 - Updated 2026-05-06</p>
+          <div class="tag-row"><span class="tag">ai-video</span><span class="tag">3d</span><span class="tag">design-tools</span><span class="tag">workflow</span><span class="tag">production</span></div>
+          <p class="entry-meta"><a href="https://x.com/taziku_co/status/2024264782698991723" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several saved source notes point to the same practical pattern: generated images, videos, and 3D assets become more usable when the user can specify space before asking for output. Floor plans, room-layout tools, and text-or-image-to-3D interfaces are useful because they turn vague generation into a controlled staging problem.</p>
+
+<h2>Why space matters before generation</h2>
+<p>The Freepik Spaces note is valuable because it treats a floor plan as production control, not decoration. The useful claim to preserve is narrow: when a video or image system has a spatial reference, later shots can be judged against continuity, camera placement, and room logic instead of only prompt wording.</p>
+
+<h2>Blender keeps the planning layer editable</h2>
+<p>The Blender Home Builder note belongs in the same cluster. Interior-layout tools are not only architectural helpers; they are editable staging layers. A room layout, wall opening, or furniture placement can become a constraint that downstream images, previs, or 3D experiments can reuse.</p>
+
+<h2>Text-to-3D needs review surfaces</h2>
+<p>The Autodesk Flow Studio Wonder 3D note points at the next step: generated assets need a place to be inspected, arranged, rejected, and revised. The interesting workflow is not just text-to-object generation. It is the loop around the generated object: spatial context, review, edits, and reuse.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/taziku_co/status/2024264782698991723" target="_blank" rel="noopener noreferrer">Freepik Spaces floor-plan source note</a></li>
+  <li><a href="https://x.com/happy_modeling/status/2028609258699526545" target="_blank" rel="noopener noreferrer">Blender Home Builder source note</a></li>
+  <li><a href="https://x.com/adskflowstudio/status/2029211462128762949" target="_blank" rel="noopener noreferrer">Autodesk Flow Studio Wonder 3D source note</a></li>
+  <li><a href="https://blogs.autodesk.com/media-and-entertainment/2026/03/04/introducing-wonder-3d-text-and-image-to-3d-in-flow-studio/" target="_blank" rel="noopener noreferrer">Autodesk Wonder 3D announcement</a></li>
+  <li><a href="https://www.autodesk.com/products/flow-studio/overview" target="_blank" rel="noopener noreferrer">Autodesk Flow Studio overview</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
