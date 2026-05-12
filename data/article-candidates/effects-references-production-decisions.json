@@ -1,0 +1,108 @@
+{
+  "published_at": "2026-05-12",
+  "updated_at": "2026-05-12",
+  "title": "Effects references become useful when they describe production decisions",
+  "slug": "effects-references-production-decisions",
+  "status": "article-update-candidate",
+  "language": "en",
+  "source_url": "https://x.com/x_pokoponmaru_x/status/2049865575074255119",
+  "tags": [
+    "vfx",
+    "visual-reference",
+    "motion-design",
+    "workflow",
+    "texturing",
+    "houdini",
+    "after-effects"
+  ],
+  "summary": "A WIRE-derived synthesis note: effects references, narrow plugins, texture tools, and node-inspection utilities become more useful when they help production workers name, test, preserve, or reuse a visual decision.",
+  "paragraphs": [
+    "The recent WIRE cluster around FXTags, ColorfulEcho, TexturingXYZ with Blender Softwrap, and Houdini Node Viewer points to a practical pattern: production references are most useful when they reduce ambiguity. A reference site, plugin, texture source, or node viewer is not valuable because it is new. It is valuable when it helps a worker name the effect, test the behavior, preserve the setup, or reuse the decision later.",
+    "FXTags belongs in the Library as an effects-reference surface rather than as a news item. The value is retrieval: when a shot needs a kind of impact, distortion, emission, residue, or environmental behavior, the editor or VFX worker needs a searchable visual vocabulary before choosing a tool.",
+    "ColorfulEcho is narrower but still useful. The WIRE item describes an After Effects plugin for assigning colors to echo afterimages. That makes it a good Library entry because it names a specific repeatable effect family: residual motion, color-separated trails, and gradient-like afterimage timing.",
+    "The TexturingXYZ and Blender Softwrap note sits on the surface-production side of the same pattern. It is not an effects reference in the compositing sense, but it describes a concrete asset workflow where surface data and mesh wrapping become reusable production knowledge.",
+    "Houdini Node Viewer adds the memory layer. Node-based work becomes fragile when the graph cannot explain itself later. A node viewer or external note surface matters because procedural setups are not only operations; they are decisions that need to remain inspectable.",
+    "The editorial hypothesis is simple: the Article lane should read these as a cluster, while the Library lane should preserve the concrete entities. The article keeps the pattern; the library keeps the tools and source trails."
+  ],
+  "source_check": {
+    "wire_layer_checked": "public/wire.md",
+    "wire_generated_at": "2026-05-07T02:38:27.941Z",
+    "wire_count": 503,
+    "primary_processed_wire_path_checked": "data/processed/wire.json",
+    "primary_processed_wire_status": "not available through GitHub contents API during this run",
+    "raw_x_likes_path_checked": "data/raw/x_likes.jsonl",
+    "raw_x_likes_status": "not directly fetched during this run; WIRE public summary layer was used as the available checked source"
+  },
+  "wire_sources_reviewed": [
+    {
+      "title": "FXTags effects reference",
+      "wire_url": "https://x.com/x_pokoponmaru_x/status/2049865575074255119",
+      "author_handle": "@x_pokoponmaru_x",
+      "posted_at": "2026-04-30T14:56:52.000Z",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "labels_or_tags": [
+        "reference",
+        "staging",
+        "needs-review",
+        "wire"
+      ],
+      "context": "WIRE item noted FXTags as an effects reference source."
+    },
+    {
+      "title": "ColorfulEcho After Effects plugin",
+      "wire_url": "https://x.com/orderly_ef/status/2049842824066257348",
+      "author_handle": "@orderly_ef",
+      "posted_at": "2026-04-30T13:26:28.000Z",
+      "collected_at": "2026-05-02T04:08:50.780Z",
+      "labels_or_tags": [
+        "reference",
+        "staging",
+        "needs-review",
+        "wire"
+      ],
+      "context": "WIRE item described an AE plugin release named ColorfulEcho for assigning color to each echo afterimage."
+    },
+    {
+      "title": "TexturingXYZ with Blender Softwrap",
+      "wire_url": "https://x.com/3DxDEV7/status/2049949634324316186",
+      "author_handle": "@3DxDEV7",
+      "posted_at": "2026-04-30T20:30:53.000Z",
+      "collected_at": "2026-05-02T04:08:55.055Z",
+      "labels_or_tags": [
+        "creative-tools",
+        "vfx",
+        "3d",
+        "workflow",
+        "wire"
+      ],
+      "context": "WIRE item referenced TexturingXYZ together with Blender Softwrap in a custom model workflow."
+    },
+    {
+      "title": "Houdini Node Viewer workflow note",
+      "wire_url": "https://x.com/theCGchannel/status/2050136956411977776",
+      "author_handle": "@theCGchannel",
+      "posted_at": "2026-05-01T08:55:14.000Z",
+      "collected_at": "2026-05-02T04:08:47.946Z",
+      "labels_or_tags": [
+        "creative-tools",
+        "houdini",
+        "nodes",
+        "workflow",
+        "wire"
+      ],
+      "context": "WIRE item framed Houdini Node Viewer as a node-inspection workflow note."
+    }
+  ],
+  "library_items_promoted": [
+    "ColorfulEcho",
+    "FXTags",
+    "TexturingXYZ",
+    "Blender Softwrap",
+    "Houdini Node Viewer"
+  ],
+  "metadata_preservation_notes": [
+    "Original WIRE URLs, author handles, posted dates, collected dates, labels/tags, and source context were preserved in this candidate.",
+    "No ranking/list content was copied wholesale.",
+    "No existing WIRE, Article, or Library content was deleted or overwritten for convenience."
+  ]
+}
