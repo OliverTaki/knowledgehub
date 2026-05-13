@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robot motion work needs simulation, capture, and hardware loops - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Robot motion work needs simulation, capture, and hardware loops</h1>
+          <p class="article-meta">Published 2026-05-13 - Updated 2026-05-13</p>
+          <div class="tag-row"><span class="tag">robotics</span><span class="tag">motion-capture</span><span class="tag">ai</span><span class="tag">animation</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/yuji_fujima/status/2025153032468754742" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several saved source notes point to the same robotics-production pattern: useful robot motion work is not only a model problem or only a hardware problem. The reusable loop is prediction, capture, retargeting, real-device testing, and review. That loop is useful for both physical robotics and animation workflows because both need motion that can be inspected, corrected, and reused.</p>
+
+<h2>World models make motion cheaper to test</h2>
+<p>The DreamDojo source note belongs at the prediction end of the loop. Its useful claim is narrow: large-scale egocentric video can train a robot world model that predicts future visual states, giving researchers another surface for offline trial, failure, and planning before every idea touches hardware. The Hugging Face model page and project page make this a durable reference rather than only a social post.</p>
+
+<h2>Hardware turns policy claims into review problems</h2>
+<p>The SONIC on Unitree G1 source note is valuable because it moves from model capability to embodied behavior. The saved note describes zero-shot custom motions on a Unitree G1, including varied actions such as kicking, crawling, and stability tests. Knowledge Hub should treat that as a source to review for control generality and evaluation surfaces, not as proof that every robot task is solved.</p>
+
+<h2>Creator mocap shows the adjacent production loop</h2>
+<p>The Ian Hubert robot-hand note and Jonathan Winbush virtual-camera note sit beside the robotics material. They are not humanoid-control papers, but they show the same practical shape: capture human motion, retarget it into a digital body or camera, then judge whether the result feels usable. Rokoko Smartgloves are a durable Library reference here because hand motion is a persistent bottleneck for animation, previs, and human-to-machine motion transfer.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>This cluster should be retrieved as a workflow note. The important distinction is where each source sits: DreamDojo as a prediction and simulation reference, Unitree G1 as an embodied hardware target, and Rokoko as a motion-capture bridge. Future robotics likes can be sorted more quickly if they are filed by their role in that loop.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/yuji_fujima/status/2025153032468754742" target="_blank" rel="noopener noreferrer">DreamDojo world-model source note</a></li>
+  <li><a href="https://huggingface.co/nvidia/DreamDojo" target="_blank" rel="noopener noreferrer">NVIDIA DreamDojo Hugging Face page</a></li>
+  <li><a href="https://dreamdojo-world.github.io/" target="_blank" rel="noopener noreferrer">DreamDojo project page</a></li>
+  <li><a href="https://x.com/taziku_co/status/2030223973569696221" target="_blank" rel="noopener noreferrer">SONIC on Unitree G1 source note</a></li>
+  <li><a href="https://www.unitree.com/g1/" target="_blank" rel="noopener noreferrer">Unitree G1 official product page</a></li>
+  <li><a href="https://x.com/Mrdodobird/status/1318111427790475264" target="_blank" rel="noopener noreferrer">Ian Hubert robot hand and Smartgloves source note</a></li>
+  <li><a href="https://x.com/JonathanWinbush/status/1316955065903685634" target="_blank" rel="noopener noreferrer">Jonathan Winbush Rokoko, Cinema 4D, and Unreal source note</a></li>
+  <li><a href="https://www.rokoko.com/products/smartgloves" target="_blank" rel="noopener noreferrer">Rokoko Smartgloves product page</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

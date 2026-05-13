@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T00:35:37.741Z",
+  "generated_at": "2026-05-13T04:49:27.777Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -297,6 +297,150 @@
         "ai-video",
         "design-tools",
         "workflow"
+      ]
+    },
+    {
+      "title": "ColorfulEcho",
+      "kind": "Library / After Effects Plugin",
+      "url": "https://booth.pm/ja/items/8284384",
+      "description": "After Effects plugin reference for assigning colors across echo afterimages and testing gradient-like residual motion effects. Added from a WIRE release post; keep the source post attached for provenance.",
+      "tags": [
+        "after-effects",
+        "plugin",
+        "motion-design",
+        "workflow",
+        "effects"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/orderly_ef/status/2049842824066257348",
+        "author_handle": "@orderly_ef",
+        "posted_at": "2026-04-30T13:26:28.000Z",
+        "collected_at": "2026-05-02T04:08:50.780Z",
+        "source_context": "WIRE item described an AE plugin release named ColorfulEcho for assigning color to each echo afterimage."
+      }
+    },
+    {
+      "title": "FXTags",
+      "kind": "Library / Effects Reference",
+      "url": "https://fxtags.com/",
+      "description": "Effects-reference site saved from WIRE as a practical visual/VFX lookup surface for later effect studies and shot-reference work.",
+      "tags": [
+        "effects-reference",
+        "vfx",
+        "visual-reference",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/x_pokoponmaru_x/status/2049865575074255119",
+        "author_handle": "@x_pokoponmaru_x",
+        "posted_at": "2026-04-30T14:56:52.000Z",
+        "collected_at": "2026-05-02T04:08:55.055Z",
+        "source_context": "WIRE item noted FXTags as an effects reference source."
+      }
+    },
+    {
+      "title": "TexturingXYZ",
+      "kind": "Library / Texturing",
+      "url": "https://texturing.xyz/",
+      "description": "Texturing and surface reference for character/model texture workflows, added from a WIRE note about using TexturingXYZ with Blender Softwrap for custom model work.",
+      "tags": [
+        "texturing",
+        "3d",
+        "character",
+        "workflow"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/3DxDEV7/status/2049949634324316186",
+        "author_handle": "@3DxDEV7",
+        "posted_at": "2026-04-30T20:30:53.000Z",
+        "collected_at": "2026-05-02T04:08:55.055Z",
+        "source_context": "WIRE item referenced TexturingXYZ together with Blender Softwrap in a custom model workflow."
+      }
+    },
+    {
+      "title": "Blender Softwrap",
+      "kind": "Library / Blender Add-on",
+      "url": "https://github.com/jeacom25b/Softwrap",
+      "description": "Blender retopology/wrapping add-on reference connected to TexturingXYZ workflow notes. Added as a production-context reference, not as a general recommendation.",
+      "tags": [
+        "blender",
+        "retopology",
+        "texturing",
+        "workflow"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/3DxDEV7/status/2049949634324316186",
+        "author_handle": "@3DxDEV7",
+        "posted_at": "2026-04-30T20:30:53.000Z",
+        "collected_at": "2026-05-02T04:08:55.055Z",
+        "source_context": "WIRE item referenced Blender Softwrap in a TexturingXYZ custom model workflow."
+      }
+    },
+    {
+      "title": "Houdini Node Viewer",
+      "kind": "Library / Houdini Workflow",
+      "url": "https://x.com/theCGchannel/status/2050136956411977776",
+      "description": "Source-linked workflow reference for inspecting or preserving Houdini node context beside an external knowledge workspace. Keep source-linked until a durable project page is confirmed.",
+      "tags": [
+        "houdini",
+        "nodes",
+        "workflow",
+        "documentation"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/theCGchannel/status/2050136956411977776",
+        "author_handle": "@theCGchannel",
+        "posted_at": "2026-05-01T08:55:14.000Z",
+        "collected_at": "2026-05-02T04:08:47.946Z",
+        "source_context": "WIRE item framed Houdini Node Viewer as a node-inspection workflow note."
+      }
+    },
+    {
+      "title": "Google Stitch",
+      "kind": "Library / AI Design",
+      "url": "https://stitch.withgoogle.com/",
+      "description": "Google Labs AI design canvas for turning natural-language, image, text, or code context into high-fidelity UI prototypes and developer-tool exports.",
+      "tags": [
+        "design-tools",
+        "ui",
+        "ai-coding",
+        "workflow"
+      ]
+    },
+    {
+      "title": "NVIDIA DreamDojo",
+      "kind": "Library / Robotics",
+      "url": "https://huggingface.co/nvidia/DreamDojo",
+      "description": "Robot world-model reference for tracking prediction, offline simulation, and large-scale egocentric-video training in embodied AI workflows.",
+      "tags": [
+        "robotics",
+        "ai",
+        "simulation",
+        "workflow"
+      ]
+    },
+    {
+      "title": "Unitree G1",
+      "kind": "Library / Robotics",
+      "url": "https://www.unitree.com/g1/",
+      "description": "Humanoid robot hardware reference for embodied motion experiments, policy evaluation, and robotics workflow notes.",
+      "tags": [
+        "robotics",
+        "hardware",
+        "ai",
+        "motion"
+      ]
+    },
+    {
+      "title": "Rokoko Smartgloves",
+      "kind": "Library / Motion Capture",
+      "url": "https://www.rokoko.com/products/smartgloves",
+      "description": "Hand and finger motion-capture reference for animation, previs, virtual production, and human-motion transfer workflows.",
+      "tags": [
+        "motion-capture",
+        "animation",
+        "workflow",
+        "hardware"
       ]
     }
   ]
