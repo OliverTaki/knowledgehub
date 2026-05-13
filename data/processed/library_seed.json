@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T00:35:37.741Z",
+  "generated_at": "2026-05-13T04:49:27.777Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -394,6 +394,54 @@
         "collected_at": "2026-05-02T04:08:47.946Z",
         "source_context": "WIRE item framed Houdini Node Viewer as a node-inspection workflow note."
       }
+    },
+    {
+      "title": "Google Stitch",
+      "kind": "Library / AI Design",
+      "url": "https://stitch.withgoogle.com/",
+      "description": "Google Labs AI design canvas for turning natural-language, image, text, or code context into high-fidelity UI prototypes and developer-tool exports.",
+      "tags": [
+        "design-tools",
+        "ui",
+        "ai-coding",
+        "workflow"
+      ]
+    },
+    {
+      "title": "NVIDIA DreamDojo",
+      "kind": "Library / Robotics",
+      "url": "https://huggingface.co/nvidia/DreamDojo",
+      "description": "Robot world-model reference for tracking prediction, offline simulation, and large-scale egocentric-video training in embodied AI workflows.",
+      "tags": [
+        "robotics",
+        "ai",
+        "simulation",
+        "workflow"
+      ]
+    },
+    {
+      "title": "Unitree G1",
+      "kind": "Library / Robotics",
+      "url": "https://www.unitree.com/g1/",
+      "description": "Humanoid robot hardware reference for embodied motion experiments, policy evaluation, and robotics workflow notes.",
+      "tags": [
+        "robotics",
+        "hardware",
+        "ai",
+        "motion"
+      ]
+    },
+    {
+      "title": "Rokoko Smartgloves",
+      "kind": "Library / Motion Capture",
+      "url": "https://www.rokoko.com/products/smartgloves",
+      "description": "Hand and finger motion-capture reference for animation, previs, virtual production, and human-motion transfer workflows.",
+      "tags": [
+        "motion-capture",
+        "animation",
+        "workflow",
+        "hardware"
+      ]
     }
   ]
 }
