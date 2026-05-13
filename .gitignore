@@ -17,3 +17,10 @@ content/library/
 
 # Public reviewed Wire JSON is deployable; raw/private source data remains ignored above.
 public/library.json
+
+# Wrangler and local deployment secrets
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
