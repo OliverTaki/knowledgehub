@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Film archives become useful when access, context, and craft stay connected - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Film archives become useful when access, context, and craft stay connected</h1>
+          <p class="article-meta">Published 2026-05-31 - Updated 2026-05-31</p>
+          <div class="tag-row"><span class="tag">film</span><span class="tag">archive</span><span class="tag">visual-reference</span><span class="tag">research</span><span class="tag">public-domain</span></div>
+          <p class="entry-meta"><a href="https://x.com/anohinoanoko_jp/status/2028768307801903613" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>The WikiFlix source note is stronger than a streaming-site bookmark because it points to a reusable research pattern: access, catalog context, and viewing friction all shape whether film history can become production reference. For Knowledge Hub, public-domain film sources should be filed as working archives, not only as entertainment links.</p>
+
+<h2>Access changes how often reference gets used</h2>
+<p>The saved source note describes WikiFlix as a public-domain film viewing surface with thousands of films and a clean, low-friction viewing experience. Treat the exact catalog size as a source claim, but preserve the editorial point: an archive that can be browsed quickly is more likely to become a real reference habit than a link that requires repeated manual digging.</p>
+
+<h2>Catalog structure is part of the reference</h2>
+<p>The Wikimedia Commons WikiFlix page frames the project as a prototype for browsing and watching public-domain or Creative Commons-licensed films on Commons, with lists powered by Wikidata and organized by decade, genre, country, awards, and special lists. That structure matters because a future visual task may start from a retrieval question such as silent science fiction, award-winning documentary, early animation, national cinema, or a specific director.</p>
+
+<h2>Film clips need context before they become useful</h2>
+<p>Other film source notes in the archive show the same rule. A Xenogenesis clip is useful because it preserves early craft signals around low-budget effects and director development. A Mirai Mizue compilation is useful because it compresses an animation vocabulary into a quick visual sample. WikiFlix belongs beside those notes because it can widen the source pool while still requiring source context before a clip becomes a production reference.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future film-archive entries should record the access surface, licensing or public-domain claim, cataloging method, notable retrieval categories, and why the source is useful for visual study. That keeps film references connected to work: mood, staging, editing rhythm, design history, animation technique, or production research.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/anohinoanoko_jp/status/2028768307801903613" target="_blank" rel="noopener noreferrer">WikiFlix public-domain film source note</a></li>
+  <li><a href="https://commons.wikimedia.org/wiki/User:Spinster/WikiFlix" target="_blank" rel="noopener noreferrer">WikiFlix on Wikimedia Commons</a></li>
+  <li><a href="https://wikiflix.toolforge.org/" target="_blank" rel="noopener noreferrer">WikiFlix Toolforge application</a></li>
+  <li><a href="https://x.com/KubrickBlogjp/status/2026076476878242053" target="_blank" rel="noopener noreferrer">Xenogenesis source note</a></li>
+  <li><a href="https://x.com/MIRAI_MIZUE/status/1160195238805176321" target="_blank" rel="noopener noreferrer">Mirai Mizue compilation source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

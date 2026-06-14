@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI voice tools are shifting toward production infrastructure - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>AI voice tools are shifting toward production infrastructure</h1>
+          <p class="article-meta">Published 2026-05-21 - Updated 2026-05-21</p>
+          <div class="tag-row"><span class="tag">audio</span><span class="tag">workflow</span><span class="tag">production-audio</span><span class="tag">api</span></div>
+          <p class="entry-meta"><a href="https://x.com/xai/status/2050355373052223585" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Recent AI voice sources are more useful when read as production infrastructure notes than as final-performance claims. The practical layer is scratch dialogue, temporary narration, voice-agent prototyping, and timing tests.</p>
+
+<h2>From novelty to utility</h2>
+<p>The xAI custom voice source belongs in a production-audio lane because it points to practical workflow roles: voice agents, audiobook experiments, video-game character prototyping, multilingual timing checks, and placeholder VO. Those uses are different from claiming a final public performance should be replaced.</p>
+
+<h2>What the archive should remember</h2>
+<p>The useful metadata is not only the vendor. It is whether the source helps with scratch dialogue, previs narration, temporary ADR, internal review, localization timing, or a shipped voice experience. Those are different retrieval categories.</p>
+
+<h2>Production implication</h2>
+<p>The durable distinction is temporary production utility versus final public-facing performance. The Library entry should remain source-linked and workflow-oriented until a more stable documentation page or project reference becomes the better canonical URL.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/xai/status/2050355373052223585" target="_blank" rel="noopener noreferrer">xAI custom voice source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blender motion tests become reusable when setup decisions are archived - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Blender motion tests become reusable when setup decisions are archived</h1>
+          <p class="article-meta">Published 2026-05-24 - Updated 2026-05-24</p>
+          <div class="tag-row"><span class="tag">blender</span><span class="tag">motion-design</span><span class="tag">animation</span><span class="tag">workflow</span><span class="tag">procedural</span><span class="tag">vfx</span></div>
+          <p class="entry-meta"><a href="https://x.com/KmdjDngk/status/1317367790991372288" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several Blender source notes point to the same editorial problem: a short motion test is useful only if the setup behind it can be remembered. The reusable value is not just the final clip. It is the rigging choice, add-on role, shader behavior, timing shortcut, or procedural construction method that can be reapplied later.</p>
+
+<h2>Add-on builders turn one-off fixes into tools</h2>
+<p>The Serpens source note is the durable anchor for this cluster. It describes a Blender add-on workflow where node-based visual scripting lowers the barrier to building custom tools and generating Python code. That matters because many useful production shortcuts start as small personal fixes before they become repeatable add-ons.</p>
+
+<h2>Motion treatments need names and controls</h2>
+<p>The MotionFX source note belongs beside Serpens because it names a specific treatment: quick residual motion and trailing effects inside Blender. A tool like this is useful not only because it makes a look quickly, but because it gives the treatment a reusable control surface that can be adjusted instead of rebuilt from scratch.</p>
+
+<h2>Rigging examples are stronger when files and constraints are preserved</h2>
+<p>The Luxo-style lamp rig note is a practical learning source because the exercise combines a recognizable mechanical form, rigging constraints, and shared project files. The important archive lesson is that a rigging tutorial should preserve the constraint logic, not only the attractive preview.</p>
+
+<h2>Realtime tests need the behavior, not only the renderer label</h2>
+<p>The Eevee grass-shader and compact character-animation notes show why short viewport demos are still worth keeping. Their useful layer is behavioral: response to nearby motion, readable staging, pose timing, and a lightweight renderer setup that makes iteration fast. Those details are more useful than a broad tag like rendering.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future Blender motion sources should be filed by what they make reusable: tool creation, effect controls, rig constraints, shader behavior, pose timing, or project files. That keeps the archive from becoming a loose gallery and turns it into a production memory shelf.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/KmdjDngk/status/1317367790991372288" target="_blank" rel="noopener noreferrer">Serpens visual scripting source note</a></li>
+  <li><a href="https://x.com/ymt3d/status/1318473363006763008" target="_blank" rel="noopener noreferrer">MotionFX Blender add-on source note</a></li>
+  <li><a href="https://x.com/ymt3d/status/1316629374473400320" target="_blank" rel="noopener noreferrer">Luxo-style Blender rigging source note</a></li>
+  <li><a href="https://x.com/eriscaracol/status/1317485821721759744" target="_blank" rel="noopener noreferrer">Eevee grass-shader source note</a></li>
+  <li><a href="https://x.com/WokkieG/status/1316120420886679552" target="_blank" rel="noopener noreferrer">Eevee character-animation source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

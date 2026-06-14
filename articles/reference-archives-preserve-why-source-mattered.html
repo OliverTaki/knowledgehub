@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reference archives improve when they preserve why a source mattered - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Reference archives improve when they preserve why a source mattered</h1>
+          <p class="article-meta">Published 2026-05-21 - Updated 2026-05-21</p>
+          <div class="tag-row"><span class="tag">archive</span><span class="tag">visual-reference</span><span class="tag">workflow</span><span class="tag">research</span><span class="tag">metadata</span></div>
+          <p class="entry-meta"><a href="https://x.com/gupon/status/2050428545873379735" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several recent Wire items show the same archival weakness: the source is saved, but the retrieval reason can disappear. A future archive needs to preserve why the source mattered, not only where it came from.</p>
+
+<h2>Retrieval intent is metadata</h2>
+<p>The Danny Yount work reference is not just a link. It carries a reason: title design, typography rhythm, editorial pacing, and motion-graphics timing. The same principle applies to a Blender wrinkle workflow, a robotics joint source, or a literature lead. Each becomes more useful when the archive stores the question it answered.</p>
+
+<h2>What to preserve</h2>
+<p>Useful future fields include the visual property that stood out, the production issue the source helped solve, the pacing or compositional quality that made it memorable, and the workflow or research habit it informed.</p>
+
+<h2>Corrected source handling</h2>
+<p>The reviewed literature item was verified against the raw liked-post record as a C.S. Lewis vivisection essay reference, not the earlier Dazai/Gomi draft label. The Wire and Library updates should preserve the corrected source context.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/gupon/status/2050428545873379735" target="_blank" rel="noopener noreferrer">Danny Yount work archive source note</a></li>
+  <li><a href="https://dannyyount.com/work.html" target="_blank" rel="noopener noreferrer">Danny Yount work archive</a></li>
+  <li><a href="https://x.com/vtuberkaibou/status/2050421910585143485" target="_blank" rel="noopener noreferrer">Blender tension-map workflow source note</a></li>
+  <li><a href="https://x.com/lor123487/status/2050419203811983424" target="_blank" rel="noopener noreferrer">C.S. Lewis essay source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
