@@ -5,7 +5,12 @@
     "title": "Universal Beta Splatting extends 3DGS from reconstruction into motion",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/universal-beta-splatting.html",
     "source_url": "https://x.com/Almorgand/status/2026329946688200780",
-    "tags": ["spatial-capture", "3dgs", "rendering", "research"],
+    "tags": [
+      "spatial-capture",
+      "3dgs",
+      "rendering",
+      "research"
+    ],
     "paragraphs": [
       "The older Blogger note on Universal Beta Splatting is useful here as a research shelf item rather than as a finished article template. Its value is the question it preserves: when Gaussian splatting starts handling time and viewpoint changes together, it becomes less like a capture trick and more like a compact scene representation.",
       "For Knowledge Hub, this belongs near 3D capture, rendering, and reconstruction. The practical follow-up is to compare whether the method helps production review, camera exploration, or web delivery before treating it as a general 3D pipeline tool."
@@ -17,7 +22,12 @@
     "title": "VGG-T and the pressure to make multi-view reconstruction usable",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/vgg-t3-3d-reconstruction.html",
     "source_url": "https://x.com/Almorgand/status/2029251916815835213",
-    "tags": ["spatial-capture", "computer-vision", "nvidia", "research"],
+    "tags": [
+      "spatial-capture",
+      "computer-vision",
+      "nvidia",
+      "research"
+    ],
     "paragraphs": [
       "The VGG-T draft points to a recurring Knowledge Hub theme: reconstruction systems are moving from impressive demos toward practical, repeated capture workflows. The important question is not only fidelity, but how many views, constraints, and cleanup steps are required before the output can be trusted.",
       "This topic should stay grouped with spatial capture and computer vision so future notes on 3DGS, NeRF-like methods, and reconstruction models can be compared as one production problem."
@@ -29,7 +39,12 @@
     "title": "NotebookLM, Gemini, and Obsidian as a split learning workflow",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/notebooklm-gemini-obsidian.html",
     "source_url": "https://x.com/phosphenq/status/2026383675735048248",
-    "tags": ["learning", "knowledge-map", "notebooklm", "obsidian"],
+    "tags": [
+      "learning",
+      "knowledge-map",
+      "notebooklm",
+      "obsidian"
+    ],
     "paragraphs": [
       "The Blogger note is strongest as an operating pattern: do not ask one tool to become the whole learning system. NotebookLM can hold and query source material, Gemini can help compare or compress, and Obsidian can become the durable personal knowledge layer.",
       "The reusable point is the division of labor. Knowledge Hub should track tool chains where each tool has a clear job: collect, compare, summarize, rewrite, connect, or retrieve."
@@ -41,7 +56,12 @@
     "title": "Claude Code project structure is an editorial memory problem too",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/claude-code-project-structure.html",
     "source_url": "https://x.com/DipanshuKu55175/status/2028328998120697868",
-    "tags": ["claude-code", "agents", "workflow", "software-architecture"],
+    "tags": [
+      "claude-code",
+      "agents",
+      "workflow",
+      "software-architecture"
+    ],
     "paragraphs": [
       "The Claude Code structure note is not just about folders. It is about making repeated software work predictable enough that an agent can reuse project memory, skills, hooks, and source boundaries without re-learning the same context every run.",
       "That makes it relevant to Knowledge Hub's own publishing workflow. A good article system and a good code agent setup both depend on stable conventions that reduce repeated explanation."
@@ -53,7 +73,12 @@
     "title": "Local offline coding tools are infrastructure, not a novelty category",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/vibe-local-offline-coding.html",
     "source_url": "https://x.com/ochyai/status/2029736294365212768",
-    "tags": ["local-ai", "ai-coding", "open-source", "workflow"],
+    "tags": [
+      "local-ai",
+      "ai-coding",
+      "open-source",
+      "workflow"
+    ],
     "paragraphs": [
       "The vibe-local draft fits the same shelf as local inference, private automation, and offline development loops. Its importance is less about one tool name and more about the direction of travel: useful AI work will often need to run close to the files, repos, and constraints that define the job.",
       "For Knowledge Hub, local AI should be treated as an infrastructure tag. It affects cost, privacy, latency, and whether the tool can become a boring part of daily work."
@@ -65,7 +90,12 @@
     "title": "GitNexus suggests a useful shape for repository reading",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/gitnexus-knowledge-graph.html",
     "source_url": "https://x.com/ihtesham2005/status/2026264341419528643",
-    "tags": ["github", "knowledge-graph", "agents", "code-reading"],
+    "tags": [
+      "github",
+      "knowledge-graph",
+      "agents",
+      "code-reading"
+    ],
     "paragraphs": [
       "The GitNexus draft is a good example of why code repositories need more than file search. A repository becomes easier to reason about when dependencies, ownership, entry points, and repeated concepts can be represented as a graph.",
       "This should be grouped with agent workflow and knowledge-map material, because the same representation helps both human onboarding and tool-using AI systems."
@@ -77,7 +107,12 @@
     "title": "Pikimov belongs on the lightweight motion-design shelf",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/pikimov-5.html",
     "source_url": "https://x.com/theCGchannel/status/2026231925803786528",
-    "tags": ["motion-design", "design-tools", "browser-tools", "animation"],
+    "tags": [
+      "motion-design",
+      "design-tools",
+      "browser-tools",
+      "animation"
+    ],
     "paragraphs": [
       "The older Pikimov note is useful as a browser-tool entry. It points to a recurring category: tools that are not full production suites but are fast enough for sketches, tests, motion studies, and editorial visuals.",
       "Knowledge Hub should keep these tools discoverable without letting each product name become its own top-level archive. The stable shelf is motion design and browser-based production."
@@ -89,7 +124,12 @@
     "title": "AIVideo Agent is part of the automation layer around moving images",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/aivideo-agent.html",
     "source_url": "https://x.com/AiAircle34052/status/2029431044781555797",
-    "tags": ["ai-video", "agents", "automation", "production"],
+    "tags": [
+      "ai-video",
+      "agents",
+      "automation",
+      "production"
+    ],
     "paragraphs": [
       "The AIVideo Agent draft should be read as a workflow signal: video generation is becoming surrounded by planning, research, editing, routing, and review automation. The agent layer may matter as much as the image model itself.",
       "This belongs in the AI video and agents shelves, especially for future comparisons between one-shot generation tools and systems that manage a longer production loop."
@@ -101,7 +141,12 @@
     "title": "Automatic1111 remains a useful reference for open image-generation workflows",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/automatic1111-webui.html",
     "source_url": "https://x.com/Whizz_ai/status/2026225006167122336",
-    "tags": ["stable-diffusion", "open-source", "image-generation", "workflow"],
+    "tags": [
+      "stable-diffusion",
+      "open-source",
+      "image-generation",
+      "workflow"
+    ],
     "paragraphs": [
       "The Automatic1111 draft is a reminder that interface layers can define how a model becomes usable. WebUI ecosystems turn model capability into repeatable prompts, extensions, presets, and local experiments.",
       "Knowledge Hub should keep these entries grouped as open image-generation workflows rather than treating every interface as a disconnected bookmark."
@@ -113,7 +158,12 @@
     "title": "Blender cloud animation notes belong with production memory",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/blender-cloud-animation.html",
     "source_url": "https://x.com/38912_DIGITAL/status/2029893782666440885",
-    "tags": ["blender", "vfx", "animation", "tutorial"],
+    "tags": [
+      "blender",
+      "vfx",
+      "animation",
+      "tutorial"
+    ],
     "paragraphs": [
       "The Blender cloud animation draft is a practical production note. It should sit near tutorials, visual effects, and reusable scene-building methods rather than becoming a one-off inspiration post.",
       "The value of this kind of note is that it can later become a small library entry: what the technique is, what it teaches, and where it fits inside a broader animation or VFX workflow."
@@ -125,7 +175,12 @@
     "title": "Sverchok and procedural Blender notes should stay grouped",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/erindale-sverchok-oceanografic.html",
     "source_url": "https://x.com/erindale_xyz/status/2031078985038684441",
-    "tags": ["blender", "procedural", "nodes", "tutorial"],
+    "tags": [
+      "blender",
+      "procedural",
+      "nodes",
+      "tutorial"
+    ],
     "paragraphs": [
       "The Sverchok-related draft points to a useful archive pattern: node-based Blender notes should be retrievable as a family. The individual example matters, but the larger value is a shelf of procedural techniques that can be recombined.",
       "This is exactly where the Blogger label rules help Knowledge Hub: broad domain first, concrete technique second, learning intent third."
@@ -137,7 +192,12 @@
     "title": "NDL OCR Lite fits the document-AI and archive workflow shelf",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/ndl-ocr-lite-mobile.html",
     "source_url": "",
-    "tags": ["document-ai", "ocr", "archive", "mobile"],
+    "tags": [
+      "document-ai",
+      "ocr",
+      "archive",
+      "mobile"
+    ],
     "paragraphs": [
       "The NDL OCR Lite draft is useful because it connects OCR to real archive work. Document AI is not only a model benchmark topic; it is a workflow issue around capture, layout, cleanup, search, and reuse.",
       "Knowledge Hub should keep OCR items together with document understanding and public-archive tools so future notes can compare practical reliability rather than just model names."
@@ -149,7 +209,12 @@
     "title": "Public API lists are raw material for automation ideas",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/public-apis-list.html",
     "source_url": "",
-    "tags": ["public-apis", "automation", "development-tools", "reference"],
+    "tags": [
+      "public-apis",
+      "automation",
+      "development-tools",
+      "reference"
+    ],
     "paragraphs": [
       "The public APIs draft should live as reference material, not as a standalone news item. API lists become useful when they are attached to concrete automation ideas, prototype prompts, and small tools worth building.",
       "This belongs with development tools and automation because the retrieval value is future use: which APIs can unlock a script, dashboard, bot, or editorial workflow."
@@ -161,7 +226,12 @@
     "title": "Touch Me is a film-reference note about tone and form",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/touch-me-trailer.html",
     "source_url": "https://x.com/zombietecho/status/2026101017163788529",
-    "tags": ["film", "horror", "science-fiction", "visual-reference"],
+    "tags": [
+      "film",
+      "horror",
+      "science-fiction",
+      "visual-reference"
+    ],
     "paragraphs": [
       "The Touch Me draft should not import the Blogger presentation, but the underlying film-reference value is useful. It preserves a trailer as a study object for tone, body horror, framing, and genre positioning.",
       "Film entries in Knowledge Hub should answer what the reference gives back to creative work: a mood, a composition problem, an editing rhythm, or a way to think about image behavior."
@@ -173,7 +243,12 @@
     "title": "Xenogenesis is a compact film-school source",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/xenogenesis-james-cameron.html",
     "source_url": "https://x.com/KubrickBlogjp/status/2026076476878242053",
-    "tags": ["film", "science-fiction", "short-film", "visual-reference"],
+    "tags": [
+      "film",
+      "science-fiction",
+      "short-film",
+      "visual-reference"
+    ],
     "paragraphs": [
       "The Xenogenesis draft is useful as a film-history and craft reference. Early short films can show an artist's preoccupations before they become expensive industrial images.",
       "For Knowledge Hub, the entry belongs with film reference rather than celebrity trivia. The durable question is what visual choices, constraints, and production habits are already visible in the work."
@@ -185,7 +260,12 @@
     "title": "Bruno Schroeder's library note belongs with archive imagination",
     "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/bruno-schroeder-library.html",
     "source_url": "https://x.com/Prof_Kalkyl/status/2029654002493804824",
-    "tags": ["books", "library", "archive", "visual-reference"],
+    "tags": [
+      "books",
+      "library",
+      "archive",
+      "visual-reference"
+    ],
     "paragraphs": [
       "The Bruno Schroeder draft is useful because it treats a library as more than storage. It is a visual and intellectual environment, a reference for how archives can feel intentional rather than merely accumulated.",
       "This should connect books, library design, and archive thinking so it can later support posts about personal knowledge systems and physical reference spaces."
@@ -197,7 +277,13 @@
     "title": "Spatial planning is becoming a control surface for generated scenes",
     "slug": "spatial-planning-generated-scenes",
     "source_url": "https://x.com/taziku_co/status/2024264782698991723",
-    "tags": ["ai-video", "3d", "design-tools", "workflow", "production"],
+    "tags": [
+      "ai-video",
+      "3d",
+      "design-tools",
+      "workflow",
+      "production"
+    ],
     "paragraphs": [
       "Several saved source notes point to the same practical pattern: generated images, videos, and 3D assets become more usable when the user can specify space before asking for output.",
       "Floor plans, room-layout tools, and text-or-image-to-3D interfaces are useful because they turn vague generation into a controlled staging problem."
@@ -210,7 +296,13 @@
     "title": "Browser creative tools are becoming small production surfaces",
     "slug": "browser-creative-tools-production-surfaces",
     "source_url": "https://x.com/theCGchannel/status/2026231925803786528",
-    "tags": ["design-tools", "browser-tools", "workflow", "motion-design", "ui"],
+    "tags": [
+      "design-tools",
+      "browser-tools",
+      "workflow",
+      "motion-design",
+      "ui"
+    ],
     "paragraphs": [
       "Several source notes point to a practical browser-tool pattern: the browser is being used less as a preview shell and more as a small production surface for motion, textures, UI vocabulary, and feedback experiments.",
       "The useful thread is not that every browser tool replaces a dedicated application. It is that lightweight tools can make a focused task easier to start, share, teach, or prototype."
@@ -223,7 +315,13 @@
     "title": "AI interface work is splitting into canvas, code, and asset roles",
     "slug": "ai-interface-work-canvas-code-asset-roles",
     "source_url": "https://x.com/ADHDHSP249834/status/2025374541317546482",
-    "tags": ["design-tools", "ui", "ai-coding", "workflow", "agents"],
+    "tags": [
+      "design-tools",
+      "ui",
+      "ai-coding",
+      "workflow",
+      "agents"
+    ],
     "paragraphs": [
       "Several saved source notes point to the same interface-production pattern: AI UI work is no longer one generic prompt-to-screen step.",
       "The useful workflow is becoming a chain of roles: a canvas for exploring screens, a coding agent for turning context into implementation, and narrow asset tools for producing editable pieces such as SVG."
@@ -236,11 +334,316 @@
     "title": "Robot motion work needs simulation, capture, and hardware loops",
     "slug": "robot-motion-simulation-capture-hardware-loops",
     "source_url": "https://x.com/yuji_fujima/status/2025153032468754742",
-    "tags": ["robotics", "motion-capture", "ai", "animation", "workflow"],
+    "tags": [
+      "robotics",
+      "motion-capture",
+      "ai",
+      "animation",
+      "workflow"
+    ],
     "paragraphs": [
       "Several saved source notes point to the same robotics-production pattern: useful robot motion work is not only a model problem or only a hardware problem.",
       "The reusable loop is prediction, capture, retargeting, real-device testing, and review. That loop is useful for both physical robotics and animation workflows because both need motion that can be inspected, corrected, and reused."
     ],
     "legacy_html": "<p>Several saved source notes point to the same robotics-production pattern: useful robot motion work is not only a model problem or only a hardware problem. The reusable loop is prediction, capture, retargeting, real-device testing, and review. That loop is useful for both physical robotics and animation workflows because both need motion that can be inspected, corrected, and reused.</p>\n\n<h2>World models make motion cheaper to test</h2>\n<p>The DreamDojo source note belongs at the prediction end of the loop. Its useful claim is narrow: large-scale egocentric video can train a robot world model that predicts future visual states, giving researchers another surface for offline trial, failure, and planning before every idea touches hardware. The Hugging Face model page and project page make this a durable reference rather than only a social post.</p>\n\n<h2>Hardware turns policy claims into review problems</h2>\n<p>The SONIC on Unitree G1 source note is valuable because it moves from model capability to embodied behavior. The saved note describes zero-shot custom motions on a Unitree G1, including varied actions such as kicking, crawling, and stability tests. Knowledge Hub should treat that as a source to review for control generality and evaluation surfaces, not as proof that every robot task is solved.</p>\n\n<h2>Creator mocap shows the adjacent production loop</h2>\n<p>The Ian Hubert robot-hand note and Jonathan Winbush virtual-camera note sit beside the robotics material. They are not humanoid-control papers, but they show the same practical shape: capture human motion, retarget it into a digital body or camera, then judge whether the result feels usable. Rokoko Smartgloves are a durable Library reference here because hand motion is a persistent bottleneck for animation, previs, and human-to-machine motion transfer.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>This cluster should be retrieved as a workflow note. The important distinction is where each source sits: DreamDojo as a prediction and simulation reference, Unitree G1 as an embodied hardware target, and Rokoko as a motion-capture bridge. Future robotics likes can be sorted more quickly if they are filed by their role in that loop.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/yuji_fujima/status/2025153032468754742\" target=\"_blank\" rel=\"noopener noreferrer\">DreamDojo world-model source note</a></li>\n  <li><a href=\"https://huggingface.co/nvidia/DreamDojo\" target=\"_blank\" rel=\"noopener noreferrer\">NVIDIA DreamDojo Hugging Face page</a></li>\n  <li><a href=\"https://dreamdojo-world.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">DreamDojo project page</a></li>\n  <li><a href=\"https://x.com/taziku_co/status/2030223973569696221\" target=\"_blank\" rel=\"noopener noreferrer\">SONIC on Unitree G1 source note</a></li>\n  <li><a href=\"https://www.unitree.com/g1/\" target=\"_blank\" rel=\"noopener noreferrer\">Unitree G1 official product page</a></li>\n  <li><a href=\"https://x.com/Mrdodobird/status/1318111427790475264\" target=\"_blank\" rel=\"noopener noreferrer\">Ian Hubert robot hand and Smartgloves source note</a></li>\n  <li><a href=\"https://x.com/JonathanWinbush/status/1316955065903685634\" target=\"_blank\" rel=\"noopener noreferrer\">Jonathan Winbush Rokoko, Cinema 4D, and Unreal source note</a></li>\n  <li><a href=\"https://www.rokoko.com/products/smartgloves\" target=\"_blank\" rel=\"noopener noreferrer\">Rokoko Smartgloves product page</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-14",
+    "updated_at": "2026-05-14",
+    "title": "3DGS work is moving from capture trick to publishing pipeline",
+    "slug": "3dgs-capture-edit-publish-pipeline",
+    "source_url": "https://x.com/bilawalsidhu/status/2029776346742690004",
+    "tags": [
+      "spatial-capture",
+      "3dgs",
+      "browser-tools",
+      "workflow",
+      "publishing"
+    ],
+    "paragraphs": [
+      "Several saved source notes point to the same practical 3D Gaussian Splatting pattern: the useful workflow is no longer only reconstruction quality.",
+      "The stronger Knowledge Hub question is how a capture becomes inspectable, editable, small enough to distribute, and stable enough to embed in other surfaces."
+    ],
+    "legacy_html": "<p>Several saved source notes point to the same practical 3D Gaussian Splatting pattern: the useful workflow is no longer only reconstruction quality. The stronger Knowledge Hub question is how a capture becomes inspectable, editable, small enough to distribute, and stable enough to embed in other surfaces.</p>\n\n<h2>Capture quality is only the first checkpoint</h2>\n<p>The Sony a7III source note is a useful anchor because it describes an ordinary photo set becoming a detailed splat scene. The important production point is not that every photo set becomes a finished asset. It is that capture decisions, reflectance, coverage, and later reprocessing all affect whether the scene remains useful after the first demo.</p>\n\n<h2>Input shortcuts still need cost and review checks</h2>\n<p>The Mint.gg source note sits at the convenience end of the pipeline: a Street View link becomes a possible 3D scene. The same note also preserves skepticism around free claims, credits, and availability. That makes it useful as a reminder that fast capture entry points should be filed with pricing, export, and rights questions, not only with visual novelty.</p>\n\n<h2>Editing is where splats become reusable</h2>\n<p>SuperSplat and LichtFeld Studio belong in the Library because the repeated problem is editing, inspection, optimization, and publication. The PlayCanvas SuperSplat material describes a browser editor and viewer workflow for editing, optimizing, publishing, and embedding splat scenes. LichtFeld Studio is useful as a desktop reference for training runs, live inspection, scene editing, plugins, and MCP control around 3D Gaussian Splatting.</p>\n\n<h2>Embedding changes the audience</h2>\n<p>The Wikipedia 3DGS demo note is valuable because it shifts the question from asset creation to reading and education. An embedded splat is judged differently from a local reconstruction: file size, browser interaction, attribution, accessibility, and long-term hosting become part of the work. NVIDIA Omniverse material points in the same direction at a larger pipeline scale, where spatial captures are discussed as workflow assets rather than isolated images.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future 3DGS sources should be sorted by their role in the chain: capture, training, editing, optimization, publishing, embedding, or pipeline integration. That filing scheme is more useful than treating every impressive splat as a single visual-reference item.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/bilawalsidhu/status/2029776346742690004\" target=\"_blank\" rel=\"noopener noreferrer\">Sony a7III 3DGS capture source note</a></li>\n  <li><a href=\"https://lichtfeld.io/\" target=\"_blank\" rel=\"noopener noreferrer\">LichtFeld Studio official page</a></li>\n  <li><a href=\"https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/\" target=\"_blank\" rel=\"noopener noreferrer\">3D Gaussian Splatting research page</a></li>\n  <li><a href=\"https://x.com/oliviscusAI/status/2027440667144949940\" target=\"_blank\" rel=\"noopener noreferrer\">Mint.gg Street View source note</a></li>\n  <li><a href=\"https://f.inc/portfolio/mint/\" target=\"_blank\" rel=\"noopener noreferrer\">Mint portfolio page</a></li>\n  <li><a href=\"https://x.com/nvidiaomniverse/status/2029055740191883571\" target=\"_blank\" rel=\"noopener noreferrer\">NVIDIA Omniverse Gaussian Splatting source note</a></li>\n  <li><a href=\"https://dev.playcanvas.com/products/supersplat\" target=\"_blank\" rel=\"noopener noreferrer\">SuperSplat official product page</a></li>\n  <li><a href=\"https://developer.playcanvas.com/user-manual/gaussian-splatting/editing/supersplat/\" target=\"_blank\" rel=\"noopener noreferrer\">SuperSplat documentation</a></li>\n  <li><a href=\"https://x.com/abstrakt314/status/2025961855823605825\" target=\"_blank\" rel=\"noopener noreferrer\">Wikipedia 3DGS embedding demo source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-15",
+    "updated_at": "2026-05-15",
+    "title": "Effects references become useful when they describe production decisions",
+    "slug": "effects-references-production-decisions",
+    "source_url": "https://x.com/x_pokoponmaru_x/status/2049865575074255119",
+    "tags": [
+      "vfx",
+      "visual-reference",
+      "motion-design",
+      "workflow",
+      "texturing",
+      "houdini",
+      "after-effects"
+    ],
+    "paragraphs": [
+      "A cluster around FXTags, ColorfulEcho, TexturingXYZ with Blender Softwrap, and Houdini Node Viewer points to a practical pattern: production references are most useful when they reduce ambiguity.",
+      "The Article lane should keep the pattern, while the Library lane preserves the concrete tools and source trails."
+    ],
+    "legacy_html": "<p>A cluster around FXTags, ColorfulEcho, TexturingXYZ with Blender Softwrap, and Houdini Node Viewer points to a practical pattern: production references are most useful when they reduce ambiguity. A reference site, plugin, texture source, or node viewer is not valuable because it is new. It is valuable when it helps a worker name the effect, test the behavior, preserve the setup, or reuse the decision later.</p>\n\n<h2>Effects references create a visual vocabulary</h2>\n<p>FXTags belongs in the Library as an effects-reference surface rather than as a news item. The value is retrieval: when a shot needs a kind of impact, distortion, emission, residue, or environmental behavior, the editor or VFX worker needs a searchable visual vocabulary before choosing a tool.</p>\n\n<h2>Narrow plugins can preserve repeatable treatments</h2>\n<p>ColorfulEcho is narrower but still useful. The Wire item describes an After Effects plugin for assigning colors to echo afterimages. That makes it a good reference because it names a specific effect family: residual motion, color-separated trails, and gradient-like afterimage timing.</p>\n\n<h2>Surface workflows sit beside compositing references</h2>\n<p>The TexturingXYZ and Blender Softwrap note sits on the surface-production side of the same pattern. It is not an effects reference in the compositing sense, but it describes a concrete asset workflow where surface data and mesh wrapping become reusable production knowledge.</p>\n\n<h2>Node inspection is a memory layer</h2>\n<p>Houdini Node Viewer adds the memory layer. Node-based work becomes fragile when the graph cannot explain itself later. A node viewer or external note surface matters because procedural setups are not only operations; they are decisions that need to remain inspectable.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>This cluster should be retrieved as a workflow note. Future effects, texturing, and procedural-tool likes can be sorted more quickly if they are filed by the production decision they support: naming the reference, making the treatment, building the surface, or preserving the setup.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/x_pokoponmaru_x/status/2049865575074255119\" target=\"_blank\" rel=\"noopener noreferrer\">FXTags effects-reference source note</a></li>\n  <li><a href=\"https://fxtags.com/\" target=\"_blank\" rel=\"noopener noreferrer\">FXTags reference site</a></li>\n  <li><a href=\"https://x.com/orderly_ef/status/2049842824066257348\" target=\"_blank\" rel=\"noopener noreferrer\">ColorfulEcho source note</a></li>\n  <li><a href=\"https://booth.pm/ja/items/8284384\" target=\"_blank\" rel=\"noopener noreferrer\">ColorfulEcho Booth page</a></li>\n  <li><a href=\"https://x.com/3DxDEV7/status/2049949634324316186\" target=\"_blank\" rel=\"noopener noreferrer\">TexturingXYZ and Blender Softwrap source note</a></li>\n  <li><a href=\"https://texturing.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\">TexturingXYZ site</a></li>\n  <li><a href=\"https://github.com/jeacom25b/Softwrap\" target=\"_blank\" rel=\"noopener noreferrer\">Blender Softwrap repository</a></li>\n  <li><a href=\"https://x.com/theCGchannel/status/2050136956411977776\" target=\"_blank\" rel=\"noopener noreferrer\">Houdini Node Viewer source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-16",
+    "updated_at": "2026-05-16",
+    "title": "Agentic coding needs control surfaces after the prompt",
+    "slug": "agentic-coding-control-surfaces",
+    "source_url": "https://x.com/MLBear2/status/2029329861295456401",
+    "tags": [
+      "ai-coding",
+      "agents",
+      "workflow",
+      "automation",
+      "code-review",
+      "developer-tools"
+    ],
+    "paragraphs": [
+      "A group of source notes around CLAUDE.md practice, detail.dev, Google Workspace CLI, OpenClaw Studio, Xcode agent integration, and shinkoku points to the same practical issue: agentic coding is no longer only a prompt-quality problem.",
+      "The useful layer after the prompt is control: project memory, inspectable tool access, review gates, budget or risk boundaries, and a human-readable surface for deciding what the agent may do next."
+    ],
+    "legacy_html": "<p>A group of source notes around CLAUDE.md practice, detail.dev, Google Workspace CLI, OpenClaw Studio, Xcode agent integration, and shinkoku points to the same practical issue: agentic coding is no longer only a prompt-quality problem. The useful layer after the prompt is control: project memory, inspectable tool access, review gates, budget or risk boundaries, and a human-readable surface for deciding what the agent may do next.</p>\n\n<h2>Project memory turns one-off prompting into an operating loop</h2>\n<p>The CLAUDE.md source note is useful because it treats coding-agent work as a repeatable loop: plan, split work, verify, record lessons, and use those lessons on the next pass. That is a stronger pattern than saving a clever prompt. The reusable asset is the project rule set that keeps future agent runs from rediscovering the same constraints.</p>\n\n<h2>Tool access needs a narrow interface</h2>\n<p>The Google Workspace CLI note adds the external-tools side of the problem. Its GitHub README describes a single CLI for Workspace services, structured JSON output, dynamic command generation from Google Discovery Service, and agent skills. For Knowledge Hub, the important point is not only that Gmail or Sheets can be automated. It is that a stable command interface gives agents a safer, more inspectable way to touch work data than ad hoc browser clicking.</p>\n\n<h2>Autonomy needs supervision surfaces</h2>\n<p>The OpenClaw Studio note belongs beside the CLI note because it focuses on visibility and gating. A local dashboard with monitoring, chat, approvals, and scheduling is a control surface for agents that may touch personal or operational systems. That kind of UI matters because useful autonomy still needs scope, status, and interruption points.</p>\n\n<h2>Review tools are part of the coding stack</h2>\n<p>The detail.dev source note is a reminder that generated code still needs independent inspection. The saved note describes a case where a scanner found vulnerabilities that coding agents missed. Treat this as an anecdotal source signal, not proof of universal performance. The durable point is that agentic coding workflows should include review tools that are separate from the tool that produced the code.</p>\n\n<h2>Domain automation raises the cost of being wrong</h2>\n<p>The shinkoku tax-automation note shows why control matters outside ordinary app code. OCR, classification, calculations, and submission preparation can save time, but tax work has liability and edge cases. That makes final human review a design requirement rather than a courtesy. The same caution applies to IDE-level agent integration: once agents sit inside Xcode or a daily work surface, verification must be part of the normal loop.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future AI-coding sources should be filed by the control layer they strengthen: project memory, tool interface, supervision dashboard, independent review, or domain-specific verification. This makes the archive more useful than a list of coding-agent announcements.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/NieceOfAnton/status/2025254119636959701\" target=\"_blank\" rel=\"noopener noreferrer\">CLAUDE.md best-practices source note</a></li>\n  <li><a href=\"https://x.com/nztm_tw/status/2029120916505149882\" target=\"_blank\" rel=\"noopener noreferrer\">detail.dev inspection source note</a></li>\n  <li><a href=\"https://x.com/MLBear2/status/2029329861295456401\" target=\"_blank\" rel=\"noopener noreferrer\">Google Workspace CLI source note</a></li>\n  <li><a href=\"https://github.com/googleworkspace/cli\" target=\"_blank\" rel=\"noopener noreferrer\">Google Workspace CLI repository</a></li>\n  <li><a href=\"https://x.com/sukh_saroy/status/2027772545601311003\" target=\"_blank\" rel=\"noopener noreferrer\">OpenClaw Studio source note</a></li>\n  <li><a href=\"https://github.com/grp06/openclaw-studio\" target=\"_blank\" rel=\"noopener noreferrer\">OpenClaw Studio repository</a></li>\n  <li><a href=\"https://x.com/kuzyofire/status/2025914497979093288\" target=\"_blank\" rel=\"noopener noreferrer\">shinkoku automation source note</a></li>\n  <li><a href=\"https://x.com/minchoi/status/2027409663822561632\" target=\"_blank\" rel=\"noopener noreferrer\">Xcode agent integration source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-21",
+    "updated_at": "2026-05-21",
+    "title": "Embodied robotics references are becoming reusable movement archives",
+    "slug": "embodied-robotics-references-movement-archives",
+    "source_url": "https://x.com/BrianRoemmele/status/2050425099006902502",
+    "tags": [
+      "robotics",
+      "movement-reference",
+      "animation-reference",
+      "simulation",
+      "embodied-ai"
+    ],
+    "paragraphs": [
+      "A robotics source can be useful even before the hardware claim is fully evaluated. The durable layer for Knowledge Hub is the movement language: how a mechanism articulates, corrects balance, transfers weight, and recovers from constraint.",
+      "That makes robotics posts useful beside stop-motion, creature rigs, simulation-driven animation, and physical cinematics. The hardware may change, but the motion vocabulary can remain reusable."
+    ],
+    "legacy_html": "<p>A robotics source can be useful even before the hardware claim is fully evaluated. The durable layer for Knowledge Hub is the movement language: how a mechanism articulates, corrects balance, transfers weight, and recovers from constraint.</p>\n\n<h2>What the source preserves</h2>\n<p>The Rothheim joint post should stay lightweight in Wire, but it deserves promotion because it names a specific motion-reference problem: articulation under physical constraint. The useful details to retrieve later are not only the joint name. They are balance correction, constrained rotation, recovery movement, and weight-transfer timing.</p>\n\n<h2>Why this belongs near animation</h2>\n<p>Robotics motion references overlap with stop-motion blocking, creature rig behavior, procedural animation, embodied AI, and simulation-driven cinematics. A good movement archive lets a future shot or rigging problem ask: what kind of mechanical behavior was I trying to remember?</p>\n\n<h2>Production implication</h2>\n<p>The long-term archival value may be behavioral vocabulary rather than hardware specificity. Knowledge Hub should preserve this as a movement-reference item and revisit it when enough related robotics or physical-animation sources accumulate.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/BrianRoemmele/status/2050425099006902502\" target=\"_blank\" rel=\"noopener noreferrer\">Rothheim joint source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-21",
+    "updated_at": "2026-05-21",
+    "title": "Reference archives improve when they preserve why a source mattered",
+    "slug": "reference-archives-preserve-why-source-mattered",
+    "source_url": "https://x.com/gupon/status/2050428545873379735",
+    "tags": [
+      "archive",
+      "visual-reference",
+      "workflow",
+      "research",
+      "metadata"
+    ],
+    "paragraphs": [
+      "Several recent Wire items show the same archival weakness: the source is saved, but the retrieval reason can disappear. A future archive needs to preserve why the source mattered, not only where it came from.",
+      "The next useful metadata layer is intent: what visual problem, motion behavior, workflow decision, or interpretive question made the source worth saving."
+    ],
+    "legacy_html": "<p>Several recent Wire items show the same archival weakness: the source is saved, but the retrieval reason can disappear. A future archive needs to preserve why the source mattered, not only where it came from.</p>\n\n<h2>Retrieval intent is metadata</h2>\n<p>The Danny Yount work reference is not just a link. It carries a reason: title design, typography rhythm, editorial pacing, and motion-graphics timing. The same principle applies to a Blender wrinkle workflow, a robotics joint source, or a literature lead. Each becomes more useful when the archive stores the question it answered.</p>\n\n<h2>What to preserve</h2>\n<p>Useful future fields include the visual property that stood out, the production issue the source helped solve, the pacing or compositional quality that made it memorable, and the workflow or research habit it informed.</p>\n\n<h2>Corrected source handling</h2>\n<p>The reviewed literature item was verified against the raw liked-post record as a C.S. Lewis vivisection essay reference, not the earlier Dazai/Gomi draft label. The Wire and Library updates should preserve the corrected source context.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/gupon/status/2050428545873379735\" target=\"_blank\" rel=\"noopener noreferrer\">Danny Yount work archive source note</a></li>\n  <li><a href=\"https://dannyyount.com/work.html\" target=\"_blank\" rel=\"noopener noreferrer\">Danny Yount work archive</a></li>\n  <li><a href=\"https://x.com/vtuberkaibou/status/2050421910585143485\" target=\"_blank\" rel=\"noopener noreferrer\">Blender tension-map workflow source note</a></li>\n  <li><a href=\"https://x.com/lor123487/status/2050419203811983424\" target=\"_blank\" rel=\"noopener noreferrer\">C.S. Lewis essay source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-21",
+    "updated_at": "2026-05-21",
+    "title": "AI voice tools are shifting toward production infrastructure",
+    "slug": "ai-voice-tools-production-infrastructure",
+    "source_url": "https://x.com/xai/status/2050355373052223585",
+    "tags": [
+      "voice-ai",
+      "audio",
+      "workflow",
+      "production-audio",
+      "api"
+    ],
+    "paragraphs": [
+      "Recent AI voice sources are more useful when read as production infrastructure notes than as final-performance claims. The practical layer is scratch dialogue, temporary narration, voice-agent prototyping, and timing tests.",
+      "The important distinction is temporary production utility versus final public-facing performance usage. Knowledge Hub should preserve that distinction in Wire and Library metadata."
+    ],
+    "legacy_html": "<p>Recent AI voice sources are more useful when read as production infrastructure notes than as final-performance claims. The practical layer is scratch dialogue, temporary narration, voice-agent prototyping, and timing tests.</p>\n\n<h2>From novelty to utility</h2>\n<p>The xAI custom voice source belongs in a production-audio lane because it points to practical workflow roles: voice agents, audiobook experiments, video-game character prototyping, multilingual timing checks, and placeholder VO. Those uses are different from claiming a final public performance should be replaced.</p>\n\n<h2>What the archive should remember</h2>\n<p>The useful metadata is not only the vendor. It is whether the source helps with scratch dialogue, previs narration, temporary ADR, internal review, localization timing, or a shipped voice experience. Those are different retrieval categories.</p>\n\n<h2>Production implication</h2>\n<p>The durable distinction is temporary production utility versus final public-facing performance. The Library entry should remain source-linked and workflow-oriented until a more stable documentation page or project reference becomes the better canonical URL.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/xai/status/2050355373052223585\" target=\"_blank\" rel=\"noopener noreferrer\">xAI custom voice source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-22",
+    "updated_at": "2026-05-22",
+    "title": "Document AI workflows need extraction, review, and memory layers",
+    "slug": "document-ai-extraction-review-memory-layers",
+    "source_url": "https://x.com/yuta1984/status/2029116131718709721",
+    "tags": [
+      "document-ai",
+      "ocr",
+      "archive",
+      "workflow",
+      "knowledge-map"
+    ],
+    "paragraphs": [
+      "A useful document-AI workflow is not only OCR quality. The stronger pattern is extraction, structured output, human review, and a downstream memory layer that keeps the result reusable.",
+      "That distinction matters because documents often feed decisions, tax work, study notes, or archives where a wrong extraction can quietly become a wrong conclusion."
+    ],
+    "legacy_html": "<p>A useful document-AI workflow is not only OCR quality. The stronger pattern is extraction, structured output, human review, and a downstream memory layer that keeps the result reusable. That distinction matters because documents often feed decisions, tax work, study notes, or archives where a wrong extraction can quietly become a wrong conclusion.</p>\n\n<h2>OCR is a capture layer, not a truth layer</h2>\n<p>The NDL OCR-Lite source note is useful because it points to lightweight Japanese OCR that can run without a GPU and handle library-style source material. The official NDL repository makes the durable reference clear: NDLOCR-Lite is an application for creating text data from digitized images of books and magazines on ordinary computer environments. The NDL usage page also matters because it names output formats such as TXT, JSON, XML, TEI, and searchable PDF, which are exactly the surfaces later review tools need.</p>\n\n<h2>Automation raises the value of review</h2>\n<p>The shinkoku tax-automation note belongs in this cluster because it shows what happens after extraction. OCR, classification, and calculation can reduce manual work, but tax documents are a domain where final review is not optional. Knowledge Hub should file these sources as review-loop material rather than as one-click automation promises.</p>\n\n<h2>Learning systems need source memory</h2>\n<p>The NotebookLM, Gemini, and Obsidian learning note sits on the synthesis side. Treat the reported time savings as a source claim, not as a measured site claim. The reusable point is that document and media extraction should end in a memory surface where duplicates, source boundaries, and prior knowledge can be compared.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future document-AI entries should be sorted by role: capture engine, output format, correction surface, domain-specific verification, or long-term knowledge memory. That filing scheme keeps OCR tools, tax workflows, study systems, and archive projects comparable without pretending they solve the same problem.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/yuta1984/status/2029116131718709721\" target=\"_blank\" rel=\"noopener noreferrer\">NDL OCR-Lite mobile/Web source note</a></li>\n  <li><a href=\"https://github.com/ndl-lab/ndlocr-lite\" target=\"_blank\" rel=\"noopener noreferrer\">NDLOCR-Lite official repository</a></li>\n  <li><a href=\"https://lab.ndl.go.jp/data_set/ndlocrlite-usage/\" target=\"_blank\" rel=\"noopener noreferrer\">NDLOCR-Lite usage page</a></li>\n  <li><a href=\"https://x.com/kuzyofire/status/2025914497979093288\" target=\"_blank\" rel=\"noopener noreferrer\">shinkoku tax-document automation source note</a></li>\n  <li><a href=\"https://x.com/phosphenq/status/2026383675735048248\" target=\"_blank\" rel=\"noopener noreferrer\">NotebookLM, Gemini, and Obsidian learning source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-23",
+    "updated_at": "2026-05-23",
+    "title": "AI interface work needs shared component vocabulary",
+    "slug": "ai-interface-shared-component-vocabulary",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/uicomponents.html",
+    "source_url": "https://x.com/L_go_mrk/status/2029511741131116609",
+    "tags": [
+      "design-tools",
+      "ui",
+      "workflow",
+      "reference",
+      "product-design"
+    ],
+    "paragraphs": [
+      "AI can make UI drafts faster, but a draft still has to survive handoff. The repeated problem is vocabulary: teams need to name components, distinguish similar patterns, and point to examples without relying on vague visual descriptions.",
+      "The Component Gallery source note is useful because it turns UI vocabulary into a reusable reference surface rather than another one-off design bookmark."
+    ],
+    "legacy_html": "<p>AI can make UI drafts faster, but a draft still has to survive handoff. The repeated problem is vocabulary: teams need to name components, distinguish similar patterns, and point to examples without relying on vague visual descriptions. The Component Gallery source note is useful because it turns UI vocabulary into a reusable reference surface rather than another one-off design bookmark.</p>\n\n<h2>Generated screens still need precise language</h2>\n<p>Recent interface sources in Knowledge Hub point toward faster UI generation and implementation loops, but speed does not remove the need for shared terms. A product manager, designer, developer, and AI coding agent can all look at the same screen and describe different parts of it differently. That mismatch becomes rework when a requested accordion, tab, disclosure, menu, or picker is named imprecisely.</p>\n\n<h2>Component references reduce handoff ambiguity</h2>\n<p>The saved Components source note describes a reference site that organizes UI parts by name, definition, synonyms, function, and examples. That makes it valuable as a handoff aid. It helps a non-specialist move from 'the opening thing' to a named pattern, and it gives implementers a clearer search term before they write code or choose a design-system primitive.</p>\n\n<h2>Why this belongs beside AI design tools</h2>\n<p>Tools such as Stitch, Pencil, Arrow, and browser-based design helpers can make first drafts cheaper. The durable bottleneck shifts to review: what exactly needs to change, which component pattern is intended, and which examples match the product's behavior. A component vocabulary reference helps the AI-assisted workflow become more inspectable instead of only faster.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future UI and AI-design sources should be filed not only by tool name, but by the handoff problem they solve: vocabulary, layout generation, vector asset generation, code export, design-system mapping, or implementation review. That keeps the archive useful for repeated product work instead of turning it into a loose list of interface tools.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/L_go_mrk/status/2029511741131116609\" target=\"_blank\" rel=\"noopener noreferrer\">Components source note</a></li>\n  <li><a href=\"https://component.gallery/\" target=\"_blank\" rel=\"noopener noreferrer\">The Component Gallery</a></li>\n  <li><a href=\"https://x.com/ADHDHSP249834/status/2025374541317546482\" target=\"_blank\" rel=\"noopener noreferrer\">Google Stitch UI source note</a></li>\n  <li><a href=\"https://x.com/seltzer/status/2027684633924813162\" target=\"_blank\" rel=\"noopener noreferrer\">Pencil UI workflow source note</a></li>\n  <li><a href=\"https://x.com/mei_999_/status/2026919856822694281\" target=\"_blank\" rel=\"noopener noreferrer\">Arrow 1.0 SVG source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-24",
+    "updated_at": "2026-05-24",
+    "title": "Blender motion tests become reusable when setup decisions are archived",
+    "slug": "blender-motion-tests-setup-decisions-archived",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/serpens-visual-scripting-blender.html",
+    "source_url": "https://x.com/KmdjDngk/status/1317367790991372288",
+    "tags": [
+      "blender",
+      "motion-design",
+      "animation",
+      "workflow",
+      "procedural",
+      "vfx"
+    ],
+    "paragraphs": [
+      "Several Blender source notes point to the same editorial problem: a short motion test is useful only if the setup behind it can be remembered.",
+      "The reusable value is not just the final clip. It is the rigging choice, add-on role, shader behavior, timing shortcut, or procedural construction method that can be reapplied later."
+    ],
+    "legacy_html": "<p>Several Blender source notes point to the same editorial problem: a short motion test is useful only if the setup behind it can be remembered. The reusable value is not just the final clip. It is the rigging choice, add-on role, shader behavior, timing shortcut, or procedural construction method that can be reapplied later.</p>\n\n<h2>Add-on builders turn one-off fixes into tools</h2>\n<p>The Serpens source note is the durable anchor for this cluster. It describes a Blender add-on workflow where node-based visual scripting lowers the barrier to building custom tools and generating Python code. That matters because many useful production shortcuts start as small personal fixes before they become repeatable add-ons.</p>\n\n<h2>Motion treatments need names and controls</h2>\n<p>The MotionFX source note belongs beside Serpens because it names a specific treatment: quick residual motion and trailing effects inside Blender. A tool like this is useful not only because it makes a look quickly, but because it gives the treatment a reusable control surface that can be adjusted instead of rebuilt from scratch.</p>\n\n<h2>Rigging examples are stronger when files and constraints are preserved</h2>\n<p>The Luxo-style lamp rig note is a practical learning source because the exercise combines a recognizable mechanical form, rigging constraints, and shared project files. The important archive lesson is that a rigging tutorial should preserve the constraint logic, not only the attractive preview.</p>\n\n<h2>Realtime tests need the behavior, not only the renderer label</h2>\n<p>The Eevee grass-shader and compact character-animation notes show why short viewport demos are still worth keeping. Their useful layer is behavioral: response to nearby motion, readable staging, pose timing, and a lightweight renderer setup that makes iteration fast. Those details are more useful than a broad tag like rendering.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future Blender motion sources should be filed by what they make reusable: tool creation, effect controls, rig constraints, shader behavior, pose timing, or project files. That keeps the archive from becoming a loose gallery and turns it into a production memory shelf.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/KmdjDngk/status/1317367790991372288\" target=\"_blank\" rel=\"noopener noreferrer\">Serpens visual scripting source note</a></li>\n  <li><a href=\"https://x.com/ymt3d/status/1318473363006763008\" target=\"_blank\" rel=\"noopener noreferrer\">MotionFX Blender add-on source note</a></li>\n  <li><a href=\"https://x.com/ymt3d/status/1316629374473400320\" target=\"_blank\" rel=\"noopener noreferrer\">Luxo-style Blender rigging source note</a></li>\n  <li><a href=\"https://x.com/eriscaracol/status/1317485821721759744\" target=\"_blank\" rel=\"noopener noreferrer\">Eevee grass-shader source note</a></li>\n  <li><a href=\"https://x.com/WokkieG/status/1316120420886679552\" target=\"_blank\" rel=\"noopener noreferrer\">Eevee character-animation source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-29",
+    "updated_at": "2026-05-29",
+    "title": "Rigging tutorials are reusable when setup choices stay visible",
+    "slug": "rigging-tutorials-setup-choices-visible",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/maya.html",
+    "source_url": "https://x.com/i/web/status/1113261422371319814",
+    "tags": [
+      "maya",
+      "rigging",
+      "tutorial",
+      "workflow",
+      "character-modeling",
+      "animation"
+    ],
+    "paragraphs": [
+      "A small cluster of older rigging and modeling notes points to the same production-memory issue: tutorials are most useful when they preserve setup choices, not only the final model or rig.",
+      "The durable value is the viewport setting, local-axis rule, constraint logic, project file, and repeatable check that prevents a future worker from relearning the same failure."
+    ],
+    "legacy_html": "<p>A small cluster of older rigging and modeling notes points to the same production-memory issue: tutorials are most useful when they preserve setup choices, not only the final model or rig. The durable value is the viewport setting, local-axis rule, constraint logic, project file, and repeatable check that prevents a future worker from relearning the same failure.</p>\n\n<h2>Modeling tutorials should preserve the working environment</h2>\n<p>The AREA JAPAN Maya low-poly character source note is valuable because it starts before the mesh. Hotkeys, marking menus, shelf choices, flat lighting, camera angle, and art-reference setup all shape whether the beginner can judge the model clearly. That makes the tutorial useful as a setup reference, not only as a character-modeling walkthrough.</p>\n\n<h2>Joint orientation is a failure-prevention topic</h2>\n<p>The Maya Joint Orient source note belongs beside the modeling tutorial because it records a common rigging failure mode: local axes can become unreliable before the visible problem appears in skinning or posing. The practical habit to preserve is early axis checking, simple rotation tests, and willingness to fix the joint stage before later controls hide the cause.</p>\n\n<h2>Mechanical rigs teach constraints clearly</h2>\n<p>The Luxo-style Blender lamp rig note shows why recognizable mechanical forms make strong tutorial material. A lamp rig exposes hinges, constraints, timing, and character appeal without the full complexity of a humanoid body. The useful archive layer is not only the clip; it is the project-file and constraint logic that make the exercise repeatable.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future rigging and modeling sources should be filed by the decision they make reusable: workspace setup, reference-camera placement, symmetry method, joint-axis rule, constraint pattern, project-file availability, or pose-test checklist. That keeps tutorials from becoming isolated bookmarks and turns them into production memory.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/i/web/status/1113261422371319814\" target=\"_blank\" rel=\"noopener noreferrer\">AREA JAPAN Maya low-poly character source note</a></li>\n  <li><a href=\"https://area.autodesk.jp/column/tutorial/maya-lowpoly/02-setting-start-modeling/\" target=\"_blank\" rel=\"noopener noreferrer\">AREA JAPAN Maya low-poly tutorial, part 2</a></li>\n  <li><a href=\"https://area.autodesk.jp/column/tutorial/maya-lowpoly/\" target=\"_blank\" rel=\"noopener noreferrer\">AREA JAPAN Maya low-poly tutorial series</a></li>\n  <li><a href=\"https://x.com/JunkiTheJunkie/status/1113103836170731520\" target=\"_blank\" rel=\"noopener noreferrer\">Maya Joint Orient source note</a></li>\n  <li><a href=\"https://www.riggingdojo.com/2014/10/03/everything-thought-knew-maya-joint-orient-wrong/\" target=\"_blank\" rel=\"noopener noreferrer\">Rigging Dojo Joint Orient article</a></li>\n  <li><a href=\"https://x.com/ymt3d/status/1316629374473400320\" target=\"_blank\" rel=\"noopener noreferrer\">Luxo-style Blender rigging source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-30",
+    "updated_at": "2026-05-30",
+    "title": "Computer vision model notes need deployment context",
+    "slug": "computer-vision-model-notes-deployment-context",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/yolo26-edge-vision.html",
+    "source_url": "https://x.com/akshay_pachaar/status/2027673683255591252",
+    "tags": [
+      "computer-vision",
+      "ai",
+      "workflow",
+      "production",
+      "research"
+    ],
+    "paragraphs": [
+      "A saved object-detection source is more useful when it records the deployment question, not only the model name or headline speed claim.",
+      "The YOLO26 source note should be treated as a production-context lead: where post-processing changes, edge-device constraints, dense-scene behavior, and reviewable benchmarks affect whether a vision model belongs in a workflow."
+    ],
+    "legacy_html": "<p>A saved object-detection source is more useful when it records the deployment question, not only the model name or headline speed claim. The YOLO26 source note should be treated as a production-context lead: where post-processing changes, edge-device constraints, dense-scene behavior, and reviewable benchmarks affect whether a vision model belongs in a workflow.</p>\n\n<h2>Speed claims need a workflow role</h2>\n<p>The source note frames YOLO26 around a no-NMS, end-to-end detection path and faster CPU behavior. Keep that as a source claim rather than a site-verified benchmark. The reusable point for Knowledge Hub is that model architecture details matter most when they change an operational step: fewer post-processing decisions, lower latency, or a simpler path from frame to result.</p>\n\n<h2>Dense scenes make failure modes visible</h2>\n<p>The saved demo context emphasizes people and chairs in a crowded scene. That is a useful archival cue because dense scenes expose duplicate boxes, missed objects, and stability problems more clearly than an easy single-object clip. Future vision notes should preserve the scene type used to demonstrate the model, not just the model family.</p>\n\n<h2>Edge use changes the evaluation checklist</h2>\n<p>For edge inference, the practical checklist is broader than accuracy. CPU/GPU budget, frame rate, memory use, model export path, input resolution, and maintainable tooling all affect whether a detector is usable in robotics, surveillance, creative tracking, or interactive installation work.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Computer-vision Wire entries should be sorted by the constraint they clarify: post-processing, latency, edge deployment, dense-scene behavior, benchmark source, or integration surface. That makes a model announcement easier to compare later without turning the archive into a list of version names.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/akshay_pachaar/status/2027673683255591252\" target=\"_blank\" rel=\"noopener noreferrer\">YOLO26 edge-vision source note</a></li>\n  <li><a href=\"https://www.ultralytics.com/news/ultralytics-redefines-state-of-the-art-vision-ai-with-yolo26\" target=\"_blank\" rel=\"noopener noreferrer\">Ultralytics YOLO26 news page referenced by the source note</a></li>\n  <li><a href=\"https://docs.ultralytics.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Ultralytics documentation</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-05-31",
+    "updated_at": "2026-05-31",
+    "title": "Film archives become useful when access, context, and craft stay connected",
+    "slug": "film-archives-access-context-craft-connected",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/wikiflix-public-domain.html",
+    "source_url": "https://x.com/anohinoanoko_jp/status/2028768307801903613",
+    "tags": [
+      "film",
+      "archive",
+      "visual-reference",
+      "research",
+      "public-domain"
+    ],
+    "paragraphs": [
+      "The WikiFlix source note is stronger than a streaming-site bookmark because it points to a reusable research pattern: access, catalog context, and viewing friction all shape whether film history can become production reference.",
+      "For Knowledge Hub, public-domain film sources should be filed as working archives, not only as entertainment links."
+    ],
+    "legacy_html": "<p>The WikiFlix source note is stronger than a streaming-site bookmark because it points to a reusable research pattern: access, catalog context, and viewing friction all shape whether film history can become production reference. For Knowledge Hub, public-domain film sources should be filed as working archives, not only as entertainment links.</p>\n\n<h2>Access changes how often reference gets used</h2>\n<p>The saved source note describes WikiFlix as a public-domain film viewing surface with thousands of films and a clean, low-friction viewing experience. Treat the exact catalog size as a source claim, but preserve the editorial point: an archive that can be browsed quickly is more likely to become a real reference habit than a link that requires repeated manual digging.</p>\n\n<h2>Catalog structure is part of the reference</h2>\n<p>The Wikimedia Commons WikiFlix page frames the project as a prototype for browsing and watching public-domain or Creative Commons-licensed films on Commons, with lists powered by Wikidata and organized by decade, genre, country, awards, and special lists. That structure matters because a future visual task may start from a retrieval question such as silent science fiction, award-winning documentary, early animation, national cinema, or a specific director.</p>\n\n<h2>Film clips need context before they become useful</h2>\n<p>Other film source notes in the archive show the same rule. A Xenogenesis clip is useful because it preserves early craft signals around low-budget effects and director development. A Mirai Mizue compilation is useful because it compresses an animation vocabulary into a quick visual sample. WikiFlix belongs beside those notes because it can widen the source pool while still requiring source context before a clip becomes a production reference.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future film-archive entries should record the access surface, licensing or public-domain claim, cataloging method, notable retrieval categories, and why the source is useful for visual study. That keeps film references connected to work: mood, staging, editing rhythm, design history, animation technique, or production research.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/anohinoanoko_jp/status/2028768307801903613\" target=\"_blank\" rel=\"noopener noreferrer\">WikiFlix public-domain film source note</a></li>\n  <li><a href=\"https://commons.wikimedia.org/wiki/User:Spinster/WikiFlix\" target=\"_blank\" rel=\"noopener noreferrer\">WikiFlix on Wikimedia Commons</a></li>\n  <li><a href=\"https://wikiflix.toolforge.org/\" target=\"_blank\" rel=\"noopener noreferrer\">WikiFlix Toolforge application</a></li>\n  <li><a href=\"https://x.com/KubrickBlogjp/status/2026076476878242053\" target=\"_blank\" rel=\"noopener noreferrer\">Xenogenesis source note</a></li>\n  <li><a href=\"https://x.com/MIRAI_MIZUE/status/1160195238805176321\" target=\"_blank\" rel=\"noopener noreferrer\">Mirai Mizue compilation source note</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-06-01",
+    "updated_at": "2026-06-01",
+    "title": "Humanoid motion notes need policy, hardware, and safety context",
+    "slug": "humanoid-motion-policy-hardware-safety-context",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/sonic-unitree-g1.html",
+    "source_url": "https://x.com/taziku_co/status/2030223973569696221",
+    "tags": [
+      "robotics",
+      "humanoid-robotics",
+      "motion-control",
+      "workflow",
+      "research"
+    ],
+    "paragraphs": [
+      "The SONIC-on-Unitree source note is useful because it turns a robot demo into a workflow question: what happens when a motion policy, a specific body, and a safety envelope all have to be evaluated together?",
+      "For Knowledge Hub, humanoid robotics notes should preserve the model claim, the hardware surface, and the review checklist instead of treating a short clip as proof of general deployment readiness."
+    ],
+    "legacy_html": "<p>The SONIC-on-Unitree source note is useful because it turns a robot demo into a workflow question: what happens when a motion policy, a specific body, and a safety envelope all have to be evaluated together? For Knowledge Hub, humanoid robotics notes should preserve the model claim, the hardware surface, and the review checklist instead of treating a short clip as proof of general deployment readiness.</p>\n\n<h2>A policy demo still needs hardware context</h2>\n<p>The source note describes NVIDIA SONIC running on a Unitree G1 humanoid and emphasizes zero-shot custom motions under a single policy. Keep that as a source claim. The reusable archival point is that motion-control notes are only comparable when the body is named: mass, joints, balance limits, actuator behavior, and recovery behavior all affect whether a policy demo is meaningful outside the clip.</p>\n\n<h2>Motion libraries are becoming reference material</h2>\n<p>The broader pattern matches earlier embodied-robotics notes in the archive: capture, simulation, policy training, and hardware transfer are becoming a reference stack. A saved robotics source should therefore record what kind of movement is being demonstrated, whether it came from motion capture or simulation, and what assumptions are visible in the evaluation scene.</p>\n\n<h2>Safety is part of the workflow, not an afterthought</h2>\n<p>Kick and crawl demos are attention-grabbing because they stress balance and contact. They also make the safety question more important. Before a robotics note becomes a production reference, the useful checklist is stability, fallback behavior, operator distance, surface conditions, repeatability, and whether the source shows failure cases or only successful takes.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future humanoid-motion Wire entries should be filed by policy type, robot body, evaluation motion, sim-to-real evidence, safety supervision, and source confidence. That keeps robotics clips useful as research leads without overstating what a social demo proves.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/taziku_co/status/2030223973569696221\" target=\"_blank\" rel=\"noopener noreferrer\">SONIC on Unitree G1 source note</a></li>\n  <li><a href=\"https://nvlabs.github.io/GR00T-WholeBodyControl/\" target=\"_blank\" rel=\"noopener noreferrer\">NVIDIA GR00T Whole-Body Control</a></li>\n  <li><a href=\"https://www.unitree.com/g1\" target=\"_blank\" rel=\"noopener noreferrer\">Unitree G1</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-06-05",
+    "updated_at": "2026-06-05",
+    "title": "Map ornament archives become useful when symbols stay searchable",
+    "slug": "map-ornament-archives-symbols-searchable",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/cartographic-symbologies-stanford.html",
+    "source_url": "https://x.com/marklit82/status/2027316557727007096",
+    "tags": [
+      "visualization",
+      "visual-reference",
+      "archive",
+      "research",
+      "design-tools"
+    ],
+    "paragraphs": [
+      "The Cartographic Symbologies source note is useful because it turns old-map ornament into searchable design material instead of leaving it as a beautiful whole-image reference.",
+      "For Knowledge Hub, the reusable pattern is clear: visual archives become stronger when they preserve categories, motifs, source context, and retrieval paths."
+    ],
+    "legacy_html": "<p>The Cartographic Symbologies source note is useful because it turns old-map ornament into searchable design material instead of leaving it as a beautiful whole-image reference. For Knowledge Hub, the reusable pattern is clear: visual archives become stronger when they preserve categories, motifs, source context, and retrieval paths.</p>\n\n<h2>Map details are design evidence</h2>\n<p>The saved source note describes Stanford's Cartographic Symbologies exhibit as a way to browse historical map symbols such as compass roses and cartouches. That matters because the map is not only geographic information. Its marginalia, labels, icons, frames, and decorative systems also show how a culture made authority, orientation, danger, abundance, and place legible.</p>\n\n<h2>Searchability changes the reference value</h2>\n<p>A single old map can be inspiring, but it is difficult to reuse if the viewer has to remember the whole image. A categorized archive lets the useful unit become smaller: a border treatment, animal figure, agricultural sign, building icon, label style, or navigational motif. That makes the source more practical for graphic design, UI ornament, worldbuilding, title treatment, and visual-research work.</p>\n\n<h2>Keep source claims separate from editorial use</h2>\n<p>The legacy note records a 324-item database and category-based browsing. Preserve that as source context, not as a fresh site audit. The editorial use is more stable: this belongs in Knowledge Hub as an example of how cultural image archives can be filed by the visual problem they solve, not only by the institution that holds them.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future map and design-history sources should record the archive surface, the motif categories, any collection context, and the likely reuse mode: visual reference, icon research, typography, interface texture, worldbuilding, or historical interpretation. That turns an attractive link into a working reference shelf.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/marklit82/status/2027316557727007096\" target=\"_blank\" rel=\"noopener noreferrer\">Cartographic Symbologies source note</a></li>\n  <li><a href=\"https://exhibits.stanford.edu/cartosym/browse\" target=\"_blank\" rel=\"noopener noreferrer\">Cartographic Symbologies at Stanford</a></li>\n  <li><a href=\"https://library.stanford.edu/rumsey\" target=\"_blank\" rel=\"noopener noreferrer\">David Rumsey Map Center</a></li>\n  <li><a href=\"https://library.stanford.edu/maps\" target=\"_blank\" rel=\"noopener noreferrer\">Maps at Stanford Libraries</a></li>\n</ul>"
+  },
+  {
+    "published_at": "2026-06-06",
+    "updated_at": "2026-06-06",
+    "title": "Generated 3D assets need handoff checks before production",
+    "slug": "generated-3d-assets-need-handoff-checks",
+    "source_file": "AI_Blog_Editorial_Shared/05_drafts/blogger/stablegen-trellis2.html",
+    "source_url": "https://x.com/ai_hakase_/status/2024622783506849855",
+    "tags": [
+      "3d",
+      "blender",
+      "ai",
+      "workflow",
+      "production",
+      "design-tools"
+    ],
+    "paragraphs": [
+      "Several recent 3D-generation source notes point to the same practical question: what survives after the impressive first asset appears?",
+      "For Knowledge Hub, these tools should be archived by their handoff checks: editability, topology, texture maps, licensing, integration surface, and whether the generated result can enter a real Blender, game, VFX, or visualization workflow."
+    ],
+    "legacy_html": "<p>Several recent 3D-generation source notes point to the same practical question: what survives after the impressive first asset appears? For Knowledge Hub, these tools should be archived by their handoff checks: editability, topology, texture maps, licensing, integration surface, and whether the generated result can enter a real Blender, game, VFX, or visualization workflow.</p>\n\n<h2>Generation is only the first test</h2>\n<p>The StableGen and TRELLIS.2 source note is useful because it moves generation closer to the existing 3D workspace. A Blender add-on that talks to a ComfyUI backend can reduce the distance between prompt, model, texture, and scene review. The article should preserve that as a workflow lead, not as proof that every generated mesh is production-ready.</p>\n\n<h2>Spatial consistency needs explicit control surfaces</h2>\n<p>The Freepik Spaces floor-plan note points at a related problem in AI video and spatial design: a prompt alone is often too weak to preserve room layout, camera path, and object continuity. A node canvas and floor-plan reference make the control surface visible, which is more useful than another isolated render demo.</p>\n\n<h2>3D asset tools need boring metadata</h2>\n<p>The Autodesk Flow Studio Wonder 3D and TextureCreate notes show why generated assets need practical checks. A good archive entry should record output format, resolution limits, map support, edit path, license constraints, and where the result can be reused. Those details decide whether a tool is a sketch generator, a production shortcut, or only a visual reference.</p>\n\n<h2>What to preserve in Knowledge Hub</h2>\n<p>Future 3D-generation Wire entries should be grouped by the handoff they make easier: Blender integration, ComfyUI graph control, spatial layout reference, texture-map generation, code or asset export, and license review. That keeps the archive focused on reusable production decisions instead of collecting tool announcements as isolated novelty.</p>\n\n<h2>Sources</h2>\n<ul>\n  <li><a href=\"https://x.com/ai_hakase_/status/2024622783506849855\" target=\"_blank\" rel=\"noopener noreferrer\">StableGen and TRELLIS.2 source note</a></li>\n  <li><a href=\"https://github.com/sakalond/StableGen\" target=\"_blank\" rel=\"noopener noreferrer\">StableGen GitHub repository</a></li>\n  <li><a href=\"https://x.com/taziku_co/status/2024264782698991723\" target=\"_blank\" rel=\"noopener noreferrer\">Freepik Spaces floor-plan source note</a></li>\n  <li><a href=\"https://www.freepik.com/spaces\" target=\"_blank\" rel=\"noopener noreferrer\">Freepik Spaces</a></li>\n  <li><a href=\"https://x.com/adskflowstudio/status/2029211462128762949\" target=\"_blank\" rel=\"noopener noreferrer\">Autodesk Flow Studio Wonder 3D source note</a></li>\n  <li><a href=\"https://x.com/GameMakersJP/status/2028375257715990977\" target=\"_blank\" rel=\"noopener noreferrer\">TextureCreate browser tool source note</a></li>\n</ul>"
   }
 ]

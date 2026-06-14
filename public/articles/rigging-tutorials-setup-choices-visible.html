@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rigging tutorials are reusable when setup choices stay visible - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Rigging tutorials are reusable when setup choices stay visible</h1>
+          <p class="article-meta">Published 2026-05-29 - Updated 2026-05-29</p>
+          <div class="tag-row"><span class="tag">maya</span><span class="tag">rigging</span><span class="tag">tutorial</span><span class="tag">workflow</span><span class="tag">character-modeling</span><span class="tag">animation</span></div>
+          <p class="entry-meta"><a href="https://x.com/i/web/status/1113261422371319814" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>A small cluster of older rigging and modeling notes points to the same production-memory issue: tutorials are most useful when they preserve setup choices, not only the final model or rig. The durable value is the viewport setting, local-axis rule, constraint logic, project file, and repeatable check that prevents a future worker from relearning the same failure.</p>
+
+<h2>Modeling tutorials should preserve the working environment</h2>
+<p>The AREA JAPAN Maya low-poly character source note is valuable because it starts before the mesh. Hotkeys, marking menus, shelf choices, flat lighting, camera angle, and art-reference setup all shape whether the beginner can judge the model clearly. That makes the tutorial useful as a setup reference, not only as a character-modeling walkthrough.</p>
+
+<h2>Joint orientation is a failure-prevention topic</h2>
+<p>The Maya Joint Orient source note belongs beside the modeling tutorial because it records a common rigging failure mode: local axes can become unreliable before the visible problem appears in skinning or posing. The practical habit to preserve is early axis checking, simple rotation tests, and willingness to fix the joint stage before later controls hide the cause.</p>
+
+<h2>Mechanical rigs teach constraints clearly</h2>
+<p>The Luxo-style Blender lamp rig note shows why recognizable mechanical forms make strong tutorial material. A lamp rig exposes hinges, constraints, timing, and character appeal without the full complexity of a humanoid body. The useful archive layer is not only the clip; it is the project-file and constraint logic that make the exercise repeatable.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future rigging and modeling sources should be filed by the decision they make reusable: workspace setup, reference-camera placement, symmetry method, joint-axis rule, constraint pattern, project-file availability, or pose-test checklist. That keeps tutorials from becoming isolated bookmarks and turns them into production memory.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/i/web/status/1113261422371319814" target="_blank" rel="noopener noreferrer">AREA JAPAN Maya low-poly character source note</a></li>
+  <li><a href="https://area.autodesk.jp/column/tutorial/maya-lowpoly/02-setting-start-modeling/" target="_blank" rel="noopener noreferrer">AREA JAPAN Maya low-poly tutorial, part 2</a></li>
+  <li><a href="https://area.autodesk.jp/column/tutorial/maya-lowpoly/" target="_blank" rel="noopener noreferrer">AREA JAPAN Maya low-poly tutorial series</a></li>
+  <li><a href="https://x.com/JunkiTheJunkie/status/1113103836170731520" target="_blank" rel="noopener noreferrer">Maya Joint Orient source note</a></li>
+  <li><a href="https://www.riggingdojo.com/2014/10/03/everything-thought-knew-maya-joint-orient-wrong/" target="_blank" rel="noopener noreferrer">Rigging Dojo Joint Orient article</a></li>
+  <li><a href="https://x.com/ymt3d/status/1316629374473400320" target="_blank" rel="noopener noreferrer">Luxo-style Blender rigging source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

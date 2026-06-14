@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T04:49:27.777Z",
+  "generated_at": "2026-06-14T00:33:49.730Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -442,6 +442,324 @@
         "workflow",
         "hardware"
       ]
+    },
+    {
+      "title": "LichtFeld Studio",
+      "kind": "Library / 3DGS Workflow",
+      "url": "https://lichtfeld.io/",
+      "description": "Desktop 3D Gaussian Splatting workspace reference for training runs, live inspection, scene editing, plugins, and MCP-controlled splat workflows.",
+      "tags": [
+        "3dgs",
+        "spatial-capture",
+        "workflow",
+        "editing"
+      ]
+    },
+    {
+      "title": "SuperSplat",
+      "kind": "Library / Browser 3DGS Tool",
+      "url": "https://dev.playcanvas.com/products/supersplat",
+      "description": "PlayCanvas browser platform for editing, optimizing, publishing, sharing, and embedding 3D Gaussian Splat scenes.",
+      "tags": [
+        "3dgs",
+        "browser-tools",
+        "spatial-capture",
+        "publishing"
+      ]
+    },
+    {
+      "title": "Google Workspace CLI",
+      "kind": "Library / Agent Tooling",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Command-line interface for Google Workspace APIs with structured output and agent-skill support, useful as a durable reference for inspectable Workspace automation.",
+      "tags": [
+        "ai-coding",
+        "agents",
+        "automation",
+        "workflow",
+        "developer-tools"
+      ]
+    },
+    {
+      "title": "OpenClaw Studio",
+      "kind": "Library / Agent Control Surface",
+      "url": "https://github.com/grp06/openclaw-studio",
+      "description": "Open-source dashboard reference for supervising local AI agents, approvals, scheduling, and skill exposure in agentic workflows.",
+      "tags": [
+        "agents",
+        "local-ai",
+        "workflow",
+        "automation",
+        "developer-tools"
+      ]
+    },
+    {
+      "title": "Rothheim joint",
+      "kind": "Library / Robotics Movement Reference",
+      "url": "https://x.com/BrianRoemmele/status/2050425099006902502",
+      "description": "Source-linked robotics articulation and embodied-motion reference useful for studying physical movement constraints, procedural animation crossover, and creature behavior.",
+      "tags": [
+        "robotics",
+        "movement-reference",
+        "mechanical-motion",
+        "embodied-ai",
+        "animation-reference"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/BrianRoemmele/status/2050425099006902502",
+        "author_handle": "@BrianRoemmele",
+        "posted_at": "2026-05-02T04:00:13.000Z",
+        "collected_at": "2026-05-02T07:11:05.893Z",
+        "source_context": "WIRE item discussing a Rothheim joint as a robotics articulation and movement behavior reference."
+      }
+    },
+    {
+      "title": "Danny Yount work archive",
+      "kind": "Library / Visual Reference",
+      "url": "https://dannyyount.com/work.html",
+      "description": "Title-design and motion-graphics work archive useful for editorial pacing, typography rhythm, visual timing, and cinematic design reference.",
+      "tags": [
+        "visual-reference",
+        "motion-graphics",
+        "title-design",
+        "editorial-design",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/gupon/status/2050428545873379735",
+        "author_handle": "@gupon",
+        "posted_at": "2026-05-02T04:13:55.000Z",
+        "collected_at": "2026-05-02T07:11:05.893Z",
+        "source_context": "WIRE item preserving a repeatedly revisited Danny Yount work archive as a visual design reference source."
+      }
+    },
+    {
+      "title": "xAI custom voices",
+      "kind": "Library / AI Audio",
+      "url": "https://x.com/xai/status/2050355373052223585",
+      "description": "Source-linked AI voice workflow reference for custom voice creation, voice agents, scratch dialogue, temporary narration, and production-audio experimentation.",
+      "tags": [
+        "voice-ai",
+        "audio",
+        "api",
+        "workflow",
+        "production-audio"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/xai/status/2050355373052223585",
+        "author_handle": "@xai",
+        "posted_at": "2026-05-01T23:23:09.000Z",
+        "collected_at": "2026-05-02T07:11:07.313Z",
+        "source_context": "WIRE item referencing custom voice creation through the xAI API and production-audio usage."
+      }
+    },
+    {
+      "title": "C.S. Lewis vivisection essay reference",
+      "kind": "Library / Literature Reference",
+      "url": "https://archive.org/details/b30632",
+      "description": "Archive.org reading lead for a short C.S. Lewis essay on vivisection, useful for literature, ethics, criticism, and interpretation references.",
+      "tags": [
+        "literature",
+        "criticism",
+        "books",
+        "archive",
+        "ethics"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/lor123487/status/2050419203811983424",
+        "author_handle": "@lor123487",
+        "posted_at": "2026-05-02T03:36:47.000Z",
+        "collected_at": "2026-05-02T07:11:07.313Z",
+        "source_context": "WIRE item recommending a short C.S. Lewis essay on vivisection and pointing to an Archive.org record."
+      }
+    },
+    {
+      "title": "NDLOCR-Lite",
+      "kind": "Library / Document AI",
+      "url": "https://github.com/ndl-lab/ndlocr-lite",
+      "description": "National Diet Library OCR application reference for Japanese document extraction, structured OCR outputs, archive workflows, and reviewable local document processing.",
+      "tags": [
+        "document-ai",
+        "ocr",
+        "archive",
+        "workflow",
+        "knowledge-map"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/yuta1984/status/2029116131718709721",
+        "author_handle": "@yuta1984",
+        "source_context": "Legacy source note about NDLOCR-Lite Web/mobile support, paired with the official NDL GitHub repository and usage page."
+      }
+    },
+    {
+      "title": "The Component Gallery",
+      "kind": "Library / UI Reference",
+      "url": "https://component.gallery/",
+      "description": "Reference catalog for UI component names, definitions, synonyms, examples, and product-design vocabulary used during design and implementation handoff.",
+      "tags": [
+        "ui",
+        "design-tools",
+        "product-design",
+        "workflow",
+        "reference"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/L_go_mrk/status/2029511741131116609",
+        "source_context": "Legacy source note about using a component vocabulary reference to improve designer, developer, and non-technical stakeholder handoff."
+      }
+    },
+    {
+      "title": "Serpens",
+      "kind": "Library / Blender Add-on Workflow",
+      "url": "https://x.com/KmdjDngk/status/1317367790991372288",
+      "description": "Source-linked Blender visual-scripting reference for turning add-on ideas, UI helpers, and procedural production shortcuts into reusable tool-building workflows.",
+      "tags": [
+        "blender",
+        "procedural",
+        "workflow",
+        "developer-tools",
+        "vfx"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/KmdjDngk/status/1317367790991372288",
+        "source_context": "Legacy source note about Serpens v1.0, node-based visual scripting, Python code generation, and Blender add-on prototyping."
+      }
+    },
+    {
+      "title": "AREA JAPAN Maya low-poly character tutorial",
+      "kind": "Library / 3D Tutorial",
+      "url": "https://area.autodesk.jp/column/tutorial/maya-lowpoly/",
+      "description": "Autodesk AREA JAPAN tutorial series reference for Maya low-poly character setup, viewport preparation, base mesh modeling, and practical learning files.",
+      "tags": [
+        "maya",
+        "character-modeling",
+        "tutorial",
+        "workflow",
+        "3d"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/i/web/status/1113261422371319814",
+        "source_context": "Legacy source note about using AREA JAPAN's Maya low-poly character series as a setup and base-mesh production reference."
+      }
+    },
+    {
+      "title": "Rigging Dojo Joint Orient article",
+      "kind": "Library / Rigging Reference",
+      "url": "https://www.riggingdojo.com/2014/10/03/everything-thought-knew-maya-joint-orient-wrong/",
+      "description": "Rigging reference for checking Maya joint orientation assumptions, local-axis consistency, and early failure-prevention habits before skinning or pose tests.",
+      "tags": [
+        "maya",
+        "rigging",
+        "tutorial",
+        "workflow",
+        "animation"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/JunkiTheJunkie/status/1113103836170731520",
+        "source_context": "Legacy source note about preventing Maya Joint Orient problems by preserving axis rules and early rotation checks."
+      }
+    },
+    {
+      "title": "Ultralytics documentation",
+      "kind": "Library / Computer Vision Documentation",
+      "url": "https://docs.ultralytics.com/",
+      "description": "Durable documentation reference for checking YOLO-family computer-vision model usage, deployment paths, exports, and benchmark context before promoting model-announcement Wire notes.",
+      "tags": [
+        "computer-vision",
+        "ai",
+        "workflow",
+        "production",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/akshay_pachaar/status/2027673683255591252",
+        "source_context": "Legacy source note about a YOLO26 edge-vision demo; documentation added as the reusable reference for later deployment checks."
+      }
+    },
+    {
+      "title": "WikiFlix",
+      "kind": "Library / Film Archive",
+      "url": "https://wikiflix.toolforge.org/",
+      "description": "Public-domain and freely licensed film browsing reference for quickly finding historical films by decade, genre, country, awards, and other Wikidata-backed categories.",
+      "tags": [
+        "film",
+        "archive",
+        "visual-reference",
+        "research",
+        "public-domain"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/anohinoanoko_jp/status/2028768307801903613",
+        "source_context": "Legacy source note about WikiFlix as a low-friction public-domain film viewing surface, paired with the Wikimedia Commons WikiFlix page and Toolforge application."
+      }
+    },
+    {
+      "title": "NVIDIA GR00T Whole-Body Control",
+      "kind": "Library / Robotics Research",
+      "url": "https://nvlabs.github.io/GR00T-WholeBodyControl/",
+      "description": "Research reference for humanoid whole-body motion control, useful when checking motion-policy claims, sim-to-real transfer context, hardware demonstrations, and safety review questions.",
+      "tags": [
+        "robotics",
+        "humanoid-robotics",
+        "motion-control",
+        "research",
+        "workflow"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/taziku_co/status/2030223973569696221",
+        "source_context": "Legacy source note about SONIC running on a Unitree G1; added as the durable research reference for humanoid motion-control checks."
+      }
+    },
+    {
+      "title": "Cartographic Symbologies",
+      "kind": "Library / Visual Reference Archive",
+      "url": "https://exhibits.stanford.edu/cartosym/browse",
+      "description": "Stanford visual-reference archive for historical map symbols, ornaments, labels, and motif categories, useful for cartography, design-history, and interface-reference research.",
+      "tags": [
+        "visualization",
+        "visual-reference",
+        "archive",
+        "research",
+        "design-tools"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/marklit82/status/2027316557727007096",
+        "source_context": "Legacy source note about Stanford's Cartographic Symbologies exhibit and its category-based browsing of historical map ornament and symbols."
+      }
+    },
+    {
+      "title": "StableGen",
+      "kind": "Library / Blender AI Workflow",
+      "url": "https://github.com/sakalond/StableGen",
+      "description": "Open-source Blender add-on reference for AI-assisted 3D texturing and generation workflows that connect Blender scenes with a ComfyUI backend.",
+      "tags": [
+        "blender",
+        "3d",
+        "ai",
+        "workflow",
+        "production"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/ai_hakase_/status/2024622783506849855",
+        "source_context": "Legacy source note about StableGen and TRELLIS.2 integration; added as a durable reference for Blender-based AI asset handoff checks."
+      }
+    },
+    {
+      "title": "Freepik Spaces",
+      "kind": "Library / AI Creative Workflow",
+      "url": "https://www.freepik.com/spaces",
+      "description": "AI workflow canvas reference for organizing image, video, and spatial-generation experiments with visible control surfaces such as nodes and layout references.",
+      "tags": [
+        "design-tools",
+        "ai",
+        "workflow",
+        "visual-reference",
+        "production"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/taziku_co/status/2024264782698991723",
+        "source_context": "Legacy source note about using Freepik Spaces and floor-plan references to improve spatial consistency in generated video and interior walkthroughs."
+      }
     }
   ]
 }

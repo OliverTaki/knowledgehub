@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Computer vision model notes need deployment context - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Computer vision model notes need deployment context</h1>
+          <p class="article-meta">Published 2026-05-30 - Updated 2026-05-30</p>
+          <div class="tag-row"><span class="tag">computer-vision</span><span class="tag">ai</span><span class="tag">workflow</span><span class="tag">production</span><span class="tag">research</span></div>
+          <p class="entry-meta"><a href="https://x.com/akshay_pachaar/status/2027673683255591252" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>A saved object-detection source is more useful when it records the deployment question, not only the model name or headline speed claim. The YOLO26 source note should be treated as a production-context lead: where post-processing changes, edge-device constraints, dense-scene behavior, and reviewable benchmarks affect whether a vision model belongs in a workflow.</p>
+
+<h2>Speed claims need a workflow role</h2>
+<p>The source note frames YOLO26 around a no-NMS, end-to-end detection path and faster CPU behavior. Keep that as a source claim rather than a site-verified benchmark. The reusable point for Knowledge Hub is that model architecture details matter most when they change an operational step: fewer post-processing decisions, lower latency, or a simpler path from frame to result.</p>
+
+<h2>Dense scenes make failure modes visible</h2>
+<p>The saved demo context emphasizes people and chairs in a crowded scene. That is a useful archival cue because dense scenes expose duplicate boxes, missed objects, and stability problems more clearly than an easy single-object clip. Future vision notes should preserve the scene type used to demonstrate the model, not just the model family.</p>
+
+<h2>Edge use changes the evaluation checklist</h2>
+<p>For edge inference, the practical checklist is broader than accuracy. CPU/GPU budget, frame rate, memory use, model export path, input resolution, and maintainable tooling all affect whether a detector is usable in robotics, surveillance, creative tracking, or interactive installation work.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Computer-vision Wire entries should be sorted by the constraint they clarify: post-processing, latency, edge deployment, dense-scene behavior, benchmark source, or integration surface. That makes a model announcement easier to compare later without turning the archive into a list of version names.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/akshay_pachaar/status/2027673683255591252" target="_blank" rel="noopener noreferrer">YOLO26 edge-vision source note</a></li>
+  <li><a href="https://www.ultralytics.com/news/ultralytics-redefines-state-of-the-art-vision-ai-with-yolo26" target="_blank" rel="noopener noreferrer">Ultralytics YOLO26 news page referenced by the source note</a></li>
+  <li><a href="https://docs.ultralytics.com/" target="_blank" rel="noopener noreferrer">Ultralytics documentation</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3DGS work is moving from capture trick to publishing pipeline - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>3DGS work is moving from capture trick to publishing pipeline</h1>
+          <p class="article-meta">Published 2026-05-14 - Updated 2026-05-14</p>
+          <div class="tag-row"><span class="tag">spatial-capture</span><span class="tag">3dgs</span><span class="tag">browser-tools</span><span class="tag">workflow</span><span class="tag">publishing</span></div>
+          <p class="entry-meta"><a href="https://x.com/bilawalsidhu/status/2029776346742690004" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several saved source notes point to the same practical 3D Gaussian Splatting pattern: the useful workflow is no longer only reconstruction quality. The stronger Knowledge Hub question is how a capture becomes inspectable, editable, small enough to distribute, and stable enough to embed in other surfaces.</p>
+
+<h2>Capture quality is only the first checkpoint</h2>
+<p>The Sony a7III source note is a useful anchor because it describes an ordinary photo set becoming a detailed splat scene. The important production point is not that every photo set becomes a finished asset. It is that capture decisions, reflectance, coverage, and later reprocessing all affect whether the scene remains useful after the first demo.</p>
+
+<h2>Input shortcuts still need cost and review checks</h2>
+<p>The Mint.gg source note sits at the convenience end of the pipeline: a Street View link becomes a possible 3D scene. The same note also preserves skepticism around free claims, credits, and availability. That makes it useful as a reminder that fast capture entry points should be filed with pricing, export, and rights questions, not only with visual novelty.</p>
+
+<h2>Editing is where splats become reusable</h2>
+<p>SuperSplat and LichtFeld Studio belong in the Library because the repeated problem is editing, inspection, optimization, and publication. The PlayCanvas SuperSplat material describes a browser editor and viewer workflow for editing, optimizing, publishing, and embedding splat scenes. LichtFeld Studio is useful as a desktop reference for training runs, live inspection, scene editing, plugins, and MCP control around 3D Gaussian Splatting.</p>
+
+<h2>Embedding changes the audience</h2>
+<p>The Wikipedia 3DGS demo note is valuable because it shifts the question from asset creation to reading and education. An embedded splat is judged differently from a local reconstruction: file size, browser interaction, attribution, accessibility, and long-term hosting become part of the work. NVIDIA Omniverse material points in the same direction at a larger pipeline scale, where spatial captures are discussed as workflow assets rather than isolated images.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future 3DGS sources should be sorted by their role in the chain: capture, training, editing, optimization, publishing, embedding, or pipeline integration. That filing scheme is more useful than treating every impressive splat as a single visual-reference item.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/bilawalsidhu/status/2029776346742690004" target="_blank" rel="noopener noreferrer">Sony a7III 3DGS capture source note</a></li>
+  <li><a href="https://lichtfeld.io/" target="_blank" rel="noopener noreferrer">LichtFeld Studio official page</a></li>
+  <li><a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/" target="_blank" rel="noopener noreferrer">3D Gaussian Splatting research page</a></li>
+  <li><a href="https://x.com/oliviscusAI/status/2027440667144949940" target="_blank" rel="noopener noreferrer">Mint.gg Street View source note</a></li>
+  <li><a href="https://f.inc/portfolio/mint/" target="_blank" rel="noopener noreferrer">Mint portfolio page</a></li>
+  <li><a href="https://x.com/nvidiaomniverse/status/2029055740191883571" target="_blank" rel="noopener noreferrer">NVIDIA Omniverse Gaussian Splatting source note</a></li>
+  <li><a href="https://dev.playcanvas.com/products/supersplat" target="_blank" rel="noopener noreferrer">SuperSplat official product page</a></li>
+  <li><a href="https://developer.playcanvas.com/user-manual/gaussian-splatting/editing/supersplat/" target="_blank" rel="noopener noreferrer">SuperSplat documentation</a></li>
+  <li><a href="https://x.com/abstrakt314/status/2025961855823605825" target="_blank" rel="noopener noreferrer">Wikipedia 3DGS embedding demo source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

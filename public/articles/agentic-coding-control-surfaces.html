@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agentic coding needs control surfaces after the prompt - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Agentic coding needs control surfaces after the prompt</h1>
+          <p class="article-meta">Published 2026-05-16 - Updated 2026-05-16</p>
+          <div class="tag-row"><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span><span class="tag">automation</span><span class="tag">code-review</span><span class="tag">developer-tools</span></div>
+          <p class="entry-meta"><a href="https://x.com/MLBear2/status/2029329861295456401" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>A group of source notes around CLAUDE.md practice, detail.dev, Google Workspace CLI, OpenClaw Studio, Xcode agent integration, and shinkoku points to the same practical issue: agentic coding is no longer only a prompt-quality problem. The useful layer after the prompt is control: project memory, inspectable tool access, review gates, budget or risk boundaries, and a human-readable surface for deciding what the agent may do next.</p>
+
+<h2>Project memory turns one-off prompting into an operating loop</h2>
+<p>The CLAUDE.md source note is useful because it treats coding-agent work as a repeatable loop: plan, split work, verify, record lessons, and use those lessons on the next pass. That is a stronger pattern than saving a clever prompt. The reusable asset is the project rule set that keeps future agent runs from rediscovering the same constraints.</p>
+
+<h2>Tool access needs a narrow interface</h2>
+<p>The Google Workspace CLI note adds the external-tools side of the problem. Its GitHub README describes a single CLI for Workspace services, structured JSON output, dynamic command generation from Google Discovery Service, and agent skills. For Knowledge Hub, the important point is not only that Gmail or Sheets can be automated. It is that a stable command interface gives agents a safer, more inspectable way to touch work data than ad hoc browser clicking.</p>
+
+<h2>Autonomy needs supervision surfaces</h2>
+<p>The OpenClaw Studio note belongs beside the CLI note because it focuses on visibility and gating. A local dashboard with monitoring, chat, approvals, and scheduling is a control surface for agents that may touch personal or operational systems. That kind of UI matters because useful autonomy still needs scope, status, and interruption points.</p>
+
+<h2>Review tools are part of the coding stack</h2>
+<p>The detail.dev source note is a reminder that generated code still needs independent inspection. The saved note describes a case where a scanner found vulnerabilities that coding agents missed. Treat this as an anecdotal source signal, not proof of universal performance. The durable point is that agentic coding workflows should include review tools that are separate from the tool that produced the code.</p>
+
+<h2>Domain automation raises the cost of being wrong</h2>
+<p>The shinkoku tax-automation note shows why control matters outside ordinary app code. OCR, classification, calculations, and submission preparation can save time, but tax work has liability and edge cases. That makes final human review a design requirement rather than a courtesy. The same caution applies to IDE-level agent integration: once agents sit inside Xcode or a daily work surface, verification must be part of the normal loop.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future AI-coding sources should be filed by the control layer they strengthen: project memory, tool interface, supervision dashboard, independent review, or domain-specific verification. This makes the archive more useful than a list of coding-agent announcements.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/NieceOfAnton/status/2025254119636959701" target="_blank" rel="noopener noreferrer">CLAUDE.md best-practices source note</a></li>
+  <li><a href="https://x.com/nztm_tw/status/2029120916505149882" target="_blank" rel="noopener noreferrer">detail.dev inspection source note</a></li>
+  <li><a href="https://x.com/MLBear2/status/2029329861295456401" target="_blank" rel="noopener noreferrer">Google Workspace CLI source note</a></li>
+  <li><a href="https://github.com/googleworkspace/cli" target="_blank" rel="noopener noreferrer">Google Workspace CLI repository</a></li>
+  <li><a href="https://x.com/sukh_saroy/status/2027772545601311003" target="_blank" rel="noopener noreferrer">OpenClaw Studio source note</a></li>
+  <li><a href="https://github.com/grp06/openclaw-studio" target="_blank" rel="noopener noreferrer">OpenClaw Studio repository</a></li>
+  <li><a href="https://x.com/kuzyofire/status/2025914497979093288" target="_blank" rel="noopener noreferrer">shinkoku automation source note</a></li>
+  <li><a href="https://x.com/minchoi/status/2027409663822561632" target="_blank" rel="noopener noreferrer">Xcode agent integration source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

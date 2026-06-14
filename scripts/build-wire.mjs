@@ -62,6 +62,21 @@ function inferWireTopic(item) {
       summary: "A tool-tracking entry for OCR quality, multilingual support, layout preservation, and document understanding workflows."
     },
     {
+      words: ["FXTags", "fxtags.com"],
+      title: "FXTags effects reference source",
+      summary: "A visual-effects reference source to revisit when a production task needs searchable examples of impact, distortion, emission, residue, or environmental behavior."
+    },
+    {
+      words: ["ColorfulEcho", "afterimage", "echo", "AEプラグイン"],
+      title: "ColorfulEcho After Effects plugin note",
+      summary: "An After Effects plugin source for color-assigned echo afterimages, useful for residual motion, color-separated trails, and repeatable motion-design treatments."
+    },
+    {
+      words: ["TexturingXYZ", "Softwrap"],
+      title: "TexturingXYZ and Blender Softwrap workflow note",
+      summary: "A surface-production source connecting TexturingXYZ assets with Blender Softwrap, useful for tracking reusable custom model and skin-detail workflows."
+    },
+    {
       words: ["Houdini", "Obsidian", "Node Viewer", "ノード"],
       title: "Houdini Node Viewer workflow note",
       summary: "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace."
@@ -146,6 +161,11 @@ function classifyWireEntry(item, inferred) {
       words: ["houdini", "node viewer", "node"],
       domains: ["creative-tools"],
       tags: ["houdini", "nodes", "workflow"]
+    },
+    {
+      words: ["fxtags", "colorfulecho", "after effects", "afterimage", "texturingxyz", "softwrap"],
+      domains: ["creative-tools"],
+      tags: ["vfx", "motion-design", "workflow"]
     },
     {
       words: ["tarkovsky", "polaroid", "possession", "mussorgsky", "film", "cinema"],

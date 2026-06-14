@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Generated 3D assets need handoff checks before production - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Generated 3D assets need handoff checks before production</h1>
+          <p class="article-meta">Published 2026-06-06 - Updated 2026-06-06</p>
+          <div class="tag-row"><span class="tag">3d</span><span class="tag">blender</span><span class="tag">ai</span><span class="tag">workflow</span><span class="tag">production</span><span class="tag">design-tools</span></div>
+          <p class="entry-meta"><a href="https://x.com/ai_hakase_/status/2024622783506849855" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several recent 3D-generation source notes point to the same practical question: what survives after the impressive first asset appears? For Knowledge Hub, these tools should be archived by their handoff checks: editability, topology, texture maps, licensing, integration surface, and whether the generated result can enter a real Blender, game, VFX, or visualization workflow.</p>
+
+<h2>Generation is only the first test</h2>
+<p>The StableGen and TRELLIS.2 source note is useful because it moves generation closer to the existing 3D workspace. A Blender add-on that talks to a ComfyUI backend can reduce the distance between prompt, model, texture, and scene review. The article should preserve that as a workflow lead, not as proof that every generated mesh is production-ready.</p>
+
+<h2>Spatial consistency needs explicit control surfaces</h2>
+<p>The Freepik Spaces floor-plan note points at a related problem in AI video and spatial design: a prompt alone is often too weak to preserve room layout, camera path, and object continuity. A node canvas and floor-plan reference make the control surface visible, which is more useful than another isolated render demo.</p>
+
+<h2>3D asset tools need boring metadata</h2>
+<p>The Autodesk Flow Studio Wonder 3D and TextureCreate notes show why generated assets need practical checks. A good archive entry should record output format, resolution limits, map support, edit path, license constraints, and where the result can be reused. Those details decide whether a tool is a sketch generator, a production shortcut, or only a visual reference.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future 3D-generation Wire entries should be grouped by the handoff they make easier: Blender integration, ComfyUI graph control, spatial layout reference, texture-map generation, code or asset export, and license review. That keeps the archive focused on reusable production decisions instead of collecting tool announcements as isolated novelty.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/ai_hakase_/status/2024622783506849855" target="_blank" rel="noopener noreferrer">StableGen and TRELLIS.2 source note</a></li>
+  <li><a href="https://github.com/sakalond/StableGen" target="_blank" rel="noopener noreferrer">StableGen GitHub repository</a></li>
+  <li><a href="https://x.com/taziku_co/status/2024264782698991723" target="_blank" rel="noopener noreferrer">Freepik Spaces floor-plan source note</a></li>
+  <li><a href="https://www.freepik.com/spaces" target="_blank" rel="noopener noreferrer">Freepik Spaces</a></li>
+  <li><a href="https://x.com/adskflowstudio/status/2029211462128762949" target="_blank" rel="noopener noreferrer">Autodesk Flow Studio Wonder 3D source note</a></li>
+  <li><a href="https://x.com/GameMakersJP/status/2028375257715990977" target="_blank" rel="noopener noreferrer">TextureCreate browser tool source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
