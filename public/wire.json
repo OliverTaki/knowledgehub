@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T00:33:50.368Z",
+  "generated_at": "2026-06-15T00:36:44.673Z",
   "policy": {
     "full_text_copied": false,
     "original_link_required": true,
@@ -19,17 +19,25 @@
         "reference"
       ],
       "domains": [
-        "staging"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "visual-reference",
+        "motion-graphics",
+        "title-design",
+        "editorial-design",
+        "research"
       ],
-      "title": "Source note from @gupon: Takuma Miyamoto このサイトは残ってほしい、、何度見返したか分からない https:// dannyyount.com/work...",
-      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "Danny Yount work archive reference",
+      "summary": "A title-design and motion-graphics archive source worth preserving for editorial pacing, typography rhythm, visual timing, and cinematic design reference.",
+      "library_refs": [
+        "Danny Yount work archive"
+      ],
+      "article_refs": [
+        "articles/reference-archives-preserve-why-source-mattered.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -49,17 +57,25 @@
         "reference"
       ],
       "domains": [
-        "staging"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "robotics",
+        "movement-reference",
+        "mechanical-motion",
+        "embodied-ai",
+        "animation-reference"
       ],
-      "title": "Source note from @BrianRoemmele: Brian Roemmele これは世界を変えるロスハイム・ジョイントです。ロボット工学の動作を根本的に変えました。この10年間で、このジョイン...",
-      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "Rothheim joint movement-reference note",
+      "summary": "A robotics articulation source useful for studying constrained rotation, balance correction, recovery movement, and animation-reference crossover.",
+      "library_refs": [
+        "Rothheim joint"
+      ],
+      "article_refs": [
+        "articles/embodied-robotics-references-movement-archives.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -84,14 +100,18 @@
       "tags": [
         "reference",
         "wire",
-        "houdini",
-        "nodes",
-        "workflow"
+        "blender",
+        "geometry-nodes",
+        "texturing",
+        "workflow",
+        "animation-reference"
       ],
-      "title": "AI tool and model source note",
-      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
+      "title": "Blender tension-map wrinkle workflow note",
+      "summary": "A Blender tutorial source on using baked wrinkle normals and Geometry Nodes tension information to drive lightweight deformation-aware surface detail.",
       "library_refs": [],
-      "article_refs": [],
+      "article_refs": [
+        "articles/reference-archives-preserve-why-source-mattered.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -116,14 +136,20 @@
       "tags": [
         "reference",
         "wire",
-        "books",
         "literature",
-        "archive"
+        "criticism",
+        "books",
+        "archive",
+        "ethics"
       ],
-      "title": "Literary reference note on Dazai and Gomi",
-      "summary": "A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "C.S. Lewis vivisection essay reference",
+      "summary": "An Archive.org reading lead for a short C.S. Lewis essay on vivisection, useful for literature, ethics, criticism, and interpretation references.",
+      "library_refs": [
+        "C.S. Lewis vivisection essay reference"
+      ],
+      "article_refs": [
+        "articles/reference-archives-preserve-why-source-mattered.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -178,14 +204,20 @@
       "tags": [
         "reference",
         "wire",
+        "voice-ai",
         "audio",
-        "local-ai",
-        "workflow"
+        "api",
+        "workflow",
+        "production-audio"
       ],
-      "title": "Open-source AI voice tool note",
-      "summary": "A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "xAI custom voices production-audio note",
+      "summary": "A source-linked AI voice workflow reference for custom voice creation, voice agents, scratch dialogue, temporary narration, and production-audio experimentation.",
+      "library_refs": [
+        "xAI custom voices"
+      ],
+      "article_refs": [
+        "articles/ai-voice-tools-production-infrastructure.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -492,8 +524,12 @@
       ],
       "title": "Houdini Node Viewer workflow note",
       "summary": "A pipeline note about pinning node details and linking Houdini-style node inspection with an external knowledge workspace.",
-      "library_refs": [],
-      "article_refs": [],
+      "library_refs": [
+        "Houdini Node Viewer"
+      ],
+      "article_refs": [
+        "articles/effects-references-production-decisions.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -710,8 +746,13 @@
       ],
       "title": "TexturingXYZ and Blender Softwrap workflow note",
       "summary": "A surface-production source connecting TexturingXYZ assets with Blender Softwrap, useful for tracking reusable custom model and skin-detail workflows.",
-      "library_refs": [],
-      "article_refs": [],
+      "library_refs": [
+        "TexturingXYZ",
+        "Blender Softwrap"
+      ],
+      "article_refs": [
+        "articles/effects-references-production-decisions.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -932,8 +973,12 @@
       ],
       "title": "FXTags effects reference source",
       "summary": "A visual-effects reference source to revisit when a production task needs searchable examples of impact, distortion, emission, residue, or environmental behavior.",
-      "library_refs": [],
-      "article_refs": [],
+      "library_refs": [
+        "FXTags"
+      ],
+      "article_refs": [
+        "articles/effects-references-production-decisions.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -1054,8 +1099,12 @@
       ],
       "title": "ColorfulEcho After Effects plugin note",
       "summary": "An After Effects plugin source for color-assigned echo afterimages, useful for residual motion, color-separated trails, and repeatable motion-design treatments.",
-      "library_refs": [],
-      "article_refs": [],
+      "library_refs": [
+        "ColorfulEcho"
+      ],
+      "article_refs": [
+        "articles/effects-references-production-decisions.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,

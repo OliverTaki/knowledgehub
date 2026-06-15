@@ -213,9 +213,69 @@ function classifyWireEntry(item, inferred) {
   };
 }
 
+const curatedWireOverrides = new Map([
+  ["2050355373052223585", {
+    title: "xAI custom voices production-audio note",
+    summary: "A source-linked AI voice workflow reference for custom voice creation, voice agents, scratch dialogue, temporary narration, and production-audio experimentation.",
+    domains: ["audio"],
+    tags: ["reference", "wire", "voice-ai", "audio", "api", "workflow", "production-audio"],
+    library_refs: ["xAI custom voices"],
+    article_refs: ["articles/ai-voice-tools-production-infrastructure.html"]
+  }],
+  ["2050425099006902502", {
+    title: "Rothheim joint movement-reference note",
+    summary: "A robotics articulation source useful for studying constrained rotation, balance correction, recovery movement, and animation-reference crossover.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "robotics", "movement-reference", "mechanical-motion", "embodied-ai", "animation-reference"],
+    library_refs: ["Rothheim joint"],
+    article_refs: ["articles/embodied-robotics-references-movement-archives.html"]
+  }],
+  ["2050428545873379735", {
+    title: "Danny Yount work archive reference",
+    summary: "A title-design and motion-graphics archive source worth preserving for editorial pacing, typography rhythm, visual timing, and cinematic design reference.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "visual-reference", "motion-graphics", "title-design", "editorial-design", "research"],
+    library_refs: ["Danny Yount work archive"],
+    article_refs: ["articles/reference-archives-preserve-why-source-mattered.html"]
+  }],
+  ["2050421910585143485", {
+    title: "Blender tension-map wrinkle workflow note",
+    summary: "A Blender tutorial source on using baked wrinkle normals and Geometry Nodes tension information to drive lightweight deformation-aware surface detail.",
+    domains: ["creative-tools"],
+    tags: ["reference", "wire", "blender", "geometry-nodes", "texturing", "workflow", "animation-reference"],
+    library_refs: [],
+    article_refs: ["articles/reference-archives-preserve-why-source-mattered.html"]
+  }],
+  ["2050419203811983424", {
+    title: "C.S. Lewis vivisection essay reference",
+    summary: "An Archive.org reading lead for a short C.S. Lewis essay on vivisection, useful for literature, ethics, criticism, and interpretation references.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "literature", "criticism", "books", "archive", "ethics"],
+    library_refs: ["C.S. Lewis vivisection essay reference"],
+    article_refs: ["articles/reference-archives-preserve-why-source-mattered.html"]
+  }],
+  ["2049865575074255119", {
+    library_refs: ["FXTags"],
+    article_refs: ["articles/effects-references-production-decisions.html"]
+  }],
+  ["2049842824066257348", {
+    library_refs: ["ColorfulEcho"],
+    article_refs: ["articles/effects-references-production-decisions.html"]
+  }],
+  ["2049949634324316186", {
+    library_refs: ["TexturingXYZ", "Blender Softwrap"],
+    article_refs: ["articles/effects-references-production-decisions.html"]
+  }],
+  ["2050136956411977776", {
+    library_refs: ["Houdini Node Viewer"],
+    article_refs: ["articles/effects-references-production-decisions.html"]
+  }]
+]);
+
 const xEntries = raw.map((item) => {
   const inferred = inferWireTopic(item);
   const classification = classifyWireEntry(item, inferred);
+  const override = curatedWireOverrides.get(item.status_id) || {};
   return {
     id: `x_${item.status_id}`,
     source: item.source || "x_like",
@@ -224,15 +284,15 @@ const xEntries = raw.map((item) => {
     collected_at: item.collected_at || "",
     posted_at: item.posted_at || "",
     author_handle: item.author_handle || "",
-    title: inferred.title,
-    summary: inferred.summary,
-    public_summary: inferred.summary,
+    title: override.title || inferred.title,
+    summary: override.summary || inferred.summary,
+    public_summary: override.summary || inferred.summary,
     post_kind: "unknown",
     content_kinds: ["reference"],
-    domains: classification.domains,
-    tags: classification.tags,
-    library_refs: [],
-    article_refs: [],
+    domains: override.domains || classification.domains,
+    tags: override.tags || classification.tags,
+    library_refs: override.library_refs || [],
+    article_refs: override.article_refs || [],
     context: {
       needs_context_review: true,
       needs_reply_parent_review: true,
