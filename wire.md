@@ -1,50 +1,50 @@
 # Knowledge Hub Wire
 
-Generated: 2026-06-14T00:33:50.372Z
+Generated: 2026-06-15T00:36:44.678Z
 Source: public summary layer
 Count: 503
 
 Public summary archive. Full post text is not copied into this file.
 
-## Source note from @gupon: Takuma Miyamoto このサイトは残ってほしい、、何度見返したか分からない https:// dannyyount.com/work...
+## Danny Yount work archive reference
 
 - Source: @gupon
 - URL: https://x.com/gupon/status/2050428545873379735
 - Posted: 2026-05-02T04:13:55.000Z
 - Collected: 2026-05-02T07:11:05.893Z
-- Tags: reference, staging, needs-review, reference, wire
+- Tags: reference, culture-references, reference, wire, visual-reference, motion-graphics, title-design, editorial-design, research
 
-A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+A title-design and motion-graphics archive source worth preserving for editorial pacing, typography rhythm, visual timing, and cinematic design reference.
 
-## Source note from @BrianRoemmele: Brian Roemmele これは世界を変えるロスハイム・ジョイントです。ロボット工学の動作を根本的に変えました。この10年間で、このジョイン...
+## Rothheim joint movement-reference note
 
 - Source: @BrianRoemmele
 - URL: https://x.com/BrianRoemmele/status/2050425099006902502
 - Posted: 2026-05-02T04:00:13.000Z
 - Collected: 2026-05-02T07:11:05.893Z
-- Tags: reference, staging, needs-review, reference, wire
+- Tags: reference, visual-systems, reference, wire, robotics, movement-reference, mechanical-motion, embodied-ai, animation-reference
 
-A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+A robotics articulation source useful for studying constrained rotation, balance correction, recovery movement, and animation-reference crossover.
 
-## AI tool and model source note
+## Blender tension-map wrinkle workflow note
 
 - Source: @vtuberkaibou
 - URL: https://x.com/vtuberkaibou/status/2050421910585143485
 - Posted: 2026-05-02T03:47:33.000Z
 - Collected: 2026-05-02T07:11:05.892Z
-- Tags: reference, creative-tools, reference, wire, houdini, nodes, workflow
+- Tags: reference, creative-tools, reference, wire, blender, geometry-nodes, texturing, workflow, animation-reference
 
-A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.
+A Blender tutorial source on using baked wrinkle normals and Geometry Nodes tension information to drive lightweight deformation-aware surface detail.
 
-## Literary reference note on Dazai and Gomi
+## C.S. Lewis vivisection essay reference
 
 - Source: @lor123487
 - URL: https://x.com/lor123487/status/2050419203811983424
 - Posted: 2026-05-02T03:36:47.000Z
 - Collected: 2026-05-02T07:11:07.313Z
-- Tags: reference, culture-references, reference, wire, books, literature, archive
+- Tags: reference, culture-references, reference, wire, literature, criticism, books, archive, ethics
 
-A literature-oriented Wire item to revisit for themes of guilt, interpretation, and how essays can reframe an author's work.
+An Archive.org reading lead for a short C.S. Lewis essay on vivisection, useful for literature, ethics, criticism, and interpretation references.
 
 ## Source note from @AluminiumMania: Alunim（アルニムさん） このアルミトレーラーは良く出来てるなあ。誰もが考えつきそうで中々無かったものだと思います(^^)
 
@@ -56,15 +56,15 @@ A literature-oriented Wire item to revisit for themes of guilt, interpretation, 
 
 A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
 
-## Open-source AI voice tool note
+## xAI custom voices production-audio note
 
 - Source: @xai
 - URL: https://x.com/xai/status/2050355373052223585
 - Posted: 2026-05-01T23:23:09.000Z
 - Collected: 2026-05-02T07:11:07.313Z
-- Tags: reference, audio, reference, wire, audio, local-ai, workflow
+- Tags: reference, audio, reference, wire, voice-ai, audio, api, workflow, production-audio
 
-A source to review for local or open AI voice generation, voice cloning constraints, and audio-production automation.
+A source-linked AI voice workflow reference for custom voice creation, voice agents, scratch dialogue, temporary narration, and production-audio experimentation.
 
 ## AI tool and model source note
 
