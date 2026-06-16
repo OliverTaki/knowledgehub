@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI coding workflows need handoff surfaces, not only agents - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>AI coding workflows need handoff surfaces, not only agents</h1>
+          <p class="article-meta">Published 2026-06-16 - Updated 2026-06-16</p>
+          <div class="tag-row"><span class="tag">ai-coding</span><span class="tag">agents</span><span class="tag">workflow</span><span class="tag">design-tools</span><span class="tag">implementation</span></div>
+          <p class="entry-meta"><a href="https://x.com/seltzer/status/2027684633924813162" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>The recent AI-coding source cluster is useful because it shifts attention from model capability to handoff surfaces: design canvases, IDEs, context files, dashboards, and review checkpoints. For Knowledge Hub, the durable question is not which agent looks strongest in isolation. It is where intent, implementation, verification, and responsibility are preserved as work moves between tools.</p>
+
+<h2>Design-to-code is a handoff problem</h2>
+<p>The Pencil source note describes a workflow where prompts, visual editing, and Cursor implementation sit close together. Treat the tool claims as source context, but preserve the pattern: UI work becomes easier when design intent can stay visible while code is being produced. The useful archive unit is the handoff surface, not the screenshot of an impressive generated screen.</p>
+
+<h2>IDE integration changes the default path</h2>
+<p>The Xcode 26.3 source note frames Claude Agent and Codex integration as a shift from external helper to native development surface. Apple's current Xcode page also describes generative intelligence and agents as part of the toolchain. The editorial point is cautious: when an IDE owns build, test, preview, and distribution, agent features become more valuable if they shorten the loop without hiding verification.</p>
+
+<h2>Low-cost stacks still need operating discipline</h2>
+<p>The monthly-cost source note is strongest when read as a stack pattern: coding assistant, backend service, hosting, analytics, and deployment can now be assembled cheaply. Cheap access lowers the first barrier, but it does not remove product judgment, testing, security review, or maintenance. Knowledge Hub should file these entries by the loop they enable, not by price alone.</p>
+
+<h2>Agent work needs reviewable control panels</h2>
+<p>The shinkoku and OpenClaw source notes show why automation surfaces matter after code generation. Tax-style document automation needs OCR checks, exception handling, and human review because the output has consequences. Agent dashboards need task state, calendars, content queues, and supervision because autonomous work is only useful when the operator can see and correct it.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future AI-coding Wire entries should record the handoff surface, context mechanism, verification step, responsibility boundary, and target user. A tool that connects design, code, build, deploy, or review is more durable than a one-off agent demo, especially when the workflow can be inspected later.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/seltzer/status/2027684633924813162" target="_blank" rel="noopener noreferrer">Pencil UI workflow source note</a></li>
+  <li><a href="https://www.pencil.dev/" target="_blank" rel="noopener noreferrer">Pencil official site</a></li>
+  <li><a href="https://x.com/minchoi/status/2027409663822561632" target="_blank" rel="noopener noreferrer">Xcode 26.3 agentic-coding source note</a></li>
+  <li><a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">Apple Xcode page</a></li>
+  <li><a href="https://x.com/taishiyade/status/2027710590500966512" target="_blank" rel="noopener noreferrer">Low-cost startup tools source note</a></li>
+  <li><a href="https://x.com/kuzyofire/status/2025914497979093288" target="_blank" rel="noopener noreferrer">shinkoku Claude Code source note</a></li>
+  <li><a href="https://x.com/gagarotai200/status/2024371815699943799" target="_blank" rel="noopener noreferrer">OpenClaw mission-control source note</a></li>
+  <li><a href="https://github.com/grp06/openclaw-studio" target="_blank" rel="noopener noreferrer">OpenClaw Studio repository</a></li>
+  <li><a href="https://cursor.com/docs" target="_blank" rel="noopener noreferrer">Cursor official documentation</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
