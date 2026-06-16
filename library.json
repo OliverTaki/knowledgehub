@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T00:36:07.912Z",
+  "generated_at": "2026-06-16T00:36:45.230Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -759,6 +759,57 @@
       "source_metadata": {
         "wire_url": "https://x.com/taziku_co/status/2024264782698991723",
         "source_context": "Legacy source note about using Freepik Spaces and floor-plan references to improve spatial consistency in generated video and interior walkthroughs."
+      }
+    },
+    {
+      "title": "Pencil",
+      "kind": "Library / AI Design Workflow",
+      "url": "https://www.pencil.dev/",
+      "description": "Agent-driven design canvas reference for studying design-to-code handoffs where prompts, direct visual editing, and IDE-connected implementation need to stay inspectable.",
+      "tags": [
+        "design-tools",
+        "ai-coding",
+        "agents",
+        "workflow",
+        "implementation"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/seltzer/status/2027684633924813162",
+        "source_context": "Legacy source note about using Pencil between Claude prompting and Cursor implementation; official site added as the durable reference."
+      }
+    },
+    {
+      "title": "Cursor Documentation",
+      "kind": "Library / AI Coding Documentation",
+      "url": "https://cursor.com/docs",
+      "description": "Official Cursor documentation reference for agent, rules, MCP, CLI, and editor workflow checks when evaluating AI coding handoff patterns.",
+      "tags": [
+        "ai-coding",
+        "agents",
+        "workflow",
+        "implementation",
+        "documentation"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/seltzer/status/2027684633924813162",
+        "source_context": "Added as a durable documentation target for the Pencil-to-Cursor and AI-coding workflow cluster."
+      }
+    },
+    {
+      "title": "Xcode",
+      "kind": "Library / Developer Tool",
+      "url": "https://developer.apple.com/xcode/",
+      "description": "Apple developer-tool reference for checking how coding agents, previews, build/test loops, profiling, debugging, and distribution sit inside the iOS and Apple-platform workflow.",
+      "tags": [
+        "ai-coding",
+        "agents",
+        "workflow",
+        "implementation",
+        "production"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/minchoi/status/2027409663822561632",
+        "source_context": "Legacy source note about Xcode 26.3 agentic-coding integration; Apple page added as the stable tool reference."
       }
     }
   ]
