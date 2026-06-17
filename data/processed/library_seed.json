@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T00:36:45.230Z",
+  "generated_at": "2026-06-17T00:39:11.181Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -810,6 +810,24 @@
       "source_metadata": {
         "wire_url": "https://x.com/minchoi/status/2027409663822561632",
         "source_context": "Legacy source note about Xcode 26.3 agentic-coding integration; Apple page added as the stable tool reference."
+      }
+    },
+    {
+      "title": "Blender AI and Development Fund policy update",
+      "kind": "Library / Open Source Governance",
+      "url": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
+      "description": "Blender Foundation policy reference for checking how AI expectations, donor relationships, and human-driven open-source creative-tool development are separated in official communication.",
+      "tags": [
+        "blender",
+        "ai",
+        "open-source",
+        "workflow",
+        "ethics"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/80Level/status/2050352914783473948",
+        "secondary_source_url": "https://80.lv/articles/blender-clarifies-ai-policy-and-amends-anthropic-donation",
+        "source_context": "Added while promoting the 80 Level/Blender AI policy Wire item; use this official page when checking governance, funding, and AI-feature boundary claims."
       }
     }
   ]

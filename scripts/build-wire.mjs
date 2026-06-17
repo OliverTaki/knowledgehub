@@ -222,6 +222,14 @@ const curatedWireOverrides = new Map([
     library_refs: ["xAI custom voices"],
     article_refs: ["articles/ai-voice-tools-production-infrastructure.html"]
   }],
+  ["2050352914783473948", {
+    title: "Blender AI policy and Development Fund governance note",
+    summary: "A Blender governance source on converting Anthropic's Development Fund role into a one-time donation and clarifying AI boundaries around human-driven open-source creation.",
+    domains: ["creative-tools"],
+    tags: ["reference", "wire", "blender", "ai", "open-source", "workflow", "ethics"],
+    library_refs: ["Blender AI and Development Fund policy update"],
+    article_refs: ["articles/blender-ai-policy-needs-governance-context.html"]
+  }],
   ["2050425099006902502", {
     title: "Rothheim joint movement-reference note",
     summary: "A robotics articulation source useful for studying constrained rotation, balance correction, recovery movement, and animation-reference crossover.",
