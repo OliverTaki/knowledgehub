@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T00:36:44.673Z",
+  "generated_at": "2026-06-17T00:39:11.786Z",
   "policy": {
     "full_text_copied": false,
     "original_link_required": true,
@@ -242,14 +242,20 @@
       "tags": [
         "reference",
         "wire",
-        "vfx",
-        "3d",
-        "workflow"
+        "blender",
+        "ai",
+        "open-source",
+        "workflow",
+        "ethics"
       ],
-      "title": "AI tool and model source note",
-      "summary": "A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "Blender AI policy and Development Fund governance note",
+      "summary": "A Blender governance source on converting Anthropic's Development Fund role into a one-time donation and clarifying AI boundaries around human-driven open-source creation.",
+      "library_refs": [
+        "Blender AI and Development Fund policy update"
+      ],
+      "article_refs": [
+        "articles/blender-ai-policy-needs-governance-context.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,

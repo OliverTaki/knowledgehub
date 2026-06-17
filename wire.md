@@ -1,6 +1,6 @@
 # Knowledge Hub Wire
 
-Generated: 2026-06-15T00:36:44.678Z
+Generated: 2026-06-17T00:39:11.791Z
 Source: public summary layer
 Count: 503
 
@@ -66,15 +66,15 @@ A saved Wire source queued for editorial review. Use the original link to decide
 
 A source-linked AI voice workflow reference for custom voice creation, voice agents, scratch dialogue, temporary narration, and production-audio experimentation.
 
-## AI tool and model source note
+## Blender AI policy and Development Fund governance note
 
 - Source: @80Level
 - URL: https://x.com/80Level/status/2050352914783473948
 - Posted: 2026-05-01T23:13:23.000Z
 - Collected: 2026-05-02T07:11:07.313Z
-- Tags: reference, creative-tools, reference, wire, vfx, 3d, workflow
+- Tags: reference, creative-tools, reference, wire, blender, ai, open-source, workflow, ethics
 
-A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.
+A Blender governance source on converting Anthropic's Development Fund role into a one-time donation and clarifying AI boundaries around human-driven open-source creation.
 
 ## Source note from @thinkingwest: ThinkingWest 1962年、C.S.ルイスは、彼の人生哲学に最も影響を与えた書籍を挙げるよう求められました。 彼が挙げたリストには、多...
 
