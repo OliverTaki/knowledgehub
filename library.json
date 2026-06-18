@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T00:39:11.181Z",
+  "generated_at": "2026-06-18T09:12:44.447Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -828,6 +828,23 @@
         "wire_url": "https://x.com/80Level/status/2050352914783473948",
         "secondary_source_url": "https://80.lv/articles/blender-clarifies-ai-policy-and-amends-anthropic-donation",
         "source_context": "Added while promoting the 80 Level/Blender AI policy Wire item; use this official page when checking governance, funding, and AI-feature boundary claims."
+      }
+    },
+    {
+      "title": "Mirai Mizue official site",
+      "kind": "Library / Animation Reference",
+      "url": "https://www.mirai-mizue.com/",
+      "description": "Official reference page for animator Mirai Mizue, useful for short-form animation, abstract motion, tactile timing, and source-checking Mizue-related Wire notes.",
+      "tags": [
+        "animation",
+        "motion-design",
+        "visual-reference",
+        "archive",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/MIRAI_MIZUE/status/1318158063711395841",
+        "source_context": "Added while promoting the animation motion-reference cluster; the legacy source note includes Mizue's official site as a durable reference."
       }
     }
   ]
