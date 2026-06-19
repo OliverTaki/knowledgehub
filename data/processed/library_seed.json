@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T09:12:44.447Z",
+  "generated_at": "2026-06-19T00:40:55.191Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -845,6 +845,40 @@
       "source_metadata": {
         "wire_url": "https://x.com/MIRAI_MIZUE/status/1318158063711395841",
         "source_context": "Added while promoting the animation motion-reference cluster; the legacy source note includes Mizue's official site as a durable reference."
+      }
+    },
+    {
+      "title": "Mint",
+      "kind": "Library / 3DGS Workflow",
+      "url": "https://mint.gg/",
+      "description": "3D creation service reference for checking text, image, video, and location-style inputs that produce navigable 3D scenes, meshes, or Gaussian splats.",
+      "tags": [
+        "3dgs",
+        "spatial-capture",
+        "3d",
+        "workflow",
+        "browser-tools"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/oliviscusAI/status/2027440667144949940",
+        "source_context": "Added while promoting the 3DGS capture/review/delivery cluster; the legacy source note used Mint.gg as a Street View-to-3DGS workflow lead and preserved access/pricing caveats."
+      }
+    },
+    {
+      "title": "NVIDIA NuRec documentation",
+      "kind": "Library / Neural Rendering Documentation",
+      "url": "https://docs.nvidia.com/nurec/",
+      "description": "Official NVIDIA reference for neural reconstruction and Omniverse/Isaac Sim handoff, useful when checking 3DGS, OpenUSD, simulation, and neural-volume rendering claims.",
+      "tags": [
+        "3dgs",
+        "rendering",
+        "simulation",
+        "documentation",
+        "workflow"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/nvidiaomniverse/status/2029055740191883571",
+        "source_context": "Added while promoting the 3DGS capture/review/delivery cluster; use this official documentation when checking NuRec and Omniverse handoff claims."
       }
     }
   ]
