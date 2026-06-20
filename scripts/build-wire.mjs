@@ -262,6 +262,30 @@ const curatedWireOverrides = new Map([
     library_refs: ["C.S. Lewis vivisection essay reference"],
     article_refs: ["articles/reference-archives-preserve-why-source-mattered.html"]
   }],
+  ["2047962268755996871", {
+    title: "Cavalry Japanese tutorial source note",
+    summary: "A Cavalry learning-resource source pointing to Japanese tutorial material for procedural 2D animation and motion-design onboarding.",
+    domains: ["creative-tools"],
+    tags: ["reference", "wire", "cavalry", "motion-design", "tutorial", "browser-tools", "workflow"],
+    library_refs: ["Cavalry"],
+    article_refs: ["articles/browser-creative-tools-production-surfaces.html"]
+  }],
+  ["2047722380148224067", {
+    title: "Graphite browser vector editor note",
+    summary: "A design-tool source on Graphite as a browser-accessible vector and procedural graphics editor, useful for tracking lightweight alternatives to heavier 2D tools.",
+    domains: ["creative-tools"],
+    tags: ["reference", "wire", "graphite", "design-tools", "vector-graphics", "browser-tools", "open-source"],
+    library_refs: ["Graphite"],
+    article_refs: ["articles/browser-creative-tools-production-surfaces.html"]
+  }],
+  ["2047725811638190584", {
+    title: "City Roads map-ornament tool note",
+    summary: "A browser visual-reference source for turning city road networks into printable linework, useful for map ornament, urban-form study, and graphic texture ideas.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "maps", "visual-reference", "browser-tools", "generative-art", "archive"],
+    library_refs: ["City Roads"],
+    article_refs: ["articles/browser-creative-tools-production-surfaces.html"]
+  }],
   ["2049865575074255119", {
     library_refs: ["FXTags"],
     article_refs: ["articles/effects-references-production-decisions.html"]
