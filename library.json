@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T00:40:55.191Z",
+  "generated_at": "2026-06-20T00:36:17.239Z",
   "policy": {
     "flat_hierarchy": true,
     "multi_tag_filtering": true,
@@ -207,13 +207,40 @@
     {
       "title": "Cavalry",
       "kind": "Library / Motion Design",
-      "url": "https://cavalry.scenegroup.co/",
-      "description": "Procedural motion-design application useful as a comparison point for animation and graphic systems.",
+      "url": "https://cavalry.studio/en/",
+      "description": "Real-time 2D animation and motion-design application useful for procedural, data-driven, and tutorial-backed animation workflows.",
       "tags": [
         "cavalry",
         "motion-design",
         "animation",
-        "procedural"
+        "procedural",
+        "workflow"
+      ]
+    },
+    {
+      "title": "Graphite",
+      "kind": "Library / Design Tool",
+      "url": "https://graphite.art/",
+      "description": "Free open-source vector and procedural design editor useful for browser-accessible 2D graphics and nondestructive editing workflow notes.",
+      "tags": [
+        "graphite",
+        "design-tools",
+        "browser-tools",
+        "vector-graphics",
+        "open-source"
+      ]
+    },
+    {
+      "title": "City Roads",
+      "kind": "Library / Visual Reference",
+      "url": "https://anvaka.github.io/city-roads/",
+      "description": "Browser visualization that draws city road networks, useful for map ornament, urban-form reference, and printable linework studies.",
+      "tags": [
+        "maps",
+        "visual-reference",
+        "browser-tools",
+        "generative-art",
+        "archive"
       ]
     },
     {
