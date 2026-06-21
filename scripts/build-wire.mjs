@@ -286,6 +286,46 @@ const curatedWireOverrides = new Map([
     library_refs: ["City Roads"],
     article_refs: ["articles/browser-creative-tools-production-surfaces.html"]
   }],
+  ["2048220519108116694", {
+    title: "Dead End opening-shot practical-effects reference",
+    summary: "A film-reference source on the 1937 Dead End opening shot, useful for studying miniature effects, forced perspective, camera scale, and urban set illusion.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "film", "cinematography", "visual-reference", "practical-effects", "production-design"],
+    library_refs: [],
+    article_refs: ["articles/film-camera-references-need-behavior-notes.html"]
+  }],
+  ["2047857297398067685", {
+    title: "Brian De Palma camera-movement reference",
+    summary: "A cinematography source saved for studying how camera movement can become a director-specific behavior rather than only a shot example.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "film", "cinematography", "camera-movement", "visual-reference"],
+    library_refs: [],
+    article_refs: ["articles/film-camera-references-need-behavior-notes.html"]
+  }],
+  ["1969074516711149857", {
+    title: "David Fincher artificial lens-flare compilation",
+    summary: "A film-look reference collecting artificial lens-flare examples, useful for separating optical-effect taste, compositing intent, and invisible polish from generic cinematography notes.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "film", "cinematography", "visual-effects", "visual-reference"],
+    library_refs: [],
+    article_refs: ["articles/film-camera-references-need-behavior-notes.html"]
+  }],
+  ["2047928510346592724", {
+    title: "Night on Bald Mountain animation staging reference",
+    summary: "A visual and music reference for studying ominous staging, character animation, silhouette, and dense atmospheric detail in a classic animation sequence.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "animation", "film", "visual-reference", "music", "staging"],
+    library_refs: [],
+    article_refs: ["articles/film-camera-references-need-behavior-notes.html"]
+  }],
+  ["2048117117271040359", {
+    title: "Little Nemo pilot animation scene reference",
+    summary: "An animation-reference source for a striking Little Nemo pilot scene, useful when filing expressive timing, staging, and hand-drawn motion examples.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "animation", "film", "visual-reference", "motion-design"],
+    library_refs: [],
+    article_refs: ["articles/film-camera-references-need-behavior-notes.html"]
+  }],
   ["2049865575074255119", {
     library_refs: ["FXTags"],
     article_refs: ["articles/effects-references-production-decisions.html"]
@@ -379,7 +419,7 @@ writeJson("content/wire/index.json", entries);
 
 const existingLibrarySeed = readJson("data/processed/library_seed.json", { items: [] });
 const librarySeed = {
-  generated_at: new Date().toISOString(),
+  generated_at: existingLibrarySeed.generated_at || new Date().toISOString(),
   policy: {
     flat_hierarchy: true,
     multi_tag_filtering: true,
