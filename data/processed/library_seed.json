@@ -907,6 +907,59 @@
         "wire_url": "https://x.com/nvidiaomniverse/status/2029055740191883571",
         "source_context": "Added while promoting the 3DGS capture/review/delivery cluster; use this official documentation when checking NuRec and Omniverse handoff claims."
       }
+    },
+    {
+      "title": "MEXT Science and Technology Week poster archive",
+      "kind": "Library / Learning Reference",
+      "url": "http://stw.mext.go.jp/",
+      "description": "Official Japanese science-learning poster archive useful for quick visual overviews, family study, classroom references, and science-topic orientation.",
+      "tags": [
+        "learning",
+        "science",
+        "archive",
+        "visual-reference",
+        "reference"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/tanabe_2024/status/2027201603862958420",
+        "source_context": "Legacy source note recommended MEXT learning posters and related free science resources; added as the institutional reference surface."
+      }
+    },
+    {
+      "title": "Decorative Art in Egypt",
+      "kind": "Library / Public Domain Visual Reference",
+      "url": "https://www.gutenberg.org/files/70049/70049-h/70049-h.htm",
+      "description": "Public-domain visual reference for ancient Egyptian ornament, useful for design research, motif study, linework reference, and historical visual-system checks.",
+      "tags": [
+        "archive",
+        "visual-reference",
+        "books",
+        "design-research",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/011235Moto/status/2029181601234731152",
+        "secondary_source_url": "https://mc.dlib.nyu.edu/files/books/ifa_egypt000157/ifa_egypt000157_lo.pdf",
+        "source_context": "Legacy source note pointed to Petrie's decorative-art book as a free PDF; Project Gutenberg added as the browsable canonical public-domain text."
+      }
+    },
+    {
+      "title": "Secrets of a Devon Wood",
+      "kind": "Library / Observation Reference",
+      "url": "https://www.octopusbooks.co.uk/titles/jo-brown/secrets-of-a-devon-wood/9781780724379/",
+      "description": "Observation-notebook reference for field drawing, seasonal natural detail, annotation habits, and visual research around plants, fungi, and woodland textures.",
+      "tags": [
+        "visual-reference",
+        "books",
+        "archive",
+        "nature",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/Rainmaker1973/status/2029922427745026129",
+        "secondary_source_url": "https://blog.nhbs.com/hoopoe-archive/author-interview-with-jo-brown-secrets-of-a-devon-wood/",
+        "source_context": "Legacy source note described Jo Brown's illustrated Devon wood notebook; publisher page added as the durable book reference."
+      }
     }
   ]
 }
