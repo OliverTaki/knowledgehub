@@ -960,6 +960,41 @@
         "secondary_source_url": "https://blog.nhbs.com/hoopoe-archive/author-interview-with-jo-brown-secrets-of-a-devon-wood/",
         "source_context": "Legacy source note described Jo Brown's illustrated Devon wood notebook; publisher page added as the durable book reference."
       }
+    },
+    {
+      "title": "Rork Max",
+      "kind": "Library / AI App Builder",
+      "url": "https://rork.com/max",
+      "description": "AI app-builder reference for browser-to-Apple-platform handoff notes, useful when checking mobile prototype, device target, and distribution claims.",
+      "tags": [
+        "design-tools",
+        "ui",
+        "workflow",
+        "browser-tools",
+        "mobile"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/mieru_ai_com/status/2024821118113386755",
+        "source_context": "Added while promoting the browser-to-device output-check cluster; official Rork Max page used as the durable product reference."
+      }
+    },
+    {
+      "title": "WebHaptics",
+      "kind": "Library / Web Interaction",
+      "url": "https://github.com/lochie/web-haptics",
+      "description": "Mobile-web haptic-feedback library reference for checking tactile interaction patterns, framework examples, and device-specific UI behavior.",
+      "tags": [
+        "ui",
+        "mobile",
+        "browser-tools",
+        "interaction-design",
+        "workflow"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/nztm_tw/status/2028524075866567131",
+        "secondary_source_url": "https://lochie-web-haptics-50.mintlify.app/introduction",
+        "source_context": "Legacy source note introduced WebHaptics as a mobile web haptics library; GitHub repository added as the durable technical reference."
+      }
     }
   ]
 }

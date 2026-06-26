@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rork Max速報メモ Apple向けアプリをノーコードで一括公開する新ツール - Knowledge Hub</title>
+  <title>Browser-to-device tools need output checks - Knowledge Hub</title>
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../desk.css">
 </head>
@@ -29,50 +29,35 @@
       <header class="hero">
         <div class="hero-heading">
           <p class="eyebrow">Article</p>
-          <h1>Rork Max速報メモ Apple向けアプリをノーコードで一括公開する新ツール</h1>
-          <p class="article-meta">Published 2026-05-02 - Updated 2026-05-02</p>
-          <div class="tag-row"><span class="tag">design-tools</span><span class="tag">ui</span><span class="tag">workflow</span></div>
+          <h1>Browser-to-device tools need output checks</h1>
+          <p class="article-meta">Published 2026-06-26 - Updated 2026-06-26</p>
+          <div class="tag-row"><span class="tag">design-tools</span><span class="tag">ui</span><span class="tag">workflow</span><span class="tag">browser-tools</span><span class="tag">mobile</span></div>
           <p class="entry-meta"><a href="https://x.com/mieru_ai_com/status/2024821118113386755" target="_blank" rel="noopener noreferrer">Open original source</a></p>
         </div>
       </header>
 
       <section class="article-body legacy-article-body">
-<div class="source-embed lazy-x-embed" data-x-url="https://x.com/mieru_ai_com/status/2024821118113386755">
-  <p class="entry-meta">Original post embed loads when this block enters the viewport.</p>
-  <a href="https://x.com/mieru_ai_com/status/2024821118113386755" target="_blank" rel="noopener noreferrer">Open original post</a>
-</div>
+<p>Several browser-side tool notes are useful because they move from a web surface into device-specific output: Apple app targets, mobile haptics, and generated texture assets. For Knowledge Hub, the important filing rule is not that the work starts in a browser. It is what must be checked when the output leaves the browser and becomes an app, a tactile interaction, or a production asset.</p>
 
+<h2>App builders need platform handoff notes</h2>
+<p>The Rork Max source note is useful because it frames no-code app generation around Apple device targets rather than only a generic prototype. The official Rork Max page presents the product as an AI app builder for iPhone, iPad, Watch, TV, Vision Pro, and iMessage. Knowledge Hub should preserve that as a handoff question: what is generated, what platform behavior must still be reviewed, and where distribution or device testing enters the loop?</p>
 
+<h2>Haptics make UI behavior device-specific</h2>
+<p>The WebHaptics note sits in the same family because touch feedback cannot be judged by a desktop screenshot. The GitHub project describes a mobile-web haptic-feedback library with React, Vue, Svelte, and vanilla JavaScript examples. That makes it a durable Library item, but the Article value is the review rule: tactile feedback needs device checks, accessibility judgment, and restraint, not only API access.</p>
 
+<h2>Generated textures still need asset constraints</h2>
+<p>The TextureCreate source note is weaker as a durable reference until a stronger canonical page is checked, but it adds the third pattern: browser tools that emit production assets. The saved note says the tool combines texture patterns and exports PNG material, with normal-map and licensing constraints mentioned in the source note. That belongs beside app and haptic tools because output constraints decide whether a browser tool is actually reusable.</p>
 
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future browser-tool Wire entries should record the output type, target device or engine, export format, licensing constraints, verification surface, and the strongest canonical project page. This keeps browser access from becoming a vague tag and turns it into a practical workflow checkpoint.</p>
 
-
-
-<hr>
-
-<h2>ポストのポイント</h2>
+<h2>Sources</h2>
 <ul>
-  <li>この投稿は、AIツール「Rork Max」の登場を速報として紹介し、コーディング不要でAppleデバイス向けアプリを一括作成・公開できる点を強調している。</li>
-  <li>Rork Maxは2026年2月にリリースされたAI駆動のノーコードツールで、ウィジェットやNFCなどの高度機能に対応し、iPhoneからVision Proまでネイティブアプリを生成可能。</li>
-  <li>非エンジニア向けの敷居を下げ、アプリ開発の民主化を促進する可能性が高く、マーケティング担当者などの現場活用が期待される。</li>
-</ul>
-
-<hr>
-
-<h2>Apple向け一括生成の訴求力</h2>
-<p>iPhoneだけでなくVision Proまで含めてアプリを一気に作れるという説明は、かなり広い層に刺さる。Apple系の配布ハードルをAIでまとめて下げる話として読むと、価値が分かりやすい。</p>
-
-<h2>ノーコードでも高度機能が鍵</h2>
-<p>単なるテンプレートアプリではなく、ウィジェットやNFCまで扱えるなら用途は一気に増える。マーケティング用途だけでなく、社内ツールや現場アプリまで視野に入ってくる。</p>
-
-<h2>民主化の現実味</h2>
-<p>非エンジニアが本当に使えるかは細部次第だが、少なくとも『まず作って出す』までの距離は縮まっている。投稿が注目されるのは、アプリ開発が専門職だけの仕事ではなくなりつつあるからだ。</p>
-
-<hr>
-
-<h2>参考リンク</h2>
-<ul>
-  <li><a href="https://x.com/mieru_ai_com/status/2024821118113386755?s=20" target="_blank">元ポスト</a></li>
+  <li><a href="https://x.com/mieru_ai_com/status/2024821118113386755" target="_blank" rel="noopener noreferrer">Rork Max Apple-app source note</a></li>
+  <li><a href="https://rork.com/max" target="_blank" rel="noopener noreferrer">Rork Max official page</a></li>
+  <li><a href="https://x.com/nztm_tw/status/2028524075866567131" target="_blank" rel="noopener noreferrer">WebHaptics source note</a></li>
+  <li><a href="https://github.com/lochie/web-haptics" target="_blank" rel="noopener noreferrer">WebHaptics GitHub repository</a></li>
+  <li><a href="https://x.com/GameMakersJP/status/2028375257715990977" target="_blank" rel="noopener noreferrer">TextureCreate browser-tool source note</a></li>
 </ul>
       </section>
 
