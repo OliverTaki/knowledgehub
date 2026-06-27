@@ -995,6 +995,24 @@
         "secondary_source_url": "https://lochie-web-haptics-50.mintlify.app/introduction",
         "source_context": "Legacy source note introduced WebHaptics as a mobile web haptics library; GitHub repository added as the durable technical reference."
       }
+    },
+    {
+      "title": "TextureCreate",
+      "kind": "Library / Procedural Texture Tool",
+      "url": "https://gameanimation.info/texture-create/",
+      "description": "Browser-based procedural texture generator reference for checking PNG, GIF, normal-map, preset, and licensing constraints before using generated textures as production assets.",
+      "tags": [
+        "browser-tools",
+        "texturing",
+        "design-tools",
+        "workflow",
+        "game-dev"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/GameMakersJP/status/2028375257715990977",
+        "secondary_source_url": "https://gamemakers.jp/article/2026_03_02_132394/",
+        "source_context": "Legacy source note and GameMakers coverage identify TextureCreate as a browser texture generator from Game UI Design; added as the durable reference for browser-to-asset output checks."
+      }
     }
   ]
 }
