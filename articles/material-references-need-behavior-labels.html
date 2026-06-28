@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Material references need behavior labels, not just mood boards - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Material references need behavior labels, not just mood boards</h1>
+          <p class="article-meta">Published 2026-06-28 - Updated 2026-06-28</p>
+          <div class="tag-row"><span class="tag">visual-reference</span><span class="tag">material-reference</span><span class="tag">archive</span><span class="tag">research</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/SciFiArchives/status/2028947523449360564" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>A cluster of unpromoted visual-reference notes is useful because each source preserves a material behavior, not only an attractive image. For Knowledge Hub, these references should be filed by what a future project might need to retrieve: bamboo curvature, field-observation texture, ornament linework, atmospheric depth, or fluid deformation.</p>
+
+<h2>Architecture references should name structure and material</h2>
+<p>The Bamboo Craft Village source note is strongest as a study of curved bamboo structure. The useful retrieval reason is not only that the building looks organic. It is the way a cultural facility uses a looping roof form, local craft context, and bamboo material language to make structure and regional identity visible at the same time.</p>
+
+<h2>Nature notebooks preserve observation habits</h2>
+<p>The Jo Brown source note belongs beside visual-reference material because the notebook is a method, not only a book object. Mushroom shapes, watercolor texture, handwritten notes, and page sequencing preserve how close observation turns into a reusable drawing habit.</p>
+
+<h2>Ornament archives need linework metadata</h2>
+<p>The Petrie decorative-art note is a durable archive lead because the value is searchable linework and classification. A future design or research task may need geometric motifs, ancient ornament comparison, or a primary visual source rather than a modern mood-board crop. That makes the Project Gutenberg and PDF references worth promoting to Library.</p>
+
+<h2>Atmosphere and physics are both behavior references</h2>
+<p>The Hishida Shunso note and microgravity water note look unrelated at first, but both are retrieval problems around behavior. One is about mist, height, and spatial quiet in a painting; the other is about how water changes when surface tension dominates in microgravity. In both cases, the archive should preserve the behavior being studied before it preserves a broad aesthetic label.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future material-reference Wire entries should record the behavior, medium, source type, and likely reuse path: structural curve, surface texture, hand-drawn ornament, atmospheric depth, fluid deformation, or observational method. That makes the source useful for design, look development, drawing practice, and research without flattening every image into a generic visual-reference tag.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/SciFiArchives/status/2028947523449360564" target="_blank" rel="noopener noreferrer">Bamboo Craft Village source note</a></li>
+  <li><a href="https://x.com/Rainmaker1973/status/2029922427745026129" target="_blank" rel="noopener noreferrer">Jo Brown Devon Wood source note</a></li>
+  <li><a href="https://www.octopusbooks.co.uk/titles/jo-brown/secrets-of-a-devon-wood/9781780724379/" target="_blank" rel="noopener noreferrer">Secrets of a Devon Wood publisher page</a></li>
+  <li><a href="https://x.com/011235Moto/status/2029181601234731152" target="_blank" rel="noopener noreferrer">Petrie decorative-art source note</a></li>
+  <li><a href="https://www.gutenberg.org/files/70049/70049-h/70049-h.htm" target="_blank" rel="noopener noreferrer">The Decorative Art of Ancient Egypt at Project Gutenberg</a></li>
+  <li><a href="https://x.com/sarumal/status/2024489560634511612" target="_blank" rel="noopener noreferrer">Hishida Shunso Rinwasei source note</a></li>
+  <li><a href="https://x.com/ka2aki86/status/1877172464712667636" target="_blank" rel="noopener noreferrer">Microgravity water surface-tension source note</a></li>
+  <li><a href="https://science.nasa.gov/biological-physical/research/physical-science/fluid-physics/" target="_blank" rel="noopener noreferrer">NASA Fluid Physics</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>
