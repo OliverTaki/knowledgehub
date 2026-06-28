@@ -1013,6 +1013,23 @@
         "secondary_source_url": "https://gamemakers.jp/article/2026_03_02_132394/",
         "source_context": "Legacy source note and GameMakers coverage identify TextureCreate as a browser texture generator from Game UI Design; added as the durable reference for browser-to-asset output checks."
       }
+    },
+    {
+      "title": "NASA Fluid Physics",
+      "kind": "Library / Science Reference",
+      "url": "https://science.nasa.gov/biological-physical/research/physical-science/fluid-physics/",
+      "description": "NASA physical-science reference for fluid behavior in space, useful when filing microgravity, surface-tension, capillary-flow, and simulation visual references.",
+      "tags": [
+        "science",
+        "fluid-physics",
+        "visual-reference",
+        "research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/ka2aki86/status/1877172464712667636",
+        "secondary_source_url": "https://www.nasa.gov/mission/station/research-explorer/facilities/completed-facilities/capillary-flow-experiment-2-cfe-2/",
+        "source_context": "Promoted from the microgravity water surface-tension source note as a durable science reference."
+      }
     }
   ]
 }
