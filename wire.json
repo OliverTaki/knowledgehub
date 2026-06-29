@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T00:46:07.535Z",
+  "generated_at": "2026-06-29T07:54:25.879Z",
   "policy": {
     "full_text_copied": false,
     "original_link_required": true,
@@ -5722,17 +5722,25 @@
         "reference"
       ],
       "domains": [
-        "staging"
+        "knowledge-workflows"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "geospatial",
+        "dataset",
+        "remote-sensing",
+        "machine-learning",
+        "agriculture"
       ],
-      "title": "Source note from @isaaccorley_: Isaac Corley 歴史上初めて、農業分野の境界がグローバル規模で地図化されました。 Taylor Geospatialを通じて、Fiel...",
-      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "Fields of The World global field-boundary dataset",
+      "summary": "A geospatial dataset source on global agricultural field-boundary mapping, useful for AI, remote-sensing, map data, and large-scale earth-observation references.",
+      "library_refs": [
+        "Global Fields of The World"
+      ],
+      "article_refs": [
+        "articles/reference-surfaces-need-retrieval-roles.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -6722,17 +6730,25 @@
         "reference"
       ],
       "domains": [
-        "staging"
+        "visual-systems"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "three-js",
+        "webgl",
+        "creative-coding",
+        "browser-tools",
+        "visual-reference"
       ],
-      "title": "Source note from @andybroncek: Andy Broncek Three.jsのすべての宝石が完全なウェブサイトであるわけではありません。 http:// mesh3d.galle...",
-      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "mesh3d Experiments creative-coding reference",
+      "summary": "A WebGL and Three.js reference source for small interactive experiments, shader sketches, and browser-native 3D ideas that may not appear as full websites.",
+      "library_refs": [
+        "mesh3d Experiments"
+      ],
+      "article_refs": [
+        "articles/reference-surfaces-need-retrieval-roles.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -6874,17 +6890,25 @@
         "reference"
       ],
       "domains": [
-        "staging"
+        "creative-tools"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "houdini",
+        "karma-renderer",
+        "rendering",
+        "tutorial",
+        "lookdev"
       ],
-      "title": "Source note from @maxima_hikky: Susuki Karma Renderの学習にとてもよい講座 hipファイルがあるから直ぐ試せる https:// sidefx.com/tut...",
-      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "SideFX Refining Karma Renders tutorial note",
+      "summary": "A Houdini Karma learning source for diagnosing noisy renders, using AOV/LPE inspection, and turning render cleanup into a repeatable look-development checklist.",
+      "library_refs": [
+        "Refining Karma Renders"
+      ],
+      "article_refs": [
+        "articles/reference-surfaces-need-retrieval-roles.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,
@@ -7155,17 +7179,25 @@
         "reference"
       ],
       "domains": [
-        "staging"
+        "culture-references"
       ],
       "tags": [
-        "needs-review",
         "reference",
-        "wire"
+        "wire",
+        "typography",
+        "poster-design",
+        "visual-reference",
+        "archive",
+        "design-research"
       ],
-      "title": "Source note from @jeomjeom236763: 무적의 디자이너 폐급취준생 45カ国以上のデザイナーたちが作った約12,000個のタイポポスターを集めて見ることができるサイトを見つけました！...",
-      "summary": "A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.",
-      "library_refs": [],
-      "article_refs": [],
+      "title": "Typographic Posters archive reference",
+      "summary": "A design-reference source pointing to Typographic Posters as a large typographic and graphic poster archive, useful for layout rhythm, poster composition, and typography research.",
+      "library_refs": [
+        "Typographic Posters"
+      ],
+      "article_refs": [
+        "articles/reference-surfaces-need-retrieval-roles.html"
+      ],
       "display": {
         "original_link_required": true,
         "full_text_copied": false,

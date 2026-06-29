@@ -1015,6 +1015,75 @@
       }
     },
     {
+      "title": "Typographic Posters",
+      "kind": "Library / Design Reference",
+      "url": "https://www.typographicposters.com/",
+      "description": "Poster-design archive useful for typographic hierarchy, layout rhythm, editorial composition, and visual comparison across a large graphic-poster collection.",
+      "tags": [
+        "typography",
+        "poster-design",
+        "visual-reference",
+        "archive",
+        "design-research"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/jeomjeom236763/status/2046183266630414366",
+        "source_context": "Liked-post source described Typographic Posters as a large site for browsing typographic posters from designers across many countries."
+      }
+    },
+    {
+      "title": "mesh3d Experiments",
+      "kind": "Library / Creative Coding Reference",
+      "url": "https://mesh3d.gallery/experiments",
+      "description": "Small WebGL, Three.js, shader, and creative-coding experiment shelf useful for browser-native interaction, motion, and 3D visual-reference studies.",
+      "tags": [
+        "three-js",
+        "webgl",
+        "creative-coding",
+        "browser-tools",
+        "visual-reference"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/andybroncek/status/2046512166560202943",
+        "source_context": "Liked-post source framed mesh3d Experiments as a place for small WebGL works, shaders, and creative-coding sketches."
+      }
+    },
+    {
+      "title": "Refining Karma Renders",
+      "kind": "Library / Rendering Tutorial",
+      "url": "https://www.sidefx.com/tutorials/refining-karma-renders/",
+      "description": "SideFX tutorial reference for Houdini Karma render diagnosis, including noisy renders, AOV and light-path inspection, denoising, and final-frame cleanup.",
+      "tags": [
+        "houdini",
+        "karma-renderer",
+        "rendering",
+        "tutorial",
+        "lookdev"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/maxima_hikky/status/2046404122593870033",
+        "source_context": "Liked-post source recommended the SideFX Karma course because it includes downloadable hip files for immediate practice."
+      }
+    },
+    {
+      "title": "Global Fields of The World",
+      "kind": "Library / Geospatial Dataset",
+      "url": "https://fieldsofthe.world/",
+      "description": "Global agricultural field-boundary dataset reference for remote-sensing, machine-learning, agriculture, and map-data workflows.",
+      "tags": [
+        "geospatial",
+        "dataset",
+        "remote-sensing",
+        "machine-learning",
+        "agriculture"
+      ],
+      "source_metadata": {
+        "wire_url": "https://x.com/isaaccorley_/status/2047358941508616699",
+        "secondary_source_url": "https://source.coop/repositories/ftw/global-data/description/",
+        "source_context": "Liked-post source announced public cloud availability for Fields of The World global field-boundary data; Source Cooperative page added as the data access reference."
+      }
+    },
+    {
       "title": "NASA Fluid Physics",
       "kind": "Library / Science Reference",
       "url": "https://science.nasa.gov/biological-physical/research/physical-science/fluid-physics/",
