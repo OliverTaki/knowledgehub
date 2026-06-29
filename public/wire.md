@@ -1,6 +1,6 @@
 # Knowledge Hub Wire
 
-Generated: 2026-06-28T00:46:07.539Z
+Generated: 2026-06-29T07:54:25.885Z
 Source: public summary layer
 Count: 503
 
@@ -1806,15 +1806,15 @@ A saved Wire source queued for editorial review. Use the original link to decide
 
 A visual-culture Wire item to revisit for film language, animation, staging, or image-reference value.
 
-## Source note from @isaaccorley_: Isaac Corley 歴史上初めて、農業分野の境界がグローバル規模で地図化されました。 Taylor Geospatialを通じて、Fiel...
+## Fields of The World global field-boundary dataset
 
 - Source: @isaaccorley_
 - URL: https://x.com/isaaccorley_/status/2047358941508616699
 - Posted: 2026-04-23T16:56:24.000Z
 - Collected: 2026-04-26T03:49:56.825Z
-- Tags: reference, staging, needs-review, reference, wire
+- Tags: reference, knowledge-workflows, reference, wire, geospatial, dataset, remote-sensing, machine-learning, agriculture
 
-A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+A geospatial dataset source on global agricultural field-boundary mapping, useful for AI, remote-sensing, map data, and large-scale earth-observation references.
 
 ## Film and moving-image reference note
 
@@ -2126,15 +2126,15 @@ A visual-culture Wire item to revisit for film language, animation, staging, or 
 
 A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
 
-## Source note from @andybroncek: Andy Broncek Three.jsのすべての宝石が完全なウェブサイトであるわけではありません。 http:// mesh3d.galle...
+## mesh3d Experiments creative-coding reference
 
 - Source: @andybroncek
 - URL: https://x.com/andybroncek/status/2046512166560202943
 - Posted: 2026-04-21T08:51:37.000Z
 - Collected: 2026-04-26T03:50:11.004Z
-- Tags: reference, staging, needs-review, reference, wire
+- Tags: reference, visual-systems, reference, wire, three-js, webgl, creative-coding, browser-tools, visual-reference
 
-A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+A WebGL and Three.js reference source for small interactive experiments, shader sketches, and browser-native 3D ideas that may not appear as full websites.
 
 ## Source note from @yasinaktimur: Rich kids of claude 速報：あるユーザーがGPT 5.5を使ってBlenderをトレーニング上で動作するように完全に書き直しま...
 
@@ -2176,15 +2176,15 @@ A saved source on AI tooling or model behavior, queued for later classification 
 
 A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
 
-## Source note from @maxima_hikky: Susuki Karma Renderの学習にとてもよい講座 hipファイルがあるから直ぐ試せる https:// sidefx.com/tut...
+## SideFX Refining Karma Renders tutorial note
 
 - Source: @maxima_hikky
 - URL: https://x.com/maxima_hikky/status/2046404122593870033
 - Posted: 2026-04-21T01:42:17.000Z
 - Collected: 2026-04-26T03:50:11.004Z
-- Tags: reference, staging, needs-review, reference, wire
+- Tags: reference, creative-tools, reference, wire, houdini, karma-renderer, rendering, tutorial, lookdev
 
-A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+A Houdini Karma learning source for diagnosing noisy renders, using AOV/LPE inspection, and turning render cleanup into a repeatable look-development checklist.
 
 ## Film and moving-image reference note
 
@@ -2266,15 +2266,15 @@ A saved Wire source queued for editorial review. Use the original link to decide
 
 A saved source on AI tooling or model behavior, queued for later classification into workflow, library, or article material.
 
-## Source note from @jeomjeom236763: 무적의 디자이너 폐급취준생 45カ国以上のデザイナーたちが作った約12,000個のタイポポスターを集めて見ることができるサイトを見つけました！...
+## Typographic Posters archive reference
 
 - Source: @jeomjeom236763
 - URL: https://x.com/jeomjeom236763/status/2046183266630414366
 - Posted: 2026-04-20T11:04:41.000Z
 - Collected: 2026-04-26T03:50:08.164Z
-- Tags: reference, staging, needs-review, reference, wire
+- Tags: reference, culture-references, reference, wire, typography, poster-design, visual-reference, archive, design-research
 
-A saved Wire source queued for editorial review. Use the original link to decide whether it should become an article note, a library entry, or remain as raw context.
+A design-reference source pointing to Typographic Posters as a large typographic and graphic poster archive, useful for layout rhythm, poster composition, and typography research.
 
 ## AI tool and model source note
 

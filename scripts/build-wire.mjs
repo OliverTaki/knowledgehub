@@ -341,6 +341,38 @@ const curatedWireOverrides = new Map([
   ["2050136956411977776", {
     library_refs: ["Houdini Node Viewer"],
     article_refs: ["articles/effects-references-production-decisions.html"]
+  }],
+  ["2046183266630414366", {
+    title: "Typographic Posters archive reference",
+    summary: "A design-reference source pointing to Typographic Posters as a large typographic and graphic poster archive, useful for layout rhythm, poster composition, and typography research.",
+    domains: ["culture-references"],
+    tags: ["reference", "wire", "typography", "poster-design", "visual-reference", "archive", "design-research"],
+    library_refs: ["Typographic Posters"],
+    article_refs: ["articles/reference-surfaces-need-retrieval-roles.html"]
+  }],
+  ["2046512166560202943", {
+    title: "mesh3d Experiments creative-coding reference",
+    summary: "A WebGL and Three.js reference source for small interactive experiments, shader sketches, and browser-native 3D ideas that may not appear as full websites.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "three-js", "webgl", "creative-coding", "browser-tools", "visual-reference"],
+    library_refs: ["mesh3d Experiments"],
+    article_refs: ["articles/reference-surfaces-need-retrieval-roles.html"]
+  }],
+  ["2046404122593870033", {
+    title: "SideFX Refining Karma Renders tutorial note",
+    summary: "A Houdini Karma learning source for diagnosing noisy renders, using AOV/LPE inspection, and turning render cleanup into a repeatable look-development checklist.",
+    domains: ["creative-tools"],
+    tags: ["reference", "wire", "houdini", "karma-renderer", "rendering", "tutorial", "lookdev"],
+    library_refs: ["Refining Karma Renders"],
+    article_refs: ["articles/reference-surfaces-need-retrieval-roles.html"]
+  }],
+  ["2047358941508616699", {
+    title: "Fields of The World global field-boundary dataset",
+    summary: "A geospatial dataset source on global agricultural field-boundary mapping, useful for AI, remote-sensing, map data, and large-scale earth-observation references.",
+    domains: ["knowledge-workflows"],
+    tags: ["reference", "wire", "geospatial", "dataset", "remote-sensing", "machine-learning", "agriculture"],
+    library_refs: ["Global Fields of The World"],
+    article_refs: ["articles/reference-surfaces-need-retrieval-roles.html"]
   }]
 ]);
 
