@@ -1099,6 +1099,30 @@
         "secondary_source_url": "https://www.nasa.gov/mission/station/research-explorer/facilities/completed-facilities/capillary-flow-experiment-2-cfe-2/",
         "source_context": "Promoted from the microgravity water surface-tension source note as a durable science reference."
       }
+    },
+    {
+      "title": "Spatial capture use-case labels",
+      "kind": "Library / Workflow",
+      "url": "articles/spatial-capture-source-notes-need-use-case-labels.html",
+      "description": "A filing rule for spatial-capture sources: record capture surface, reconstruction target, output use case, and review task so 3DGS, depth, NeRF, and 4D reconstruction notes remain retrievable by purpose.",
+      "tags": [
+        "spatial-capture",
+        "3dgs",
+        "reconstruction",
+        "workflow",
+        "metadata"
+      ],
+      "source_metadata": {
+        "wire_urls": [
+          "https://x.com/mochisw/status/2047816268804452440",
+          "https://x.com/bilawalsidhu/status/2047907181253562568",
+          "https://x.com/KIRI_Engine_App/status/2047600333656826132",
+          "https://x.com/rigsters/status/2047303939444425164",
+          "https://x.com/MattNiessner/status/2046876069991428524",
+          "https://x.com/gaborpribek/status/2046601322439315903"
+        ],
+        "source_context": "Promoted from a Wire cluster around 360 capture, Gaussian splatting, monocular-video reconstruction, face reconstruction, e-commerce product capture, and realtime depth extraction."
+      }
     }
   ]
 }
