@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spatial capture source notes need use-case labels - Knowledge Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../desk.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark"></span> Knowledge Hub</a>
+      <div class="topbar-search topbar-search--placeholder" aria-hidden="true"></div>
+      <div class="topbar-actions">
+        <nav class="topnav">
+          <a href="../index.html">Home</a>
+          <a href="../news.html">Wire</a>
+          <a class="active" href="../articles.html">Articles</a>
+          <a href="../library.html">Library</a>
+          <a href="../about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="article-detail">
+      <header class="hero">
+        <div class="hero-heading">
+          <p class="eyebrow">Article</p>
+          <h1>Spatial capture source notes need use-case labels</h1>
+          <p class="article-meta">Published 2026-06-30 - Updated 2026-06-30</p>
+          <div class="tag-row"><span class="tag">spatial-capture</span><span class="tag">3dgs</span><span class="tag">visual-reference</span><span class="tag">workflow</span></div>
+          <p class="entry-meta"><a href="https://x.com/mochisw/status/2047816268804452440" target="_blank" rel="noopener noreferrer">Open original source</a></p>
+        </div>
+      </header>
+
+      <section class="article-body legacy-article-body">
+<p>Several older Wire items point to spatial capture from different angles: 360 camera memories, drone sensor collection, monocular-video view synthesis, e-commerce product capture, face reconstruction, and real-time depth extraction. The useful Article-level pattern is that these sources should be filed by the job they help with, not only by the reconstruction method.</p>
+
+<h2>Capture source is different from reconstruction method</h2>
+<p>The Insta360 and 360-drone source notes both sit near 3D Gaussian splatting, but they preserve different questions. One frames 360 capture plus 3DGS as a way to revisit a moment; the other treats a 360-degree drone as a strong sensor-collection surface for splats. The tag should not collapse those into a generic 3D note.</p>
+
+<h2>View synthesis and face reconstruction need narrower labels</h2>
+<p>The Vista4D source note is useful as a novel-view reconstruction lead: it describes re-shooting monocular video from a different camera angle. The Face Anything note is narrower again, pointing to 4D face reconstruction, dense tracking, and shared canonical face space. Both belong in spatial capture, but each needs its own retrieval role.</p>
+
+<h2>Production use cases decide whether a source is reusable</h2>
+<p>The e-commerce Gaussian splatting source is not only a rendering item. It preserves a workflow use case: difficult product capture and simpler presentation for commerce. The Depth Anything V2 WebGPU source is another adjacent use case: realtime depth extraction and local preview, useful for prototyping browser-native spatial tools.</p>
+
+<h2>What to preserve in Knowledge Hub</h2>
+<p>Future spatial-capture Wire entries should keep the original source URL while also recording capture surface, reconstruction target, output use case, and likely review task. That makes the Wire lane easier to promote later without pretending that every 3DGS, NeRF, depth, and 4D source solves the same problem.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://x.com/mochisw/status/2047816268804452440" target="_blank" rel="noopener noreferrer">Insta360 and 3DGS source note</a></li>
+  <li><a href="https://x.com/bilawalsidhu/status/2047907181253562568" target="_blank" rel="noopener noreferrer">360 drone sensor-capture source note</a></li>
+  <li><a href="https://x.com/KIRI_Engine_App/status/2047600333656826132" target="_blank" rel="noopener noreferrer">Vista4D monocular-video reconstruction source note</a></li>
+  <li><a href="https://x.com/rigsters/status/2047303939444425164" target="_blank" rel="noopener noreferrer">Gaussian splatting for e-commerce source note</a></li>
+  <li><a href="https://x.com/MattNiessner/status/2046876069991428524" target="_blank" rel="noopener noreferrer">Face Anything 4D face reconstruction source note</a></li>
+  <li><a href="https://x.com/gaborpribek/status/2046601322439315903" target="_blank" rel="noopener noreferrer">Depth Anything V2 realtime depth source note</a></li>
+</ul>
+      </section>
+
+      <footer class="footer"><p><a href="../articles.html">Back to Articles</a></p></footer>
+    </article>
+  </main>
+  <script>
+    let xWidgetsLoading = false;
+    let xWidgetsLoaded = false;
+
+    function loadXWidgets() {
+      if (xWidgetsLoaded) {
+        window.twttr?.widgets?.load();
+        return;
+      }
+      if (xWidgetsLoading) return;
+      xWidgetsLoading = true;
+      const script = document.createElement('script');
+      script.src = 'https://platform.twitter.com/widgets.js';
+      script.async = true;
+      script.charset = 'utf-8';
+      script.onload = () => {
+        xWidgetsLoaded = true;
+        window.twttr?.widgets?.load();
+      };
+      document.body.appendChild(script);
+    }
+
+    const embeds = Array.from(document.querySelectorAll('.lazy-x-embed[data-x-url]'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const block = entry.target;
+        observer.unobserve(block);
+        const url = block.dataset.xUrl;
+        block.innerHTML = '<blockquote class="twitter-tweet" data-dnt="true"><a href="' + url.replace('https://x.com/', 'https://twitter.com/') + '"></a></blockquote>';
+        loadXWidgets();
+      });
+    }, { rootMargin: '280px 0px' });
+
+    embeds.forEach((embed) => observer.observe(embed));
+  </script>
+
+</body>
+</html>

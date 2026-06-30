@@ -373,6 +373,54 @@ const curatedWireOverrides = new Map([
     tags: ["reference", "wire", "geospatial", "dataset", "remote-sensing", "machine-learning", "agriculture"],
     library_refs: ["Global Fields of The World"],
     article_refs: ["articles/reference-surfaces-need-retrieval-roles.html"]
+  }],
+  ["2047816268804452440", {
+    title: "Insta360 3DGS consumer-capture note",
+    summary: "A spatial-capture source connecting 360 camera capture with 3D Gaussian splatting as a way to preserve and revisit moments, useful for filing consumer capture separately from reconstruction method.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "spatial-capture", "3dgs", "360-capture", "visual-reference", "workflow"],
+    library_refs: ["Spatial capture use-case labels"],
+    article_refs: ["articles/spatial-capture-source-notes-need-use-case-labels.html"]
+  }],
+  ["2047907181253562568", {
+    title: "360 drone sensor-capture 3DGS note",
+    summary: "A spatial-capture source framing a 360-degree drone as a sensor-collection surface for Gaussian splats, useful for separating capture hardware from downstream reconstruction technique.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "spatial-capture", "3dgs", "360-capture", "drone", "workflow"],
+    library_refs: ["Spatial capture use-case labels"],
+    article_refs: ["articles/spatial-capture-source-notes-need-use-case-labels.html"]
+  }],
+  ["2047600333656826132", {
+    title: "Vista4D novel-view video reconstruction note",
+    summary: "A computer-vision source on re-shooting monocular video from alternate camera angles, useful for tracking view synthesis and camera-path reconstruction separately from general spatial capture.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "spatial-capture", "reconstruction", "computer-vision", "view-synthesis", "research"],
+    library_refs: ["Spatial capture use-case labels"],
+    article_refs: ["articles/spatial-capture-source-notes-need-use-case-labels.html"]
+  }],
+  ["2047303939444425164", {
+    title: "Gaussian splatting e-commerce capture note",
+    summary: "A 3DGS workflow source about difficult product capture and simpler e-commerce presentation, useful for filing spatial capture by production use case rather than only by rendering method.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "spatial-capture", "3dgs", "ecommerce", "product-capture", "workflow"],
+    library_refs: ["Spatial capture use-case labels"],
+    article_refs: ["articles/spatial-capture-source-notes-need-use-case-labels.html"]
+  }],
+  ["2046876069991428524", {
+    title: "Face Anything 4D face reconstruction note",
+    summary: "A 4D reconstruction source on dense face tracking and shared canonical face space, useful for filing facial reconstruction separately from broader spatial-capture references.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "spatial-capture", "reconstruction", "computer-vision", "face-tracking", "research"],
+    library_refs: ["Spatial capture use-case labels"],
+    article_refs: ["articles/spatial-capture-source-notes-need-use-case-labels.html"]
+  }],
+  ["2046601322439315903", {
+    title: "Depth Anything V2 realtime WebGPU depth note",
+    summary: "A realtime-depth source describing local depth extraction with WebGPU and Three.js, useful for browser-native spatial previews and depth-estimation workflow tracking.",
+    domains: ["visual-systems"],
+    tags: ["reference", "wire", "spatial-capture", "depth-estimation", "webgpu", "three-js", "workflow"],
+    library_refs: ["Spatial capture use-case labels"],
+    article_refs: ["articles/spatial-capture-source-notes-need-use-case-labels.html"]
   }]
 ]);
 
