@@ -8,6 +8,7 @@ const RAW_PATH = "data/raw/x_likes.jsonl";
 const SEEN_PATH = "data/raw/seen_x_status_ids.json";
 const DEBUG_DIR = "debug";
 const userDataDir = "playwright-profile/x";
+const storageStatePath = "playwright-profile/x-storage-state.json";
 
 const EXPLICIT_SOURCE_URL = process.env.X_SOURCE_URL || "";
 const HEADLESS = process.env.HEADLESS === "false" ? false : true;
@@ -130,13 +131,35 @@ async function waitForTweetsOrFail(page, sourceUrl) {
 }
 
 const seen = new Set(readJson(SEEN_PATH, []));
-const context = await chromium.launchPersistentContext(userDataDir, {
-  headless: HEADLESS,
-  viewport: { width: 1280, height: 1000 },
-  locale: "ja-JP",
-  timezoneId: "Asia/Tokyo",
-  args: ["--disable-blink-features=AutomationControlled"]
-});
+
+async function createContext() {
+  const contextOptions = {
+    viewport: { width: 1280, height: 1000 },
+    locale: "ja-JP",
+    timezoneId: "Asia/Tokyo"
+  };
+
+  if (fs.existsSync(storageStatePath)) {
+    const browser = await chromium.launch({
+      headless: HEADLESS,
+      args: ["--disable-blink-features=AutomationControlled"]
+    });
+    const context = await browser.newContext({
+      ...contextOptions,
+      storageState: storageStatePath
+    });
+    return { context, browser, authSource: storageStatePath };
+  }
+
+  const context = await chromium.launchPersistentContext(userDataDir, {
+    ...contextOptions,
+    headless: HEADLESS,
+    args: ["--disable-blink-features=AutomationControlled"]
+  });
+  return { context, browser: null, authSource: userDataDir };
+}
+
+const { context, browser, authSource } = await createContext();
 
 const page = await context.newPage();
 const sourceUrl = await resolveSourceUrl(page);
@@ -234,8 +257,10 @@ appendJsonl(RAW_PATH, newRecords);
 writeJson(SEEN_PATH, Array.from(seen).sort());
 
 await context.close();
+if (browser) await browser.close();
 
 console.log(`Collected ${newRecords.length} new liked posts.`);
 console.log(`Source: ${sourceUrl}`);
 console.log(`Raw: ${RAW_PATH}`);
 console.log(`Headless: ${HEADLESS}`);
+console.log(`Auth source: ${authSource}`);
